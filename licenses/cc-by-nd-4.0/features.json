@@ -1,0 +1,130 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-54", "note": "worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights; no non-commercial restriction" },
+        { "sentence_id": "s-56", "note": "reproduce and Share the Licensed Material, in whole or in part" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-58", "note": "produce and reproduce, but not Share, Adapted Material" },
+        { "sentence_id": "s-113", "note": "For the avoidance of doubt, You do not have permission under this Public License to Share Adapted Material" }
+      ],
+      "external_references": [],
+      "commentary": "CC-BY-ND-4.0 permits you to privately produce and reproduce Adapted Material (Section 2(a)(1)(B), s-58) but forbids you from Sharing it (Section 3(a)(1), s-113). So modification as a private act is permitted, but distribution of modified versions is not. Treating this as a single yes/no permission loses that nuance; 'grey' captures the split."
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-44", "note": "Share means to provide material to the public by any means or process ... reproduction, public display, public performance, distribution" },
+        { "sentence_id": "s-56", "note": "reproduce and Share the Licensed Material, in whole or in part" }
+      ],
+      "external_references": [],
+      "commentary": "Distribution is permitted only for the unmodified Licensed Material. Adapted Material may not be Shared (see modification entry and s-113)."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-54", "note": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material" },
+        { "sentence_id": "s-58", "note": "produce and reproduce ... Adapted Material (private adaptation is permitted even though Sharing adaptations is not)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-86", "note": "Patent and trademark rights are not licensed under this Public License" }
+      ],
+      "external_references": [],
+      "commentary": "CC-BY-ND-4.0 expressly excludes patent and trademark rights from the license (Section 2(b)(2)). The license neither grants nor forbids patent use; patent rights remain with their holders."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-95", "note": "If You Share the Licensed Material, You must:" },
+        { "sentence_id": "s-101", "note": "retain ... a copyright notice" },
+        { "sentence_id": "s-103", "note": "retain ... a notice that refers to this Public License" },
+        { "sentence_id": "s-111", "note": "indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-109", "note": "indicate if You modified the Licensed Material and retain an indication of any previous modifications" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC-BY-ND-4.0 has no share-alike requirement. It forbids Sharing Adapted Material entirely, so the question of what license to apply to derivatives does not arise."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-95", "note": "If You Share the Licensed Material, You must:" },
+        { "sentence_id": "s-99", "note": "identification of the creator(s) of the Licensed Material and any others designated to receive attribution" },
+        { "sentence_id": "s-107", "note": "a URI or hyperlink to the Licensed Material to the extent reasonably practicable" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-134", "note": "in no event will the Licensor be liable to You on any legal theory ... for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-130", "note": "Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-86", "note": "Patent and trademark rights are not licensed under this Public License" }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "CC-BY-ND-4.0 text", "url": "licenses/cc-by-nd-4.0/text.html", "role": "primary evidence" }
+  ]
+}

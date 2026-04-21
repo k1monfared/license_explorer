@@ -1,0 +1,135 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-59", "note": "You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium" },
+        { "sentence_id": "s-60", "note": "You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee" },
+        { "sentence_id": "s-27", "note": "We use this license for certain libraries in order to permit linking those libraries into non-free programs (Preamble)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-62", "note": "You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-59", "note": "You may copy and distribute verbatim copies of the Library's complete source code" },
+        { "sentence_id": "s-81", "note": "Section 4: You may copy and distribute the Library (or a portion or derivative of it, under Section 2) in object code or executable form" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-55", "note": "Activities other than copying, distribution and modification are not covered by this License; they are outside its scope" },
+        { "sentence_id": "s-56", "note": "The act of running a program using the Library is not restricted" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "LGPLv2.1 contains no explicit patent grant from contributors. Section 11 (patent-tension clause, inherited from GPLv2) requires that if patent obligations contradict the license you must not distribute the Library at all, but no express patent license is granted to downstream recipients. This omission is one motivation for LGPLv3, which inherits GPLv3's explicit patent provisions by reference."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-59", "note": "publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library" },
+        { "sentence_id": "s-98", "note": "Section 6: You must give prominent notice with each copy of the work that the Library is used in it and that the Library and its use are covered by this License" },
+        { "sentence_id": "s-100", "note": "If the work during execution displays copyright notices, you must include the copyright notice for the Library among them" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-64", "note": "b) You must cause the files modified to carry prominent notices stating that you changed the files and the date of any change" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-81", "note": "Section 4: distribute the Library ... in object code or executable form ... provided that you accompany it with the complete corresponding machine-readable source code" },
+        { "sentence_id": "s-102", "note": "Section 6(a): Accompany the work with the complete corresponding machine-readable source code for the Library including whatever changes were used in the work" },
+        { "sentence_id": "s-106", "note": "Section 6(c): Accompany the work with a written offer, valid for at least three years, to give the same user the materials specified in Subsection 6a" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "LGPLv2.1 obligations attach to distribution of copies. Providing network access to software that links the Library is not distribution and does not trigger source-disclosure. No AGPL-style network-use provision exists."
+    },
+    {
+      "key": "same-license",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-63", "note": "a) The modified work must itself be a software library" },
+        { "sentence_id": "s-65", "note": "c) You must cause the whole of the work to be licensed at no charge to all third parties under the terms of this License" },
+        { "sentence_id": "s-84", "note": "Section 5: A program that contains no derivative of any portion of the Library, but is designed to work with the Library by being compiled or linked with it, is called a 'work that uses the Library'" },
+        { "sentence_id": "s-85", "note": "Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License" },
+        { "sentence_id": "s-97", "note": "Section 6: As an exception to the Sections above, you may also combine or link a 'work that uses the Library' with the Library ... and distribute that work under terms of your choice" }
+      ],
+      "external_references": [],
+      "commentary": "LGPLv2.1 is weak copyleft and the same-license requirement has a narrow footprint that is easy to misstate. Modifications to the Library itself (works based on the Library under Section 2) must be licensed under the LGPL and must themselves be libraries (Sections 2a and 2c). But a 'work that uses the Library' (application code that links against the Library without incorporating it) is explicitly outside the License's scope (Sections 5-6) and may be distributed under any terms, provided the user can replace or relink the Library (typically via shared libraries or by supplying object files of the application). The Section 6 conditions, not same-licensing, govern the combined distribution."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-59", "note": "publish ... an appropriate copyright notice" },
+        { "sentence_id": "s-98", "note": "You must give prominent notice with each copy of the work that the Library is used in it and that the Library and its use are covered by this License" },
+        { "sentence_id": "s-100", "note": "If the work during execution displays copyright notices, you must include the copyright notice for the Library among them" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-159", "note": "IN NO EVENT ... WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-154", "note": "BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE LIBRARY" },
+        { "sentence_id": "s-155", "note": "THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY AS IS WITHOUT WARRANTY OF ANY KIND" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "GNU LGPL v2.1 text", "url": "licenses/lgpl-2.1-only/text.html", "role": "primary evidence" }
+  ]
+}

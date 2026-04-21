@@ -1,0 +1,49 @@
+{
+  "id": "cc-by-nd-4.0",
+  "name": "Creative Commons Attribution-NoDerivatives 4.0 International",
+  "spdx": "CC-BY-ND-4.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "4.0",
+  "year": 2013,
+  "canonical_url": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-ND-4.0.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "4a9d465e981ae6bde7f117abbfb0e24f2cc1820e99a47efbe58593fa5c43fa29"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-ND-4.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical CC human-readable deed and legalcode."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/creative-commons-attribution-no-derivatives-(cc-nd)",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq#cc-by",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "CC licenses are designed for creative works rather than software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "CC-BY-ND is considered nonfree by FSF for works of practical use because it forbids modification; acceptable only for opinion/art works."
+    }
+  ]
+}

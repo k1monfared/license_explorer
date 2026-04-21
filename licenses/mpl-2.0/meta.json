@@ -1,0 +1,58 @@
+{
+  "id": "mpl-2.0",
+  "name": "Mozilla Public License 2.0",
+  "spdx": "MPL-2.0",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "2.0",
+  "year": 2012,
+  "canonical_url": "https://www.mozilla.org/MPL/2.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MPL-2.0.txt",
+    "retrieved_at": "2026-04-21T19:05:00Z",
+    "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/MPL-2.0.html",
+      "retrieved_at": "2026-04-21T19:05:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/mpl-2-0",
+      "retrieved_at": "2026-04-21T19:05:00Z"
+    },
+    {
+      "source": "Mozilla Foundation",
+      "url": "https://www.mozilla.org/MPL/2.0/",
+      "retrieved_at": "2026-04-21T19:05:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)",
+      "retrieved_at": "2026-04-21T19:05:00Z"
+    },
+    {
+      "source": "choosealicense",
+      "url": "https://choosealicense.com/licenses/mpl-2.0/",
+      "retrieved_at": "2026-04-21T19:05:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/mpl-2-0",
+      "retrieved_at": "2026-04-21T19:05:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#MPL-2.0",
+      "retrieved_at": "2026-04-21T19:05:00Z",
+      "note": "GPL-compatible free software license (file-level weak copyleft)."
+    }
+  ]
+}

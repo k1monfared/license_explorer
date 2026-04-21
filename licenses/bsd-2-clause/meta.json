@@ -1,0 +1,53 @@
+{
+  "id": "bsd-2-clause",
+  "name": "BSD 2-Clause License",
+  "spdx": "BSD-2-Clause",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 1988,
+  "canonical_url": "https://opensource.org/license/bsd-2-clause/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-2-Clause.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "f32fb3b417a194167cfad068223fc975ba96c5960513a10f66a3c28720aec1df"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/BSD-2-Clause.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/bsd-2-clause/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/bsd-2-clause-license-(freebsd)",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-2-Clause.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/bsd-2-clause/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#FreeBSD",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "Listed as 'FreeBSD' license, GPL-compatible free software."
+    }
+  ]
+}

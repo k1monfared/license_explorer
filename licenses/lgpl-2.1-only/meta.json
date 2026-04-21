@@ -1,0 +1,53 @@
+{
+  "id": "lgpl-2.1-only",
+  "name": "GNU Lesser General Public License v2.1 only",
+  "spdx": "LGPL-2.1-only",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "2.1",
+  "year": 1999,
+  "canonical_url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/LGPL-2.1-only.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/LGPL-2.1-only.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/lgpl-2-1",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/gnu-lesser-general-public-license-v2.1-(lgpl-2.1)",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Free Software Foundation",
+      "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication source."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/lgpl-2-1",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#LGPLv2.1",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Weak copyleft for libraries; GPL-compatible free software license."
+    }
+  ]
+}

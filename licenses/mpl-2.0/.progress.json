@@ -1,0 +1,5 @@
+{
+  "lookup_license":   { "status": "complete", "updated_at": "2026-04-21T19:05:00Z" },
+  "extract_features": { "status": "complete", "updated_at": "2026-04-21T19:05:00Z" },
+  "deep_analysis":    { "status": "pending",  "updated_at": "2026-04-21T19:05:00Z" }
+}

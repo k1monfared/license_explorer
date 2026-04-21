@@ -1,0 +1,53 @@
+{
+  "id": "0bsd",
+  "name": "BSD Zero Clause License",
+  "spdx": "0BSD",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 2006,
+  "canonical_url": "https://opensource.org/license/0bsd/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/0BSD.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "e3f18c71e10d673590eb9856c1d79dd3b4b0d65404efb5e8584dbede7edd608b"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/0BSD.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/0bsd/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/bsd-0-clause-license",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/0BSD.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/0bsd/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "Not separately listed by FSF as of retrieved_at; equivalent in spirit to ISC which FSF classifies as GPL-compatible free software."
+    }
+  ]
+}

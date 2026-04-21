@@ -1,0 +1,55 @@
+{
+  "id": "cc0-1.0",
+  "name": "Creative Commons Zero v1.0 Universal",
+  "spdx": "CC0-1.0",
+  "medium": "media",
+  "archetype": "public-domain",
+  "version": "1.0",
+  "year": 2009,
+  "canonical_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC0-1.0.txt",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC0-1.0.html",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "OSI FAQ",
+      "url": "https://opensource.org/faq#cc0",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "OSI explains why CC0 is not OSI-approved: the 2012 submission was withdrawn due to the explicit patent non-grant in §4(a)."
+    },
+    {
+      "source": "Creative Commons (canonical publication)",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Canonical publication source at Creative Commons."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/creative-commons-cc0-1.0-universal",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq#cc0",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Not OSI-approved; submission was withdrawn in 2012 due to concerns about the patent non-grant clause (CC0 §4.a explicitly declines to grant patent rights)."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#CC0",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "GPL-compatible free software license and acceptable for works of practical use; FSF notes the patent-clause warning that led OSI to reject it."
+    }
+  ]
+}

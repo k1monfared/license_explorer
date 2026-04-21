@@ -1,0 +1,31 @@
+{
+  "permissions": [
+    { "key": "commercial-use", "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Redistribution and use in source and binary forms, with or without modification, are permitted" }], "external_references": [] },
+    { "key": "modification",   "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Redistribution and use ... with or without modification, are permitted" }], "external_references": [] },
+    { "key": "distribution",   "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Redistribution and use in source and binary forms ... are permitted" }], "external_references": [] },
+    { "key": "private-use",    "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Broad permission for any use; no restriction on private use." }], "external_references": [] },
+    { "key": "patent-use",     "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "conditions": [
+    { "key": "include-copyright",    "value": "required", "citations": [
+      { "sentence_id": "s-3", "note": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer" },
+      { "sentence_id": "s-5", "note": "Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation" }
+    ], "external_references": [] },
+    { "key": "document-changes",     "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "disclose-source",      "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "network-use-disclose", "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "same-license",         "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "attribution",          "value": "required", "citations": [
+      { "sentence_id": "s-3", "note": "source redistributions must retain the above copyright notice" },
+      { "sentence_id": "s-5", "note": "binary redistributions must reproduce the above copyright notice ... in the documentation" }
+    ], "external_references": [] }
+  ],
+  "limitations": [
+    { "key": "liability", "value": "forbidden", "citations": [{ "sentence_id": "s-7", "note": "IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES" }], "external_references": [] },
+    { "key": "warranty",  "value": "forbidden", "citations": [{ "sentence_id": "s-6", "note": "THIS SOFTWARE IS PROVIDED ... \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES ... ARE DISCLAIMED" }], "external_references": [] },
+    { "key": "trademark", "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "sources": [
+    { "source": "BSD 2-Clause License text", "url": "licenses/bsd-2-clause/text.html", "role": "primary evidence" }
+  ]
+}

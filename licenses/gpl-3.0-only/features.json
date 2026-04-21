@@ -1,0 +1,142 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-74", "note": "You may convey verbatim copies of the Program's source code as you receive it, in any medium" },
+        { "sentence_id": "s-75", "note": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-78", "note": "You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-74", "note": "Section 4 Conveying Verbatim Copies: convey verbatim copies of the Program's source code" },
+        { "sentence_id": "s-90", "note": "Section 6: You may convey a covered work in object code form under the terms of sections 4 and 5" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-60", "note": "This License explicitly affirms your unlimited permission to run the unmodified Program" },
+        { "sentence_id": "s-63", "note": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-160", "note": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version" },
+        { "sentence_id": "s-134", "note": "Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11)" },
+        { "sentence_id": "s-153", "note": "you may not initiate litigation ... alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it" },
+        { "sentence_id": "s-166", "note": "A patent license is 'discriminatory' if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License" },
+        { "sentence_id": "s-167", "note": "You may not convey a covered work if you are a party to an arrangement ... under which the third party grants ... a discriminatory patent license" }
+      ],
+      "external_references": [],
+      "commentary": "GPLv3 introduces the first explicit patent grant in the GPL family (Section 11): every contributor grants a royalty-free patent license covering their contributor version. The permission comes with two sharp retaliation clauses, which is why this is coded grey rather than a simple 'permitted'. First, initiating patent litigation over the Program terminates the grantee's own license (Section 10 / Section 8 interaction). Second, the discriminatory-patent-license provision (Section 11, paragraph 7) bars conveying the work if you are party to patent arrangements that selectively sublicense the work to some recipients but not others. The grant itself is broad and permissive; the surrounding defensive machinery is what makes real-world compliance fact-dependent."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-74", "note": "publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program" },
+        { "sentence_id": "s-80", "note": "b) The work must carry prominent notices stating that it is released under this License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-79", "note": "a) The work must carry prominent notices stating that you modified it, and giving a relevant date" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-90", "note": "Section 6: You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License" },
+        { "sentence_id": "s-91", "note": "a) Convey the object code in ... a physical product ... accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange" },
+        { "sentence_id": "s-92", "note": "b) Convey the object code ... accompanied by a written offer, valid for at least three years ... to give anyone who possesses the object code ... a copy of the Corresponding Source" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-42", "note": "Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying" }
+      ],
+      "external_references": [],
+      "commentary": "GPLv3 explicitly excludes network interaction from the definition of 'conveying' (Section 0), so running a modified Program behind a network service does not trigger source-disclosure. Section 13 of GPLv3 only addresses combining with an AGPLv3-licensed work; the AGPLv3's own Section 13 is what imposes source-on-network obligations. This is the gap AGPL-3.0 was designed to close."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-82", "note": "c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy" },
+        { "sentence_id": "s-83", "note": "This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged" },
+        { "sentence_id": "s-152", "note": "You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-43", "note": "An interactive user interface displays 'Appropriate Legal Notices' ... (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty" },
+        { "sentence_id": "s-74", "note": "publish on each copy an appropriate copyright notice; keep intact all notices" },
+        { "sentence_id": "s-85", "note": "d) If the work has interactive user interfaces, each must display Appropriate Legal Notices" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-196", "note": "IN NO EVENT ... WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES" },
+        { "sentence_id": "s-199", "note": "Section 17: if the disclaimer of warranty and limitation of liability cannot be given local legal effect, courts shall apply local law that most closely approximates an absolute waiver of all civil liability" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-190", "note": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW" },
+        { "sentence_id": "s-191", "note": "THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM AS IS WITHOUT WARRANTY OF ANY KIND" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-124", "note": "Section 7(e) permits adding a supplemental term: 'Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks'" }
+      ],
+      "external_references": [],
+      "commentary": "GPLv3 itself does not grant trademark rights and does not explicitly deny them. Section 7(e) permits a licensor to add a supplemental term declining trademark grants, but absent such addition the license is silent on trademark use."
+    }
+  ],
+  "sources": [
+    { "source": "GNU GPL v3.0 text", "url": "licenses/gpl-3.0-only/text.html", "role": "primary evidence" }
+  ]
+}

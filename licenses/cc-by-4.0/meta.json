@@ -1,0 +1,49 @@
+{
+  "id": "cc-by-4.0",
+  "name": "Creative Commons Attribution 4.0 International",
+  "spdx": "CC-BY-4.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "4.0",
+  "year": 2013,
+  "canonical_url": "https://creativecommons.org/licenses/by/4.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-4.0.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-4.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical CC human-readable deed and legalcode."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/creative-commons-attribution-4-0-international-(cc-by-4)",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq#cc-by",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "CC licenses are designed for creative works rather than software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ccby",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Acceptable for artistic and entertainment works and for statements of opinion; listed under 'Licenses for works of practical use besides software and documentation'."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "permissions": [
+    { "key": "commercial-use", "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted" }], "external_references": [] },
+    { "key": "modification",   "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Permission to use, copy, modify ... hereby granted" }], "external_references": [] },
+    { "key": "distribution",   "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "Permission to ... distribute this software for any purpose ... hereby granted" }], "external_references": [] },
+    { "key": "private-use",    "value": "permitted", "citations": [{ "sentence_id": "s-1", "note": "for any purpose with or without fee is hereby granted" }], "external_references": [] },
+    { "key": "patent-use",     "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "conditions": [
+    { "key": "include-copyright",    "value": "silent",   "citations": [{ "sentence_id": "s-1", "note": "Grant is unconditional: 'Permission to use, copy, modify, and/or distribute this software for any purpose ... is hereby granted.' No notice-retention requirement." }], "external_references": [], "commentary": "0BSD intentionally removes the notice-retention requirement of ISC/BSD. No condition on inclusion of the copyright notice is imposed on licensees." },
+    { "key": "document-changes",     "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "disclose-source",      "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "network-use-disclose", "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "same-license",         "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "attribution",          "value": "silent",   "citations": [{ "sentence_id": "s-1", "note": "No attribution is required; the grant is unconditional ('for any purpose ... hereby granted')." }], "external_references": [] }
+  ],
+  "limitations": [
+    { "key": "liability", "value": "forbidden", "citations": [{ "sentence_id": "s-3", "note": "IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES" }], "external_references": [] },
+    { "key": "warranty",  "value": "forbidden", "citations": [{ "sentence_id": "s-2", "note": "THE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES" }], "external_references": [] },
+    { "key": "trademark", "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "sources": [
+    { "source": "BSD Zero Clause License text", "url": "licenses/0bsd/text.html", "role": "primary evidence" }
+  ]
+}

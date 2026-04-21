@@ -1,0 +1,53 @@
+{
+  "id": "lgpl-3.0-only",
+  "name": "GNU Lesser General Public License v3.0 only",
+  "spdx": "LGPL-3.0-only",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "3.0",
+  "year": 2007,
+  "canonical_url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/LGPL-3.0-only.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/LGPL-3.0-only.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/lgpl-3-0",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Free Software Foundation",
+      "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication source."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/lgpl-3-0",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#LGPLv3",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Weak copyleft for libraries; adds GPLv3-era patent grant; GPL-compatible free software license."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-128", "note": "GPLv3 Section 4: You may convey verbatim copies of the Program's source code as you receive it, in any medium (incorporated by reference via s-3)" },
+        { "sentence_id": "s-129", "note": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee" },
+        { "sentence_id": "s-30", "note": "LGPLv3 Section 4: You may convey a Combined Work under terms of your choice" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-19", "note": "LGPLv3 Section 2: If you modify a copy of the Library ... you may convey a copy of the modified version" },
+        { "sentence_id": "s-132", "note": "GPLv3 Section 5: You may convey a work based on the Program, or the modifications to produce it from the Program" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-128", "note": "convey verbatim copies of the Program's source code" },
+        { "sentence_id": "s-144", "note": "GPLv3 Section 6: You may convey a covered work in object code form under the terms of sections 4 and 5" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-114", "note": "This License explicitly affirms your unlimited permission to run the unmodified Program" },
+        { "sentence_id": "s-117", "note": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-3", "note": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3 of the GNU General Public License, supplemented by the additional permissions listed below" },
+        { "sentence_id": "s-214", "note": "GPLv3 Section 11: Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims" },
+        { "sentence_id": "s-188", "note": "Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11)" },
+        { "sentence_id": "s-207", "note": "you may not initiate litigation ... alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it" },
+        { "sentence_id": "s-220", "note": "A patent license is 'discriminatory' if it does not include within the scope of its coverage ... one or more of the rights that are specifically granted under this License" }
+      ],
+      "external_references": [],
+      "commentary": "LGPLv3 incorporates GPLv3 in full (Section 0 of the LGPL: 'This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3 of the GNU General Public License'). The explicit patent grant and associated retaliation machinery from GPLv3 Section 11 apply to the Library itself. The grant is coded 'grey' because, like GPLv3, the grant is broad but comes with termination on patent litigation and the discriminatory-patent-license prohibition; these defensive clauses matter in practice."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-128", "note": "GPLv3 Section 4: publish on each copy an appropriate copyright notice; keep intact all notices stating that this License ... apply to the code" },
+        { "sentence_id": "s-26", "note": "LGPLv3 Section 3(a): Give prominent notice with each copy of the object code that the Library is used in it and that the Library and its use are covered by this License" },
+        { "sentence_id": "s-31", "note": "LGPLv3 Section 4(a): Give prominent notice with each copy of the Combined Work that the Library is used in it and that the Library and its use are covered by this License" },
+        { "sentence_id": "s-32", "note": "LGPLv3 Section 4(b): Accompany the Combined Work with a copy of the GNU GPL and this license document" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-133", "note": "GPLv3 Section 5(a): The work must carry prominent notices stating that you modified it, and giving a relevant date" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-144", "note": "GPLv3 Section 6: You may convey a covered work in object code form ... provided that you also convey the machine-readable Corresponding Source" },
+        { "sentence_id": "s-35", "note": "LGPLv3 Section 4(d)(0): Convey the Minimal Corresponding Source under the terms of this License, and the Corresponding Application Code in a form suitable for ... the user to recombine or relink the Application with a modified version of the Linked Version" },
+        { "sentence_id": "s-36", "note": "LGPLv3 Section 4(d)(1): Use a suitable shared library mechanism for linking with the Library" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-96", "note": "GPLv3 Section 0: Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying" }
+      ],
+      "external_references": [],
+      "commentary": "LGPLv3 inherits GPLv3's definition of 'conveying', under which mere network interaction is not a triggering event. No source-disclosure duty attaches to hosted services that link the Library. Only AGPL-3.0 closes this gap."
+    },
+    {
+      "key": "same-license",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-20", "note": "LGPLv3 Section 2(a): under this License, provided that you make a good faith effort to ensure that ... the facility still operates" },
+        { "sentence_id": "s-21", "note": "LGPLv3 Section 2(b): under the GNU GPL, with none of the additional permissions of this License applicable to that copy" },
+        { "sentence_id": "s-30", "note": "LGPLv3 Section 4: You may convey a Combined Work under terms of your choice that, taken together, effectively do not restrict modification of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications" },
+        { "sentence_id": "s-8", "note": "An 'Application' is any work that makes use of an interface provided by the Library, but which is not otherwise based on the Library" },
+        { "sentence_id": "s-136", "note": "GPLv3 Section 5(c) (applies to the Library itself): You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy" }
+      ],
+      "external_references": [],
+      "commentary": "LGPLv3 is weak copyleft. The same-license obligation applies to the Library itself: modifications to the Library must be conveyed under LGPLv3 (Section 2(a)) or LGPLv3-compatibly under GPLv3 (Section 2(b)). An 'Application' that merely uses the Library's interface is not 'based on' the Library (Section 0 definitions) and a Combined Work may be conveyed under terms of your choice (Section 4), provided the user can replace or relink the Library (Section 4(d) options) and the combined-work terms do not restrict reverse engineering for debugging of Library modifications. This is distinct from GPLv3's strong copyleft, and the combined work need not be LGPL-licensed."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-97", "note": "GPLv3 Section 0: 'Appropriate Legal Notices' display an appropriate copyright notice" },
+        { "sentence_id": "s-33", "note": "LGPLv3 Section 4(c): For a Combined Work that displays copyright notices during execution, include the copyright notice for the Library among these notices, as well as a reference directing the user to the copies of the GNU GPL and this license document" },
+        { "sentence_id": "s-128", "note": "GPLv3 Section 4: publish on each copy an appropriate copyright notice; keep intact all notices" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-250", "note": "GPLv3 Section 16: IN NO EVENT ... WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES" },
+        { "sentence_id": "s-253", "note": "Section 17: if the disclaimer of warranty and limitation of liability cannot be given local legal effect, courts shall apply local law that most closely approximates an absolute waiver of all civil liability" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-244", "note": "GPLv3 Section 15: THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW" },
+        { "sentence_id": "s-245", "note": "THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM AS IS WITHOUT WARRANTY OF ANY KIND" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-178", "note": "GPLv3 Section 7(e) permits adding a supplemental term: 'Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks'" }
+      ],
+      "external_references": [],
+      "commentary": "LGPLv3 (via GPLv3) does not grant trademark rights and does not explicitly deny them. Section 7(e) of GPLv3 permits a licensor to add a supplemental term declining trademark grants, but absent such addition the license is silent on trademark use."
+    }
+  ],
+  "sources": [
+    { "source": "GNU LGPL v3.0 text", "url": "licenses/lgpl-3.0-only/text.html", "role": "primary evidence" }
+  ]
+}

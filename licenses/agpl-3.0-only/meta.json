@@ -1,0 +1,53 @@
+{
+  "id": "agpl-3.0-only",
+  "name": "GNU Affero General Public License v3.0 only",
+  "spdx": "AGPL-3.0-only",
+  "medium": "software",
+  "archetype": "strong-copyleft",
+  "version": "3.0",
+  "year": 2007,
+  "canonical_url": "https://www.gnu.org/licenses/agpl-3.0.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/AGPL-3.0-only.txt",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/AGPL-3.0-only.html",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/agpl-v3",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "GNU (canonical publication)",
+      "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Canonical publication source at the Free Software Foundation."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/agpl-v3",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#AGPLv3.0",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Strong copyleft extended to network use; closes the SaaS loophole in plain GPLv3."
+    }
+  ]
+}

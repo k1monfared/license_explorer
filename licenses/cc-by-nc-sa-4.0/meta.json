@@ -1,0 +1,54 @@
+{
+  "id": "cc-by-nc-sa-4.0",
+  "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+  "spdx": "CC-BY-NC-SA-4.0",
+  "medium": "media",
+  "archetype": "share-alike",
+  "version": "4.0",
+  "year": 2013,
+  "canonical_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-SA-4.0.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "600ca4e25fe11762b75a97e714707fab48bb778374e92d24c6ca068791661c11"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical deed and legal code publication page."
+    },
+    {
+      "source": "Creative Commons Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Not OSI-approved. CC licenses with the NonCommercial restriction fail the Open Source Definition's no-discrimination-against-fields-of-endeavor requirement."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "CC NC licenses restrict commercial use and are classified nonfree by FSF for any works intended for practical use."
+    }
+  ]
+}

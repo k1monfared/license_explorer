@@ -1,0 +1,128 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-31", "note": "You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium" },
+        { "sentence_id": "s-32", "note": "You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-34", "note": "You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-31", "note": "You may copy and distribute verbatim copies of the Program's source code" },
+        { "sentence_id": "s-45", "note": "You may copy and distribute the Program ... in object code or executable form under the terms of Sections 1 and 2 above" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-27", "note": "Activities other than copying, distribution and modification are not covered by this License; they are outside its scope" },
+        { "sentence_id": "s-28", "note": "The act of running the Program is not restricted" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "GPLv2 contains no explicit patent grant from contributors. Section 7 addresses the tension between patent obligations and the license (you may be unable to redistribute if patent terms contradict the License), and the Preamble warns about the danger of software patents, but no express licensing of patent claims is granted. This gap is the primary motivation for GPLv3's explicit patent provisions."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-31", "note": "provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-35", "note": "a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-45", "note": "Section 3: distribute the Program ... in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following" },
+        { "sentence_id": "s-46", "note": "a) Accompany it with the complete corresponding machine-readable source code" },
+        { "sentence_id": "s-47", "note": "b) Accompany it with a written offer, valid for at least three years, to give any third party ... a complete machine-readable copy of the corresponding source code" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "GPLv2 obligations are triggered by distribution of copies. Providing interactive network access to a modified Program is not distribution and does not trigger any source-disclosure duty. This ASP / SaaS gap is what the Affero GPL family was written to close."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-36", "note": "b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License" },
+        { "sentence_id": "s-41", "note": "when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License" },
+        { "sentence_id": "s-65", "note": "You may not impose any further restrictions on the recipients' exercise of the rights granted herein" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-31", "note": "publish on each copy an appropriate copyright notice ... keep intact all the notices that refer to this License" },
+        { "sentence_id": "s-37", "note": "c) If the modified program normally reads commands interactively ... print or display an announcement including an appropriate copyright notice" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-95", "note": "IN NO EVENT ... WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-90", "note": "BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM" },
+        { "sentence_id": "s-91", "note": "THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM AS IS WITHOUT WARRANTY OF ANY KIND" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "GNU GPL v2.0 text", "url": "licenses/gpl-2.0-only/text.html", "role": "primary evidence" }
+  ]
+}

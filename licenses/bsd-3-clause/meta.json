@@ -1,0 +1,53 @@
+{
+  "id": "bsd-3-clause",
+  "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "spdx": "BSD-3-Clause",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 1990,
+  "canonical_url": "https://opensource.org/license/bsd-3-clause/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-3-Clause.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "5a93d5831e1297ab10fe643e1a631e83be392896da14ee2951285a79012df69d"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/BSD-3-Clause.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/bsd-3-clause/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/bsd-3-clause-license-(revised)",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-3-Clause.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/bsd-3-clause/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ModifiedBSD",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "Listed as 'Modified BSD License', GPL-compatible free software."
+    }
+  ]
+}

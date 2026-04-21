@@ -1,0 +1,129 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-61", "note": "worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights; no non-commercial restriction" },
+        { "sentence_id": "s-63", "note": "reproduce and Share the Licensed Material, in whole or in part" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-65", "note": "produce, reproduce, and Share Adapted Material" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-51", "note": "Share means to provide material to the public by any means or process ... reproduction, public display, public performance, distribution" },
+        { "sentence_id": "s-63", "note": "reproduce and Share the Licensed Material" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-61", "note": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-96", "note": "Patent and trademark rights are not licensed under this Public License" }
+      ],
+      "external_references": [],
+      "commentary": "CC-BY-SA-4.0 expressly excludes patent and trademark rights from the license (Section 2(b)(2)). The license neither grants nor forbids patent use; patent rights remain with their holders."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-105", "note": "If You Share the Licensed Material (including in modified form), You must:" },
+        { "sentence_id": "s-111", "note": "retain ... a copyright notice" },
+        { "sentence_id": "s-113", "note": "retain ... a notice that refers to this Public License" },
+        { "sentence_id": "s-121", "note": "indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-119", "note": "indicate if You modified the Licensed Material and retain an indication of any previous modifications" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-128", "note": "ShareAlike. In addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply." },
+        { "sentence_id": "s-130", "note": "The Adapter's License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License" },
+        { "sentence_id": "s-132", "note": "You must include the text of, or the URI or hyperlink to, the Adapter's License You apply" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-105", "note": "If You Share the Licensed Material (including in modified form), You must:" },
+        { "sentence_id": "s-109", "note": "identification of the creator(s) of the Licensed Material and any others designated to receive attribution" },
+        { "sentence_id": "s-117", "note": "a URI or hyperlink to the Licensed Material to the extent reasonably practicable" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-151", "note": "in no event will the Licensor be liable to You on any legal theory ... for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-147", "note": "Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-96", "note": "Patent and trademark rights are not licensed under this Public License" }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "CC-BY-SA-4.0 text", "url": "licenses/cc-by-sa-4.0/text.html", "role": "primary evidence" }
+  ]
+}

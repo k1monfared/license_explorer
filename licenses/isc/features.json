@@ -1,0 +1,25 @@
+{
+  "permissions": [
+    { "key": "commercial-use", "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted" }], "external_references": [] },
+    { "key": "modification",   "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "Permission to use, copy, modify ... hereby granted" }], "external_references": [] },
+    { "key": "distribution",   "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "Permission to ... distribute this software for any purpose ... hereby granted" }], "external_references": [] },
+    { "key": "private-use",    "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "for any purpose with or without fee is hereby granted" }], "external_references": [] },
+    { "key": "patent-use",     "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "conditions": [
+    { "key": "include-copyright",    "value": "required", "citations": [{ "sentence_id": "s-2", "note": "provided that the above copyright notice and this permission notice appear in all copies" }], "external_references": [] },
+    { "key": "document-changes",     "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "disclose-source",      "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "network-use-disclose", "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "same-license",         "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "attribution",          "value": "required", "citations": [{ "sentence_id": "s-2", "note": "the above copyright notice and this permission notice appear in all copies" }], "external_references": [] }
+  ],
+  "limitations": [
+    { "key": "liability", "value": "forbidden", "citations": [{ "sentence_id": "s-4", "note": "IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES" }], "external_references": [] },
+    { "key": "warranty",  "value": "forbidden", "citations": [{ "sentence_id": "s-3", "note": "THE SOFTWARE IS PROVIDED \"AS IS\" AND ISC DISCLAIMS ALL WARRANTIES" }], "external_references": [] },
+    { "key": "trademark", "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "sources": [
+    { "source": "ISC License text", "url": "licenses/isc/text.html", "role": "primary evidence" }
+  ]
+}

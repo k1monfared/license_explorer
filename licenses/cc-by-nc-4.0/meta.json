@@ -1,0 +1,54 @@
+{
+  "id": "cc-by-nc-4.0",
+  "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+  "spdx": "CC-BY-NC-4.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "4.0",
+  "year": 2013,
+  "canonical_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-4.0.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "cc97a2c4ff7723a1f25179dc7c18f676fa84191bbb36ea7d0061acaf3c102559"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-NC-4.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical deed and legal code publication page."
+    },
+    {
+      "source": "Creative Commons Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/creative-commons-attribution-noncommercial-(cc-nc)",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Not OSI-approved. CC licenses with the NonCommercial restriction fail the Open Source Definition's no-discrimination-against-fields-of-endeavor requirement."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "CC NC licenses restrict commercial use and are classified nonfree by FSF for any works intended for practical use."
+    }
+  ]
+}

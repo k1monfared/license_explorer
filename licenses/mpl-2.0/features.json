@@ -1,0 +1,120 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-41", "note": "Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license" },
+        { "sentence_id": "s-42", "note": "(a) under intellectual property rights ... to use, reproduce, make available, modify, display, perform, distribute" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-42", "note": "to use, reproduce, make available, modify, display, perform, distribute ... Contributions, either on an unmodified basis, with Modifications, or as part of a Larger Work" }],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-42", "note": "to use, reproduce, make available, modify, display, perform, distribute" }],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-42", "note": "broad IP grant covers private use" }],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-43", "note": "(b) under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer" },
+        { "sentence_id": "s-105", "note": "Patent retaliation: rights terminate if You initiate patent litigation against a Contributor Version" }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [{ "sentence_id": "s-86", "note": "You may not remove or alter the substance of any license notices (including copyright notices, patent notices, disclaimers of warranty, or limitations of liability)" }],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-25", "note": "Modifications defined as any file in Source Code Form that results from an addition to, deletion from, or modification of the contents of Covered Software" },
+        { "sentence_id": "s-72", "note": "All distribution of Covered Software in Source Code Form, including any Modifications, must be under the terms of this License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-72", "note": "All distribution of Covered Software in Source Code Form ... must be under the terms of this License (file-level weak copyleft)" },
+        { "sentence_id": "s-73", "note": "You must inform recipients that the Source Code Form of the Covered Software is governed by the terms of this License, and how they can obtain a copy" },
+        { "sentence_id": "s-78", "note": "(a) such Covered Software must also be made available in Source Code Form, as described in Section 3.1" }
+      ],
+      "external_references": [],
+      "commentary": "Weak copyleft: applies only to MPL-licensed files themselves. Non-MPL files in a Larger Work may remain under other licenses."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-72", "note": "All distribution of Covered Software in Source Code Form ... must be under the terms of this License" },
+        { "sentence_id": "s-82", "note": "You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software" }
+      ],
+      "external_references": [],
+      "commentary": "File-level only. Modifications to MPL-licensed files must remain under MPL, but a Larger Work that combines MPL files with other code can be licensed as a whole under different terms."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [{ "sentence_id": "s-86", "note": "You may not remove or alter the substance of any license notices (including copyright notices, patent notices, disclaimers of warranty, or limitations of liability)" }],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-116", "note": "Section 7. Limitation of Liability" },
+        { "sentence_id": "s-117", "note": "limitation of liability shall not apply to liability for death or personal injury resulting from such party's negligence" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-109", "note": "Section 6. Disclaimer of Warranty" },
+        { "sentence_id": "s-110", "note": "The entire risk as to the quality and performance of the Covered Software is with You" },
+        { "sentence_id": "s-112", "note": "This disclaimer of warranty constitutes an essential part of this License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-55", "note": "This License does not grant any rights in the trademarks, service marks, or logos of any Contributor" }],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "Mozilla Public License 2.0 text", "url": "licenses/mpl-2.0/text.html", "role": "primary evidence" }
+  ]
+}

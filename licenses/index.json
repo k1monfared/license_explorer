@@ -1,14 +1,18 @@
 [
   {
-    "id": "mit",
-    "name": "MIT License",
-    "spdx": "MIT",
+    "id": "0bsd",
+    "name": "BSD Zero Clause License",
+    "spdx": "0BSD",
     "medium": "software",
     "archetype": "permissive",
-    "blurb": "Shortest permissive license. Commercial and proprietary use permitted with attribution.",
-    "tags": ["permissive", "attribution"],
+    "blurb": "Public-domain-equivalent permissive license. Grants use, copy, modify, and distribute with no conditions at all, not even attribution. Derived from ISC with all obligations removed.",
+    "tags": [
+      "permissive",
+      "public-domain-equivalent",
+      "no-attribution"
+    ],
     "osi_approved": true,
-    "fsf_libre": true
+    "fsf_libre": false
   },
   {
     "id": "apache-2.0",
@@ -17,7 +21,319 @@
     "medium": "software",
     "archetype": "permissive",
     "blurb": "Permissive license with an explicit patent grant and a defensive termination clause. Ubiquitous in enterprise open source.",
-    "tags": ["permissive", "patent-grant", "attribution"],
+    "tags": [
+      "permissive",
+      "patent-grant",
+      "attribution"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "bsd-2-clause",
+    "name": "BSD 2-Clause License",
+    "spdx": "BSD-2-Clause",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Simplified or 'FreeBSD' BSD license. Permits redistribution with or without modification as long as the copyright notice and disclaimer are retained. No patent grant; no endorsement clause.",
+    "tags": [
+      "permissive",
+      "attribution",
+      "bsd-family"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "spdx": "BSD-3-Clause",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Revised BSD. Same as BSD 2-Clause plus a 'no endorsement' clause: contributors' names may not be used to promote derivatives without permission. No patent grant.",
+    "tags": [
+      "permissive",
+      "attribution",
+      "no-endorsement",
+      "bsd-family"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "isc",
+    "name": "ISC License",
+    "spdx": "ISC",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Minimalist permissive license functionally equivalent to the simplified BSD and MIT licenses. Default license for OpenBSD and many npm packages.",
+    "tags": [
+      "permissive",
+      "attribution",
+      "minimal"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "mit",
+    "name": "MIT License",
+    "spdx": "MIT",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Shortest permissive license. Commercial and proprietary use permitted with attribution.",
+    "tags": [
+      "permissive",
+      "attribution"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "epl-2.0",
+    "name": "Eclipse Public License 2.0",
+    "spdx": "EPL-2.0",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "Module-level weak copyleft with patent grant and retaliation. Adds an opt-in Secondary License mechanism (Exhibit A) so the initial contributor can declare GPL-compatibility.",
+    "tags": [
+      "weak-copyleft",
+      "patent-grant",
+      "module-level",
+      "gpl-incompatible-by-default"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "lgpl-2.1-only",
+    "name": "GNU Lesser General Public License v2.1 only",
+    "spdx": "LGPL-2.1-only",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "Weak copyleft for libraries. Modifications to the library must be LGPL, but applications that merely link against the library may be licensed freely. No explicit patent grant.",
+    "tags": [
+      "weak-copyleft",
+      "gpl-family",
+      "library",
+      "share-alike-library-only"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "lgpl-3.0-only",
+    "name": "GNU Lesser General Public License v3.0 only",
+    "spdx": "LGPL-3.0-only",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "Weak copyleft layered over GPLv3. Modifications to the library must be LGPL/GPL; a Combined Work that merely links the library may be licensed freely. Inherits GPLv3 patent grant.",
+    "tags": [
+      "weak-copyleft",
+      "gpl-family",
+      "library",
+      "patent-grant",
+      "share-alike-library-only"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "mpl-2.0",
+    "name": "Mozilla Public License 2.0",
+    "spdx": "MPL-2.0",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "File-level weak copyleft with an explicit patent grant. Modified MPL files stay MPL, but a larger work combining MPL files with other code can ship under different terms.",
+    "tags": [
+      "weak-copyleft",
+      "patent-grant",
+      "file-level",
+      "gpl-compatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "agpl-3.0-only",
+    "name": "GNU Affero General Public License v3.0 only",
+    "spdx": "AGPL-3.0-only",
+    "medium": "software",
+    "archetype": "strong-copyleft",
+    "blurb": "Strong copyleft that closes the SaaS loophole: §13 requires network users of modified versions to be offered the Corresponding Source, making AGPL the GPL for hosted software.",
+    "tags": [
+      "strong-copyleft",
+      "copyleft",
+      "network-copyleft",
+      "patent-grant",
+      "source-disclosure",
+      "gnu"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "gpl-2.0-only",
+    "name": "GNU General Public License v2.0 only",
+    "spdx": "GPL-2.0-only",
+    "medium": "software",
+    "archetype": "strong-copyleft",
+    "blurb": "The original strong copyleft. Derivative works of GPL-licensed software must be distributed under GPL. No explicit patent grant. Silent on network/SaaS use.",
+    "tags": [
+      "strong-copyleft",
+      "gpl-family",
+      "share-alike",
+      "attribution"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "gpl-3.0-only",
+    "name": "GNU General Public License v3.0 only",
+    "spdx": "GPL-3.0-only",
+    "medium": "software",
+    "archetype": "strong-copyleft",
+    "blurb": "Strong copyleft with an explicit patent grant, a patent retaliation clause, and anti-tivoization rules. Silent on network use (AGPL closes that gap).",
+    "tags": [
+      "strong-copyleft",
+      "gpl-family",
+      "patent-grant",
+      "anti-tivoization",
+      "share-alike",
+      "attribution"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "cc-by-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "spdx": "CC-BY-4.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Attribution license for creative works. Permits use, modification, and distribution, including commercially, provided credit is given and modifications are indicated. No share-alike. Patent and trademark rights are not granted.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "media",
+      "share-friendly"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true
+  },
+  {
+    "id": "cc-by-nc-4.0",
+    "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "spdx": "CC-BY-NC-4.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Creative Commons attribution license that forbids commercial use. Permits modification and distribution for non-commercial purposes with credit. Not OSI-approved; classified nonfree by FSF.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "non-commercial",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "cc-by-nc-nd-4.0",
+    "name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+    "spdx": "CC-BY-NC-ND-4.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Most restrictive Creative Commons license. Permits only verbatim non-commercial sharing with attribution. Distribution of modifications is forbidden. Not OSI-approved; classified nonfree by FSF.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "non-commercial",
+      "no-derivatives",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "cc-by-nd-4.0",
+    "name": "Creative Commons Attribution-NoDerivatives 4.0 International",
+    "spdx": "CC-BY-ND-4.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Attribution license for creative works that forbids sharing derivatives. Permits commercial use and redistribution of verbatim copies with credit; adapted material may be produced privately but not distributed.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "no-derivatives",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "cc-by-nc-sa-4.0",
+    "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+    "spdx": "CC-BY-NC-SA-4.0",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Creative Commons copyleft license for non-commercial use. Adapted works must be shared under the same (or compatible) BY-NC-SA license. Not OSI-approved; classified nonfree by FSF.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "non-commercial",
+      "share-alike",
+      "copyleft",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "cc-by-sa-4.0",
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "spdx": "CC-BY-SA-4.0",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Copyleft license for creative works. Permits use, modification, and commercial distribution provided credit is given, changes are indicated, and derivatives are released under CC-BY-SA or a Creative Commons-designated compatible license.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "share-alike",
+      "copyleft",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true
+  },
+  {
+    "id": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdx": "CC0-1.0",
+    "medium": "media",
+    "archetype": "public-domain",
+    "blurb": "Public-domain dedication with a fallback permissive license. FSF-approved and GPL-compatible, but not OSI-approved because §4(a) expressly declines to grant patent rights.",
+    "tags": [
+      "public-domain",
+      "dedication",
+      "no-attribution",
+      "no-patent-grant",
+      "creative-commons"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true
+  },
+  {
+    "id": "unlicense",
+    "name": "The Unlicense",
+    "spdx": "Unlicense",
+    "medium": "software",
+    "archetype": "public-domain",
+    "blurb": "Public-domain dedication with a permissive fallback license. Intended to place software outside copyright entirely; no attribution, no notice preservation.",
+    "tags": [
+      "public-domain",
+      "no-attribution"
+    ],
     "osi_approved": true,
     "fsf_libre": true
   }

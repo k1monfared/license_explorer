@@ -1,0 +1,53 @@
+{
+  "id": "unlicense",
+  "name": "The Unlicense",
+  "spdx": "Unlicense",
+  "medium": "software",
+  "archetype": "public-domain",
+  "version": null,
+  "year": 2010,
+  "canonical_url": "https://unlicense.org/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Unlicense.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "0bdebfeda07d45dada625ae1317c6f833186e798b171d0db640bcf32e92a8240"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/Unlicense.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/unlicense",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/unlicense",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Unlicense.org",
+      "url": "https://unlicense.org/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication source."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/unlicense",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#Unlicense",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "GPL-compatible free software; effectively a public-domain dedication."
+    }
+  ]
+}

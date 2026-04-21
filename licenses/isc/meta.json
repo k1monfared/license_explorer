@@ -1,0 +1,53 @@
+{
+  "id": "isc",
+  "name": "ISC License",
+  "spdx": "ISC",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 1995,
+  "canonical_url": "https://opensource.org/license/isc",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/ISC.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "f2ec607f67bb0dd3053b49835b02110d5cd0f8eb6da3aac4dc0b142a6b299be9"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/ISC.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/isc",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/-isc-license",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/ISC.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/isc",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ISC",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "GPL-compatible free software license."
+    }
+  ]
+}

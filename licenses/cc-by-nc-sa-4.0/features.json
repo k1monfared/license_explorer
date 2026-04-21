@@ -1,0 +1,139 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-66", "note": "Section 2(a)(1)(A): license grant 'limited to NonCommercial purposes only' when sharing Licensed Material." },
+        { "sentence_id": "s-68", "note": "Section 2(a)(1)(B): adapted material may be produced and shared 'for NonCommercial purposes only.'" },
+        { "sentence_id": "s-51", "note": "Section 1(k): 'NonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.'" },
+        { "sentence_id": "s-52", "note": "Section 1(k) continued: NonCommercial definition covers exchange of material where no monetary compensation is involved." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-68", "note": "Section 2(a)(1)(B): right to 'produce, reproduce, and Share Adapted Material for NonCommercial purposes only.'" },
+        { "sentence_id": "s-28", "note": "Section 1(a): Adapted Material is defined as material derived from the Licensed Material." }
+      ],
+      "external_references": [],
+      "commentary": "Modification is permitted only for NonCommercial purposes. Adapted Material must then be shared under a compatible ShareAlike license (§3(b))."
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-66", "note": "Section 2(a)(1)(A): right to 'reproduce and Share the Licensed Material ... for NonCommercial purposes only.'" },
+        { "sentence_id": "s-54", "note": "Section 1(l): 'Share' includes reproduction, public display, public performance, distribution, dissemination, communication, or importation." }
+      ],
+      "external_references": [],
+      "commentary": "Distribution is permitted only for NonCommercial purposes."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-64", "note": "Section 2(a)(1): worldwide, royalty-free, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-99", "note": "Section 2(b)(2): 'Patent and trademark rights are not licensed under this Public License.'" }
+      ],
+      "external_references": [],
+      "commentary": "No patent license is granted. The license explicitly excludes patent rights (§2(b)(2)); use of the material does not carry an express patent grant from the licensor."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-108", "note": "Section 3(a)(1): 'If You Share the Licensed Material (including in modified form), You must:' (retention obligations follow)." },
+        { "sentence_id": "s-114", "note": "Section 3(a)(1)(A)(ii): must retain 'a copyright notice'." },
+        { "sentence_id": "s-116", "note": "Section 3(a)(1)(A)(iii): must retain 'a notice that refers to this Public License'." },
+        { "sentence_id": "s-118", "note": "Section 3(a)(1)(A)(iv): must retain 'a notice that refers to the disclaimer of warranties'." },
+        { "sentence_id": "s-124", "note": "Section 3(a)(1)(C): must indicate the material is licensed under this Public License and include the text, URI, or hyperlink to it." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-122", "note": "Section 3(a)(1)(B): 'indicate if You modified the Licensed Material and retain an indication of any previous modifications'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-131", "note": "Section 3(b): 'ShareAlike. In addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply.'" },
+        { "sentence_id": "s-133", "note": "Section 3(b)(1): 'The Adapter's License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-NC-SA Compatible License.'" },
+        { "sentence_id": "s-135", "note": "Section 3(b)(2): must include the text of, or the URI or hyperlink to, the Adapter's License applied." },
+        { "sentence_id": "s-43", "note": "Section 1(g): 'The License Elements of this Public License are Attribution, NonCommercial, and ShareAlike.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-108", "note": "Section 3(a)(1): 'If You Share the Licensed Material (including in modified form), You must:'" },
+        { "sentence_id": "s-112", "note": "Section 3(a)(1)(A)(i): must retain identification of the creator(s) and any others designated to receive attribution." },
+        { "sentence_id": "s-120", "note": "Section 3(a)(1)(A)(v): must retain a URI or hyperlink to the Licensed Material to the extent reasonably practicable." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-154", "note": "Section 5(b): 'in no event will the Licensor be liable to You on any legal theory ... for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages'." },
+        { "sentence_id": "s-155", "note": "Section 5(b) continued: where a limitation is not allowed in full, it may not apply to You." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-150", "note": "Section 5(a): 'the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind'." },
+        { "sentence_id": "s-151", "note": "Section 5(a): disclaims warranties 'of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-99", "note": "Section 2(b)(2): 'Patent and trademark rights are not licensed under this Public License.'" },
+        { "sentence_id": "s-93", "note": "Section 2(a)(6): no endorsement; nothing constitutes permission to assert connection with or sponsorship by the Licensor." }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International text", "url": "licenses/cc-by-nc-sa-4.0/text.html", "role": "primary evidence" }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-52", "note": "This License explicitly affirms your unlimited permission to run the unmodified Program." },
+        { "sentence_id": "s-67", "note": "You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-70", "note": "You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-66", "note": "You may convey verbatim copies of the Program's source code as you receive it, in any medium." },
+        { "sentence_id": "s-82", "note": "You may convey a covered work in object code form under the terms of sections 4 and 5." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-55", "note": "You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-152", "note": "Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version." },
+        { "sentence_id": "s-159", "note": "Defensive limitation: you may not convey a covered work if you are a party to an arrangement with a third party in the business of distributing software that grants a discriminatory patent license." }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-66", "note": "You may convey verbatim copies ... provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License ... applies to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program." },
+        { "sentence_id": "s-72", "note": "b) The work must carry prominent notices stating that it is released under this License and any conditions added under section 7." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-71", "note": "a) The work must carry prominent notices stating that you modified it, and giving a relevant date." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-82", "note": "You may convey a covered work in object code form ... provided that you also convey the machine-readable Corresponding Source under the terms of this License." },
+        { "sentence_id": "s-83", "note": "6a) Convey the object code in a physical product accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-168", "note": "§13 (Remote Network Interaction): Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network ... an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software." },
+        { "sentence_id": "s-166", "note": "Heading: §13 Remote Network Interaction; Use with the GNU General Public License." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-74", "note": "c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy." },
+        { "sentence_id": "s-75", "note": "This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-77", "note": "d) If the work has interactive user interfaces, each must display Appropriate Legal Notices." },
+        { "sentence_id": "s-35", "note": "Definition of Appropriate Legal Notices: a convenient and prominently visible feature that displays an appropriate copyright notice and tells the user how to view a copy of this License." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-190", "note": "§16 Limitation of Liability: IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-184", "note": "§15 Disclaimer of Warranty: THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW." },
+        { "sentence_id": "s-185", "note": "THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "The AGPL-3.0 text does not contain an explicit trademark clause. Section 7(e) permits downstream licensors to add terms declining to grant rights under trademark law, but no trademark restriction is imposed by the license itself."
+    }
+  ],
+  "sources": [
+    { "source": "GNU Affero General Public License v3.0 text", "url": "licenses/agpl-3.0-only/text.html", "role": "primary evidence" }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-1", "note": "free to copy, modify, publish, use, compile, sell, or distribute ... for any purpose, commercial or non-commercial" }],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-1", "note": "Anyone is free to ... modify" }],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-1", "note": "Anyone is free to ... publish ... or distribute this software" }],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-0", "note": "released into the public domain" },
+        { "sentence_id": "s-1", "note": "free to ... use ... for any purpose" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-6", "note": "IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY" }],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-5", "note": "THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND" }],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "The Unlicense text", "url": "licenses/unlicense/text.html", "role": "primary evidence" }
+  ]
+}

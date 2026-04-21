@@ -1,0 +1,59 @@
+{
+  "id": "epl-2.0",
+  "name": "Eclipse Public License 2.0",
+  "spdx": "EPL-2.0",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "2.0",
+  "year": 2017,
+  "canonical_url": "https://www.eclipse.org/legal/epl-2.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/EPL-2.0.txt",
+    "retrieved_at": "2026-04-21T19:10:00Z",
+    "sha256": "61616a4066701bc7888ad910de1633dbc55eb4d4d30d930feef55afb9492e33c"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/EPL-2.0.html",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/epl-2-0",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "Eclipse Foundation",
+      "url": "https://www.eclipse.org/legal/epl-2.0/",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/eclipse-public-license-2.0-(epl-2.0)",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "Eclipse EPL-2.0 FAQ",
+      "url": "https://www.eclipse.org/legal/epl-2.0/faq.php",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Steward's FAQ discussing the Secondary License mechanism and GPL compatibility."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/epl-2-0",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#EPL-2.0",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Free software license, GPL-INCOMPATIBLE (explicit GPL-compatibility is opt-in via the secondary-license clause)."
+    }
+  ]
+}

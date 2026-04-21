@@ -1,0 +1,53 @@
+{
+  "id": "gpl-2.0-only",
+  "name": "GNU General Public License v2.0 only",
+  "spdx": "GPL-2.0-only",
+  "medium": "software",
+  "archetype": "strong-copyleft",
+  "version": "2.0",
+  "year": 1991,
+  "canonical_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-2.0-only.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/GPL-2.0-only.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/gpl-2-0",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/gnu-general-public-license-v2",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Free Software Foundation",
+      "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication source."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/gpl-2-0",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#GNUGPLv2",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "The original strong copyleft; GPL-compatible free software license."
+    }
+  ]
+}

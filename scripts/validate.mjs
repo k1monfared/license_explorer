@@ -104,9 +104,19 @@ export async function validateRepo() {
           for (const c of e.citations) {
             if (!sentenceIds.has(c.sentence_id)) errors.push(`${featP}: citation ${c.sentence_id} not in ${htmlP}`);
           }
-          const needsSource = e.value === 'grey' || (e.commentary && e.commentary.length);
+          // Source-completeness rule:
+          //  * grey values ALWAYS require a citation or external reference (contested claim).
+          //  * commentary on a positive value (permitted/required/forbidden) requires a source
+          //    (the commentary is expanding on an assertion grounded in the text, so it must cite).
+          //  * commentary on `silent` or `not_assessed` is allowed without a citation: the value
+          //    itself already means "the license text does not address this"; commentary merely
+          //    explains what that silence implies.
+          const commentaryRequiresSource = e.commentary && e.commentary.length
+            && e.value !== 'silent' && e.value !== 'not_assessed';
+          const needsSource = e.value === 'grey' || commentaryRequiresSource;
           if (needsSource && e.citations.length === 0 && e.external_references.length === 0) {
-            errors.push(`${featP}: entry "${e.key}" has ${e.value === 'grey' ? 'grey value' : 'commentary'} but no citations or external references`);
+            const reason = e.value === 'grey' ? 'grey value' : `commentary on ${e.value} value`;
+            errors.push(`${featP}: entry "${e.key}" has ${reason} but no citations or external references`);
           }
         }
       } catch (err) { if (err.code !== 'ENOENT') errors.push(`${featP}: ${err.message}`); }

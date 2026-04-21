@@ -1,0 +1,135 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-25", "note": "Affirmer ... waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights ... for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the \"Waiver\")." },
+        { "sentence_id": "s-30", "note": "Fallback License grants a royalty-free, irrevocable and unconditional license ... for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-8", "note": "works that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible." },
+        { "sentence_id": "s-25", "note": "The Waiver covers all of Affirmer's Copyright and Related Rights, which include adaptation, so modification is unconditionally permitted." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-25", "note": "The Waiver covers all Copyright and Related Rights for any number of copies and any purpose whatsoever." },
+        { "sentence_id": "s-30", "note": "Fallback License expressly authorizes reproduction, distribution, display, performance, communication, and translation in any current or future medium and for any number of copies." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-25", "note": "Waiver covers all purposes whatsoever, which includes private, non-distributive use." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-36", "note": "§4(a): No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document." }
+      ],
+      "external_references": [
+        {
+          "source": "OSI FAQ — Can CC0 be used for open source software?",
+          "url": "https://opensource.org/faq#cc0",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "summary": "OSI explains that CC0 was submitted for approval in 2012 and subsequently withdrawn, specifically because §4(a) explicitly declines to grant patent rights. OSI considers an express or implied patent peace essential for an open-source license, so CC0 falls short of that standard even though the copyright waiver itself is otherwise permissive."
+        }
+      ],
+      "commentary": "CC0 waives copyright and related rights without condition, but §4(a) carves patents (and trademarks) out of the waiver entirely: Affirmer's patents are neither licensed nor waived. This is the clause that caused OSI to reject CC0 for software (see OSI FAQ). A user can rely on CC0 to use the work under copyright law, but receives no express or implied patent license from the Affirmer, so patent exposure in software-patent jurisdictions remains an open risk."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC0 does not require the recipient to retain a copyright notice or a copy of the dedication; the Affirmer has waived the rights rather than licensed them with conditions."
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC0 imposes no share-alike obligation; downstream users may relicense derivative works under any terms, including proprietary terms."
+    },
+    {
+      "key": "attribution",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-25", "note": "The Waiver surrenders all Copyright and Related Rights, which in most jurisdictions includes attribution rights where they are waivable; CC0 does not itself require attribution." }
+      ],
+      "external_references": [],
+      "commentary": "CC0 specifically does not require attribution. Creative Commons' guidance treats crediting the Affirmer as a norm of scholarly practice rather than a licensing condition."
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-38", "note": "§4(b): Affirmer offers the Work as-is and makes no representations or warranties of any kind ... including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects." },
+        { "sentence_id": "s-40", "note": "§4(c): Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-38", "note": "§4(b): Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-36", "note": "§4(a): No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document." }
+      ],
+      "external_references": [],
+      "commentary": "Parallel to the patent carve-out: §4(a) confirms Affirmer's trademarks are not waived, abandoned, surrendered or licensed by the CC0 dedication. The license therefore neither grants trademark rights nor expressly forbids use, leaving the default trademark regime intact. Many analysts treat this as a de-facto no-trademark-grant comparable to Apache §6, which is why this entry uses the grey value."
+    }
+  ],
+  "sources": [
+    { "source": "Creative Commons Zero v1.0 Universal text", "url": "licenses/cc0-1.0/text.html", "role": "primary evidence" },
+    {
+      "source": "OSI FAQ — Can CC0 be used for open source software?",
+      "url": "https://opensource.org/faq#cc0",
+      "role": "external authority on the §4(a) patent carve-out",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    }
+  ]
+}
