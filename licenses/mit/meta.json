@@ -1,0 +1,32 @@
+{
+  "id": "mit",
+  "name": "MIT License",
+  "spdx": "MIT",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": null,
+  "canonical_url": "https://opensource.org/license/mit",
+  "text_provenance": {
+    "source_url": "https://opensource.org/license/mit",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0"
+  },
+  "references": [
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/mit",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/mit-license",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "choosealicense",
+      "url": "https://choosealicense.com/licenses/mit/",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    }
+  ]
+}

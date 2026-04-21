@@ -1,0 +1,25 @@
+{
+  "permissions": [
+    { "key": "commercial-use", "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies" }], "external_references": [] },
+    { "key": "modification",   "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "rights to ... modify" }], "external_references": [] },
+    { "key": "distribution",   "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "rights to ... distribute, sublicense, and/or sell" }], "external_references": [] },
+    { "key": "private-use",    "value": "permitted", "citations": [{ "sentence_id": "s-2", "note": "deal in the Software without restriction" }], "external_references": [] },
+    { "key": "patent-use",     "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "conditions": [
+    { "key": "include-copyright",    "value": "required", "citations": [{ "sentence_id": "s-3", "note": "The above copyright notice and this permission notice shall be included" }], "external_references": [] },
+    { "key": "document-changes",     "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "disclose-source",      "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "network-use-disclose", "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "same-license",         "value": "silent",   "citations": [], "external_references": [] },
+    { "key": "attribution",          "value": "required", "citations": [{ "sentence_id": "s-3", "note": "copyright notice must be included in all copies" }], "external_references": [] }
+  ],
+  "limitations": [
+    { "key": "liability", "value": "forbidden", "citations": [{ "sentence_id": "s-5", "note": "IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE" }], "external_references": [] },
+    { "key": "warranty",  "value": "forbidden", "citations": [{ "sentence_id": "s-4", "note": "THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND" }], "external_references": [] },
+    { "key": "trademark", "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "sources": [
+    { "source": "MIT License text", "url": "licenses/mit/text.html", "role": "primary evidence" }
+  ]
+}

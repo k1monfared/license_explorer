@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "mit",
+    "name": "MIT License",
+    "spdx": "MIT",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Shortest permissive license. Commercial and proprietary use permitted with attribution.",
+    "tags": ["permissive", "attribution"]
+  }
+]

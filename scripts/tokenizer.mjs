@@ -9,6 +9,12 @@ function escapeHtml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+function flushBuf(buf, out) {
+  const trimmed = buf.trim();
+  if (trimmed) out.push(trimmed);
+  return '';
+}
+
 export function splitSentences(text) {
   if (!text || !text.trim()) return [];
   const out = [];
@@ -16,6 +22,18 @@ export function splitSentences(text) {
   let i = 0;
   const n = text.length;
   while (i < n) {
+    // Paragraph break: 2+ consecutive newlines. Forces a sentence boundary
+    // even if the preceding text has no terminator.
+    if (text[i] === '\n') {
+      let j = i;
+      while (j < n && text[j] === '\n') j++;
+      const blankLines = j - i;
+      if (blankLines >= 2) {
+        buf = flushBuf(buf, out);
+        i = j;
+        continue;
+      }
+    }
     const ch = text[i];
     buf += ch;
     if (ch === '.' || ch === '!' || ch === '?') {
@@ -25,15 +43,12 @@ export function splitSentences(text) {
       const isEnd = !next || /[\s\n]/.test(next);
       if (ch === '.' && ABBREVS.has(prevWord)) { i++; continue; }
       if (isEnd) {
-        const trimmed = buf.trim();
-        if (trimmed) out.push(trimmed);
-        buf = '';
+        buf = flushBuf(buf, out);
       }
     }
     i++;
   }
-  const tail = buf.trim();
-  if (tail) out.push(tail);
+  flushBuf(buf, out);
   return out;
 }
 

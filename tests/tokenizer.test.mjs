@@ -55,3 +55,16 @@ test('splitSentences handles empty input', () => {
 test('splitSentences handles only whitespace', () => {
   assert.deepEqual(splitSentences('   \n\n   '), []);
 });
+
+test('paragraph break forces sentence boundary without terminator', () => {
+  const s = splitSentences('Title\n\nCopyright holder\n\nBody of text ending with period.');
+  assert.equal(s.length, 3);
+  assert.equal(s[0], 'Title');
+  assert.equal(s[1], 'Copyright holder');
+  assert.equal(s[2], 'Body of text ending with period.');
+});
+
+test('multiple terminated sentences in one paragraph stay split', () => {
+  const s = splitSentences('First sentence. Second sentence.\n\nThird.');
+  assert.deepEqual(s, ['First sentence.', 'Second sentence.', 'Third.']);
+});
