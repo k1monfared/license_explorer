@@ -1,0 +1,51 @@
+{
+  "id": "cc-by-sa-2.0",
+  "name": "Creative Commons Attribution-ShareAlike 2.0 Generic",
+  "spdx": "CC-BY-SA-2.0",
+  "medium": "media",
+  "archetype": "share-alike",
+  "version": "2.0",
+  "year": 2004,
+  "canonical_url": "https://creativecommons.org/licenses/by-sa/2.0/legalcode",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-SA-2.0.txt",
+    "retrieved_at": "2026-04-21T22:00:00Z",
+    "sha256": "6d6b3bb586e5f4ae7e6a955556442fbfcc2a6cedb89be5e4e0492b2983e40760"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-SA-2.0.html",
+      "retrieved_at": "2026-04-21T22:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/legalcode",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "Canonical CC legalcode for BY-SA 2.0 Generic."
+    },
+    {
+      "source": "FSF License List (CC BY-SA)",
+      "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "FSF entry classifying CC-BY-SA as acceptable for works of opinion and judgement (non-software)."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "CC licenses are designed for creative works, not software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "Older version of CC-BY-SA. FSF accepts for non-software works.",
+      "stance": "non-software"
+    }
+  ]
+}

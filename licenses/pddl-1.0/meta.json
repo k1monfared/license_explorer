@@ -1,0 +1,45 @@
+{
+  "id": "pddl-1.0",
+  "name": "Open Data Commons Public Domain Dedication and License v1.0",
+  "spdx": "PDDL-1.0",
+  "medium": "data",
+  "archetype": "public-domain",
+  "version": "1.0",
+  "year": 2010,
+  "canonical_url": "https://opendatacommons.org/licenses/pddl/1-0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/PDDL-1.0.txt",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "561ca6d9bba2a5b8658466833b15035f64d067fc327d226250f5123aa96e82af"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/PDDL-1.0.html",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "Open Data Commons (canonical publication)",
+      "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Canonical publication source maintained by Open Data Commons (Open Knowledge Foundation)."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Not OSI-approved. PDDL is a public-domain dedication for databases rather than a software license; it is not listed on OSI's approved-licenses list."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "FSF does not explicitly list PDDL, but categorically treats public-domain dedications as free. By analogy to CC0 (which FSF accepts as free), PDDL's §3.1 dedication plus §3.3 fallback licence function identically: the rightsholder relinquishes copyright and database rights, and in jurisdictions that disallow dedication a royalty-free, non-exclusive licence applies. Stance recorded as 'accepted' to parallel FSF's treatment of CC0.",
+      "stance": "accepted"
+    }
+  ]
+}

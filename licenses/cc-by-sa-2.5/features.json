@@ -1,0 +1,131 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-34", "note": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual license to exercise the rights in the Work; no non-commercial restriction in the Generic 2.5 license." },
+        { "sentence_id": "s-36", "note": "to reproduce the Work, to incorporate the Work into one or more Collective Works" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-38", "note": "to create and reproduce Derivative Works" },
+        { "sentence_id": "s-42", "note": "to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission Derivative Works" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-40", "note": "to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly ... the Work including as incorporated in Collective Works" },
+        { "sentence_id": "s-42", "note": "to distribute ... Derivative Works" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-34", "note": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual license to exercise the rights in the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-61", "note": "All rights not expressly granted by Licensor are hereby reserved." }
+      ],
+      "external_references": [],
+      "commentary": "CC BY-SA 2.5 does not mention patents at all. Unlike CC 4.0, which expressly states that patent and trademark rights are not licensed, the 2.5 text neither grants nor reserves patent rights explicitly; the residual-rights clause (s-61) leaves any unstated patent claims with the rightsholder. Grey because a licensee has no express patent grant yet also has no express patent prohibition, and the scope of any implied patent grant under copyright-licensing doctrine is unsettled."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-66", "note": "You may distribute, publicly display, publicly perform, or publicly digitally perform the Work only under the terms of this License, and You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work" },
+        { "sentence_id": "s-69", "note": "You must keep intact all notices that refer to this License and to the disclaimer of warranties." },
+        { "sentence_id": "s-82", "note": "You must keep intact all copyright notices for the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-82", "note": "in the case of a Derivative Work, a credit identifying the use of the Work in the Derivative Work (e.g., 'French translation of the Work by Original Author,' or 'Screenplay based on original Work by Original Author')." }
+      ],
+      "external_references": [],
+      "commentary": "CC BY-SA 2.5 does not use the explicit 'indicate if You modified' phrasing of 4.0, but §4(c) requires that every Derivative Work carry a credit identifying the nature of the use (e.g. 'translation of,' 'screenplay based on'), which functionally requires documenting the kind of change."
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-75", "note": "You may distribute, publicly display, publicly perform, or publicly digitally perform a Derivative Work only under the terms of this License, a later version of this License with the same License Elements as this License, or a Creative Commons iCommons license that contains the same License Elements as this License (e.g. Attribution-ShareAlike 2.5 Japan)." },
+        { "sentence_id": "s-77", "note": "You must include a copy of, or the Uniform Resource Identifier for, this License or other license specified in the previous sentence with every copy or phonorecord of each Derivative Work You distribute" },
+        { "sentence_id": "s-78", "note": "You may not offer or impose any terms on the Derivative Works that alter or restrict the terms of this License or the recipients' exercise of the rights granted hereunder" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-82", "note": "If you distribute, publicly display, publicly perform, or publicly digitally perform the Work or any Derivative Works or Collective Works, You must keep intact all copyright notices for the Work and provide, reasonable to the medium or means You are utilizing: (i) the name of the Original Author ... the title of the Work ... the URI ..." },
+        { "sentence_id": "s-83", "note": "if the Original Author and/or Licensor designate another party or parties ... for attribution, the name of such party or parties" },
+        { "sentence_id": "s-84", "note": "Such credit may be implemented in any reasonable manner; provided, however, that in the case of a Derivative Work or Collective Work, at a minimum such credit will appear where any other comparable authorship credit appears" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-91", "note": "EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-87", "note": "LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-119", "note": "Except for the limited purpose of indicating to the public that the Work is licensed under the CCPL, neither party will use the trademark 'Creative Commons' or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons." }
+      ],
+      "external_references": [],
+      "commentary": "The 2.5 text addresses only Creative Commons' own trademark (the CC logo), not the licensee's or Licensor's trademarks. Unlike CC 4.0, there is no general 'patent and trademark rights are not licensed' statement, so the license is silent on third-party or Licensor trademarks in the Work itself."
+    }
+  ],
+  "sources": [
+    { "source": "CC-BY-SA-2.5 text", "url": "licenses/cc-by-sa-2.5/text.html", "role": "primary evidence" }
+  ]
+}

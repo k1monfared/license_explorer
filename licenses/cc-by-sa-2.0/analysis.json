@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "topic": "pre-wikipedia-era",
+      "summary": "CC-BY-SA-2.0 predates Wikipedia's adoption of Creative Commons as its primary text license. Wikipedia's 'Wikipedia:Licensing update' page documents that the Wikimedia projects, previously available only under GFDL 1.2+, were additionally released 'under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA),' with the licensing change 'implemented on all projects on June 15, 2009.' The CC License_Versions wiki confirms BY-SA 2.0 was released on 2004-05-25, five years before Wikipedia's move. This means Wikipedia never chose the 2.0 suite: when the Wikimedia Foundation deliberated its license migration (board resolution, 2008-2009 update period), 3.0 was the then-current CC version, and the migration went directly to 3.0. The 2.0 share-alike licenses therefore belong to a 'pre-Wikipedia era' of CC adoption, largely confined to photo-sharing sites like Flickr and early CC content platforms that chose the 2.0 suite before Wikipedia's endorsement expanded CC-BY-SA's role as the de facto open-content license for collaborative text.",
+      "sources": [
+        {
+          "source": "Wikipedia — Wikipedia:Licensing update (2008/2009)",
+          "url": "https://en.wikipedia.org/wiki/Wikipedia:Licensing_update",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "18cdfd516b77f93cc92bc646563840c969e761099b35fe8c831187eaaf1f95a8",
+          "archive_path": "licenses/cc-by-sa-2.0/analysis-sources/18cdfd516b77f93cc92bc646563840c969e761099b35fe8c831187eaaf1f95a8.html",
+          "excerpt": "Wikipedia's 2008/2009 licensing update … the text and media contents of the Wikimedia Foundation projects available under the GNU Free Documentation License 1.2 with the possibility of upgrading to a later version was made available additionally under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA). … CC BY-SA is the primary Wikimedia license for text, and GFDL is retained as a secondary license. As per the Board resolution, this licensing change began to be implemented on all projects on June 15, 2009."
+        },
+        {
+          "source": "Creative Commons Wiki — License Versions (2.0 release date)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-sa-2.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "License version … 2.0 2004 May 25 Versioning -- Public Review Begins Announcing (and explaining) our new 2.0 licenses. … In the 1.0, 2.0, and 2.5 versions, the international licenses were called the 'generic' licenses."
+        }
+      ]
+    },
+    {
+      "topic": "sharealike-compatibility-narrow",
+      "summary": "CC-BY-SA-2.0 offers a comparatively narrow share-alike definition relative to the 3.0 and 4.0 generations. The license text (§4(b), s-75) permits derivatives to be redistributed only 'under the terms of this License, a later version of this License with the same License Elements as this License, or a Creative Commons iCommons license that contains the same License Elements as this License (e.g. Attribution-ShareAlike 2.0 Japan).' The CC License_Versions wiki highlights that the 3.0 Attribution-ShareAlike went 'one step further' by allowing an approved 'Creative Commons Compatible License' to be used for derivatives — a one-way compatibility mechanism 2.0 lacks. In practice, this means a CC-BY-SA-2.0 work cannot be relicensed under any non-CC copyleft (such as the Free Art License) the way later versions can, restricting reuse to the CC-BY-SA family itself plus localized 'iCommons' (ported) versions of 2.0.",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — License Versions (BY-SA compatibility)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-sa-2.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "other ported versions of the same or later version of the license. The 3.0 Attribution-ShareAlike goes one step further, by allowing those contributions to be licensed under a 'Creative Commons Compatible License,' defined to mean licenses approved by CC as essentially equivalent to the 3.0 Attribution-ShareAlike license. … However, CC will develop a compatibility process shortly following launch of the 4.0 licenses, and begin evaluating other licenses."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC BY-SA 2.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/legalcode",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "3fe390ea862596dc232b34743776143a4f17647de621a8eeb332b1195d24a0bd",
+      "archive_path": "licenses/cc-by-sa-2.0/analysis-sources/3fe390ea862596dc232b34743776143a4f17647de621a8eeb332b1195d24a0bd.html"
+    },
+    {
+      "source": "Creative Commons Wiki — License Versions",
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+      "archive_path": "licenses/cc-by-sa-2.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html"
+    },
+    {
+      "source": "Wikipedia — Wikipedia:Licensing update",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Licensing_update",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "18cdfd516b77f93cc92bc646563840c969e761099b35fe8c831187eaaf1f95a8",
+      "archive_path": "licenses/cc-by-sa-2.0/analysis-sources/18cdfd516b77f93cc92bc646563840c969e761099b35fe8c831187eaaf1f95a8.html"
+    }
+  ]
+}

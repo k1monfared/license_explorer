@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "topic": "v2-simplification-and-results-carve-out",
+      "summary": "CDLA-Permissive-2.0 was released in June 2021 as a thorough rewrite of the 2017 CDLA-Permissive-1.0. The redesign shrank the agreement to roughly 2.4 KB of text and centred it on two architectural choices: carry the agreement text with shared Data as the only notice obligation, and explicitly free Results (computational outputs of the Data, including machine-learning models) from any licensing obligation. The Linux Foundation presents the result as a short license agreement, easily comprehensible to data scientists and lawyers alike; the Results carve-out was the decisive feature retained from v1.0 and is the provision most commonly cited as the reason CDLA-Permissive-2.0 has become a de facto standard for released ML training datasets.",
+      "sources": [
+        {
+          "source": "CDLA — Community Data License Agreement home (CDLA overview and v2.0 rewrite)",
+          "url": "https://cdla.dev/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f",
+          "archive_path": "licenses/cdla-permissive-2.0/analysis-sources/d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f.html",
+          "excerpt": "In June 2021, we released the CDLA-Permissive-2.0. This was a thorough rewrite of version 1 of the Permissive license, resulting in a shorter, simpler and broadly permissive license agreement intended to enable wider sharing and usage of open data. It builds upon lessons learned from version 1 by retaining the explicit permission to use Results of computational analysis of data without restriction or obligation. It improves upon version 1 by streamlining the language and removing provisions that did not appear to be relevant or necessary in practice. The result is a short license agreement, easily comprehensible to data scientists and lawyers alike, to permit recipients to broadly use, analyze, modify and share data."
+        }
+      ]
+    },
+    {
+      "topic": "data-vs-software-licensing-rationale",
+      "summary": "The CDLA project originated from the Linux Foundation's observation that common OSI-approved licenses do not work well applied to data. Software licenses lean heavily on copyright and, for copyleft variants, on source-code distribution obligations, but data has different IP characteristics across jurisdictions, especially with the EU sui-generis database right and the general non-copyrightability of raw facts in the United States. The CDLA family was written from scratch in contract form rather than as a copyright license, which is why its §4.1 uses plain as-is contract warranty disclaimers rather than copyright-style limitation-of-liability clauses, and why its notice obligation is simply to make the text of the agreement available with shared Data.",
+      "sources": [
+        {
+          "source": "CDLA — Community Data License Agreement home (project rationale)",
+          "url": "https://cdla.dev/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f",
+          "archive_path": "licenses/cdla-permissive-2.0/analysis-sources/d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f.html",
+          "excerpt": "The challenge is that intellectual property systems around the world treat data differently than software. Our common OSI-approved licenses do not work well applied to data. Our communities wanted to develop data license agreements that could enable sharing of data similar to what we have with open source software. The result is a large scale collaboration on licenses for sharing data under a legal framework which we call the Community Data License Agreement (CDLA)."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "CDLA — Community Data License Agreement home",
+      "url": "https://cdla.dev/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f",
+      "archive_path": "licenses/cdla-permissive-2.0/analysis-sources/d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f.html"
+    },
+    {
+      "source": "CDLA — Permissive 2.0 (canonical page)",
+      "url": "https://cdla.dev/permissive-2-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "e20d7fcac7a4f8f7a49e37c7c2f3fae48483cf0a7270fe125ccefe6661f19a2b",
+      "archive_path": "licenses/cdla-permissive-2.0/analysis-sources/e20d7fcac7a4f8f7a49e37c7c2f3fae48483cf0a7270fe125ccefe6661f19a2b.html"
+    }
+  ]
+}

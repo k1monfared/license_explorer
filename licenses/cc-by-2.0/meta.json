@@ -1,0 +1,51 @@
+{
+  "id": "cc-by-2.0",
+  "name": "Creative Commons Attribution 2.0 Generic",
+  "spdx": "CC-BY-2.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "2.0",
+  "year": 2004,
+  "canonical_url": "https://creativecommons.org/licenses/by/2.0/legalcode",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-2.0.txt",
+    "retrieved_at": "2026-04-21T22:00:00Z",
+    "sha256": "f892996eb4b6f2e54241432ed67b743772224e191ba3a0ae595eb4feca3df4c5"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-2.0.html",
+      "retrieved_at": "2026-04-21T22:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by/2.0/legalcode",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "Canonical CC legalcode for BY 2.0 Generic."
+    },
+    {
+      "source": "FSF License List (CC BY)",
+      "url": "https://www.gnu.org/licenses/license-list.html#ccby",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "FSF entry classifying CC-BY as acceptable for works of opinion and judgement (non-software)."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "CC licenses are designed for creative works, not software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ccby",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "Older version of CC-BY. FSF accepts for non-software works.",
+      "stance": "non-software"
+    }
+  ]
+}

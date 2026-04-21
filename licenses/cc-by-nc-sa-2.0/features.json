@@ -1,0 +1,130 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-66", "note": "Section 4(c): 'You may not exercise any of the rights granted to You in Section 3 above in any manner that is primarily intended for or directed toward commercial advantage or private monetary compensation.'" },
+        { "sentence_id": "s-67", "note": "Section 4(c) continued: digital file-sharing exchange of works is not considered commercial provided no monetary compensation is involved." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-38", "note": "Section 3(b): right 'to create and reproduce Derivative Works'." },
+        { "sentence_id": "s-42", "note": "Section 3(d): right 'to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission Derivative Works'." }
+      ],
+      "external_references": [],
+      "commentary": "Modification is permitted only for NonCommercial purposes (Section 4(c), s-66), and Derivative Works must be licensed under a compatible ShareAlike license (Section 4(b), s-59)."
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-40", "note": "Section 3(c): right 'to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission the Work including as incorporated in Collective Works'." },
+        { "sentence_id": "s-42", "note": "Section 3(d): right to distribute Derivative Works." }
+      ],
+      "external_references": [],
+      "commentary": "Distribution is permitted only for NonCommercial purposes (Section 4(c), s-66). Distributing a Derivative Work additionally requires applying a compatible ShareAlike license (Section 4(b), s-59)."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-34", "note": "Section 3: 'Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-45", "note": "Section 3 trailer: 'All rights not expressly granted by Licensor are hereby reserved, including but not limited to the rights set forth in Sections 4(e) and 4(f).'" }
+      ],
+      "external_references": [],
+      "commentary": "CC 2.0 is silent on patents. Unlike CC 4.0's explicit exclusion (§2(b)(2)), CC BY-NC-SA 2.0 does not mention patent rights at all. The residual rights-reservation clause (Section 3 trailer, s-45) reserves whatever is not expressly granted, so no patent license is granted implicitly. Treated as grey because the text neither grants nor expressly refuses a patent license."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-50", "note": "Section 4(a): 'You may distribute ... the Work only under the terms of this License, and You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work You distribute ...'." },
+        { "sentence_id": "s-53", "note": "Section 4(a): 'You must keep intact all notices that refer to this License and to the disclaimer of warranties.'" },
+        { "sentence_id": "s-69", "note": "Section 4(d): 'You must keep intact all copyright notices for the Work' when distributing." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-69", "note": "Section 4(d): 'in the case of a Derivative Work, a credit identifying the use of the Work in the Derivative Work (e.g., \"French translation of the Work by Original Author,\" or \"Screenplay based on original Work by Original Author\")'." }
+      ],
+      "external_references": [],
+      "commentary": "Section 4(d) requires derivative-specific attribution that identifies the original Work being adapted. This serves the 'document-changes' function of making clear the redistributed material is modified and what it was modified from."
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-28", "note": "Section 1(g): 'License Elements means the following high-level license attributes as selected by Licensor and indicated in the title of this License: Attribution, Noncommercial, ShareAlike.'" },
+        { "sentence_id": "s-59", "note": "Section 4(b): 'You may distribute, publicly display, publicly perform, or publicly digitally perform a Derivative Work only under the terms of this License, a later version of this License with the same License Elements as this License, or a Creative Commons iCommons license that contains the same License Elements as this License (e.g. Attribution-NonCommercial-ShareAlike 2.0 Japan).'" },
+        { "sentence_id": "s-61", "note": "Section 4(b) continued: 'You must include a copy of, or the Uniform Resource Identifier for, this License or other license specified in the previous sentence with every copy or phonorecord of each Derivative Work You distribute'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-69", "note": "Section 4(d): 'You must keep intact all copyright notices for the Work and give the Original Author credit reasonable to the medium or means You are utilizing by conveying the name (or pseudonym if applicable) of the Original Author if supplied; the title of the Work if supplied; to the extent reasonably practicable, the Uniform Resource Identifier, if any, that Licensor specifies to be associated with the Work ...'." },
+        { "sentence_id": "s-70", "note": "Section 4(d) continued: 'in the case of a Derivative Work or Collective Work, at a minimum such credit will appear where any other comparable authorship credit appears and in a manner at least as prominent as such other comparable authorship credit.'" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-93", "note": "Section 6: 'EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-89", "note": "Section 5: 'UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC 2.0 does not address the licensor's trademark rights in the Work. The only trademark reference in the text (s-121) concerns the Creative Commons organization's own trademarks, not any trademarks associated with the Licensed Work. Unlike CC 4.0 (which in §2(b)(2) expressly excludes patent and trademark rights from the grant), CC 2.0 is entirely silent on the Work's trademark status."
+    }
+  ],
+  "sources": [
+    { "source": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0 text", "url": "licenses/cc-by-nc-sa-2.0/text.html", "role": "primary evidence" }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "jurisdiction-ports-history",
+      "summary": "CC BY-SA 2.5 was released in June 2005 as a 'Generic' license drafted against U.S. copyright law, and sits in the middle of the 1.0/2.0/2.5 era during which CC's core mechanism for international adoption was 'porting'. The License_Versions wiki records that v2.5's headline change was 'Tweaking CC's Standard Attribution Language' (allowing credit to a designated party beyond the original author), and that the 1.0, 2.0, and 2.5 'generic' licenses were drafted to conform with U.S. copyright law. Prior to v4.0, Creative Commons granted permission to legal experts around the world to adapt the licenses to local jurisdictions, producing dozens of ported BY-SA 2.5 variants, including, as the 2.5 text itself contemplates in §4(b), 'a Creative Commons iCommons license that contains the same License Elements as this License (e.g. Attribution-ShareAlike 2.5 Japan).'",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — License Versions (2.5 release, porting and 'generic' nomenclature)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "2.5 2005 June Tweaking CC's Standard Attribution Language -- An Invitation to Comment … In the 1.0, 2.0, and 2.5 versions, the international licenses were called the 'generic' licenses. The generic licenses were drafted to conform with U.S. copyright law. … Prior to version 4.0, Creative Commons granted permission to legal experts around the world to adapt (or 'port') the licenses where necessary to more fully align the text with the laws of different legal jurisdictions, and to translate the licenses to the local language(s)."
+        },
+        {
+          "source": "Creative Commons — CC BY-SA 2.5 Legal Code (canonical 2.5 generic text with iCommons port language)",
+          "url": "https://creativecommons.org/licenses/by-sa/2.5/legalcode",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "40774b5b717371090b60adf993060d74038e1b5a10e71fb586d5fd00656bbcc0",
+          "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/40774b5b717371090b60adf993060d74038e1b5a10e71fb586d5fd00656bbcc0.html",
+          "summary": "Canonical legalcode page for CC BY-SA 2.5 Generic. Section 4(b) of the 2.5 text itself authorizes Adapter-license choice among 'this License, a later version ... with the same License Elements ..., or a Creative Commons iCommons license that contains the same License Elements ... (e.g. Attribution-ShareAlike 2.5 Japan)', hard-coding jurisdiction ports into the share-alike chain."
+        }
+      ]
+    },
+    {
+      "topic": "pre-4-compatibility-story",
+      "summary": "CC BY-SA 2.5's ShareAlike clause (§4(b)) predates the 4.0 'BY-SA Compatible License' mechanism that produced the 2015 one-way compatibility bridge to GPLv3. CC's own Compatible Licenses page documents that for BY-SA 2.0 and 2.5 the only permitted Adapter's Licenses are 'the license used for the original work, or a later version of that BY-SA license' or a 'ported version of that BY-SA license, the same or later version as the licensed work' — there is no third-party compatible-license slot. BY-SA 3.0 introduced the 'Creative Commons Compatible License' slot but, per the same page, 'no non-CC licenses have been designated as compatible with BY-SA 3.0.' It was only in 4.0 that CC declared a concrete bridge (Free Art License 1.3 in 2014, GPLv3 in 2015). The practical consequence is that 2005-2007-era BY-SA 2.5 content cannot be relicensed under GPLv3 or the Free Art License without CC's later-version upgrade clause carrying it into 4.0 first.",
+      "sources": [
+        {
+          "source": "Creative Commons — Compatible Licenses (BY-SA 2.0/2.5 section; BY-SA 4.0 → GPLv3)",
+          "url": "https://creativecommons.org/compatiblelicenses",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "6ff02dd39deabfca10ebdde613677445fcef9def7138ce39eb8789287454d092",
+          "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/6ff02dd39deabfca10ebdde613677445fcef9def7138ce39eb8789287454d092.html",
+          "excerpt": "Version 2.0 and 2.5 Your contributions to adaptations of BY-SA 2.0 or 2.5 materials may only be licensed under: The license used for the original work, or a later version of that BY-SA license. Ported versions of that BY-SA license, the same or later version as the licensed work. … Version 3.0 … Currently, no non-CC licenses have been designated as compatible with BY-SA 3.0. … GPLv3: The GNU General Public License version 3 was declared a 'BY-SA–Compatible License' for version 4.0 on 8 October 2015."
+        },
+        {
+          "source": "Creative Commons — CC BY-SA 2.5 Legal Code (§4(b) Adapter's license scope)",
+          "url": "https://creativecommons.org/licenses/by-sa/2.5/legalcode",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "40774b5b717371090b60adf993060d74038e1b5a10e71fb586d5fd00656bbcc0",
+          "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/40774b5b717371090b60adf993060d74038e1b5a10e71fb586d5fd00656bbcc0.html",
+          "summary": "The 2.5 legalcode §4(b) restricts Adapter licensing to 'this License, a later version ... with the same License Elements ..., or a Creative Commons iCommons license that contains the same License Elements' — no provision for a compatible non-CC license, which is the structural reason the 2015 GPLv3 bridge could not retroactively apply to 2.5 content."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons Wiki — License Versions",
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+      "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html"
+    },
+    {
+      "source": "Creative Commons — CC BY-SA 2.5 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5/legalcode",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "40774b5b717371090b60adf993060d74038e1b5a10e71fb586d5fd00656bbcc0",
+      "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/40774b5b717371090b60adf993060d74038e1b5a10e71fb586d5fd00656bbcc0.html"
+    },
+    {
+      "source": "Creative Commons — Compatible Licenses",
+      "url": "https://creativecommons.org/compatiblelicenses",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "6ff02dd39deabfca10ebdde613677445fcef9def7138ce39eb8789287454d092",
+      "archive_path": "licenses/cc-by-sa-2.5/analysis-sources/6ff02dd39deabfca10ebdde613677445fcef9def7138ce39eb8789287454d092.html"
+    }
+  ]
+}

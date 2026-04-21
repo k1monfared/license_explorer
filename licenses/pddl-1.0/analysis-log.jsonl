@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-21T21:54:05.988Z","step":"fetch-text","url":"https://raw.githubusercontent.com/spdx/license-list-data/main/text/PDDL-1.0.txt","sha256":"561ca6d9bba2a5b8658466833b15035f64d067fc327d226250f5123aa96e82af","bytes":15481}
+{"timestamp":"2026-04-21T21:54:06.009Z","step":"tokenize","sentences":138}
+{"timestamp":"2026-04-21T21:54:06.029Z","step":"source-archive","url":"https://opendatacommons.org/licenses/pddl/1-0/","archive_sha256":"40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9"}
+{"timestamp":"2026-04-21T21:54:06.049Z","step":"source-archive","url":"https://opendatacommons.org/licenses/pddl/summary/","archive_sha256":"de0129391bba98ddf1cd6153113f53e7d7edd799087b64a0107c34c7d20e415a"}
+{"timestamp":"2026-04-21T21:54:06.069Z","step":"analysis-complete","topics":["dedication-plus-fallback-structure","community-norms-separation","patent-and-trademark-carve-outs"]}

@@ -1,0 +1,41 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree-classification",
+      "summary": "The Free Software Foundation classifies CC BY-NC-ND, any version (including the 2.0 release), as nonfree for works of practical use. This is the most restrictive of the CC license family and it fails two FSF freedom tests simultaneously. The license list's BY-NC entry says: 'This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation.' The BY-ND entry adds: 'This license does not qualify as free, because there are restrictions on distributing modified versions.' Because CC BY-NC-ND combines both the NonCommercial restriction (CC BY-NC-ND 2.0 §4(b)) and the NoDerivatives restriction (CC BY-NC-ND 2.0 §3 trailer: 'otherwise you have no rights to make Derivative Works'), it is nonfree on both grounds: it forecloses the freedom to sell copies AND the freedom to redistribute modifications. The 2.0 era text forbids even making Derivative Works (beyond technical format-shifting), which is stricter than BY-NC-ND 4.0 (which permits private adaptation but forbids sharing derivative output).",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-NC and CC BY-ND entries)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-nd-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons NonCommercial, any version. This license does not qualify as free, because there are restrictions on charging money for copies. … Creative Commons Noderivatives, any version. This license does not qualify as free, because there are restrictions on distributing modified versions. We recommend you do not use this license for documentation."
+        }
+      ]
+    },
+    {
+      "topic": "nd-and-opinion-works",
+      "summary": "BY-NC-ND sits in a strange position in FSF taxonomy. The ND half aligns with FSF's recommendation for works of opinion (the FSF endorses BY-ND 4.0 for editorials, memoirs, and audio/video works that state a viewpoint: 'we expect them to provide recipients with a different set of permissions: just the permission to copy and distribute the work verbatim'). But the NC half runs afoul of the FSF's view that even expressive works should be free to redistribute commercially: the FSF recommends BY-ND specifically, not BY-NC-ND, for opinion works. 'Previous versions of this license are also OK to use' refers to BY-ND, not to the more restrictive BY-NC-ND. So BY-NC-ND 2.0 is not within the class of licenses FSF considers acceptable even for opinion works: the NC restriction places it in the nonfree bucket without the opinion-work rehabilitation available to plain BY-ND.",
+      "sources": [
+        {
+          "source": "FSF — License List (Licenses for Works stating a Viewpoint; CC BY-ND and CC BY-NC entries)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-nd-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Works that express someone's opinion — memoirs, editorials, and so on — serve a fundamentally different purpose than works for practical use like software and documentation. Because of this, we expect them to provide recipients with a different set of permissions: just the permission to copy and distribute the work verbatim. … Creative Commons Attribution-NoDerivs 4.0 license (a.k.a. CC BY-ND). … We particularly recommend it for audio and/or video works of opinion. Previous versions of this license are also OK to use, but we do recommend upgrading to this version if you can."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nc-nd-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

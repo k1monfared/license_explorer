@@ -1,0 +1,45 @@
+{
+  "id": "odc-by-1.0",
+  "name": "Open Data Commons Attribution License v1.0",
+  "spdx": "ODC-By-1.0",
+  "medium": "data",
+  "archetype": "attribution",
+  "version": "1.0",
+  "year": 2010,
+  "canonical_url": "https://opendatacommons.org/licenses/by/1-0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/ODC-By-1.0.txt",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "b1c4de4bf91c95eec945ea7cbe0575fd52e7ee8fa430acb01d323d8214b1c482"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/ODC-By-1.0.html",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "Open Data Commons (canonical publication)",
+      "url": "https://opendatacommons.org/licenses/by/1-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Canonical publication source maintained by Open Data Commons (Open Knowledge Foundation)."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Not OSI-approved. ODC-By is a data license rather than a software license; it is not listed on OSI's approved-licenses list because its subject matter (databases and database rights) falls outside OSI's open-source software definition."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "FSF does not classify data licenses on its free-software-licenses list. ODC-By is not listed under either free or non-free categories.",
+      "stance": "unclassified"
+    }
+  ]
+}

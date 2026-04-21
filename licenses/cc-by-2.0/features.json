@@ -1,0 +1,138 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-32", "note": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual license to exercise the rights in the Work; no non-commercial restriction" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-36", "note": "to create and reproduce Derivative Works" },
+        { "sentence_id": "s-40", "note": "to distribute copies or phonorecords of ... Derivative Works" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-38", "note": "to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission the Work including as incorporated in Collective Works" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-32", "note": "broad license grant to exercise the rights in the Work; no restriction on private use" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-59", "note": "All rights not expressly granted by Licensor are hereby reserved." }
+      ],
+      "external_references": [
+        {
+          "source": "Creative Commons 'What's new in 4.0' (patents and trademarks)",
+          "url": "https://creativecommons.org/version4/patents-trademarks/",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "summary": "Creative Commons documents that CC 2.0 (like 3.0) was silent on whether patent and trademark rights were being licensed. CC 4.0 added Section 2(b)(2) to make the non-license of patent and trademark rights explicit; CC 2.0 has no equivalent clause, relying only on the generic reservation in §3 ('All rights not expressly granted ... are hereby reserved')."
+        }
+      ],
+      "commentary": "CC-BY-2.0 is silent on patent rights. There is no clause equivalent to CC 4.0 Section 2(b)(2) ('Patent and trademark rights are not licensed under this Public License'). The only hook is the closing sentence of Section 3 (s-59), which reserves 'all rights not expressly granted.' The practical reading is that no patent rights are granted, but because the text does not say so, this is best marked grey with commentary."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-64", "note": "You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work You distribute, publicly display, publicly perform, or publicly digitally perform" },
+        { "sentence_id": "s-67", "note": "You must keep intact all notices that refer to this License and to the disclaimer of warranties" },
+        { "sentence_id": "s-73", "note": "You must keep intact all copyright notices for the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-73", "note": "in the case of a Derivative Work, a credit identifying the use of the Work in the Derivative Work (e.g., 'French translation of the Work by Original Author,' or 'Screenplay based on original Work by Original Author')" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC-BY-2.0 has no share-alike requirement. Derivative Works may be released under any terms the adapter chooses, subject only to the attribution and notice-preservation obligations."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-73", "note": "§4(b): If you distribute ... You must keep intact all copyright notices for the Work and give the Original Author credit reasonable to the medium or means You are utilizing by conveying the name (or pseudonym if applicable) of the Original Author if supplied; the title of the Work if supplied; to the extent reasonably practicable, the Uniform Resource Identifier, if any" },
+        { "sentence_id": "s-74", "note": "Such credit may be implemented in any reasonable manner; in the case of a Derivative Work or Collective Work, at a minimum such credit will appear where any other comparable authorship credit appears and in a manner at least as prominent as such other comparable authorship credit" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-81", "note": "IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-77", "note": "LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-109", "note": "neither party will use the trademark 'Creative Commons' or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons" }
+      ],
+      "external_references": [
+        {
+          "source": "Creative Commons 'What's new in 4.0' (patents and trademarks)",
+          "url": "https://creativecommons.org/version4/patents-trademarks/",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "summary": "Creative Commons notes that CC 2.0 and 3.0 are silent on the licensor's own trademark rights. The only trademark language in CC 2.0 concerns the 'Creative Commons' trademark itself. CC 4.0 made the non-license of the licensor's trademark rights explicit (Section 2(b)(2))."
+        }
+      ],
+      "commentary": "Unlike CC-BY-4.0, the 2.0 text is silent on the licensor's trademark rights. The only explicit trademark language concerns Creative Commons' own mark (s-109 to s-110) and restricts the parties from using the 'Creative Commons' trademark. There is no analogue to CC 4.0 §2(b)(2) stating that 'trademark rights are not licensed.'"
+    }
+  ],
+  "sources": [
+    { "source": "CC-BY-2.0 text", "url": "licenses/cc-by-2.0/text.html", "role": "primary evidence" }
+  ]
+}

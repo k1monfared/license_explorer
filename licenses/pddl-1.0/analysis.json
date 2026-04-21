@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "topic": "dedication-plus-fallback-structure",
+      "summary": "PDDL's legal machinery mirrors CC0's three-layer structure. §3.1 is a unilateral dedication of copyright and database rights to the public domain. §3.2 is a waiver that applies where dedication is legally impossible — the Rightsholder promises not to assert the waived rights. §3.3 is a royalty-free, non-exclusive fallback licence that kicks in where neither dedication nor waiver is recognised, so a recipient in any jurisdiction ends up with at least a licence equivalent to CC0's. Because the Rightsholder has relinquished the rights under §3.1 rather than licensed them, there is nothing left to dual-license: the preamble explicitly notes that rightsholders using PDDL cannot later re-license the Work on different terms, because they have nothing left to license.",
+      "sources": [
+        {
+          "source": "Open Data Commons — PDDL 1.0 (canonical legal text, §3)",
+          "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9",
+          "archive_path": "licenses/pddl-1.0/analysis-sources/40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9.html",
+          "summary": "Canonical Open Data Commons publication of PDDL v1.0 including the three-clause dedication (§3.1), waiver-fallback (§3.2), and licence-fallback (§3.3) structure designed to operate across jurisdictions that do and do not recognise public-domain dedications."
+        }
+      ]
+    },
+    {
+      "topic": "community-norms-separation",
+      "summary": "Open Data Commons publishes a separate document called the ODC Community Norms (the Attribution-ShareAlike Community Norms) which recommends credit and openness as scholarly practice. PDDL §4.1 expressly rejects any contractual force for these norms: the Rightsholder makes the Work available without any other contractual obligations, and any Community Norms statement associated with the Work is not a contract and does not form part of the Document. This architectural choice mirrors Creative Commons' distinction between legal licences and norms-of-practice, but is more explicit in PDDL because the surrounding ODC-By and ODbL licences do bind attribution contractually. The plain-language summary reflects the result: the only obligation row on the human-readable summary reads Blank: This section is intentionally left blank. The PDDL imposes no restrictions on your use of the PDDL licensed database.",
+      "sources": [
+        {
+          "source": "Open Data Commons — PDDL 1.0 Summary (plain-language)",
+          "url": "https://opendatacommons.org/licenses/pddl/summary/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "de0129391bba98ddf1cd6153113f53e7d7edd799087b64a0107c34c7d20e415a",
+          "archive_path": "licenses/pddl-1.0/analysis-sources/de0129391bba98ddf1cd6153113f53e7d7edd799087b64a0107c34c7d20e415a.html",
+          "excerpt": "You are free: To share: To copy, distribute and use the database. To create: To produce works from the database. To adapt: To modify, transform and build upon the database. As long as you: Blank: This section is intentionally left blank. The PDDL imposes no restrictions on your use of the PDDL licensed database."
+        },
+        {
+          "source": "Open Data Commons — PDDL 1.0 (§4.1 No other contractual conditions)",
+          "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9",
+          "archive_path": "licenses/pddl-1.0/analysis-sources/40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9.html",
+          "summary": "Canonical Open Data Commons publication of PDDL v1.0 §4.1: The Rightsholder makes this Work available to You without any other contractual obligations, either express or implied. Any Community Norms statement associated with the Work is not a contract and does not form part of this Document."
+        }
+      ]
+    },
+    {
+      "topic": "patent-and-trademark-carve-outs",
+      "summary": "PDDL applies the same patent and trademark architecture as CC0. §4.2 states flatly: This Document does not grant You a licence for any patents that the Rightsholder may own. §4.3 does the same for trademarks. Users are cautioned in each clause that they may have to clear other rights or consult other licences. In practice this is why PDDL is used almost exclusively for factual datasets where copyright and the EU sui-generis database right are the only material risks, and not for software or hardware-adjacent data where patent exposure matters: the PDDL dedication simply does not touch patents at all.",
+      "sources": [
+        {
+          "source": "Open Data Commons — PDDL 1.0 (§4.2 Relationship to patents, §4.3 Relationship to trade marks)",
+          "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9",
+          "archive_path": "licenses/pddl-1.0/analysis-sources/40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9.html",
+          "summary": "Canonical Open Data Commons publication of PDDL v1.0 §4.2 and §4.3, which explicitly carve patents and trademarks out of the dedication and advise users to clear those rights separately."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Open Data Commons — PDDL 1.0 (canonical)",
+      "url": "https://opendatacommons.org/licenses/pddl/1-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9",
+      "archive_path": "licenses/pddl-1.0/analysis-sources/40df1180e82d7f40288ff7be41c4eb4b0cc9d58e4722dd090c63245dcf2141e9.html"
+    },
+    {
+      "source": "Open Data Commons — PDDL 1.0 Summary",
+      "url": "https://opendatacommons.org/licenses/pddl/summary/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "de0129391bba98ddf1cd6153113f53e7d7edd799087b64a0107c34c7d20e415a",
+      "archive_path": "licenses/pddl-1.0/analysis-sources/de0129391bba98ddf1cd6153113f53e7d7edd799087b64a0107c34c7d20e415a.html"
+    }
+  ]
+}

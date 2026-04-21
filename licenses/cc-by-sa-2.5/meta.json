@@ -1,0 +1,51 @@
+{
+  "id": "cc-by-sa-2.5",
+  "name": "Creative Commons Attribution-ShareAlike 2.5 Generic",
+  "spdx": "CC-BY-SA-2.5",
+  "medium": "media",
+  "archetype": "share-alike",
+  "version": "2.5",
+  "year": 2005,
+  "canonical_url": "https://creativecommons.org/licenses/by-sa/2.5/legalcode",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-SA-2.5.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "dbe7fadf81c75e0cb15a0cb338a6f42a7b34dced43958a4921ca056ca1b87a93"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-SA-2.5.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical CC human-readable deed and legalcode for the 2.5 Generic ShareAlike license."
+    },
+    {
+      "source": "Creative Commons Wiki — License Versions",
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Documents the 2.5 release and the wider ShareAlike lineage."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq#cc-by",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "CC licenses are designed for creative works rather than software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "FSF endorses CC Attribution-ShareAlike as a free copyleft license for creative works; not for software. Guidance applies to the BY-SA family including the 2.5 version.",
+      "stance": "non-software"
+    }
+  ]
+}

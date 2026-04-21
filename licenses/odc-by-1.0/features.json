@@ -1,0 +1,132 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-73", "note": "§3.1: the Licensor grants to You a worldwide, royalty-free, non-exclusive, terminable (but only under Section 9) license to Use the Database." },
+        { "sentence_id": "s-74", "note": "§3.1: These rights explicitly include commercial use, and do not exclude any field of endeavour." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-21", "note": "Definition of \"Derivative Database\": a database based upon the Database, and includes any translation, adaptation, arrangement, modification, or any other alteration of the Database or of a Substantial part of the Contents." },
+        { "sentence_id": "s-80", "note": "§3.1: The rights granted cover, for example: Creation of Derivative Databases." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-78", "note": "§3.1: Extraction and Re-utilisation of the whole or a Substantial part of the Contents." },
+        { "sentence_id": "s-86", "note": "§3.1: Distribution, communication, display, lending, making available, or performance to the public by any means and in any form, in whole or in part, including of any Derivative Database or as a part of Collective Databases." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-73", "note": "§3.1 grants a worldwide, royalty-free, non-exclusive license to Use the Database without restriction to public use." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-66", "note": "§2.3(b): This License does not cover any patents over the Contents or the Database." }
+      ],
+      "external_references": [],
+      "commentary": "ODC-By §2.3(b) explicitly excludes patents from the license's subject matter. The license is silent on patent-use permissions: it neither grants an express patent license nor purports to forbid assertion. As a data-focused attribution license, patent exposure is simply out of scope."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-105", "note": "§4.2: If You Publicly Convey this Database, any Derivative Database, or the Database as part of a Collective Database, then You must:" },
+        { "sentence_id": "s-109", "note": "§4.2(b): Include a copy of this License or its Uniform Resource Identifier (URI) with the Database or Derivative Database, including both in the Database or Derivative Database and in any relevant documentation." },
+        { "sentence_id": "s-111", "note": "§4.2(c): Keep intact any copyright or Database Right notices and notices that refer to this License." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "ODC-By is attribution-only and imposes no change-documentation obligation analogous to ODbL §4.6. Licensees who modify the Database into a Derivative Database need only carry the attribution notice forward; they are not required to indicate what they changed or to provide an alteration file."
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "ODC-By does not require licensees to offer downstream recipients a copy of a Derivative Database. Unlike ODbL §4.6, there is no access-to-derivative-databases clause; source disclosure is out of scope."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-15", "note": "Definition of \"Convey\" explicitly excludes pure network interaction: Conveying does not include interaction with a user through a computer network, or creating and Using a Produced Work, where no transfer of a copy of the Database or a Derivative Database occurs." }
+      ],
+      "external_references": [],
+      "commentary": "ODC-By's §1 definition of Convey carves out pure network interaction, mirroring ODbL. There is no Affero-style source-disclosure obligation for network use."
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "ODC-By is the attribution-only sibling of ODbL. It deliberately omits the Share-Alike clause that ODbL §4.4 imposes, so Derivative Databases may be relicensed under any terms (including proprietary terms) provided attribution obligations under §4.2 and §4.3 are honoured."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-111", "note": "§4.2(c): Keep intact any copyright or Database Right notices and notices that refer to this License." },
+        { "sentence_id": "s-116", "note": "§4.3: if you Publicly Use a Produced Work, You must include a notice associated with the Produced Work reasonably calculated to make any Person that uses, views, accesses, interacts with, or is otherwise exposed to the Produced Work aware that Content was obtained from the Database." },
+        { "sentence_id": "s-120", "note": "§4.3(a) example notice: Contains information from DATABASE NAME which is made available under the ODC Attribution License." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-153", "note": "§8.1: Subject to any liability that may not be excluded or limited by law, the Licensor is not liable for, and expressly excludes, all liability for loss or damage however and whenever caused to anyone by any use under this License." },
+        { "sentence_id": "s-154", "note": "§8.1: This exclusion of liability includes, but is not limited to, any special, incidental, consequential, punitive, or exemplary damages such as loss of revenue, data, anticipated profits, and lost business." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-149", "note": "§7.1: The Database is licensed by the Licensor as is and without any warranty of any kind, either express, implied, or arising by statute, custom, course of dealing, or trade usage." },
+        { "sentence_id": "s-150", "note": "§7.1: Licensor specifically disclaims any and all implied warranties or conditions of title, non-infringement, accuracy or completeness, the presence or absence of errors, fitness for a particular purpose, merchantability, or otherwise." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-68", "note": "§2.3(c): This License does not cover any trademarks associated with the Database." }
+      ],
+      "external_references": [],
+      "commentary": "§2.3(c) carves trademarks out of the license entirely. ODC-By neither grants trademark rights nor includes an Apache-style no-trademark-license clause; default trademark law therefore applies unmodified."
+    }
+  ],
+  "sources": [
+    { "source": "Open Data Commons Attribution License v1.0 text", "url": "licenses/odc-by-1.0/text.html", "role": "primary evidence" }
+  ]
+}

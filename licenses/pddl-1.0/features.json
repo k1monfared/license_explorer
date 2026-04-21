@@ -1,0 +1,125 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-10", "note": "Preamble: Recipients may use this work commercially, use technical protection measures, combine this data or database with other databases or data, and share their changes and additions." },
+        { "sentence_id": "s-102", "note": "§3.3(a) fallback licence: These rights explicitly include commercial use, and do not exclude any field of endeavour." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-1", "note": "Preamble: this document is intended to allow you to freely share, modify, and use this work for any purpose." },
+        { "sentence_id": "s-43", "note": "Definition of \"Use\": includes modifying the Database or Data." },
+        { "sentence_id": "s-84", "note": "§3.1: The Rightsholder dedicates the Work to the public domain and relinquishes all rights in Copyright and Database Rights." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-84", "note": "§3.1 Dedication: the Rightsholder dedicates the Work to the public domain for the benefit of the public and relinquishes all rights in Copyright and Database Rights." },
+        { "sentence_id": "s-89", "note": "§3.1: The above relinquishment of rights applies worldwide and includes media and formats now known or created in the future." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-9", "note": "Preamble: Because this document places the database and its contents in or as close as possible within the public domain, there are no restrictions or requirements placed upon recipients." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-118", "note": "§4.2 Relationship to patents: This Document does not grant You a licence for any patents that the Rightsholder may own." }
+      ],
+      "external_references": [],
+      "commentary": "Like CC0, PDDL carves patents out of the dedication entirely. §4.2 makes this explicit: no patent licence is granted. The license is silent on patent use (neither permitted nor forbidden); any patents the Rightsholder holds are preserved, and users are cautioned to clear patent rights separately. This is the data-license analog of the CC0 §4(a) patent non-grant that caused OSI to reject CC0 for software."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-11", "note": "Preamble: It is not a requirement that recipients provide further users with a copy of this licence or attribute the original creator of the data or database as a source." }
+      ],
+      "external_references": [],
+      "commentary": "PDDL imposes no notice-retention or license-inclusion obligation: the preamble explicitly disclaims any requirement to pass on a copy of the licence. The Rightsholder has surrendered the relevant rights rather than licensing them conditionally."
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "PDDL is a public-domain dedication. Downstream users may relicense any Derivative Database under any terms, including proprietary, because there are no rights left with the Rightsholder to condition on."
+    },
+    {
+      "key": "attribution",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-11", "note": "Preamble: It is not a requirement that recipients provide further users with a copy of this licence or attribute the original creator of the data or database as a source." }
+      ],
+      "external_references": [],
+      "commentary": "Attribution is not a licensing condition under PDDL. Open Data Commons publishes separate Community Norms that recommend credit as a matter of scholarly practice, but §4.1 expressly states Community Norms are not a contract and do not form part of the Document."
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-127", "note": "§5.2: Subject to any liability that may not be excluded or limited by law, the Rightsholder is not liable for, and expressly excludes, all liability for loss or damage." },
+        { "sentence_id": "s-128", "note": "§5.2: This exclusion of liability includes, but is not limited to, any special, incidental, consequential, punitive, or exemplary damages." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-125", "note": "§5.1: The Work is provided by the Rightsholder as is and without any warranty of any kind, either express or implied, whether of title, of accuracy or completeness." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-121", "note": "§4.3 Relationship to trade marks: This Document does not grant You a licence for any trade marks that the Rightsholder may own or that the Rightsholder may use to cover the Work." }
+      ],
+      "external_references": [],
+      "commentary": "Parallel to the patent carve-out: §4.3 confirms PDDL does not grant a trademark licence. Default trademark law applies unmodified; the Rightsholder retains all trademark rights."
+    }
+  ],
+  "sources": [
+    { "source": "Open Data Commons PDDL v1.0 text", "url": "licenses/pddl-1.0/text.html", "role": "primary evidence" }
+  ]
+}

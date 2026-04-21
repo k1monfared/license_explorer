@@ -1,0 +1,120 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-6", "note": "§1.1: A Data Recipient may use, modify, and share the Data made available by Data Provider(s) under this agreement if that Data Recipient follows the terms of this agreement." },
+        { "sentence_id": "s-16", "note": "§3.1: This agreement does not impose any restriction or obligations with respect to the use, modification, or sharing of Results — including commercial uses of trained models." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-6", "note": "§1.1: A Data Recipient may use, modify, and share the Data made available by Data Provider(s) under this agreement." },
+        { "sentence_id": "s-12", "note": "§2.1: A Data Recipient may share Data, with or without modifications." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-6", "note": "§1.1: A Data Recipient may use, modify, and share the Data." },
+        { "sentence_id": "s-12", "note": "§2.1: A Data Recipient may share Data, with or without modifications, so long as the Data Recipient makes available the text of this agreement with the shared Data." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-6", "note": "§1.1 grants use rights without restricting them to public or redistribution scenarios." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CDLA-Permissive-2.0 is silent on patents. The license text does not mention patents at all; it governs use, modification, and sharing of Data but does not grant or disclaim patent rights. This is by design: CDLA-Permissive-2.0 is deliberately minimal (~2.4 KB of text) and is intended to operate orthogonally to whatever patent regime applies to the Data Provider and Data Recipient."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-12", "note": "§2.1: A Data Recipient may share Data, with or without modifications, so long as the Data Recipient makes available the text of this agreement with the shared Data." }
+      ],
+      "external_references": [],
+      "commentary": "CDLA-Permissive-2.0 expresses attribution/notice as a single obligation: when sharing Data, the recipient must make the agreement text available with it. There is no separate attribution-of-author clause — carrying the agreement text forward is the only notice obligation."
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "§3.1 explicitly exempts Results (including trained machine-learning models) from any sharing obligation, which is one of the headline differences between CDLA-Permissive-2.0 and CDLA-Sharing-1.0. The license does not require a recipient to disclose the Data or any derivative datasets beyond carrying the agreement text with actually shared Data."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CDLA-Permissive-2.0 is the permissive arm of the CDLA family. Modified or curated Data may be shared under any terms, as long as the agreement text is made available with the shared Data. There is no share-alike obligation comparable to CDLA-Sharing-1.0 §3."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-12", "note": "§2.1: A Data Recipient may share Data, with or without modifications, so long as the Data Recipient makes available the text of this agreement with the shared Data." }
+      ],
+      "external_references": [],
+      "commentary": "Attribution under CDLA-Permissive-2.0 takes the minimal form of making the agreement text available with the shared Data. Unlike ODC-By or CDLA-Sharing-1.0, there is no explicit requirement to credit the Data Provider by name."
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-22", "note": "§4.1: NO DATA PROVIDER SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-21", "note": "§4.1: THE DATA IS PROVIDED ON AN AS IS BASIS, WITHOUT REPRESENTATIONS, WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "The agreement text does not mention trademarks. There is no grant and no disclaimer; default trademark law applies."
+    }
+  ],
+  "sources": [
+    { "source": "Community Data License Agreement - Permissive, Version 2.0 text", "url": "licenses/cdla-permissive-2.0/text.html", "role": "primary evidence" }
+  ]
+}

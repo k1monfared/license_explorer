@@ -94,6 +94,22 @@
     "warranty": "forbidden",
     "trademark": "silent"
   },
+  "cdla-permissive-2.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "silent",
+    "include-copyright": "required",
+    "document-changes": "silent",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
   "cern-ohl-p-2.0": {
     "commercial-use": "permitted",
     "modification": "permitted",
@@ -430,6 +446,38 @@
     "warranty": "forbidden",
     "trademark": "silent"
   },
+  "cc-by-2.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
+  "cc-by-2.5": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
   "cc-by-3.0": {
     "commercial-use": "permitted",
     "modification": "permitted",
@@ -462,6 +510,22 @@
     "warranty": "forbidden",
     "trademark": "forbidden"
   },
+  "cc-by-nc-2.0": {
+    "commercial-use": "forbidden",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
   "cc-by-nc-4.0": {
     "commercial-use": "forbidden",
     "modification": "permitted",
@@ -477,6 +541,22 @@
     "liability": "forbidden",
     "warranty": "forbidden",
     "trademark": "forbidden"
+  },
+  "cc-by-nc-nd-2.0": {
+    "commercial-use": "forbidden",
+    "modification": "grey",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "silent",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
   },
   "cc-by-nc-nd-4.0": {
     "commercial-use": "forbidden",
@@ -494,6 +574,22 @@
     "warranty": "forbidden",
     "trademark": "forbidden"
   },
+  "cc-by-nd-2.0": {
+    "commercial-use": "permitted",
+    "modification": "grey",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "silent",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
   "cc-by-nd-4.0": {
     "commercial-use": "permitted",
     "modification": "grey",
@@ -509,6 +605,22 @@
     "liability": "forbidden",
     "warranty": "forbidden",
     "trademark": "forbidden"
+  },
+  "odc-by-1.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "silent",
+    "include-copyright": "required",
+    "document-changes": "silent",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
   },
   "ofl-1.1": {
     "commercial-use": "permitted",
@@ -526,6 +638,22 @@
     "warranty": "forbidden",
     "trademark": "forbidden"
   },
+  "cc-by-nc-sa-2.0": {
+    "commercial-use": "forbidden",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "required",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
   "cc-by-nc-sa-4.0": {
     "commercial-use": "forbidden",
     "modification": "permitted",
@@ -541,6 +669,38 @@
     "liability": "forbidden",
     "warranty": "forbidden",
     "trademark": "forbidden"
+  },
+  "cc-by-sa-2.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "required",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
+  "cc-by-sa-2.5": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "grey",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "required",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
   },
   "cc-by-sa-3.0": {
     "commercial-use": "permitted",
@@ -574,6 +734,22 @@
     "warranty": "forbidden",
     "trademark": "forbidden"
   },
+  "cdla-sharing-1.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "silent",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "required",
+    "network-use-disclose": "silent",
+    "same-license": "required",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
+  },
   "gfdl-1.3-only": {
     "commercial-use": "permitted",
     "modification": "permitted",
@@ -589,6 +765,22 @@
     "liability": "grey",
     "warranty": "grey",
     "trademark": "forbidden"
+  },
+  "odbl-1.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "silent",
+    "include-copyright": "required",
+    "document-changes": "required",
+    "disclose-source": "required",
+    "network-use-disclose": "silent",
+    "same-license": "required",
+    "attribution": "required",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
   },
   "tapr-ohl-1.0": {
     "commercial-use": "permitted",
@@ -621,6 +813,22 @@
     "liability": "forbidden",
     "warranty": "forbidden",
     "trademark": "grey"
+  },
+  "pddl-1.0": {
+    "commercial-use": "permitted",
+    "modification": "permitted",
+    "distribution": "permitted",
+    "private-use": "permitted",
+    "patent-use": "silent",
+    "include-copyright": "silent",
+    "document-changes": "silent",
+    "disclose-source": "silent",
+    "network-use-disclose": "silent",
+    "same-license": "silent",
+    "attribution": "silent",
+    "liability": "forbidden",
+    "warranty": "forbidden",
+    "trademark": "silent"
   },
   "unlicense": {
     "commercial-use": "permitted",

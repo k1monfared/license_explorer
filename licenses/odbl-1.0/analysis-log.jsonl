@@ -1,0 +1,6 @@
+{"timestamp":"2026-04-21T21:49:21.980Z","step":"fetch-text","url":"https://raw.githubusercontent.com/spdx/license-list-data/main/text/ODbL-1.0.txt","sha256":"77d2692c3d64efdd4db18dce2407699baf62930e2b50d6e5ed90b48acf16b7c1","bytes":25255}
+{"timestamp":"2026-04-21T21:49:22.000Z","step":"tokenize","sentences":239}
+{"timestamp":"2026-04-21T21:49:22.020Z","step":"source-archive","url":"https://opendatacommons.org/licenses/odbl/1-0/","archive_sha256":"09b23c6106f6cea93c247ecaf4ed46fbb13c33537d64975f31a1e5fcf365297d"}
+{"timestamp":"2026-04-21T21:49:22.039Z","step":"source-archive","url":"https://wiki.openstreetmap.org/wiki/Open_Database_License","archive_sha256":"d04837f99d6c684985e5f68977688d929fb07b458ebf165207fcdd1dc968b4c9"}
+{"timestamp":"2026-04-21T21:49:22.059Z","step":"source-archive","url":"https://en.wikipedia.org/wiki/Open_Database_License","archive_sha256":"bee099d3d80357b05f50513d7257691116dfe333c436a268f8a5b20323a8c35d"}
+{"timestamp":"2026-04-21T21:49:22.078Z","step":"analysis-complete","topics":["osm-adoption","collective-vs-derivative-database","access-to-derivative-databases"]}

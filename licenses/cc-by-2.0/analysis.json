@@ -1,0 +1,78 @@
+{
+  "entries": [
+    {
+      "topic": "flickr-default-era",
+      "summary": "Wikipedia's Flickr article states that Flickr 'hosts the largest collection of Creative Commons-licensed photos on the web' and that 'the licensing options primarily include the Creative Commons 2.0 attribution-based and minor content-control licenses — although jurisdiction and version-specific licenses cannot be selected.' Because Flickr's CC chooser was built against the 2.0 suite and the platform has never let users upgrade historical photos to 3.0 or 4.0, the vast majority of CC-licensed photos uploaded during the 2004-2014 decade remain governed specifically by CC-BY-2.0 (or its non-commercial or share-alike 2.0 siblings). The CC License_Versions wiki confirms the 2.0 suite was released 2004-05-25 and was the generation in active use during Flickr's 2005-era CC integration. Flickr's CC integration produced real legal consequences for this version: in the Drauglis v. Kappa Map Group case, a photographer's 'Creative Commons Attribution-ShareAlike 2.0 Generic License' on a photo uploaded to Flickr was the operative license when Kappa Map published the photo on an atlas cover, and 'the validity of CC BY-SA 2.0 as a license was not in dispute.'",
+      "sources": [
+        {
+          "source": "Wikipedia — Flickr (Licensing section)",
+          "url": "https://en.wikipedia.org/wiki/Flickr",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74",
+          "archive_path": "licenses/cc-by-2.0/analysis-sources/7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74.html",
+          "excerpt": "Flickr also hosts the largest collection of Creative Commons-licensed photos on the web. … Flickr offers users the ability to either release their images under certain common usage licenses or label them as 'all rights reserved'. The licensing options primarily include the Creative Commons 2.0 attribution-based and minor content-control licenses — although jurisdiction and version-specific licenses cannot be selected. … In March 2015, Flickr added the Creative Commons Public Domain Mark and Creative Commons Zero (CC0) to its licensing options."
+        },
+        {
+          "source": "Wikipedia — Creative Commons license (Drauglis v. Kappa Map Group)",
+          "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+          "archive_path": "licenses/cc-by-2.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html",
+          "excerpt": "In 2007, photographer Art Drauglis uploaded several pictures to the photo-sharing website Flickr, giving them the Creative Commons Attribution-ShareAlike 2.0 Generic License (CC BY-SA). One photo, titled 'Swain's Lock, Montgomery Co., MD.', was downloaded by Kappa Map Group, a map-making company, and published in 2012 on the front cover of Montgomery Co. Maryland Street Atlas. … The validity of CC BY-SA 2.0 as a license was not in dispute."
+        },
+        {
+          "source": "Creative Commons Wiki — License Versions (2.0 release)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-2.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "License version … 2.0 2004 May 25 Versioning -- Public Review Begins Announcing (and explaining) our new 2.0 licenses. … In the 1.0, 2.0, and 2.5 versions, the international licenses were called the 'generic' licenses. The generic licenses were drafted to conform with U.S. copyright law."
+        }
+      ]
+    },
+    {
+      "topic": "generic-vs-international",
+      "summary": "The CC License_Versions wiki explicitly records that the 2.0 suite is a 'Generic license' drafted to conform to U.S. copyright law, not an 'international' license. This nomenclature applies to versions 1.0, 2.0, and 2.5 alike; the unported licenses were only rebranded 'international' starting with 3.0, and rewritten to conform to international treaties instead of U.S. law. The comparison chart confirms CC 2.0 does not address moral rights, does not license sui generis database rights, does not reserve trademark or patent rights, and does not require indication of modifications — all features introduced only in later versions (3.0 or 4.0).",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — License Versions (nomenclature + feature chart)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-2.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "General license features: License Suite Version 1.0 / 2.0 / 2.5 / 3.0 / 4.0. Nomenclature (for unported licenses): Generic license / Generic license / Generic license / International (unported) license / International license. License scope (beyond copyright) … Express permission granted under sui generis database rights: No / No / No / EU ports only / Yes. Treatment of moral rights: Not addressed / Not addressed / Not addressed / Varied / Waived/not asserted. Trademark and patent explicitly reserved: No / No / No / No / Yes. … Modifications must be indicated: No / No / No / Yes, but only adaptations / Yes. … In the 1.0, 2.0, and 2.5 versions, the international licenses were called the 'generic' licenses. The generic licenses were drafted to conform with U.S. copyright law. Starting with version 3.0, Creative Commons drafted its core suite of licenses to conform to relevant international treaties and drafting conventions."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC BY 2.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by/2.0/legalcode",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "bb40a5826a21440aa342f73e56bc00c2bd7305f3cfb20785adc305ca52a16d18",
+      "archive_path": "licenses/cc-by-2.0/analysis-sources/bb40a5826a21440aa342f73e56bc00c2bd7305f3cfb20785adc305ca52a16d18.html"
+    },
+    {
+      "source": "Creative Commons Wiki — License Versions",
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+      "archive_path": "licenses/cc-by-2.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html"
+    },
+    {
+      "source": "Wikipedia — Flickr",
+      "url": "https://en.wikipedia.org/wiki/Flickr",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74",
+      "archive_path": "licenses/cc-by-2.0/analysis-sources/7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74.html"
+    },
+    {
+      "source": "Wikipedia — Creative Commons license",
+      "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+      "archive_path": "licenses/cc-by-2.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html"
+    }
+  ]
+}

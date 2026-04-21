@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "jurisdiction-ports-history",
+      "summary": "CC BY 2.5 was released in June 2005 as a 'Generic' license drafted against U.S. copyright law, and sits in the middle of the 1.0/2.0/2.5 era during which CC's core mechanism for international adoption was 'porting': legal experts in each jurisdiction adapted the English text to align with local copyright law. The License_Versions wiki records that v2.5 was an interim release whose headline change was 'Tweaking CC's Standard Attribution Language' (allowing attribution to a designated party, not only the author), and that the 1.0, 2.0, and 2.5 'generic' licenses were drafted to conform with U.S. copyright law. Prior to version 4.0, Creative Commons granted permission to legal experts around the world to adapt the licenses to the laws of different jurisdictions, producing ported BY 2.5 variants across dozens of countries before the unified, port-less 4.0 text superseded the port model in 2013.",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — License Versions (2.5 release, porting and 'generic' nomenclature)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-2.5/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "2.5 2005 June Tweaking CC's Standard Attribution Language -- An Invitation to Comment … In the 1.0, 2.0, and 2.5 versions, the international licenses were called the 'generic' licenses. The generic licenses were drafted to conform with U.S. copyright law. … Prior to version 4.0, Creative Commons granted permission to legal experts around the world to adapt (or 'port') the licenses where necessary to more fully align the text with the laws of different legal jurisdictions, and to translate the licenses to the local language(s)."
+        },
+        {
+          "source": "Creative Commons — CC BY 2.5 Legal Code (canonical 2.5 generic text)",
+          "url": "https://creativecommons.org/licenses/by/2.5/legalcode",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "c97d54a4c2dff60f5ab747fdaf2fd0e766f7550017355c127d3febaafca7fc64",
+          "archive_path": "licenses/cc-by-2.5/analysis-sources/c97d54a4c2dff60f5ab747fdaf2fd0e766f7550017355c127d3febaafca7fc64.html",
+          "summary": "Canonical legalcode page for CC BY 2.5 Generic. The page's 'Other Jurisdictions' sidebar links to the dozens of 2.5 ported variants (Australia, Brazil, Canada, France, Japan, and others), illustrating in-production the port-based model that 4.0 later replaced."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons Wiki — License Versions",
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+      "archive_path": "licenses/cc-by-2.5/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html"
+    },
+    {
+      "source": "Creative Commons — CC BY 2.5 Legal Code",
+      "url": "https://creativecommons.org/licenses/by/2.5/legalcode",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "c97d54a4c2dff60f5ab747fdaf2fd0e766f7550017355c127d3febaafca7fc64",
+      "archive_path": "licenses/cc-by-2.5/analysis-sources/c97d54a4c2dff60f5ab747fdaf2fd0e766f7550017355c127d3febaafca7fc64.html"
+    }
+  ]
+}

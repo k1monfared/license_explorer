@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "topic": "attribution-only-positioning",
+      "summary": "ODC-By is the attribution-only sibling of ODbL in the Open Data Commons family. The plain-language summary on opendatacommons.org enumerates three freedoms (share, create, adapt) subject to a single obligation (attribute) — mirroring CC-BY's structure but pointed at databases rather than creative works. Unlike ODbL there is no share-alike clause: Derivative Databases may be relicensed under any terms, including proprietary terms, provided the attribution notice travels with the database and with any Produced Work. Open Data Commons pitches ODC-By as the right default for data producers who want credit but do not want to force copyleft on downstream integrators.",
+      "sources": [
+        {
+          "source": "Open Data Commons — ODC-By 1.0 Summary (plain-language)",
+          "url": "https://opendatacommons.org/licenses/by/summary/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "432570b591b5e2d3c4d126a2a5f5dc5a34a7ddfb80e8f31a6373a59dfc5e1c38",
+          "archive_path": "licenses/odc-by-1.0/analysis-sources/432570b591b5e2d3c4d126a2a5f5dc5a34a7ddfb80e8f31a6373a59dfc5e1c38.html",
+          "excerpt": "You are free: To share: To copy, distribute and use the database. To create: To produce works from the database. To adapt: To modify, transform and build upon the database. As long as you: Attribute: You must attribute any public use of the database, or works produced from the database, in the manner specified in the license. For any use or redistribution of the database, or works produced from it, you must make clear to others the license of the database and keep intact any notices on the original database."
+        }
+      ]
+    },
+    {
+      "topic": "database-vs-contents",
+      "summary": "ODC-By inherits the ODbL architecture that a license over a database and a license over its contents are two different things. §2.1–§2.4 scope the license strictly to copyright, the EU sui generis database right, and a contract binding on the licensee; §2.4 expressly carves out individual Contents that may carry their own copyright or privacy rights. The canonical Open Data Commons publication reiterates this: licensors are advised to use ODC-By together with a separate content license when the contents have their own uniform rights, because ODC-By governs the database structure and Substantial extraction, not the individual datapoints.",
+      "sources": [
+        {
+          "source": "Open Data Commons — ODC-By 1.0 (canonical legal text)",
+          "url": "https://opendatacommons.org/licenses/by/1-0/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "7d7e622bbb4b5f21b1c5cb2dd7ce8b1b747ee2c3ab9fc8309c19082e12d13b2d",
+          "archive_path": "licenses/odc-by-1.0/analysis-sources/7d7e622bbb4b5f21b1c5cb2dd7ce8b1b747ee2c3ab9fc8309c19082e12d13b2d.html",
+          "summary": "Canonical Open Data Commons publication of ODC-By v1.0, including the preamble guidance that the license only governs the rights over the Database (not the contents) and §2.4 Relationship to Contents in the Database, which recommends pairing ODC-By with a separate license for Contents where the individual items carry their own rights."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Open Data Commons — ODC-By 1.0 (canonical)",
+      "url": "https://opendatacommons.org/licenses/by/1-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "7d7e622bbb4b5f21b1c5cb2dd7ce8b1b747ee2c3ab9fc8309c19082e12d13b2d",
+      "archive_path": "licenses/odc-by-1.0/analysis-sources/7d7e622bbb4b5f21b1c5cb2dd7ce8b1b747ee2c3ab9fc8309c19082e12d13b2d.html"
+    },
+    {
+      "source": "Open Data Commons — ODC-By 1.0 Summary",
+      "url": "https://opendatacommons.org/licenses/by/summary/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "432570b591b5e2d3c4d126a2a5f5dc5a34a7ddfb80e8f31a6373a59dfc5e1c38",
+      "archive_path": "licenses/odc-by-1.0/analysis-sources/432570b591b5e2d3c4d126a2a5f5dc5a34a7ddfb80e8f31a6373a59dfc5e1c38.html"
+    }
+  ]
+}

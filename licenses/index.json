@@ -102,6 +102,24 @@
     "fsf_stance": "endorsed"
   },
   {
+    "id": "cdla-permissive-2.0",
+    "name": "Community Data License Agreement - Permissive, Version 2.0",
+    "spdx": "CDLA-Permissive-2.0",
+    "medium": "data",
+    "archetype": "permissive",
+    "blurb": "Linux Foundation's permissive data license. Widely used in ML training datasets. Allows use and modification with a minimal notice obligation; Results (e.g. trained models) are unrestricted.",
+    "tags": [
+      "data",
+      "permissive",
+      "machine-learning",
+      "linux-foundation",
+      "cdla"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "unclassified"
+  },
+  {
     "id": "cern-ohl-p-2.0",
     "name": "CERN Open Hardware Licence Version 2 - Permissive",
     "spdx": "CERN-OHL-P-2.0",
@@ -467,6 +485,41 @@
     "fsf_stance": "endorsed"
   },
   {
+    "id": "cc-by-2.0",
+    "name": "Creative Commons Attribution 2.0 Generic",
+    "spdx": "CC-BY-2.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "CC Attribution 2.0 — Flickr's default license for years; lots of legacy content. Permits commercial use, modification, distribution with credit.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "media",
+      "generic",
+      "legacy"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
+  },
+  {
+    "id": "cc-by-2.5",
+    "name": "Creative Commons Attribution 2.5 Generic",
+    "spdx": "CC-BY-2.5",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Older CC Attribution 2.5. Transitional version, jurisdiction-ported in many countries. Permits commercial use, modification, distribution with credit.",
+    "tags": [
+      "attribution",
+      "creative-commons",
+      "legacy",
+      "jurisdiction-ported"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
+  },
+  {
     "id": "cc-by-3.0",
     "name": "Creative Commons Attribution 3.0 Unported",
     "spdx": "CC-BY-3.0",
@@ -501,6 +554,24 @@
     "fsf_stance": "non-software"
   },
   {
+    "id": "cc-by-nc-2.0",
+    "name": "Creative Commons Attribution-NonCommercial 2.0",
+    "spdx": "CC-BY-NC-2.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Older CC-BY-NC 2.0. Restricts to noncommercial use only. Classified nonfree by FSF.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "non-commercial",
+      "media",
+      "legacy"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "nonfree"
+  },
+  {
     "id": "cc-by-nc-4.0",
     "name": "Creative Commons Attribution-NonCommercial 4.0 International",
     "spdx": "CC-BY-NC-4.0",
@@ -512,6 +583,25 @@
       "attribution",
       "non-commercial",
       "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "nonfree"
+  },
+  {
+    "id": "cc-by-nc-nd-2.0",
+    "name": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0",
+    "spdx": "CC-BY-NC-ND-2.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Most restrictive CC 2.0 variant. NC + ND. Nonfree per FSF.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "non-commercial",
+      "no-derivatives",
+      "media",
+      "legacy"
     ],
     "osi_approved": false,
     "fsf_libre": false,
@@ -536,6 +626,24 @@
     "fsf_stance": "nonfree"
   },
   {
+    "id": "cc-by-nd-2.0",
+    "name": "Creative Commons Attribution-NoDerivs 2.0",
+    "spdx": "CC-BY-ND-2.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "CC-BY-ND 2.0. Permits distribution of verbatim copies but forbids derivatives. Classified nonfree by FSF for works of practical use.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "no-derivatives",
+      "media",
+      "legacy"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "nonfree"
+  },
+  {
     "id": "cc-by-nd-4.0",
     "name": "Creative Commons Attribution-NoDerivatives 4.0 International",
     "spdx": "CC-BY-ND-4.0",
@@ -551,6 +659,23 @@
     "osi_approved": false,
     "fsf_libre": false,
     "fsf_stance": "nonfree"
+  },
+  {
+    "id": "odc-by-1.0",
+    "name": "Open Data Commons Attribution License v1.0",
+    "spdx": "ODC-By-1.0",
+    "medium": "data",
+    "archetype": "attribution",
+    "blurb": "Attribution-only sibling of ODbL. Permits use, modification, and sharing of databases provided the Producer is credited. No share-alike obligation.",
+    "tags": [
+      "data",
+      "attribution",
+      "database",
+      "open-data-commons"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "unclassified"
   },
   {
     "id": "ofl-1.1",
@@ -571,6 +696,25 @@
     "fsf_stance": "non-software"
   },
   {
+    "id": "cc-by-nc-sa-2.0",
+    "name": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0",
+    "spdx": "CC-BY-NC-SA-2.0",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Older CC-BY-NC-SA 2.0. Adds ShareAlike to NC.",
+    "tags": [
+      "creative-commons",
+      "attribution",
+      "non-commercial",
+      "share-alike",
+      "media",
+      "legacy"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "nonfree"
+  },
+  {
     "id": "cc-by-nc-sa-4.0",
     "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
     "spdx": "CC-BY-NC-SA-4.0",
@@ -588,6 +732,43 @@
     "osi_approved": false,
     "fsf_libre": false,
     "fsf_stance": "nonfree"
+  },
+  {
+    "id": "cc-by-sa-2.0",
+    "name": "Creative Commons Attribution-ShareAlike 2.0 Generic",
+    "spdx": "CC-BY-SA-2.0",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "CC ShareAlike 2.0. Predecessor to 2.5/3.0/4.0. Adaptations must be CC-BY-SA.",
+    "tags": [
+      "creative-commons",
+      "share-alike",
+      "attribution",
+      "media",
+      "generic",
+      "legacy"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
+  },
+  {
+    "id": "cc-by-sa-2.5",
+    "name": "Creative Commons Attribution-ShareAlike 2.5 Generic",
+    "spdx": "CC-BY-SA-2.5",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Older CC ShareAlike 2.5. Adds ShareAlike to BY-2.5. Legacy license attached to 2005-2007 era content.",
+    "tags": [
+      "share-alike",
+      "copyleft",
+      "creative-commons",
+      "legacy",
+      "jurisdiction-ported"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
   },
   {
     "id": "cc-by-sa-3.0",
@@ -627,6 +808,25 @@
     "fsf_stance": "non-software"
   },
   {
+    "id": "cdla-sharing-1.0",
+    "name": "Community Data License Agreement - Sharing, Version 1.0",
+    "spdx": "CDLA-Sharing-1.0",
+    "medium": "data",
+    "archetype": "share-alike",
+    "blurb": "Data copyleft variant of CDLA. Data-focused analog of ShareAlike; Enhanced Data must be Published under CDLA-Sharing. Results of computational analysis are exempt.",
+    "tags": [
+      "data",
+      "share-alike",
+      "copyleft",
+      "linux-foundation",
+      "cdla",
+      "machine-learning"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "unclassified"
+  },
+  {
     "id": "gfdl-1.3-only",
     "name": "GNU Free Documentation License v1.3 only",
     "spdx": "GFDL-1.3-only",
@@ -644,6 +844,26 @@
     "osi_approved": false,
     "fsf_libre": true,
     "fsf_stance": "non-software"
+  },
+  {
+    "id": "odbl-1.0",
+    "name": "Open Database License (ODbL) v1.0",
+    "spdx": "ODbL-1.0",
+    "medium": "data",
+    "archetype": "share-alike",
+    "blurb": "Share-alike copyleft for databases. OpenStreetMap's license. Requires Adapted Databases to be under ODbL or a compatible license.",
+    "tags": [
+      "data",
+      "share-alike",
+      "attribution",
+      "database",
+      "copyleft",
+      "openstreetmap",
+      "open-data-commons"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "unclassified"
   },
   {
     "id": "tapr-ohl-1.0",
@@ -673,6 +893,24 @@
       "no-attribution",
       "no-patent-grant",
       "creative-commons"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "accepted"
+  },
+  {
+    "id": "pddl-1.0",
+    "name": "Open Data Commons Public Domain Dedication and License v1.0",
+    "spdx": "PDDL-1.0",
+    "medium": "data",
+    "archetype": "public-domain",
+    "blurb": "CC0-equivalent for databases. Waives all rights as public-domain dedication with fallback licence for jurisdictions that do not recognise dedications.",
+    "tags": [
+      "data",
+      "public-domain",
+      "database",
+      "open-data-commons",
+      "dedication"
     ],
     "osi_approved": false,
     "fsf_libre": true,

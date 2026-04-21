@@ -1,0 +1,136 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-29", "note": "§2.1: Data Provider(s) hereby grant(s) to You a worldwide, non-exclusive, irrevocable ... right to: (a) Use Data; and (b) Publish Data." },
+        { "sentence_id": "s-41", "note": "§3.3: You may not modify this Agreement or impose any further restrictions on the exercise of the rights granted under this Agreement, including by adding any restriction on commercial or non-commercial Use of Data." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-17", "note": "§1.8: \"Modify\" means to delete, erase, correct or re-arrange Data, resulting in \"Modifications.\"" },
+        { "sentence_id": "s-25", "note": "§1.13: \"Use\" means using Data (including accessing, copying, studying, reviewing, adapting, analyzing, evaluating, or making Computational Use of it)." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-29", "note": "§2.1: worldwide, non-exclusive, irrevocable right to: (a) Use Data; and (b) Publish Data." },
+        { "sentence_id": "s-18", "note": "§1.9: \"Publish\" means to make all or a subset of Data (including Your Enhanced Data) available in any manner which enables its Use, including by providing a copy on physical media or remote access." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-29", "note": "§2.1 grants Use rights without restricting them to public use; §1.9 draws the line between Use and Publish (making available to non-employees)." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-31", "note": "§2.3: Except for these rights and licenses expressly granted, no other intellectual property rights are granted or should be implied." }
+      ],
+      "external_references": [],
+      "commentary": "CDLA-Sharing-1.0 §2.3 explicitly states that no intellectual property rights other than those expressly granted should be implied. Patents are not mentioned anywhere in the agreement; the §5.2 patent-litigation termination (common in software licenses) is replaced with a broader claim-based termination that does not grant a patent license. The license is silent on patent use."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-37", "note": "§3.1(c): If You Publish Data You Receive, You must preserve all credit or attribution to the Data Provider(s)." },
+        { "sentence_id": "s-38", "note": "§3.1(c): Such retained credit or attribution includes any of the following to the extent they exist in Data as You have Received it: legal notices or metadata; identification of the Data Provider(s); or hyperlinks to Data to the extent it is practical to do so." },
+        { "sentence_id": "s-40", "note": "§3.3: If You Publish Data You Receive, You must do so under an unmodified form of this Agreement and include the text of this Agreement, the name of this Agreement and/or a hyperlink or other method reasonably likely to provide a copy of the text of this Agreement." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-36", "note": "§3.1(b): You must cause any Data files containing Enhanced Data to carry prominent notices that You have changed those files." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-35", "note": "§3.1(a): The Data (including the Enhanced Data) must be Published under this Agreement in accordance with this Section 3." },
+        { "sentence_id": "s-39", "note": "§3.2: You may not restrict or deter the ability of anyone who Receives the Data (a) to Publish the Data in a publicly-accessible manner or (b) to record it in the Ledger if the project has designated one." }
+      ],
+      "external_references": [],
+      "commentary": "For a data license, \"disclose source\" maps onto the obligation to publish the Data itself: §3.1(a) requires any Published Enhanced Data to be Published under CDLA-Sharing-1.0, and §3.2 prohibits restricting or deterring anyone from republishing. Together they give CDLA-Sharing the data-copyleft guarantee that the enhanced dataset remains accessible."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-18", "note": "§1.9 defines Publish to include remote access, so serving Data over a network counts as Publication and can trigger §3's conditions — but there is no Affero-style network-use disclosure obligation for pure Computational Use that does not re-Publish the Data." }
+      ],
+      "external_references": [],
+      "commentary": "CDLA-Sharing-1.0 has no Affero-style clause. Remote access that itself makes the Data available is Publication under §1.9 and triggers §3's sharing obligations, but using Data purely to generate Results over a network (§3.5 exempts Results) does not trigger a disclosure requirement."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-35", "note": "§3.1(a): The Data (including the Enhanced Data) must be Published under this Agreement in accordance with this Section 3." },
+        { "sentence_id": "s-40", "note": "§3.3: If You Publish Data You Receive, You must do so under an unmodified form of this Agreement." },
+        { "sentence_id": "s-69", "note": "§7.5: You may Use and Publish Data Received hereunder under the terms of the version of the Agreement under which You originally Received the Data, or under the terms of any subsequent version published by the Steward." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-37", "note": "§3.1(c): If You Publish Data You Receive, You must preserve all credit or attribution to the Data Provider(s)." },
+        { "sentence_id": "s-38", "note": "§3.1(c): Such retained credit or attribution includes ... legal notices or metadata; identification of the Data Provider(s); or hyperlinks to Data to the extent it is practical to do so." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-57", "note": "§6.2: NEITHER YOU NOR ANY DATA PROVIDERS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-56", "note": "§6.1: EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE DATA (INCLUDING ENHANCED DATA) IS PROVIDED ON AN AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-31", "note": "§2.3: Except for these rights and licenses expressly granted, no other intellectual property rights are granted or should be implied." }
+      ],
+      "external_references": [],
+      "commentary": "CDLA-Sharing-1.0 does not mention trademarks explicitly. §2.3's blanket disclaimer that no other intellectual property rights are implied covers trademarks by inference, but there is no Apache-style no-trademark-license section. Default trademark law applies; no trademark rights are granted."
+    }
+  ],
+  "sources": [
+    { "source": "Community Data License Agreement - Sharing, Version 1.0 text", "url": "licenses/cdla-sharing-1.0/text.html", "role": "primary evidence" }
+  ]
+}

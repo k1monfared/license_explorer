@@ -1,0 +1,125 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-32", "note": "Section 3: worldwide, royalty-free, non-exclusive, perpetual license grant with no NonCommercial restriction." },
+        { "sentence_id": "s-36", "note": "Section 3(b): right to distribute copies, display, perform, and digitally transmit the Work." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-54", "note": "Section 3 trailer: 'The above rights include the right to make such modifications as are technically necessary to exercise the rights in other media and formats, but otherwise you have no rights to make Derivative Works.'" },
+        { "sentence_id": "s-55", "note": "Section 3 trailer: 'All rights not expressly granted by Licensor are hereby reserved.'" }
+      ],
+      "external_references": [],
+      "commentary": "CC-BY-ND-2.0 does not grant any general right to create Derivative Works. Section 3 trailer (s-54) limits modifications to those 'technically necessary to exercise the rights in other media and formats' and expressly states 'otherwise you have no rights to make Derivative Works.' This is stricter than CC-BY-ND-4.0, which allows private production of Adapted Material but forbids sharing; CC-BY-ND-2.0 forbids making the derivative at all (beyond format-shifting). Recorded as grey because a narrow class of technical-format modifications is permitted but substantive modification is not."
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-36", "note": "Section 3(b): right 'to distribute copies or phonorecords of, display publicly, perform publicly, and perform publicly by means of a digital audio transmission the Work including as incorporated in Collective Works'." },
+        { "sentence_id": "s-34", "note": "Section 3(a): right 'to reproduce the Work, to incorporate the Work into one or more Collective Works, and to reproduce the Work as incorporated in the Collective Works'." }
+      ],
+      "external_references": [],
+      "commentary": "Distribution of the unmodified Work (or of the Work included in a Collective Work) is permitted. Distribution of Derivative Works is not, because no right to make Derivative Works is granted beyond technically necessary format changes."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-32", "note": "Section 3: 'Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to exercise the rights in the Work as stated below'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-55", "note": "Section 3 trailer: 'All rights not expressly granted by Licensor are hereby reserved.'" }
+      ],
+      "external_references": [],
+      "commentary": "CC 2.0 is silent on patents. Unlike CC 4.0's explicit exclusion (§2(b)(2)), CC-BY-ND-2.0 does not mention patent rights at all. The residual rights-reservation clause (Section 3 trailer, s-55) reserves whatever is not expressly granted, so no patent license is granted implicitly. Treated as grey because the text neither grants nor expressly refuses a patent license."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-60", "note": "Section 4(a): 'You may distribute ... the Work only under the terms of this License, and You must include a copy of, or the Uniform Resource Identifier for, this License with every copy or phonorecord of the Work You distribute ...'." },
+        { "sentence_id": "s-63", "note": "Section 4(a): 'You must keep intact all notices that refer to this License and to the disclaimer of warranties.'" },
+        { "sentence_id": "s-68", "note": "Section 4(b): 'You must keep intact all copyright notices for the Work' when distributing." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC-BY-ND-2.0 does not grant a general right to make Derivative Works (s-54), so no 'document-changes' obligation attaches to permitted distributions (which are of the Work itself, unmodified beyond technical format-shifting). The question is moot under ND."
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC-BY-ND-2.0 has no ShareAlike element, and because Derivative Works may not be created (beyond technical format-shifting), the question of what license to apply to derivatives does not arise."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-68", "note": "Section 4(b): 'You must keep intact all copyright notices for the Work and give the Original Author credit reasonable to the medium or means You are utilizing by conveying the name (or pseudonym if applicable) of the Original Author if supplied; the title of the Work if supplied; to the extent reasonably practicable, the Uniform Resource Identifier, if any, that Licensor specifies to be associated with the Work ...'." },
+        { "sentence_id": "s-69", "note": "Section 4(b) continued: 'in the case of a Collective Work, at a minimum such credit will appear where any other comparable authorship credit appears and in a manner at least as prominent as such other comparable authorship credit.'" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-76", "note": "Section 6: 'EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-72", "note": "Section 5: 'UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING, LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "CC 2.0 does not address the licensor's trademark rights in the Work. The only trademark reference in the text (s-102) concerns the Creative Commons organization's own trademarks, not any trademarks associated with the Licensed Work. Unlike CC 4.0 (which in §2(b)(2) expressly excludes patent and trademark rights from the grant), CC 2.0 is entirely silent on the Work's trademark status."
+    }
+  ],
+  "sources": [
+    { "source": "Creative Commons Attribution-NoDerivs 2.0 text", "url": "licenses/cc-by-nd-2.0/text.html", "role": "primary evidence" }
+  ]
+}

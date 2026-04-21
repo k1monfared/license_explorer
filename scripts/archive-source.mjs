@@ -38,7 +38,30 @@ if (!r.ok) {
   console.error(`HTTP ${r.status} ${r.statusText} for ${url}`);
   process.exit(1);
 }
-const body = Buffer.from(await r.arrayBuffer());
+let body = Buffer.from(await r.arrayBuffer());
+
+// Redact secret-shaped strings BEFORE writing. These are almost always the
+// target site's own keys (Google Analytics, Fonts, Maps embedded in pages we
+// archive for their legal discussion), but GitHub's secret scanner flags any
+// exposed occurrence in the repo regardless of ownership. Redacting preserves
+// the substantive content of the page while keeping our repo off the scanner.
+const SECRET_PATTERNS = [
+  { name: 'Google API key',    re: /AIza[0-9A-Za-z_-]{35}/g,            replacement: '[REDACTED-GOOGLE-API-KEY]' },
+  { name: 'AWS access key id', re: /AKIA[0-9A-Z]{16}/g,                   replacement: '[REDACTED-AWS-KEY-ID]' },
+  { name: 'Slack token',       re: /xox[baprs]-[0-9a-zA-Z-]{10,}/g,       replacement: '[REDACTED-SLACK-TOKEN]' },
+  { name: 'GitHub PAT',        re: /ghp_[0-9a-zA-Z]{36}/g,                replacement: '[REDACTED-GITHUB-PAT]' },
+  { name: 'GitHub fine-grained PAT', re: /github_pat_[0-9a-zA-Z_]{22,}/g, replacement: '[REDACTED-GITHUB-PAT]' }
+];
+let redactions = 0;
+{
+  let text = body.toString('utf8');
+  for (const p of SECRET_PATTERNS) {
+    const before = text;
+    text = text.replace(p.re, p.replacement);
+    if (text !== before) redactions++;
+  }
+  if (redactions > 0) body = Buffer.from(text, 'utf8');
+}
 const sha = crypto.createHash('sha256').update(body).digest('hex');
 
 const ct = (r.headers.get('content-type') || 'application/octet-stream').toLowerCase();
@@ -66,7 +89,8 @@ const meta = {
   sha256: sha,
   bytes: body.length,
   content_type: ct,
-  http_status: r.status
+  http_status: r.status,
+  redactions: redactions > 0 ? redactions : undefined
 };
 // Preserve history of retrievals if meta already exists.
 let history = [];

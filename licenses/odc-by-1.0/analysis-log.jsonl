@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-21T21:51:48.961Z","step":"fetch-text","url":"https://raw.githubusercontent.com/spdx/license-list-data/main/text/ODC-By-1.0.txt","sha256":"b1c4de4bf91c95eec945ea7cbe0575fd52e7ee8fa430acb01d323d8214b1c482","bytes":19774}
+{"timestamp":"2026-04-21T21:51:48.982Z","step":"tokenize","sentences":181}
+{"timestamp":"2026-04-21T21:51:49.003Z","step":"source-archive","url":"https://opendatacommons.org/licenses/by/1-0/","archive_sha256":"7d7e622bbb4b5f21b1c5cb2dd7ce8b1b747ee2c3ab9fc8309c19082e12d13b2d"}
+{"timestamp":"2026-04-21T21:51:49.023Z","step":"source-archive","url":"https://opendatacommons.org/licenses/by/summary/","archive_sha256":"432570b591b5e2d3c4d126a2a5f5dc5a34a7ddfb80e8f31a6373a59dfc5e1c38"}
+{"timestamp":"2026-04-21T21:51:49.042Z","step":"analysis-complete","topics":["attribution-only-positioning","database-vs-contents"]}

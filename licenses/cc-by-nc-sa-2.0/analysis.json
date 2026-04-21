@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree-classification",
+      "summary": "The Free Software Foundation classifies the CC BY-NC family, any version (including the 2.0 ShareAlike variant), as nonfree for works of practical use. Its license list entry groups 'Creative Commons NonCommercial, any version' with other nonfree licenses and explains: 'This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation. In addition, it has a drawback for any sort of work: when a modified version has many authors, in practice getting permission for commercial use from all of them would become infeasible.' Adding ShareAlike to BY-NC does not rehabilitate the license in the FSF's view: ShareAlike propagates the license (and the NC restriction) to derivatives, but the underlying prohibition on commercial redistribution still forecloses the freedom-to-sell that the free-software definition requires. CC BY-NC-SA 2.0's NC clause (§4(c)) has the same substance as CC BY-NC 2.0's §4(b).",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-NC entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-sa-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons NonCommercial, any version. This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation. In addition, it has a drawback for any sort of work: when a modified version has many authors, in practice getting permission for commercial use from all of them would become infeasible."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nc-sa-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

@@ -68,8 +68,8 @@
           "source": "Google — AGPL Policy (opensource.google)",
           "url": "https://opensource.google/documentation/reference/using/agpl-policy",
           "retrieved_at": "2026-04-21T21:00:00Z",
-          "archive_sha256": "adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31",
-          "archive_path": "licenses/agpl-3.0-only/analysis-sources/adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31.html",
+          "archive_sha256": "aa62aba32102c66110ea1791522c27393e46b6f94350cdd8f5c41c723fb795db",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/aa62aba32102c66110ea1791522c27393e46b6f94350cdd8f5c41c723fb795db.html",
           "excerpt": "WARNING: Code licensed under the GNU Affero General Public License (AGPL) MUST NOT be used at Google. The license places restrictions on software used over a network which are extremely difficult for Google to comply with. … Because Google's core products are services that users interact with over a remote network interface (Search, Gmail, Maps, YouTube), the consequences of an engineer accidentally depending on AGPL for one of these services are so great that we maintain an aggressively-broad ban on all AGPL software to doubly-ensure that AGPL could never be incorporated in these services in any manner."
         },
         {
@@ -152,8 +152,8 @@
       "source": "Google — AGPL Policy",
       "url": "https://opensource.google/documentation/reference/using/agpl-policy",
       "retrieved_at": "2026-04-21T21:00:00Z",
-      "archive_sha256": "adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31",
-      "archive_path": "licenses/agpl-3.0-only/analysis-sources/adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31.html"
+      "archive_sha256": "aa62aba32102c66110ea1791522c27393e46b6f94350cdd8f5c41c723fb795db",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/aa62aba32102c66110ea1791522c27393e46b6f94350cdd8f5c41c723fb795db.html"
     },
     {
       "source": "FOSSA — Open Source Software Licenses 101: The AGPL License",

@@ -1,0 +1,45 @@
+{
+  "id": "cdla-sharing-1.0",
+  "name": "Community Data License Agreement - Sharing, Version 1.0",
+  "spdx": "CDLA-Sharing-1.0",
+  "medium": "data",
+  "archetype": "share-alike",
+  "version": "1.0",
+  "year": 2017,
+  "canonical_url": "https://cdla.dev/sharing-1-0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CDLA-Sharing-1.0.txt",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "6419d7a7245cb8a9da6e3dd925d05d824ea0268e3527095f68dec091f84f75da"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CDLA-Sharing-1.0.html",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "CDLA (canonical publication)",
+      "url": "https://cdla.dev/sharing-1-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Canonical publication source maintained by the Linux Foundation's Community Data License Agreement project."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Not OSI-approved. CDLA-Sharing-1.0 is a Linux Foundation data license rather than an open-source software license; it is not listed on OSI's approved-licenses list."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "FSF does not classify data licenses on its free-software-licenses list. CDLA-Sharing-1.0 is not listed under either free or non-free categories.",
+      "stance": "unclassified"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree-classification",
+      "summary": "The Free Software Foundation classifies the CC BY-NC family, any version (including the legacy 2.0 release), as nonfree for works of practical use. Its license list entry groups 'Creative Commons NonCommercial, any version' with other nonfree licenses and explains the reason in two parts: (1) 'This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation.' (2) 'In addition, it has a drawback for any sort of work: when a modified version has many authors, in practice getting permission for commercial use from all of them would become infeasible.' The FSF's free-software definition requires freedom to sell copies; a prohibition on commercial redistribution forecloses that freedom. The same analysis that applies to CC BY-NC 4.0 applies to the 2.0 era licenses: the NC clause's substance (§4(b) in CC BY-NC 2.0) is structurally the same.",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-NC entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T22:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons NonCommercial, any version. This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation. In addition, it has a drawback for any sort of work: when a modified version has many authors, in practice getting permission for commercial use from all of them would become infeasible."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nc-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

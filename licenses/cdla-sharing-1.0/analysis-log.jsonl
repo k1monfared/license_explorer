@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-21T21:59:48.721Z","step":"fetch-text","url":"https://raw.githubusercontent.com/spdx/license-list-data/main/text/CDLA-Sharing-1.0.txt","sha256":"6419d7a7245cb8a9da6e3dd925d05d824ea0268e3527095f68dec091f84f75da","bytes":11121}
+{"timestamp":"2026-04-21T21:59:48.742Z","step":"tokenize","sentences":70}
+{"timestamp":"2026-04-21T21:59:48.764Z","step":"source-archive","url":"https://cdla.dev/sharing-1-0/","archive_sha256":"fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227"}
+{"timestamp":"2026-04-21T21:59:48.786Z","step":"source-archive","url":"https://cdla.dev/","archive_sha256":"d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f"}
+{"timestamp":"2026-04-21T21:59:48.807Z","step":"analysis-complete","topics":["data-copyleft-architecture","results-carve-out","cdla-family-positioning"]}

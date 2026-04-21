@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "topic": "data-copyleft-architecture",
+      "summary": "CDLA-Sharing-1.0 is the copyleft counterpart to CDLA-Permissive in the Linux Foundation's Community Data License Agreement family. Its share-alike trigger rests on three stacked definitions: §1.5 Enhanced Data (Additions plus Modifications to received Data), §1.9 Publish (making Data available to anyone outside the Entity, including via remote access), and §3.1 which requires that any Enhanced Data You Publish must itself be Published under CDLA-Sharing-1.0 in accordance with §3. §3.3 forbids the Recipient from imposing any further restriction — explicitly including commercial or non-commercial restrictions — so Enhanced Data remains available on the same broad terms the Recipient received. This design gives the CDLA project a copyleft option parallel to ODbL for organisations building shared datasets.",
+      "sources": [
+        {
+          "source": "CDLA — Sharing 1.0 (canonical page, §3 Conditions on Rights Granted)",
+          "url": "https://cdla.dev/sharing-1-0/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227",
+          "archive_path": "licenses/cdla-sharing-1.0/analysis-sources/fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227.html",
+          "summary": "Canonical CDLA project publication of CDLA-Sharing-1.0 including §1.5 Enhanced Data, §1.9 Publish, §3.1 obligation to Publish Enhanced Data under the same Agreement, §3.2 prohibition on restricting republication, and §3.3 prohibition on adding commercial or non-commercial restrictions."
+        }
+      ]
+    },
+    {
+      "topic": "results-carve-out",
+      "summary": "CDLA-Sharing-1.0 shares with CDLA-Permissive a foundational design choice that distinguishes the CDLA family from ODbL and from software copyleft: §3.5 exempts Results from any sharing obligation. §1.11 defines Results as outcomes or outputs obtained from Computational Use of Data, provided Results do not include more than a de minimis portion of the Data itself. In practice this means a machine-learning model trained on CDLA-Sharing Data is a Result, not Enhanced Data, and therefore does not have to be released under CDLA-Sharing. Only if You Publish the Data (or Enhanced Data) itself does the share-alike obligation bite. This was an explicit design choice to make CDLA usable in commercial ML contexts where dataset copyleft would scare off participants who want to train proprietary models.",
+      "sources": [
+        {
+          "source": "CDLA — Sharing 1.0 (canonical page, §3.5 No Restrictions on Results)",
+          "url": "https://cdla.dev/sharing-1-0/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227",
+          "archive_path": "licenses/cdla-sharing-1.0/analysis-sources/fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227.html",
+          "summary": "Canonical CDLA project publication of CDLA-Sharing-1.0 §1.11 Results definition and §3.5 no-restrictions-on-Results clause, the pair of provisions that keep computational outputs (including trained ML models) outside the share-alike obligation."
+        }
+      ]
+    },
+    {
+      "topic": "cdla-family-positioning",
+      "summary": "CDLA-Sharing-1.0 was the first license the CDLA workgroup produced, released in 2017 alongside CDLA-Permissive-1.0. The Linux Foundation's CDLA overview explains that the project exists because our common OSI-approved licenses do not work well applied to data. The Sharing variant targets coalitions of organisations that want to ensure the dataset itself stays openly shared — the data equivalent of GPL copyleft — while the Permissive variant targets organisations that want maximum downstream reuse. The pair were launched together to give projects a choice analogous to the GPL-versus-Apache choice in software.",
+      "sources": [
+        {
+          "source": "CDLA — Community Data License Agreement home",
+          "url": "https://cdla.dev/",
+          "retrieved_at": "2026-04-21T14:00:00Z",
+          "archive_sha256": "d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f",
+          "archive_path": "licenses/cdla-sharing-1.0/analysis-sources/d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f.html",
+          "excerpt": "The challenge is that intellectual property systems around the world treat data differently than software. Our common OSI-approved licenses do not work well applied to data. Our communities wanted to develop data license agreements that could enable sharing of data similar to what we have with open source software. The result is a large scale collaboration on licenses for sharing data under a legal framework which we call the Community Data License Agreement (CDLA). These licenses establish the framework for collaborative sharing of data that we have seen proven to work in open source software communities."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "CDLA — Sharing 1.0 (canonical)",
+      "url": "https://cdla.dev/sharing-1-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227",
+      "archive_path": "licenses/cdla-sharing-1.0/analysis-sources/fdefaf28e0b3b06b8352da6cddabb0d4bddcd12fc8c58ee383314fa64e5c4227.html"
+    },
+    {
+      "source": "CDLA — Community Data License Agreement home",
+      "url": "https://cdla.dev/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "archive_sha256": "d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f",
+      "archive_path": "licenses/cdla-sharing-1.0/analysis-sources/d62d3a7f4b7eaa0896e80bcf489abc8924d9808b89cac3c9434ceca3872c2a1f.html"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "cdla-permissive-2.0",
+  "name": "Community Data License Agreement - Permissive, Version 2.0",
+  "spdx": "CDLA-Permissive-2.0",
+  "medium": "data",
+  "archetype": "permissive",
+  "version": "2.0",
+  "year": 2021,
+  "canonical_url": "https://cdla.dev/permissive-2-0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CDLA-Permissive-2.0.txt",
+    "retrieved_at": "2026-04-21T14:00:00Z",
+    "sha256": "4531a67d443284d93ffed0803df5b10634aff21c3d77e381f2d48af01d875868"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CDLA-Permissive-2.0.html",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "source": "CDLA (canonical publication)",
+      "url": "https://cdla.dev/permissive-2-0/",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Canonical publication source maintained by the Linux Foundation's Community Data License Agreement project."
+    },
+    {
+      "source": "Linux Foundation press release (CDLA launch, 2017)",
+      "url": "https://www.linuxfoundation.org/press/press-release/the-linux-foundation-launches-community-data-license-agreement",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Context for the CDLA project family, from which the Permissive 2.0 version later emerged."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "Not OSI-approved. CDLA-Permissive-2.0 is a Linux Foundation data license rather than an open-source software license; it is not listed on OSI's approved-licenses list."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "FSF does not classify data licenses on its free-software-licenses list. CDLA-Permissive-2.0 is not listed under either free or non-free categories.",
+      "stance": "unclassified"
+    }
+  ]
+}

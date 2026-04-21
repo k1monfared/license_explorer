@@ -1,0 +1,50 @@
+{
+  "id": "cc-by-nc-nd-2.0",
+  "name": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0",
+  "spdx": "CC-BY-NC-ND-2.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "2.0",
+  "year": 2004,
+  "canonical_url": "https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-NC-ND-2.0.txt",
+    "retrieved_at": "2026-04-21T22:00:00Z",
+    "sha256": "a2f17dc1ff568703161054535575c4ee813e6112f4706958efd446525c007197"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-NC-ND-2.0.html",
+      "retrieved_at": "2026-04-21T22:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "Canonical deed page for the CC Attribution-NonCommercial-NoDerivs 2.0 license."
+    },
+    {
+      "source": "Creative Commons Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode",
+      "retrieved_at": "2026-04-21T22:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "Not OSI-approved. CC licenses with NonCommercial and NoDerivatives restrictions fail the Open Source Definition's requirements (no field-of-endeavor restriction, must allow derived works)."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T22:00:00Z",
+      "note": "CC NC / ND / NC-ND licenses classified nonfree by FSF for works of practical use.",
+      "stance": "nonfree"
+    }
+  ]
+}
