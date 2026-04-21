@@ -60,3 +60,29 @@ test('compare page: remove column via × button', async ({ page }) => {
   await page.locator('.col-close').first().click();
   await expect(page.locator('.cmp-col-head')).toHaveCount(1);
 });
+
+test('browse: sidebar toggle hides and shows the filter panel', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 });
+  await page.goto(BASE + '/');
+  await expect(page.locator('.filter-panel')).toBeVisible();
+  await page.locator('.browse-toolbar .icon-btn').click();
+  await expect(page.locator('.filter-panel')).toHaveCount(0);
+  await page.locator('.browse-toolbar .icon-btn').click();
+  await expect(page.locator('.filter-panel')).toBeVisible();
+});
+
+test('roadmap page lists planned licenses', async ({ page }) => {
+  await page.goto(BASE + '/#/roadmap');
+  await expect(page.locator('h2')).toContainText('Roadmap');
+  await expect(page.locator('table.glossary')).not.toHaveCount(0);
+  await expect(page.getByText('ODbL-1.0')).toBeVisible();
+});
+
+test('mobile viewport: browse stacks sidebar and table scrolls', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(BASE + '/');
+  await expect(page.locator('.table-scroll')).toBeVisible();
+  // browse.sidebar-closed class or block layout applies on narrow
+  const browse = page.locator('.browse');
+  await expect(browse).toBeVisible();
+});

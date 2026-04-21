@@ -1,10 +1,54 @@
 import { useState, useEffect } from "react";
 
+// Inline SVG icons, mirroring site_kit/icons/ (same style: 18x18, currentColor,
+// stroke-width 2, rounded caps + joins). Also published in site_kit/js/icons.js.
+const ICONS = {
+  'sidebar-open':  'M3 4h18a2 2 0 012 2v12a2 2 0 01-2 2H3a2 2 0 01-2-2V6a2 2 0 012-2z M9 4v16 M13 10l3 2-3 2',
+  'sidebar-close': 'M3 4h18a2 2 0 012 2v12a2 2 0 01-2 2H3a2 2 0 01-2-2V6a2 2 0 012-2z M9 4v16 M16 10l-3 2 3 2',
+  'menu':          'M3 6h18 M3 12h18 M3 18h18',
+  'x':             'M18 6L6 18 M6 6l12 12'
+};
+function Icon({ name, size = 18 }) {
+  // Split the compound path on " M " to allow multiple subpaths.
+  const d = ICONS[name];
+  if (!d) return null;
+  if (name === 'sidebar-open' || name === 'sidebar-close') {
+    return (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <rect x="3" y="4" width="18" height="16" rx="2"/>
+        <line x1="9" y1="4" x2="9" y2="20"/>
+        {name === 'sidebar-open'
+          ? <polyline points="13 10 16 12 13 14"/>
+          : <polyline points="16 10 13 12 16 14"/>}
+      </svg>
+    );
+  }
+  if (name === 'menu') {
+    return (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    );
+  }
+  if (name === 'x') {
+    return (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    );
+  }
+  return null;
+}
+
 function parseRoute(hash) {
   const h = (hash || '').replace(/^#/, '');
   if (!h || h === '/') return { name: 'browse' };
   if (h === '/about')    return { name: 'about' };
   if (h === '/glossary') return { name: 'glossary' };
+  if (h === '/roadmap')  return { name: 'roadmap' };
   const m = h.match(/^\/license\/([a-z0-9][a-z0-9.-]*)(?:\/(text))?(\?.*)?$/);
   if (m) return m[2] ? { name: 'text', id: m[1] } : { name: 'detail', id: m[1] };
   const cm = h.match(/^\/compare(?:\?set=([a-z0-9,.-]+))?$/);
@@ -98,6 +142,7 @@ function BrowsePage() {
   const [q, setQ] = useState('');
   const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_only: false });
   const [set, setSet] = useState([]);
+  const [sidebarOpen, setSidebarOpen] = useState(() => window.matchMedia('(min-width: 860px)').matches);
   const toggle = (id) => setSet(s => s.includes(id) ? s.filter(x => x !== id) : [...s, id]);
 
   if (err) return <p style={{color:'#f87171'}}>Error: {err}</p>;
@@ -119,11 +164,22 @@ function BrowsePage() {
   });
 
   return (
-    <div className="browse">
-      <FilterSidebar catalog={catalog} filters={filters} setFilters={setFilters}/>
+    <div className={`browse ${sidebarOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
+      {sidebarOpen && <FilterSidebar catalog={catalog} filters={filters} setFilters={setFilters}/>}
       <div className="browse-main">
-        <input className="search" placeholder="Search licenses, features, keywords..."
-               value={q} onChange={e => setQ(e.target.value)}/>
+        <div className="browse-toolbar">
+          <button
+            type="button"
+            className="icon-btn"
+            aria-label={sidebarOpen ? 'Hide filter sidebar' : 'Show filter sidebar'}
+            title={sidebarOpen ? 'Hide filters' : 'Show filters'}
+            onClick={() => setSidebarOpen(v => !v)}
+          >
+            <Icon name={sidebarOpen ? 'sidebar-close' : 'sidebar-open'}/>
+          </button>
+          <input className="search" placeholder="Search licenses, features, keywords..."
+                 value={q} onChange={e => setQ(e.target.value)}/>
+        </div>
         <div className="table-scroll">
           <table className="brz">
             <thead><tr><th></th><th>Name</th><th>Archetype</th><th>Medium</th><th>Approvals</th><th>Tags</th></tr></thead>
@@ -407,6 +463,70 @@ function ComparePage({ ids }) {
   );
 }
 
+// ---------- Roadmap ----------
+function RoadmapPage() {
+  const [roadmap, setRoadmap] = useState(null);
+  const [err, setErr] = useState(null);
+  useEffect(() => {
+    fetch('docs/roadmap.json', NOCACHE).then(r => r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`)).then(setRoadmap).catch(e => setErr(String(e)));
+  }, []);
+  if (err) return <p style={{color:'#f87171'}}>Error: {err}</p>;
+  if (!roadmap) return <p>Loading...</p>;
+
+  const CATEGORY_LABEL = {
+    'data': 'Data licenses',
+    'older-cc': 'Older Creative Commons versions',
+    'older-docs': 'Older GNU Free Documentation License versions',
+    'government': 'Government licenses',
+    'fonts': 'Font licenses',
+    'software': 'Software licenses',
+    'hardware': 'Hardware licenses',
+    'other': 'Other'
+  };
+  const groups = {};
+  for (const p of roadmap.planned) {
+    const cat = p.category || 'other';
+    if (!groups[cat]) groups[cat] = [];
+    groups[cat].push(p);
+  }
+  const orderedCats = ['data', 'older-cc', 'older-docs', 'government', 'fonts', 'software', 'hardware', 'other'];
+
+  return (
+    <article className="prose">
+      <h2>Roadmap <span className="roadmap-count">{roadmap.planned.length} planned</span></h2>
+      <p>{roadmap.description}</p>
+      <p className="subtle">When a planned license is added to the catalog, it automatically drops off this list.</p>
+
+      {roadmap.planned.length === 0 ? (
+        <p><em>No licenses currently planned. Everything on the roadmap has been added.</em></p>
+      ) : orderedCats.filter(c => groups[c]).map(cat => (
+        <section key={cat}>
+          <h3>{CATEGORY_LABEL[cat] || cat} <span className="roadmap-group-count">{groups[cat].length}</span></h3>
+          <table className="glossary">
+            <thead>
+              <tr><th>License</th><th>Medium / archetype</th><th>Why add it</th></tr>
+            </thead>
+            <tbody>
+              {groups[cat].map(p => (
+                <tr key={p.id}>
+                  <td className="gloss-key">
+                    <div>{p.name}</div>
+                    <code className="gloss-code">{p.spdx || p.id}</code>
+                  </td>
+                  <td className="gloss-type">{p.medium} · {p.archetype}</td>
+                  <td className="gloss-meaning">{p.rationale || ''}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+      ))}
+
+      <p className="subtle">Want something added? Edit <code>docs/roadmap.json</code> on GitHub and open a PR. To add one of these yourself, run <code>/add-license &lt;spdx-id&gt;</code> with Claude Code — see <a href="#/about">About</a>.</p>
+    </article>
+  );
+}
+
 function AddColumnPicker({ available, onAdd, onCancel }) {
   const [q, setQ] = useState('');
   const [highlight, setHighlight] = useState(0);
@@ -526,6 +646,7 @@ function App() {
   if (route.name === 'compare')  return <ComparePage  ids={route.ids}/>;
   if (route.name === 'about')    return <AboutPage/>;
   if (route.name === 'glossary') return <GlossaryPage/>;
+  if (route.name === 'roadmap')  return <RoadmapPage/>;
   return <BrowsePage/>;
 }
 

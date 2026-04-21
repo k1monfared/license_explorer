@@ -47,3 +47,20 @@ for (const id of dirs) {
 
 console.log(`aggregated ${sorted.length} licenses into licenses/index.json`);
 for (const e of sorted) console.log(`  ${e.archetype.padEnd(16)} ${e.id}`);
+
+// Sync the roadmap: whatever's now in the catalog drops out of planned[].
+try {
+  const roadmapPath = 'docs/roadmap.json';
+  const roadmap = JSON.parse(await fs.readFile(roadmapPath, 'utf8'));
+  const before = roadmap.planned.length;
+  const catalogIds = new Set(sorted.map(e => e.id));
+  roadmap.planned = roadmap.planned.filter(p => !catalogIds.has(p.id));
+  if (roadmap.planned.length !== before) {
+    await fs.writeFile(roadmapPath, JSON.stringify(roadmap, null, 2) + '\n');
+    console.log(`roadmap: ${before - roadmap.planned.length} entries moved to done, ${roadmap.planned.length} remaining`);
+  } else {
+    console.log(`roadmap: ${roadmap.planned.length} planned, none completed this pass`);
+  }
+} catch (err) {
+  if (err.code !== 'ENOENT') console.error('roadmap sync failed:', err.message);
+}
