@@ -38,11 +38,12 @@ license_explorer/
 ├── licenses/
 │   ├── index.json             # catalog for the browse page
 │   ├── mit/
-│   │   ├── meta.json          # identity + references
+│   │   ├── meta.json          # identity + references + provenance
 │   │   ├── text.raw.txt       # original license text, byte-for-byte
 │   │   ├── text.html          # sentence-wrapped with <span id="s-N">
-│   │   ├── features.json      # permissions/conditions/limitations + citations
-│   │   └── analysis.json      # (optional) court cases, deeper commentary
+│   │   ├── features.json      # permissions/conditions/limitations + citations + sources
+│   │   ├── analysis.json      # (optional) court cases + external sources
+│   │   └── .progress.json     # per-license pipeline state for resumability
 │   └── apache-2.0/ …
 └── schemas/                   # JSON schemas; CI validates every data file
     ├── meta.schema.json
@@ -74,13 +75,20 @@ Identity plus authoritative references. References drawn primarily from TLDR Leg
   "medium": "software", "archetype": "permissive",
   "version": "1.0", "year": null,
   "canonical_url": "https://opensource.org/license/mit",
+  "text_provenance": {
+    "source_url": "https://opensource.org/license/mit",
+    "retrieved_at": "2026-04-21T14:03:22Z",
+    "sha256": "4ea3f4f9d8e3..."
+  },
   "references": [
-    { "source": "OSI",         "url": "https://opensource.org/license/mit" },
-    { "source": "TLDR Legal",  "url": "https://tldrlegal.com/license/mit-license" },
-    { "source": "choosealicense", "url": "https://choosealicense.com/licenses/mit/" }
+    { "source": "OSI",            "url": "https://opensource.org/license/mit",          "retrieved_at": "2026-04-21T14:03:22Z" },
+    { "source": "TLDR Legal",     "url": "https://tldrlegal.com/license/mit-license",   "retrieved_at": "2026-04-21T14:03:22Z" },
+    { "source": "choosealicense", "url": "https://choosealicense.com/licenses/mit/",    "retrieved_at": "2026-04-21T14:03:22Z" }
   ]
 }
 ```
+
+**Provenance rule.** `text_provenance.sha256` is the hash of `text.raw.txt` as stored in the repo; CI validates the hash matches. If the canonical source ever drifts, the hash mismatch (run by a scheduled refresh) flags the license for review rather than silently serving stale content.
 
 ### 4.3 `licenses/<id>/features.json`
 
@@ -88,17 +96,39 @@ Grouped into the four choosealicense-style buckets. Each feature entry has a `ke
 
 ```json
 {
-  "permissions": [ { "key": "commercial-use",       "value": "permitted",
-                     "citations": [{ "sentence_id": "s-3" }] } ],
-  "conditions":  [ { "key": "include-copyright",    "value": "required",
-                     "citations": [{ "sentence_id": "s-7" }] },
-                   { "key": "network-use-disclose", "value": "grey",
-                     "citations": [{ "sentence_id": "s-12" }],
-                     "commentary": "FSF FAQ: running on a server is not conveying. AGPL was designed to close this gap." } ],
-  "limitations": [ { "key": "liability",            "value": "forbidden",
-                     "citations": [{ "sentence_id": "s-14" }] } ]
+  "permissions": [
+    { "key": "commercial-use", "value": "permitted",
+      "citations": [{ "sentence_id": "s-3" }],
+      "external_references": [] }
+  ],
+  "conditions":  [
+    { "key": "include-copyright", "value": "required",
+      "citations": [{ "sentence_id": "s-7" }],
+      "external_references": [] },
+    { "key": "network-use-disclose", "value": "grey",
+      "citations": [{ "sentence_id": "s-12" }],
+      "commentary": "FSF FAQ: running on a server is not conveying. AGPL was designed to close this gap.",
+      "external_references": [
+        { "source": "FSF GPL FAQ",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html#UseGPLForAnything",
+          "retrieved_at": "2026-04-21T14:03:22Z",
+          "excerpt": "Running a modified version on a server open to the public..." }
+      ] }
+  ],
+  "limitations": [
+    { "key": "liability", "value": "forbidden",
+      "citations": [{ "sentence_id": "s-14" }],
+      "external_references": [] }
+  ],
+  "sources": [
+    { "source": "license text", "url": "licenses/mit/text.html", "role": "primary evidence" },
+    { "source": "FSF GPL FAQ", "url": "https://www.gnu.org/licenses/gpl-faq.html",
+      "retrieved_at": "2026-04-21T14:03:22Z", "role": "grey-area commentary" }
+  ]
 }
 ```
+
+**Source-completeness rule.** Every non-empty `commentary`, every `value: "grey"` entry, and every `value` assignment that relies on text outside the license itself, **must** have at least one matching entry in `external_references` or reference `licenses/<id>/text.html` via `citations`. CI enforces this: a grey value or commentary with no source fails validation. Every external reference must include `source`, `url`, `retrieved_at`, and `excerpt` (for the quoted passage) or `summary` (for a paraphrase). The file-level `sources` array aggregates every distinct source used anywhere in the file — the audit trail in one place.
 
 A feature always lives in exactly one of the three groups — `permissions`, `conditions`, `limitations` — determined by its entry in the vocabulary. Grey areas are **not a separate group**; they are feature entries whose `value` is `"grey"`, with an optional `commentary` string for the ambiguity explanation. This keeps one feature = one row in the comparison table, regardless of how the license treats it.
 
@@ -115,11 +145,53 @@ A feature always lives in exactly one of the three groups — `permissions`, `co
 
 `silent` vs `not_assessed` is deliberately separate: one is a statement ("we looked and the text is silent"), the other is an absence of data. Any feature entry may include an optional `commentary` string; it is surfaced in the inline expand panel alongside the cited sentences. The `commentary` field is how grey areas get their ambiguity explanation.
 
-### 4.4 `licenses/<id>/text.html`
+### 4.4 `licenses/<id>/analysis.json`
+
+Deep analysis from public sources (court filings, FSF / Apache legal-discuss archives, Luis Villa commentary). Every entry is grouped by feature key or topic and cites its sources with the same provenance fields.
+
+```json
+{
+  "entries": [
+    { "topic": "network-use-disclose",
+      "summary": "Debated in practice; AGPL was added to close SaaS loophole.",
+      "sources": [
+        { "source": "Luis Villa blog",
+          "url": "https://lu.is/blog/...",
+          "retrieved_at": "2026-04-21T14:03:22Z",
+          "excerpt": "...quoted passage..." }
+      ] }
+  ],
+  "sources": [
+    { "source": "CourtListener", "url": "https://www.courtlistener.com/...", "retrieved_at": "..." }
+  ]
+}
+```
+
+Same source-completeness rule as `features.json`: every entry must cite at least one source, and every source must include `url`, `retrieved_at`, and either `excerpt` or `summary`. No synthesized facts without a provenance trail.
+
+### 4.5 `licenses/<id>/.progress.json`
+
+Per-license pipeline state, written incrementally by the skills. Lets a failed or interrupted run resume rather than redo completed work.
+
+```json
+{
+  "lookup_license":   { "status": "complete", "updated_at": "2026-04-21T14:03:22Z" },
+  "extract_features": { "status": "partial",
+                        "completed_keys": ["commercial-use", "liability"],
+                        "remaining_keys": ["network-use-disclose", "patent-use"],
+                        "last_error": null,
+                        "updated_at": "2026-04-21T14:08:01Z" },
+  "deep_analysis":    { "status": "pending" }
+}
+```
+
+Status values: `pending | partial | complete | failed`. When `failed`, `last_error` carries the error message so a human can decide whether to retry or fix input. Gitignore entry excludes nothing — `.progress.json` is committed alongside the data so anyone resuming the work inherits the state.
+
+### 4.6 `licenses/<id>/text.html`
 
 The full license text, each sentence wrapped as `<span id="s-N" class="sentence">…</span>`. CSS `span.sentence:target { background: #facc15; outline: 1px solid #facc15; }` highlights whichever sentence is in the URL hash; a tiny script pulses it for ~1 second and scrolls it into view. CI schema validates that sentence IDs are dense and contiguous.
 
-### 4.5 `schemas/feature-vocabulary.json`
+### 4.7 `schemas/feature-vocabulary.json`
 
 Controlled vocabulary listing every feature key, its group, and human-readable label. **This file drives the comparison table rows.** Adding a row to the comparison table = adding an entry here + running `/backfill-feature`. Referenced keys in any license's `features.json` are validated against this file in CI.
 
@@ -166,6 +238,22 @@ Input: license id. Searches public sources only (CourtListener / RECAP, FSF / Ap
 
 Every skill writes through the JSON schemas in `schemas/` and fails loudly if a write would break the schema.
 
+### 6.5 Graceful failure and resumability
+
+License population is a pipeline that can fail at any step (network errors during fetch, an edge-case in the text that trips the tokenizer, a source that rate-limits). The pipeline is designed so partial work is always saved and never has to be redone.
+
+**Incremental writes.** No skill buffers a complete artifact in memory and writes it at the end. Each skill writes as it goes:
+
+- `lookup-license` writes `text.raw.txt` immediately once fetched, then `meta.json`, then updates `.progress.json` → `lookup_license: complete`. If it fails before writing `meta.json`, the raw text is kept and rerunning skips the fetch.
+- `extract-features` first writes `text.html` and sets `.progress.json.extract_features.status: partial, completed_keys: []`. Then for each feature key in the vocabulary it reads the text, writes the feature entry into `features.json`, and appends the key to `completed_keys` — all in one atomic write per feature. On rerun it reads `completed_keys` and skips them. If a specific key errors, it's recorded in `last_error` and the key is left for retry; other keys continue.
+- `deep-analysis` writes each entry to `analysis.json` as it's produced (not at the end) and updates `.progress.json.deep_analysis` similarly.
+
+**Atomic JSON writes.** Every JSON write uses write-to-temp + rename, so a crash mid-write never produces a truncated file.
+
+**Orchestrator resumes.** `/add-license <name>` reads `.progress.json` first; for each pipeline stage with status `complete` it prints "✓ already done" and moves on. For `partial` it calls the skill which itself resumes at the first non-completed feature. For `pending` or `failed` it runs normally. This means rerunning `/add-license mit` after any failure is always safe and always resumes.
+
+**Explicit "retry failed" path.** A stage marked `failed` requires either `--retry` or a fresh `/add-license` invocation to clear the `last_error` and try again. This prevents silent reruns of an issue the user hasn't seen.
+
 ## 7. Extensibility: adding a new feature later
 
 1. Edit `schemas/feature-vocabulary.json` to add the key, its group, and label.
@@ -196,7 +284,10 @@ Licenses that predate a new vocabulary entry render as `not_assessed` (pale `·`
 - **Schema validation** in CI: every `meta.json`, `features.json`, `analysis.json`, and `index.json` is validated against its schema. Feature keys must exist in the vocabulary.
 - **Sentence ID density** in CI: every `text.html` must have ids `s-0 … s-N` without gaps.
 - **Citation liveness** in CI: every `sentence_id` referenced in a `features.json` must exist in the corresponding `text.html`.
+- **Text provenance** in CI: `meta.json.text_provenance.sha256` must match the current `text.raw.txt` hash.
+- **Source completeness** in CI: every `value: "grey"` entry and every entry with non-empty `commentary` must have at least one citation or external reference. Every external reference must include `source`, `url`, `retrieved_at`, and either `excerpt` or `summary`.
 - **Smoke test** for each page: headless Chrome visits `#/`, `#/license/mit`, `#/compare?set=mit,gpl-3.0` and asserts expected DOM markers.
+- **Tokenizer unit tests**: sentence splitter is a pure function with a dedicated test suite covering abbreviations, quoted periods, numbered lists, and idempotency (re-running preserves existing IDs).
 
 ## 10. References
 
