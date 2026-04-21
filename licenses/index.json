@@ -9,5 +9,16 @@
     "tags": ["permissive", "attribution"],
     "osi_approved": true,
     "fsf_libre": true
+  },
+  {
+    "id": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx": "Apache-2.0",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Permissive license with an explicit patent grant and a defensive termination clause. Ubiquitous in enterprise open source.",
+    "tags": ["permissive", "patent-grant", "attribution"],
+    "osi_approved": true,
+    "fsf_libre": true
   }
 ]

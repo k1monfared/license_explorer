@@ -1,0 +1,95 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-19", "note": "copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work" }],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-19", "note": "prepare Derivative Works of ... the Work" }],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-19", "note": "publicly display, publicly perform, sublicense, and distribute the Work" }],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-19", "note": "broad grant includes private use" }],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-22", "note": "each Contributor hereby grants ... a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable ... patent license" },
+        { "sentence_id": "s-23", "note": "patent termination on litigation (defensive termination clause)" }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-27", "note": "(a) You must give any other recipients of the Work or Derivative Works a copy of this License" },
+        { "sentence_id": "s-29", "note": "(c) You must retain, in the Source form of any Derivative Works ... all copyright, patent, trademark, and attribution notices from the Source form of the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [{ "sentence_id": "s-28", "note": "(b) You must cause any modified files to carry prominent notices stating that You changed the files" }],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-47", "note": "In no event and under no legal theory ... shall any Contributor be liable" }],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-43", "note": "Licensor provides the Work ... on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND" }],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-40", "note": "This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor" }],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "Apache License 2.0 text", "url": "licenses/apache-2.0/text.html", "role": "primary evidence" }
+  ]
+}

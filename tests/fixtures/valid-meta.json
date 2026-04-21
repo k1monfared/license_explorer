@@ -14,5 +14,8 @@
   },
   "references": [
     { "source": "OSI", "url": "https://opensource.org/license/mit", "retrieved_at": "2026-04-21T14:03:22Z" }
+  ],
+  "approvals": [
+    { "body": "OSI", "approved": true, "url": "https://opensource.org/license/mit", "retrieved_at": "2026-04-21T14:03:22Z" }
   ]
 }

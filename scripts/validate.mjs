@@ -52,6 +52,18 @@ export async function validateRepo() {
   if (!idxRes.ok) errors.push(`licenses/index.json: ${idxRes.errors.join(', ')}`);
   const catalog = JSON.parse(await fs.readFile(indexPath, 'utf8'));
 
+  // Orphan detection: every licenses/<id>/ dir must have a catalog entry.
+  const catalogIds = new Set(catalog.map(e => e.id));
+  try {
+    const ents = await fs.readdir('licenses', { withFileTypes: true });
+    for (const d of ents) {
+      if (!d.isDirectory()) continue;
+      if (!catalogIds.has(d.name)) {
+        errors.push(`licenses/${d.name}: directory exists but is not listed in licenses/index.json`);
+      }
+    }
+  } catch {}
+
   const vocab = JSON.parse(await fs.readFile('schemas/feature-vocabulary.json', 'utf8'));
   const vocabKeys = new Set(
     [...vocab.permissions, ...vocab.conditions, ...vocab.limitations].map(e => e.key)

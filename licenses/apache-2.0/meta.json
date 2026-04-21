@@ -1,0 +1,53 @@
+{
+  "id": "apache-2.0",
+  "name": "Apache License 2.0",
+  "spdx": "Apache-2.0",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": "2.0",
+  "year": 2004,
+  "canonical_url": "https://www.apache.org/licenses/LICENSE-2.0",
+  "text_provenance": {
+    "source_url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "retrieved_at": "2026-04-21T18:50:00Z",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "references": [
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/apache-2-0",
+      "retrieved_at": "2026-04-21T18:50:00Z"
+    },
+    {
+      "source": "Apache Software Foundation",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "retrieved_at": "2026-04-21T18:50:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)",
+      "retrieved_at": "2026-04-21T18:50:00Z"
+    },
+    {
+      "source": "choosealicense",
+      "url": "https://choosealicense.com/licenses/apache-2.0/",
+      "retrieved_at": "2026-04-21T18:50:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/apache-2-0",
+      "retrieved_at": "2026-04-21T18:50:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#apache2",
+      "retrieved_at": "2026-04-21T18:50:00Z",
+      "note": "GPL-compatible free software license. FSF notes Apache 2.0 is compatible with GPLv3 but not GPLv2."
+    }
+  ]
+}

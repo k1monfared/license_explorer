@@ -28,3 +28,8 @@ test('serializes compare set back to hash', () => {
 test('parseRoute defaults to browse for unknown hashes', () => {
   assert.deepEqual(parseRoute('#/garbage'), { name: 'browse' });
 });
+
+test('parses ids that contain dots (SPDX-style)', () => {
+  assert.deepEqual(parseRoute('#/license/apache-2.0'),      { name: 'detail', id: 'apache-2.0' });
+  assert.deepEqual(parseRoute('#/license/cc-by-sa-4.0/text'),{ name: 'text',   id: 'cc-by-sa-4.0' });
+});
