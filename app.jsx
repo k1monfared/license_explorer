@@ -984,28 +984,40 @@ function CostEstimate() {
   }, []);
   if (!cost) return null;
   const fmt = (n) => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 });
+  const basisSentence = cost.mode === 'average' ? (
+    <>
+      Averaged across {cost.analyzed_count} licenses that currently have deep-analysis
+      runs ({cost.sample_details.map((s, i) => <span key={s.license_id}>{i > 0 ? ', ' : ''}<code>{s.license_id}</code></span>)}),
+      a rough per-license cost at current <code>{cost.pricing_model}</code> list prices
+      (${cost.price_input_per_mtok}/M input, ${cost.price_output_per_mtok}/M output)
+      works out to about <strong>{fmt(cost.avg_cost_per_license_usd)}</strong>.
+    </>
+  ) : (
+    <>
+      Using <code>{cost.sample_details[0].license_id}</code> as the sole benchmark
+      (the only license with a deep-analysis run so far), a rough per-license cost
+      at current <code>{cost.pricing_model}</code> list prices
+      (${cost.price_input_per_mtok}/M input, ${cost.price_output_per_mtok}/M output)
+      works out to about <strong>{fmt(cost.avg_cost_per_license_usd)}</strong>.
+    </>
+  );
   return (
     <>
       <h3>What this costs to build</h3>
       <p>
         This catalog is populated by LLM-driven research runs against public sources.
-        Using <code>{cost.benchmark.license_id}</code> as the benchmark (the license
-        that's been most thoroughly analyzed, including four archived source documents
-        totaling {(cost.benchmark.input_bytes / 1024).toFixed(0)} KB), a rough
-        per-license cost at current <code>{cost.pricing_model}</code> list prices
-        (${cost.price_input_per_mtok}/M input, ${cost.price_output_per_mtok}/M output)
-        works out to about <strong>{fmt(cost.avg_cost_per_license_usd)}</strong>.
+        {' '}{basisSentence}{' '}
         Across {cost.licenses_count} licenses that's roughly{' '}
         <strong>{fmt(cost.total_cost_usd)}</strong> in total.
       </p>
       <p className="subtle">
-        This is an order-of-magnitude estimate, not an exact bill. It's computed from
-        the repo's own byte counts (archived sources as input proxy, generated
-        artifacts as output proxy, with a 2× multiplier on input to account for
-        prompting and conversational overhead). It will update automatically when
-        more licenses are added or more source material is archived. The benchmark
-        will shift as more licenses get deep-analysis runs and a true average can
-        replace the single-license anchor.
+        Order-of-magnitude estimate, not an exact bill. Computed from the repo's own
+        byte counts: archived sources as input proxy, generated artifacts as output
+        proxy, with a 2× multiplier on input to account for prompting and multi-turn
+        overhead. The estimate updates automatically when licenses are added or
+        analyzed — {cost.mode === 'benchmark'
+          ? 'as soon as a second license is analyzed, this figure will switch from a single-license benchmark to a true average.'
+          : 'adding more analyzed licenses will refine the mean further.'}
       </p>
     </>
   );

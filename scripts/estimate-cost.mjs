@@ -79,8 +79,37 @@ function estimateCost({ input_bytes, output_bytes }) {
 }
 
 const catalog = JSON.parse(await fs.readFile('licenses/index.json', 'utf8'));
-const benchmark = await measureLicense(BENCHMARK_ID);
-const benchmarkCost = estimateCost(benchmark);
+
+// Find every license that has an analysis.json — those are the ones that
+// have gone through the deep-analysis pipeline and therefore carry the full
+// set of input + output byte footprint. Use them as the sample for the
+// per-license average. Fall back to the single GPL-3.0 benchmark only when
+// nothing else is available.
+let analysisIndex = {};
+try { analysisIndex = JSON.parse(await fs.readFile('licenses/analysis-index.json', 'utf8')); }
+catch {}
+const analyzedIds = Object.keys(analysisIndex);
+
+let mode, sample, perLicense, sampleDetails = [];
+if (analyzedIds.length >= 2) {
+  mode = 'average';
+  let totalIn = 0, totalOut = 0;
+  for (const id of analyzedIds) {
+    const m = await measureLicense(id);
+    totalIn += m.input_bytes;
+    totalOut += m.output_bytes;
+    const c = estimateCost(m);
+    sampleDetails.push({ license_id: id, cost_usd: Number(c.cost_usd.toFixed(4)) });
+  }
+  sample = { input_bytes: Math.round(totalIn / analyzedIds.length), output_bytes: Math.round(totalOut / analyzedIds.length) };
+  perLicense = estimateCost(sample);
+} else {
+  mode = 'benchmark';
+  const id = analyzedIds[0] || BENCHMARK_ID;
+  sample = await measureLicense(id);
+  perLicense = estimateCost(sample);
+  sampleDetails.push({ license_id: id, cost_usd: Number(perLicense.cost_usd.toFixed(4)) });
+}
 
 const out = {
   calculated_at: new Date().toISOString(),
@@ -88,23 +117,22 @@ const out = {
   price_input_per_mtok: PRICE.input_per_mtok,
   price_output_per_mtok: PRICE.output_per_mtok,
   bytes_per_token: BYTES_PER_TOKEN,
-  benchmark: {
-    license_id: BENCHMARK_ID,
-    input_bytes: benchmark.input_bytes,
-    output_bytes: benchmark.output_bytes,
-    input_tokens: benchmarkCost.input_tokens,
-    output_tokens: benchmarkCost.output_tokens,
-    cost_usd: Number(benchmarkCost.cost_usd.toFixed(4))
+  mode,
+  analyzed_count: analyzedIds.length,
+  sample: {
+    input_bytes: sample.input_bytes,
+    output_bytes: sample.output_bytes,
+    input_tokens: perLicense.input_tokens,
+    output_tokens: perLicense.output_tokens,
+    cost_usd: Number(perLicense.cost_usd.toFixed(4))
   },
+  sample_details: sampleDetails,
   licenses_count: catalog.length,
-  avg_cost_per_license_usd: Number(benchmarkCost.cost_usd.toFixed(4)),
-  total_cost_usd: Number((benchmarkCost.cost_usd * catalog.length).toFixed(4)),
-  note:
-    "Order-of-magnitude estimate derived from gpl-3.0-only as the benchmark. " +
-    "Input bytes = license text + features.json + archived sources; output bytes = " +
-    "tokenized HTML + features + analysis + progress + log. Conversational overhead " +
-    "is approximated with a 2× multiplier on input; actual API cost will vary. " +
-    "Recompute with: node scripts/estimate-cost.mjs"
+  avg_cost_per_license_usd: Number(perLicense.cost_usd.toFixed(4)),
+  total_cost_usd: Number((perLicense.cost_usd * catalog.length).toFixed(4)),
+  note: mode === 'average'
+    ? `Order-of-magnitude estimate. Per-license cost is the mean across ${analyzedIds.length} licenses that currently have deep-analysis runs. Total scales that mean up to the full ${catalog.length}-license catalog. Input bytes = license text + features + archived sources; output bytes = tokenized HTML + features + analysis + progress + log. Conversational overhead is approximated with a 2× multiplier on input. The average will refine further as more licenses are analyzed.`
+    : `Order-of-magnitude estimate. Only one license (${analyzedIds[0] || BENCHMARK_ID}) has a deep-analysis run yet, so the per-license figure is benchmarked off that single data point. As soon as a second license is analyzed, this estimate will switch automatically to a true mean across all analyzed licenses.`
 };
 
 await fs.writeFile('licenses/cost-estimate.json', JSON.stringify(out, null, 2) + '\n');
