@@ -1,0 +1,11 @@
+{
+  "gpl-3.0-only": {
+    "topics": 4,
+    "topic_keys": [
+      "patent-use",
+      "tivoization",
+      "gpl-compatibility",
+      "network-use-boundary"
+    ]
+  }
+}

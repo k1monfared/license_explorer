@@ -1,0 +1,19 @@
+{
+  "calculated_at": "2026-04-21T21:03:26.940Z",
+  "pricing_model": "claude-opus-4-7",
+  "price_input_per_mtok": 15,
+  "price_output_per_mtok": 75,
+  "bytes_per_token": 3.5,
+  "benchmark": {
+    "license_id": "gpl-3.0-only",
+    "input_bytes": 436789,
+    "output_bytes": 67711,
+    "input_tokens": 249594,
+    "output_tokens": 19346,
+    "cost_usd": 5.1949
+  },
+  "licenses_count": 45,
+  "avg_cost_per_license_usd": 5.1949,
+  "total_cost_usd": 233.7687,
+  "note": "Order-of-magnitude estimate derived from gpl-3.0-only as the benchmark. Input bytes = license text + features.json + archived sources; output bytes = tokenized HTML + features + analysis + progress + log. Conversational overhead is approximated with a 2× multiplier on input; actual API cost will vary. Recompute with: node scripts/estimate-cost.mjs"
+}

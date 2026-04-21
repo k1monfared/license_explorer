@@ -82,11 +82,13 @@ function useCatalog() {
 function useFeatureIndex() {
   const [index, setIndex] = useState(null);
   const [vocab, setVocab] = useState(null);
+  const [analysisIndex, setAnalysisIndex] = useState(null);
   useEffect(() => {
     fetch('licenses/feature-index.json', NOCACHE).then(r => r.ok ? r.json() : {}).then(setIndex).catch(() => setIndex({}));
     fetch('schemas/feature-vocabulary.json', NOCACHE).then(r => r.ok ? r.json() : null).then(setVocab).catch(() => setVocab(null));
+    fetch('licenses/analysis-index.json', NOCACHE).then(r => r.ok ? r.json() : {}).then(setAnalysisIndex).catch(() => setAnalysisIndex({}));
   }, []);
-  return { index, vocab };
+  return { index, vocab, analysisIndex };
 }
 
 const FEATURE_VALUES = ['permitted', 'required', 'forbidden', 'silent', 'grey', 'not_assessed'];
@@ -236,7 +238,7 @@ function FilterSidebar({ catalog, featureIndex, vocab, filters, setFilters }) {
 
 function BrowsePage() {
   const { catalog, err } = useCatalog();
-  const { index: featureIndex, vocab } = useFeatureIndex();
+  const { index: featureIndex, vocab, analysisIndex } = useFeatureIndex();
   const [q, setQ] = useState('');
   const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_only: false, features: {} });
   const [set, setSet] = useState([]);
@@ -289,19 +291,29 @@ function BrowsePage() {
           <table className="brz">
             <thead><tr><th></th><th>Name</th><th>Archetype</th><th>Medium</th><th>Approvals</th><th>Tags</th></tr></thead>
             <tbody>
-              {rows.map(l => (
-                <tr key={l.id}>
-                  <td><input type="checkbox" checked={set.includes(l.id)} onChange={() => toggle(l.id)}/></td>
-                  <td className="brz-name"><a href={`#/license/${l.id}`}>{l.name}</a></td>
-                  <td className="brz-arch">{l.archetype}</td>
-                  <td className="brz-med">{l.medium}</td>
-                  <td className="brz-approvals">
-                    {l.osi_approved && <span className="approval-badge approval-osi" title="OSI approved">OSI</span>}
-                    {l.fsf_libre    && <span className="approval-badge approval-fsf" title="FSF free software">FSF</span>}
-                  </td>
-                  <td className="brz-tags">{l.tags.join(', ')}</td>
-                </tr>
-              ))}
+              {rows.map(l => {
+                const topics = analysisIndex?.[l.id]?.topics || 0;
+                return (
+                  <tr key={l.id}>
+                    <td><input type="checkbox" checked={set.includes(l.id)} onChange={() => toggle(l.id)}/></td>
+                    <td className="brz-name">
+                      <a href={`#/license/${l.id}`}>{l.name}</a>
+                      {topics > 0 && (
+                        <a href={`#/license/${l.id}#analysis`} className="analysis-badge" title={`${topics} deep-analysis topic${topics === 1 ? '' : 's'}`}>
+                          ¶ {topics}
+                        </a>
+                      )}
+                    </td>
+                    <td className="brz-arch">{l.archetype}</td>
+                    <td className="brz-med">{l.medium}</td>
+                    <td className="brz-approvals">
+                      {l.osi_approved && <span className="approval-badge approval-osi" title="OSI approved">OSI</span>}
+                      {l.fsf_libre    && <span className="approval-badge approval-fsf" title="FSF free software">FSF</span>}
+                    </td>
+                    <td className="brz-tags">{l.tags.join(', ')}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
@@ -331,19 +343,46 @@ function DetailPage({ id }) {
     fetch(`licenses/${id}/analysis.json`, NOCACHE).then(r => r.ok ? r.json() : null).then(setAnalysis).catch(() => setAnalysis(null));
   }, [id]);
 
+  // If URL has #analysis anchor, scroll to it after render.
+  useEffect(() => {
+    if (!analysis) return;
+    const h = location.hash;
+    const m = h.match(/#analysis(?:-([a-z0-9-]+))?$/);
+    if (m) {
+      setTimeout(() => {
+        const target = m[1] ? document.getElementById(`analysis-${m[1]}`) : document.getElementById('analysis');
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    }
+  }, [analysis]);
+
+  const analysisByTopic = (() => {
+    const m = {};
+    if (analysis?.entries) for (const e of analysis.entries) m[e.topic] = e;
+    return m;
+  })();
+
   if (err) return <p style={{color:'#f87171'}}>Error: {err}</p>;
   if (!meta || !feats) return <p>Loading...</p>;
 
-  const Row = ({ e }) => (
-    <tr>
-      <td className="feat-label">{e.key}</td>
-      <td><ValueBadge v={e.value}/></td>
-      <td>{e.citations.map((c, i) => (
-        <a key={i} href={`#/license/${id}/text?s=${c.sentence_id}`} title={c.note || ''} style={{marginRight:'0.4rem'}}>{c.sentence_id}</a>
-      ))}</td>
-      <td style={{fontSize:'0.85rem', color:'#9ca3af'}}>{e.commentary || ''}</td>
-    </tr>
-  );
+  const Row = ({ e }) => {
+    const analysisEntry = analysisByTopic[e.key];
+    return (
+      <tr>
+        <td className="feat-label">
+          {e.key}
+          {analysisEntry && (
+            <a href={`#/license/${id}#analysis-${e.key}`} className="feat-analysis-link" title="Jump to deep analysis for this feature">&para;</a>
+          )}
+        </td>
+        <td><ValueBadge v={e.value}/></td>
+        <td>{e.citations.map((c, i) => (
+          <a key={i} href={`#/license/${id}/text?s=${c.sentence_id}`} title={c.note || ''} style={{marginRight:'0.4rem'}}>{c.sentence_id}</a>
+        ))}</td>
+        <td className="feat-commentary">{e.commentary || ''}</td>
+      </tr>
+    );
+  };
 
   const Section = ({ title, entries }) => (
     <>
@@ -382,16 +421,22 @@ function DetailPage({ id }) {
       ))}</ul>
       {analysis && analysis.entries && analysis.entries.length > 0 && (
         <>
-          <h3>Deep analysis</h3>
+          <h3 id="analysis">Deep analysis <span className="analysis-count">{analysis.entries.length} topic{analysis.entries.length === 1 ? '' : 's'}</span></h3>
           {analysis.entries.map((e, i) => (
-            <section key={i} className="analysis-entry">
-              <h4>{e.topic}</h4>
+            <section key={i} className="analysis-entry" id={`analysis-${e.topic}`}>
+              <h4><code>{e.topic}</code></h4>
               <p>{e.summary}</p>
               <ul>{e.sources.map((s, j) => (
                 <li key={j}>
                   <a href={s.url} target="_blank" rel="noopener">{s.source}</a>
+                  {s.archive_path && (
+                    <>
+                      {' · '}
+                      <a href={s.archive_path} target="_blank" rel="noopener" className="archive-link" title={`Archived ${s.retrieved_at} (sha256: ${s.archive_sha256?.slice(0,12)}…)`}>archived copy</a>
+                    </>
+                  )}
                   {s.excerpt && <blockquote>&ldquo;{s.excerpt}&rdquo;</blockquote>}
-                  {s.summary && !s.excerpt && <p style={{fontSize:'0.85rem', color:'#9ca3af'}}>{s.summary}</p>}
+                  {s.summary && !s.excerpt && <p className="source-summary">{s.summary}</p>}
                 </li>
               ))}</ul>
             </section>
@@ -925,8 +970,44 @@ function AboutPage() {
       <h3>Contributing</h3>
       <p>The data and the skills that build it are in a public repo: <a href="https://github.com/k1monfared/license_explorer" target="_blank" rel="noopener">github.com/k1monfared/license_explorer</a>. Pull requests that fix data errors, add licenses, or extend the feature vocabulary are welcome.</p>
 
+      <CostEstimate/>
+
       <p className="sponsor-cta">Like this work? <a href="https://k1monfared.github.io/sponsor.html" target="_blank" rel="noopener">Sponsor it here</a>.</p>
     </article>
+  );
+}
+
+function CostEstimate() {
+  const [cost, setCost] = useState(null);
+  useEffect(() => {
+    fetch('licenses/cost-estimate.json', NOCACHE).then(r => r.ok ? r.json() : null).then(setCost).catch(() => {});
+  }, []);
+  if (!cost) return null;
+  const fmt = (n) => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 2 });
+  return (
+    <>
+      <h3>What this costs to build</h3>
+      <p>
+        This catalog is populated by LLM-driven research runs against public sources.
+        Using <code>{cost.benchmark.license_id}</code> as the benchmark (the license
+        that's been most thoroughly analyzed, including four archived source documents
+        totaling {(cost.benchmark.input_bytes / 1024).toFixed(0)} KB), a rough
+        per-license cost at current <code>{cost.pricing_model}</code> list prices
+        (${cost.price_input_per_mtok}/M input, ${cost.price_output_per_mtok}/M output)
+        works out to about <strong>{fmt(cost.avg_cost_per_license_usd)}</strong>.
+        Across {cost.licenses_count} licenses that's roughly{' '}
+        <strong>{fmt(cost.total_cost_usd)}</strong> in total.
+      </p>
+      <p className="subtle">
+        This is an order-of-magnitude estimate, not an exact bill. It's computed from
+        the repo's own byte counts (archived sources as input proxy, generated
+        artifacts as output proxy, with a 2× multiplier on input to account for
+        prompting and conversational overhead). It will update automatically when
+        more licenses are added or more source material is archived. The benchmark
+        will shift as more licenses get deep-analysis runs and a true average can
+        replace the single-license anchor.
+      </p>
+    </>
   );
 }
 

@@ -110,6 +110,31 @@ test('text viewer: margin notes render + the active citation is emphasized', asy
   if (anyActive === 0) throw new Error('Expected at least one margin-group.active when arriving via ?s=s-3');
 });
 
+test('detail: deep analysis surfaces (analysis badge on browse, ¶ in feature row, archive link in source)', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  // 1. Browse row for gpl-3.0-only shows an analysis topic badge.
+  await page.goto(BASE + '/');
+  await expect(page.locator('tr', { has: page.getByText('GNU General Public License v3.0 only') }).locator('.analysis-badge')).toBeVisible();
+
+  // 2. Detail page shows the Deep analysis section.
+  await page.goto(BASE + '/#/license/gpl-3.0-only');
+  await expect(page.locator('#analysis')).toBeVisible();
+  await expect(page.locator('#analysis-patent-use')).toBeVisible();
+
+  // 3. The patent-use feature row has a ¶ link to the analysis entry.
+  await expect(page.locator('.feat-table .feat-analysis-link').first()).toBeVisible();
+
+  // 4. At least one archived-copy link renders in the sources list.
+  await expect(page.locator('.archive-link').first()).toBeVisible();
+});
+
+test('about: cost estimate section renders with a dollar figure', async ({ page }) => {
+  await page.goto(BASE + '/#/about');
+  await expect(page.getByText('What this costs to build')).toBeVisible();
+  const text = await page.locator('.prose').textContent();
+  if (!/\$\d/.test(text)) throw new Error('Expected a dollar figure in the cost estimate section');
+});
+
 test('browse: feature filter narrows the row set', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto(BASE + '/');

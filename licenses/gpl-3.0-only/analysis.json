@@ -9,6 +9,7 @@
           "url": "https://www.gnu.org/licenses/rms-why-gplv3.html",
           "retrieved_at": "2026-04-21T21:00:00Z",
           "archive_sha256": "d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd",
+          "archive_path": "licenses/gpl-3.0-only/analysis-sources/d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd.html",
           "excerpt": "Another threat that GPLv3 resists is that of patent deals like the Microsoft-Novell pact. … GPLv3 also provides users with explicit patent protection from the program's contributors and redistributors. With GPLv2, users rely on an implicit patent license to make sure that the company which provided them a copy won't sue them, or the people they redistribute copies to, for patent infringement."
         }
       ]
@@ -22,6 +23,7 @@
           "url": "https://www.gnu.org/licenses/rms-why-gplv3.html",
           "retrieved_at": "2026-04-21T21:00:00Z",
           "archive_sha256": "d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd",
+          "archive_path": "licenses/gpl-3.0-only/analysis-sources/d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd.html",
           "excerpt": "One major danger that GPLv3 will block is tivoization. … The motive for tivoization is that the software has features the distributor thinks some users will unfriendly — the distributor of your copy was to add them. … Tivoization is the way they deny you this; to make it a reality, they need to use hardware to stop you from running modified versions. The ban on tivoization applies to any product whose use by consumers is to be expected, even occasionally. GPLv3 tolerates tivoization only for products whose primary use is industrial or environmental."
         }
       ]
@@ -35,6 +37,7 @@
           "url": "https://www.apache.org/licenses/GPL-compatibility.html",
           "retrieved_at": "2026-04-21T21:00:00Z",
           "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+          "archive_path": "licenses/gpl-3.0-only/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html",
           "excerpt": "Apache 2 software can therefore be included in GPLv3 projects, because the GPLv3 license accepts our software into GPLv3 works. However, GPLv3 software cannot be included in Apache projects. … We avoid GPLv3 software because merely linking to it is considered by the GPLv3 authors to create a derivative work. We want to honor their license. Unless GPLv3 licensors relax this interpretation of their own license regarding linking, Apache projects must not use GPLv3 software — that is, it is incompatible. This is an identical issue for both GPLv2 and GPLv3."
         },
         {
@@ -42,6 +45,7 @@
           "url": "https://www.gnu.org/licenses/license-list.html",
           "retrieved_at": "2026-04-21T21:00:00Z",
           "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/gpl-3.0-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
           "summary": "FSF's authoritative license-compatibility registry, which classifies GPLv3 as compatible with Apache-2.0 and enumerates other GPL-compatible licenses. Used as a cross-reference to the ASF statement."
         }
       ]
@@ -55,6 +59,7 @@
           "url": "https://www.gnu.org/licenses/gpl-faq.html#SeparateAffero",
           "retrieved_at": "2026-04-21T21:00:00Z",
           "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/gpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
           "excerpt": "Early drafts of GPLv3 allowed licensors to add an Affero-like requirement to publish source in section 7. However, some companies that develop and rely upon free software consider this requirement to be too burdensome. They want to avoid code with this requirement, and expressed concern about the administrative costs of checking code for this additional requirement. By publishing the GNU Affero GPLv3 as a separate license, with provisions in it and GPLv3 to allow code under these licenses to link to each other, we accomplish all of our original goals while making it easier to determine which code has the source publication requirement."
         }
       ]
@@ -65,25 +70,29 @@
       "source": "FSF — Richard Stallman, 'Why Upgrade to GPLv3'",
       "url": "https://www.gnu.org/licenses/rms-why-gplv3.html",
       "retrieved_at": "2026-04-21T21:00:00Z",
-      "archive_sha256": "d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd"
+      "archive_sha256": "d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd",
+      "archive_path": "licenses/gpl-3.0-only/analysis-sources/d63bf13ac1b607583be48edc8985d670131cc71cc91acf2615e35d8ce1c273bd.html"
     },
     {
       "source": "Apache Software Foundation — Apache License v2.0 and GPL Compatibility",
       "url": "https://www.apache.org/licenses/GPL-compatibility.html",
       "retrieved_at": "2026-04-21T21:00:00Z",
-      "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a"
+      "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+      "archive_path": "licenses/gpl-3.0-only/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html"
     },
     {
       "source": "FSF — GPL FAQ",
       "url": "https://www.gnu.org/licenses/gpl-faq.html",
       "retrieved_at": "2026-04-21T21:00:00Z",
-      "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14"
+      "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+      "archive_path": "licenses/gpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html"
     },
     {
       "source": "FSF — License List",
       "url": "https://www.gnu.org/licenses/license-list.html",
       "retrieved_at": "2026-04-21T21:00:00Z",
-      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/gpl-3.0-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
     }
   ]
 }

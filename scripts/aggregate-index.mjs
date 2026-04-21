@@ -53,6 +53,7 @@ for (const e of sorted) console.log(`  ${e.archetype.padEnd(16)} ${e.id}`);
 //   { "<id>": { "<feature-key>": "permitted" | "required" | ... } }
 {
   const featureIndex = {};
+  const analysisIndex = {};
   for (const entry of sorted) {
     const featPath = `licenses/${entry.id}/features.json`;
     try {
@@ -66,10 +67,32 @@ for (const e of sorted) console.log(`  ${e.archetype.padEnd(16)} ${e.id}`);
       if (err.code !== 'ENOENT') throw err;
       featureIndex[entry.id] = {};
     }
+
+    // Count analysis topics per license so the browse page can surface it.
+    const anaPath = `licenses/${entry.id}/analysis.json`;
+    try {
+      const ana = JSON.parse(await fs.readFile(anaPath, 'utf8'));
+      analysisIndex[entry.id] = {
+        topics: (ana.entries || []).length,
+        topic_keys: (ana.entries || []).map(e => e.topic)
+      };
+    } catch (err) {
+      if (err.code !== 'ENOENT') throw err;
+    }
   }
   await fs.writeFile('licenses/feature-index.json', JSON.stringify(featureIndex, null, 2) + '\n');
+  await fs.writeFile('licenses/analysis-index.json', JSON.stringify(analysisIndex, null, 2) + '\n');
   console.log(`wrote licenses/feature-index.json (${Object.keys(featureIndex).length} licenses × feature values)`);
+  console.log(`wrote licenses/analysis-index.json (${Object.keys(analysisIndex).length} licenses with deep analysis)`);
 }
+
+// Recompute the cost estimate based on the new catalog and archive sizes.
+try {
+  const { spawnSync } = await import('node:child_process');
+  const r = spawnSync('node', ['scripts/estimate-cost.mjs'], { stdio: 'pipe' });
+  if (r.status !== 0) console.error('cost estimate failed:', r.stderr?.toString());
+  else console.log('wrote licenses/cost-estimate.json');
+} catch (err) { console.error('cost estimate failed:', err.message); }
 
 // Sync the roadmap: whatever's now in the catalog drops out of planned[].
 try {
