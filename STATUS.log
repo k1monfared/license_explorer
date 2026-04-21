@@ -1,69 +1,82 @@
 - Project Status
-    - Last Updated: YYYY-MM-DD
-    - Development Mode: [Claude Code | Manual | Hybrid]
+    - Last Updated: 2026-04-21
+    - Development Mode: Claude Code
     - Stage: Initial Setup
-    - Next Milestone: [Description of next goal]
+    - Next Milestone: Ship MVP per design spec (9 archetype licenses, browse + compare + skills)
 
 - Development Stages
     - [x] Initial Setup
-        - Created: YYYY-MM-DD
+        - Created: 2026-04-21
         - Repository initialized
         - Basic structure in place
         - Template copied from claude_code_project_template
+        - Design spec written: docs/superpowers/specs/2026-04-21-license-explorer-design.md
     - [] Proof of Concept (POC)
-        - Target: YYYY-MM-DD
+        - Target: TBD
         - Goal: Validate core concept and technology choices
         - Success criteria:
-            - [] Key feature X works
-            - [] Technology stack validated
-            - [] Basic end-to-end flow demonstrated
+            - [] Scaffold + site_kit + empty index live on GH Pages
+            - [] schemas/ + feature-vocabulary authored
+            - [] lookup-license + extract-features skills work for MIT and GPL-3.0
     - [] Minimum Viable Product (MVP)
         - Goal: First usable version with core features
         - Core features:
-            - [] Feature A
-            - [] Feature B
-            - [] Feature C
+            - [] Browse page: sidebar filters + search + sortable table + compare tray
+            - [] Detail page + sentence-highlight text viewer
+            - [] Compare page with add/remove/drag-reorder, URL state
+            - [] 9 archetype licenses fully populated (MIT, Apache-2.0, BSD-3-Clause, MPL-2.0, LGPL-3.0, GPL-3.0, AGPL-3.0, CC-BY 4.0, CC-BY-SA 4.0)
+            - [] deep-analysis skill + analysis.json for all 9
+            - [] /add-license, /backfill-feature, /refresh-analysis orchestrators
         - Known issues:
-            - [List bugs that block demo/production]
+            - []
     - [] Beta Release
         - Goal: Feature-complete but needs polish
         - Missing features:
-            - [] Feature X
-            - [] Feature Y
-            - [] Feature Z
+            - [] License-compatibility matrix
+            - [] License picker wizard
+            - [] Per-country legal nuance
+            - [] User-submitted citations
         - Active users: N/A
-        - Stability: [Assessment]
+        - Stability: TBD
     - [] Production Ready
         - Goal: Stable, documented, tested
-        - Deployment status: [Not deployed | Staging | Production]
-        - Documentation: [Complete | In Progress | Needed]
-        - Tests: [Coverage percentage or status]
+        - Deployment status: Not deployed
+        - Documentation: In Progress
+        - Tests: Schema validation + smoke tests planned
     - [] Maintenance Mode
         - Core complete and stable
         - Nice-to-haves queued:
-            - Enhancement A
-            - Enhancement B
-            - Enhancement C
+            - Non-Latin language license support
+            - Global (user-level) skill packaging
+            - Additional medium categories beyond software/media
 
 - Technical Details
     - Tech Stack:
-        - [List technologies, languages, frameworks]
+        - HTML, React via CDN (UMD), in-browser Babel, vanilla CSS
+        - site_kit (via https://k1monfared.github.io/site_kit/) for chrome
+        - JSON schemas for data validation
     - Key Files:
-        - [Important files and their purposes]
+        - index.html: app shell, loads React + Babel
+        - app.jsx: single-file SPA, hash-routed
+        - licenses/index.json: catalog
+        - licenses/<id>/{meta,features,analysis}.json + text.raw.txt + text.html
+        - schemas/*.schema.json + feature-vocabulary.json
+        - .claude/skills/{lookup-license,extract-features,deep-analysis}/
+        - .claude/commands/{add-license,backfill-feature,refresh-analysis}/
     - Architecture Notes:
-        - [Key design decisions]
-        - [Patterns used]
-        - [Dependencies]
+        - Static site, no build step; deployable directly to GH Pages from master
+        - All UI state in URL (filter set, compare set, column order)
+        - Citation model: sentence IDs (s-N) stable across re-runs, linked via CSS :target highlight
+        - Feature vocabulary drives comparison table rows; licenses render not_assessed for vocabulary keys they haven't filled in yet
 
 - Current Focus
     - Active Tasks:
-        - [] Task 1
-        - [] Task 2
+        - [] Write implementation plan from design spec
+        - [] Enable GitHub Pages on master branch, root path
     - Blockers:
-        - [Any blocking issues]
+        -
     - Recent Progress:
-        - YYYY-MM-DD: [What was accomplished]
-        - YYYY-MM-DD: [What was accomplished]
+        - 2026-04-21: Design spec authored and committed (docs/superpowers/specs/2026-04-21-license-explorer-design.md)
 
 - Notes
     - Use loglog format for all documentation

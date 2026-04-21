@@ -1,0 +1,16 @@
+- goal
+    - I want to get an understanding of software licensing and in particular for open source software, but I'm also interested in extensions to other mediums such as music, written content etc. Things that are most important to me are permissiveness for building upon it, giving credit to the original work, having as permissive license for the new product, and non-commercial use. but I don't know what other aspects exist that could become important to me, is there a place that discusses all these for various licenses out there especially the grey areas?
+- features
+    - an interactive website live on github pages with filtering, search, tags, tables for side by side comparison that can keep several licences side by side with their features as rows 
+- logistics
+    - get some inspiration from my large dog breeds repo website but not necessarily replicating it, more to get UX needs, interview me for what I need or dont.
+    - for UI use as much compartments from my site kit repo 
+- need a way to organize licenses in json files with features for different types of use 
+    - this should have the entire raw text of each license 
+    - and then each feature extracted with mapping to exact sentences that validates that feature for that license
+    - links to authorative places for those licenses as reference 
+- need to create claude skills for this 
+    - one that looks up a license by rough name and creates the json file for it 
+    - one that exctracts the features from the raw text and creates references 
+    - one that does deeper anaylsis by finding court cases for a license (only from public court docs) and figures out how the license actually works in the wild 
+- Also need a way that lists all various licences and what categories of producct they apply to. this could be one or multiple authoritaive places that list them all.
