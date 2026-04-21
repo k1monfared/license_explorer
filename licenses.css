@@ -8,8 +8,6 @@ main.container { padding-top: 1.5rem; padding-bottom: 2rem; }
 .site-nav { display: flex; gap: 1rem; align-items: center; }
 .site-nav a { color: var(--muted, #9ca3af); text-decoration: none; font-size: 0.95rem; }
 .site-nav a:hover { color: var(--text, #eee); }
-.site-nav a.sponsor-link { color: var(--warning, #facc15); }
-.site-nav a.sponsor-link:hover { filter: brightness(1.2); }
 #theme-toggle { background: none; border: 1px solid var(--border, #333); color: var(--text, #eee); padding: 0.25rem 0.6rem; border-radius: 4px; cursor: pointer; }
 
 /* Prose (about, glossary) */
@@ -23,14 +21,20 @@ main.container { padding-top: 1.5rem; padding-bottom: 2rem; }
 .prose .sponsor-cta { margin-top: 2rem; padding: 0.9rem 1rem; background: rgba(250,204,21,.1); border-left: 3px solid var(--warning, #facc15); border-radius: 4px; }
 .prose .subtle { color: var(--muted, #9ca3af); font-size: 0.9rem; margin-top: 2rem; }
 
-/* Glossary tables */
-.glossary { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.92rem; }
-.glossary th, .glossary td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--border, #1f2937); vertical-align: top; }
+/* Glossary tables: text wraps in every cell so there is no horizontal scroll */
+.glossary { width: 100%; border-collapse: collapse; margin-bottom: 1rem; font-size: 0.92rem; table-layout: fixed; }
+.glossary col.col-term, .glossary th:first-child, .glossary td:first-child  { width: 26%; }
+.glossary col.col-type, .glossary th:nth-child(2), .glossary td:nth-child(2) { width: 18%; }
+.glossary col.col-desc, .glossary th:last-child, .glossary td:last-child    { width: 56%; }
+.glossary th, .glossary td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--border, #1f2937); vertical-align: top; overflow-wrap: anywhere; word-break: normal; line-height: 1.45; }
 .glossary th { color: var(--muted, #9ca3af); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; }
-.glossary .group-h { background: var(--surface, #111); color: var(--muted, #9ca3af); text-transform: uppercase; font-size: 0.74rem; letter-spacing: 0.05em; font-weight: 500; padding: 0.35rem 0.7rem; }
-.glossary .gloss-key { font-weight: 600; color: var(--text, #e5e7eb); white-space: nowrap; }
-.glossary .gloss-code { display: block; color: var(--muted, #9ca3af); font-weight: 400; font-size: 0.78rem; margin-top: 2px; background: none; padding: 0; }
-.glossary .gloss-type { color: var(--muted, #9ca3af); font-size: 0.85rem; white-space: nowrap; }
+.glossary .group-h { background: var(--surface, #111); font-size: 0.82rem; padding: 0.45rem 0.7rem; }
+.glossary .group-h .group-name { text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; color: var(--text, #e5e7eb); }
+.glossary .group-h .group-desc { color: var(--muted, #9ca3af); text-transform: none; letter-spacing: normal; font-weight: 400; }
+.glossary .gloss-key { font-weight: 600; color: var(--text, #e5e7eb); }
+.glossary .gloss-code { display: block; color: var(--muted, #9ca3af); font-weight: 400; font-size: 0.78rem; margin-top: 2px; background: none; padding: 0; word-break: break-all; }
+.glossary .gloss-type { color: var(--muted, #9ca3af); font-size: 0.85rem; }
+.glossary .gloss-meaning { color: var(--text, #cbd5e1); }
 
 /* Browse */
 .browse { display: grid; grid-template-columns: 220px 1fr; gap: 1.2rem; align-items: start; }

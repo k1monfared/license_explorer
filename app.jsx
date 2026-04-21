@@ -22,11 +22,13 @@ function useRoute() {
   return route;
 }
 
+const NOCACHE = { cache: 'no-cache' };
+
 function useCatalog() {
   const [catalog, setCatalog] = useState(null);
   const [err, setErr] = useState(null);
   useEffect(() => {
-    fetch('licenses/index.json')
+    fetch('licenses/index.json', NOCACHE)
       .then(r => r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`))
       .then(setCatalog).catch(e => setErr(String(e)));
   }, []);
@@ -160,10 +162,10 @@ function DetailPage({ id }) {
 
   useEffect(() => {
     Promise.all([
-      fetch(`licenses/${id}/meta.json`).then(r => r.ok ? r.json() : Promise.reject(`meta ${r.status}`)),
-      fetch(`licenses/${id}/features.json`).then(r => r.ok ? r.json() : Promise.reject(`features ${r.status}`))
+      fetch(`licenses/${id}/meta.json`, NOCACHE).then(r => r.ok ? r.json() : Promise.reject(`meta ${r.status}`)),
+      fetch(`licenses/${id}/features.json`, NOCACHE).then(r => r.ok ? r.json() : Promise.reject(`features ${r.status}`))
     ]).then(([m, f]) => { setMeta(m); setFeats(f); }).catch(e => setErr(String(e)));
-    fetch(`licenses/${id}/analysis.json`).then(r => r.ok ? r.json() : null).then(setAnalysis).catch(() => setAnalysis(null));
+    fetch(`licenses/${id}/analysis.json`, NOCACHE).then(r => r.ok ? r.json() : null).then(setAnalysis).catch(() => setAnalysis(null));
   }, [id]);
 
   if (err) return <p style={{color:'#f87171'}}>Error: {err}</p>;
@@ -243,7 +245,7 @@ function TextPage({ id }) {
   const [err, setErr]   = useState(null);
 
   useEffect(() => {
-    fetch(`licenses/${id}/text.html`)
+    fetch(`licenses/${id}/text.html`, NOCACHE)
       .then(r => r.ok ? r.text() : Promise.reject(`HTTP ${r.status}`))
       .then(setHtml).catch(e => setErr(String(e)));
   }, [id]);
@@ -281,7 +283,7 @@ function ComparePage({ ids }) {
   useEffect(() => { setOrder(ids); }, [ids.join(',')]);
 
   useEffect(() => {
-    fetch('licenses/index.json').then(r => r.json()).then(setCatalog).catch(() => {});
+    fetch('licenses/index.json', NOCACHE).then(r => r.json()).then(setCatalog).catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -289,8 +291,8 @@ function ComparePage({ ids }) {
     if (missing.length === 0) return;
     Promise.all(missing.map(id =>
       Promise.all([
-        fetch(`licenses/${id}/meta.json`).then(r => r.json()),
-        fetch(`licenses/${id}/features.json`).then(r => r.json())
+        fetch(`licenses/${id}/meta.json`, NOCACHE).then(r => r.json()),
+        fetch(`licenses/${id}/features.json`, NOCACHE).then(r => r.json())
       ]).then(([meta, feat]) => [id, { meta, feat }])
        .catch(() => [id, null])
     )).then(results => {
@@ -503,13 +505,18 @@ const VALUE_TERMS = [
 function GlossaryPage() {
   const [vocab, setVocab] = useState(null);
   useEffect(() => {
-    fetch('schemas/feature-vocabulary.json').then(r => r.json()).then(setVocab);
+    fetch('schemas/feature-vocabulary.json', NOCACHE).then(r => r.json()).then(setVocab);
   }, []);
   if (!vocab) return <p>Loading...</p>;
 
-  const groupRows = (group, rows) => (
+  const groupRows = (group, description, rows) => (
     <>
-      <tr><td colSpan={3} className="group-h">{group}</td></tr>
+      <tr>
+        <td colSpan={3} className="group-h">
+          <span className="group-name">{group}</span>
+          {description && <span className="group-desc"> &mdash; {description}</span>}
+        </td>
+      </tr>
       {rows.map(r => (
         <tr key={`${group}-${r.key}`}>
           <td className="gloss-key">
@@ -517,7 +524,7 @@ function GlossaryPage() {
             <code className="gloss-code">{r.key}</code>
           </td>
           <td className="gloss-type">{r.type || ''}</td>
-          <td>{r.description}</td>
+          <td className="gloss-meaning">{r.description}</td>
         </tr>
       ))}
     </>
@@ -526,22 +533,22 @@ function GlossaryPage() {
   return (
     <article className="prose">
       <h2>Glossary</h2>
-      <p>Every term used in the comparison table, explained.</p>
+      <p>Every term used in the comparison table, explained. Each row of the comparison table is one <em>feature</em> drawn from the controlled vocabulary below.</p>
 
-      <h3>Feature categories</h3>
-      <p>Each row of the comparison table is one <em>feature</em>, drawn from a controlled vocabulary. Features are grouped as <strong>permissions</strong> (what you can do), <strong>conditions</strong> (what you must do in exchange), and <strong>limitations</strong> (what the license does not grant you).</p>
-
+      <h3>Feature vocabulary</h3>
       <table className="glossary">
         <thead><tr><th>Term</th><th>Group</th><th>Meaning</th></tr></thead>
         <tbody>
-          {groupRows('Permissions',   vocab.permissions.map(e  => ({ ...e, type: 'permission'  })))}
-          {groupRows('Conditions',    vocab.conditions.map(e   => ({ ...e, type: 'condition'   })))}
-          {groupRows('Limitations',   vocab.limitations.map(e  => ({ ...e, type: 'limitation'  })))}
+          {groupRows('Permissions', 'what the license lets you do',
+            vocab.permissions.map(e  => ({ ...e, type: 'permission'  })))}
+          {groupRows('Conditions', 'what you must do in exchange',
+            vocab.conditions.map(e   => ({ ...e, type: 'condition'   })))}
+          {groupRows('Limitations', 'what the license does not grant you',
+            vocab.limitations.map(e  => ({ ...e, type: 'limitation'  })))}
         </tbody>
       </table>
 
       <h3>Cell values</h3>
-      <p>Each cell in the comparison table shows one of six values that summarize how a particular license treats a particular feature.</p>
       <table className="glossary">
         <thead><tr><th>Value</th><th></th><th>Meaning</th></tr></thead>
         <tbody>
@@ -549,7 +556,7 @@ function GlossaryPage() {
             <tr key={v.key}>
               <td><ValueBadge v={v.key}/></td>
               <td className="gloss-type">{v.key}</td>
-              <td>{v.description}</td>
+              <td className="gloss-meaning">{v.description}</td>
             </tr>
           ))}
         </tbody>
@@ -559,12 +566,13 @@ function GlossaryPage() {
       <table className="glossary">
         <thead><tr><th>Term</th><th>Kind</th><th>Meaning</th></tr></thead>
         <tbody>
-          {groupRows('Archetypes',           EXTRA_TERMS.filter(t => t.group === 'archetype').map(t => ({ ...t, type: t.group })))}
-          {groupRows('Stewardship bodies',   EXTRA_TERMS.filter(t => t.group === 'body').map(t => ({ ...t, type: t.group })))}
+          {groupRows('Archetypes', "a single label summarizing the license's strategic shape",
+            EXTRA_TERMS.filter(t => t.group === 'archetype').map(t => ({ ...t, type: t.group })))}
+          {groupRows('Stewardship bodies', 'organizations that classify or approve licenses',
+            EXTRA_TERMS.filter(t => t.group === 'body').map(t => ({ ...t, type: t.group })))}
         </tbody>
       </table>
-
-      <p className="subtle">See <a href="#/about">About</a> for how these values are assigned and where the source data comes from.</p>
+      <p className="subtle">The archetype labels are not formally standardized. They follow a convention drawn from SPDX's license-list metadata, choosealicense.com, GitHub's license picker, and the FSF's free-software vs copyleft-strength breakdown. Each license in this project is tagged with exactly one archetype, picked to summarize its strategic shape rather than every nuance. See <a href="#/about">About</a> for methodology and caveats.</p>
     </article>
   );
 }
