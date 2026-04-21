@@ -1,17 +1,17 @@
 {
-  "calculated_at": "2026-04-21T22:05:19.705Z",
+  "calculated_at": "2026-04-21T22:16:51.176Z",
   "pricing_model": "claude-opus-4-7",
   "price_input_per_mtok": 15,
   "price_output_per_mtok": 75,
   "bytes_per_token": 3.5,
   "mode": "average",
-  "analyzed_count": 58,
+  "analyzed_count": 63,
   "sample": {
-    "input_bytes": 665714,
-    "output_bytes": 35955,
-    "input_tokens": 380408,
-    "output_tokens": 10273,
-    "cost_usd": 6.4766
+    "input_bytes": 631052,
+    "output_bytes": 35612,
+    "input_tokens": 360601,
+    "output_tokens": 10175,
+    "cost_usd": 6.1721
   },
   "sample_details": [
     {
@@ -175,6 +175,18 @@
       "cost_usd": 13.3251
     },
     {
+      "license_id": "ogl-canada-2.0",
+      "cost_usd": 0.7648
+    },
+    {
+      "license_id": "ogl-uk-3.0",
+      "cost_usd": 1.175
+    },
+    {
+      "license_id": "ufl-1.0",
+      "cost_usd": 4.3881
+    },
+    {
       "license_id": "cc-by-nc-sa-2.0",
       "cost_usd": 2.1986
     },
@@ -201,6 +213,14 @@
     {
       "license_id": "cdla-sharing-1.0",
       "cost_usd": 3.1499
+    },
+    {
+      "license_id": "gfdl-1.1-only",
+      "cost_usd": 3.2914
+    },
+    {
+      "license_id": "gfdl-1.2-only",
+      "cost_usd": 3.5817
     },
     {
       "license_id": "gfdl-1.3-only",
@@ -247,8 +267,8 @@
       "cost_usd": 18.9102
     }
   ],
-  "licenses_count": 58,
-  "avg_cost_per_license_usd": 6.4766,
-  "total_cost_usd": 375.6425,
-  "note": "Order-of-magnitude estimate. Per-license cost is the mean across 58 licenses that currently have deep-analysis runs. Total scales that mean up to the full 58-license catalog. Input bytes = license text + features + archived sources; output bytes = tokenized HTML + features + analysis + progress + log. Conversational overhead is approximated with a 2× multiplier on input. The average will refine further as more licenses are analyzed."
+  "licenses_count": 63,
+  "avg_cost_per_license_usd": 6.1721,
+  "total_cost_usd": 388.8448,
+  "note": "Order-of-magnitude estimate. Per-license cost is the mean across 63 licenses that currently have deep-analysis runs. Total scales that mean up to the full 63-license catalog. Input bytes = license text + features + archived sources; output bytes = tokenized HTML + features + analysis + progress + log. Conversational overhead is approximated with a 2× multiplier on input. The average will refine further as more licenses are analyzed."
 }

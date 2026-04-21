@@ -1,0 +1,4 @@
+{"timestamp":"2026-04-21T22:10:45.856Z","step":"session-start","prompt_version":"v1","license_id":"ogl-uk-3.0"}
+{"timestamp":"2026-04-21T22:11:33.227Z","step":"source-archive","topic":"scope-of-crown-copyright","url":"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/","archive_sha256":"f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5"}
+{"timestamp":"2026-04-21T22:11:36.086Z","step":"source-archive","topic":"scope-of-crown-copyright","url":"https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/","archive_sha256":"edbdd33beff82df5443979b5f732fe2bef5c26d199652dabb3798ac328379168"}
+{"timestamp":"2026-04-21T22:12:33.627Z","step":"session-complete","topics":1,"entries_written":1}

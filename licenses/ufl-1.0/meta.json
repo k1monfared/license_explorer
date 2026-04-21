@@ -1,0 +1,52 @@
+{
+  "id": "ufl-1.0",
+  "name": "Ubuntu Font Licence 1.0",
+  "spdx": "UFL-1.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "1.0",
+  "year": 2011,
+  "canonical_url": "https://ubuntu.com/legal/font-licence",
+  "text_provenance": {
+    "source_url": "https://assets.ubuntu.com/v1/81e5605d-ubuntu-font-licence-1.0.txt",
+    "retrieved_at": "2026-04-21T22:09:40Z",
+    "sha256": "2f0015108d68627bd788d313f529c21ff4da2c2c42a5e1f3883acc83480f9002"
+  },
+  "references": [
+    {
+      "source": "Canonical Ltd. — Ubuntu Font Licence",
+      "url": "https://ubuntu.com/legal/font-licence",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "note": "Canonical's authoritative page hosting the Ubuntu Font Licence 1.0 text and FAQ."
+    },
+    {
+      "source": "Canonical assets — UFL 1.0 plain text",
+      "url": "https://assets.ubuntu.com/v1/81e5605d-ubuntu-font-licence-1.0.txt",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "note": "Plain-text canonical copy linked from ubuntu.com/legal/font-licence."
+    },
+    {
+      "source": "SPDX license list",
+      "url": "https://spdx.org/licenses/UFL-1.0.html",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "note": "SPDX identifier reference for UFL-1.0."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses/",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "note": "Not listed on the OSI approved-license page as of retrieved_at. The UFL is a font-specific licence and has not been submitted/approved by OSI."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "note": "Font licence for works other than software (non-software category).",
+      "stance": "non-software"
+    }
+  ]
+}

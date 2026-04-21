@@ -1,0 +1,124 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "The Licensor grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information subject to the conditions below." },
+        { "sentence_id": "s-5", "note": "You are free to ... exploit the Information commercially and non-commercially for example, by combining it with other Information, or by including it in your own product or application." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-5", "note": "You are free to ... adapt the Information." },
+        { "sentence_id": "s-20", "note": "Definition of 'Use' expressly includes distributing, copying, adapting, modifying as may be technically necessary to use it in a different mode or format." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-5", "note": "You are free to: copy, publish, distribute and transmit the Information." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "worldwide, royalty-free, perpetual, non-exclusive licence to use the Information with no restriction on private use." },
+        { "sentence_id": "s-1", "note": "You are encouraged to use and re-use the Information that is available under this licence freely and flexibly." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-11", "note": "Exemptions include 'other intellectual property rights, including patents, trade marks, and design rights'." }
+      ],
+      "external_references": [],
+      "commentary": "OGL v3.0 does not grant a patent licence. The Exemptions clause explicitly carves patents out of the licensed subject matter; the licence neither grants an express patent right nor forbids the licensor from asserting patents. Patent exposure is therefore out of scope, and default patent law applies."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-6", "note": "You must ... acknowledge the source of the Information in your product or application by including or linking to any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this licence." },
+        { "sentence_id": "s-7", "note": "Default attribution: 'Contains public sector information licensed under the Open Government Licence v3.0.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-6", "note": "You must ... acknowledge the source of the Information in your product or application by including or linking to any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this licence." },
+        { "sentence_id": "s-7", "note": "Default attribution text if no statement is specified: 'Contains public sector information licensed under the Open Government Licence v3.0.'" },
+        { "sentence_id": "s-8", "note": "If you are using Information from several Information Providers and listing multiple attributions is not practical ... you may include a URI or hyperlink to a resource that contains the required attribution statements." },
+        { "sentence_id": "s-9", "note": "These are important conditions of this licence and if you fail to comply with them the rights granted to you under this licence ... will end automatically." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-13", "note": "The Information Provider and/or Licensor are not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use." },
+        { "sentence_id": "s-14", "note": "The Information Provider does not guarantee the continued supply of the Information." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-12", "note": "The Information is licensed 'as is' and the Information Provider and/or Licensor excludes all representations, warranties, obligations and liabilities in relation to the Information to the maximum extent permitted by law." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-11", "note": "Exemptions expressly exclude 'departmental or public sector organisation logos, crests and the Royal Arms except where they form an integral part of a document or dataset', 'military insignia', and 'other intellectual property rights, including patents, trade marks, and design rights'." }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "Open Government Licence v3.0 (UK) text", "url": "licenses/ogl-uk-3.0/text.html", "role": "primary evidence" }
+  ]
+}

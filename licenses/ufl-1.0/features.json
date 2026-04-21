@@ -1,0 +1,139 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-14", "note": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to propagate the Font Software" },
+        { "sentence_id": "s-11", "note": "Propagate is defined broadly, covering acts that would otherwise require permission under copyright law" },
+        { "sentence_id": "s-12", "note": "Propagation includes copying, distribution (with or without modification and with or without charging a redistribution fee)" }
+      ],
+      "external_references": [],
+      "commentary": "The UFL grants unlimited permission to propagate the Font Software including for-fee distribution. Unlike the SIL OFL, it does NOT restrict selling the font by itself: the broad 'Propagate' definition (which includes distribution with or without charging a redistribution fee) covers commercial sale and the licence has no equivalent of the OFL's 'Font Software may not be sold by itself' clause."
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-1", "note": "This licence allows the licensed fonts to be used, studied, modified and redistributed freely" },
+        { "sentence_id": "s-8", "note": "'Modified Version' refers to any derivative made by adding to, deleting, or substituting any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment" },
+        { "sentence_id": "s-14", "note": "Permission is hereby granted ... to propagate the Font Software (which includes modification)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-2", "note": "The fonts, including any derivative works, can be bundled, embedded, and redistributed provided the terms of this licence are met" },
+        { "sentence_id": "s-12", "note": "Propagation includes copying, distribution (with or without modification ...)" },
+        { "sentence_id": "s-14", "note": "Permission is hereby granted ... to propagate the Font Software" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-1", "note": "This licence allows the licensed fonts to be used, studied, modified and redistributed freely" },
+        { "sentence_id": "s-11", "note": "The Propagate definition explicitly excludes 'executing it on a computer or modifying a private copy' from activities requiring permission, confirming private use is unrestricted" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-15", "note": "Condition 1: Each copy of the Font Software must contain the above copyright notice and this licence" },
+        { "sentence_id": "s-16", "note": "These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-17", "note": "Condition 2(a): The Original Version must retain its name, unmodified" },
+        { "sentence_id": "s-18", "note": "Condition 2(b): Modified Versions which are Substantially Changed must be renamed to avoid use of the name of the Original Version or similar names entirely" },
+        { "sentence_id": "s-19", "note": "Condition 2(c): Modified Versions which are not Substantially Changed must be renamed to (i) retain the name of the Original Version and (ii) add additional naming elements to distinguish the Modified Version" },
+        { "sentence_id": "s-20", "note": "The name of such Modified Versions must be the name of the Original Version, with 'derivative X' where X represents the name of the new work, appended" }
+      ],
+      "external_references": [],
+      "commentary": "The UFL does not require a changelog, but the renaming rules in clause 2 operate as a de facto change-documentation mechanism: any modification that does not leave the font byte-identical must be distinguishable by name, either by taking a new name (Substantially Changed) or by appending a 'derivative X' suffix (not Substantially Changed). Users thus always know they are not running the Original Version."
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-22", "note": "Condition 4: The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this licence, and must not be distributed under any other licence" },
+        { "sentence_id": "s-3", "note": "The fonts and derivatives, however, cannot be released under any other licence" },
+        { "sentence_id": "s-23", "note": "The requirement for fonts to remain under this licence does not affect any document created using the Font Software, except any version of the Font Software extracted from a document ... may only be distributed under this licence" }
+      ],
+      "external_references": [],
+      "commentary": "Clause 4 imposes a copyleft-style requirement on the Font Software itself: modified or unmodified, it must be distributed under the UFL and no other licence. As with OFL, the requirement does not flow through to documents created with the font, but a font re-extracted from such a document remains bound by the UFL."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-15", "note": "Condition 1 requires the copyright notice to accompany every copy, which functions as attribution" },
+        { "sentence_id": "s-16", "note": "Notice may be stand-alone text, human-readable header, or machine-readable metadata as long as it is easily viewable by the user" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-26", "note": "IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-25", "note": "THE FONT SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-13", "note": "PERMISSION & CONDITIONS: This licence does not grant any rights under trademark law and all such rights are reserved" },
+        { "sentence_id": "s-17", "note": "Condition 2(a): The Original Version must retain its name, unmodified — the font name functions as a reserved identifier" },
+        { "sentence_id": "s-18", "note": "Condition 2(b): Modified Versions which are Substantially Changed must be renamed to avoid use of the name of the Original Version or similar names entirely" },
+        { "sentence_id": "s-21", "note": "Condition 3: The name(s) of the Copyright Holder(s) and any contributor shall not be used to promote, endorse or advertise any Modified Version" },
+        { "sentence_id": "s-25", "note": "Disclaimer excludes warranties of NONINFRINGEMENT OF ... TRADEMARK" }
+      ],
+      "external_references": [],
+      "commentary": "The UFL's reserved-font-name protection is stronger and more explicit than OFL's: clause 2 globally requires the Original Version's name to be preserved, and renames any Modified Version. Combined with the opening sentence of the Permission & Conditions section ('This licence does not grant any rights under trademark law and all such rights are reserved'), the UFL both denies the trademark grant and bakes name protection into every redistribution, whether or not the holder formally reserves specific names."
+    }
+  ],
+  "sources": [
+    { "source": "Ubuntu Font Licence 1.0 text", "url": "licenses/ufl-1.0/text.html", "role": "primary evidence" }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ogl-canada-2.0",
+  "name": "Open Government Licence - Canada 2.0",
+  "spdx": "OGL-Canada-2.0",
+  "medium": "data",
+  "archetype": "attribution",
+  "version": "2.0",
+  "year": 2014,
+  "canonical_url": "https://open.canada.ca/en/open-government-licence-canada",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/OGL-Canada-2.0.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "05c8b379c2fc4c491ac5899cd937a8c21176feba572c52811de0de7329b4cb7c"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/OGL-Canada-2.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "Government of Canada Open Government (canonical publication)",
+      "url": "https://open.canada.ca/en/open-government-licence-canada",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication of the Open Government Licence - Canada 2.0 by the Government of Canada."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Not OSI-approved. OGL-Canada is a government data/information licence and is not listed on OSI's approved-licenses page; its subject matter (Government of Canada copyright material) falls outside OSI's open-source software definition."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Government data license not classified by FSF. OGL-Canada 2.0 does not appear on the FSF license list as of retrieved_at.",
+      "stance": "unclassified"
+    }
+  ]
+}

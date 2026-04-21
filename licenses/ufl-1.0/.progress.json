@@ -1,0 +1,5 @@
+{
+  "lookup_license":   { "status": "complete", "updated_at": "2026-04-21T22:09:40Z" },
+  "extract_features": { "status": "complete", "updated_at": "2026-04-21T22:09:40Z", "completed_keys": ["commercial-use", "modification", "distribution", "private-use", "patent-use", "include-copyright", "document-changes", "disclose-source", "network-use-disclose", "same-license", "attribution", "liability", "warranty", "trademark"], "remaining_keys": [] },
+  "deep_analysis":    { "status": "complete", "updated_at": "2026-04-21T22:09:40Z" }
+}

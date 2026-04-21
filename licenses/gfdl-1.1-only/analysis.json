@@ -1,0 +1,86 @@
+{
+  "entries": [
+    {
+      "topic": "invariant-sections",
+      "summary": "GFDL 1.1 (March 2000) introduced the Invariant Sections and Cover Texts mechanism in its original form: §4.H requires 'Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles,' and §5 requires that combined works include every Invariant Section from every contributing document. These clauses were carried forward unchanged into GFDL 1.2 and 1.3. The design purpose was to let authors attach political statements such as the GNU Manifesto to GNU manuals in a way that survived downstream modification. The feature has been controversial since the start: Debian's 2006 General Resolution (vote_001) concluded that works with Invariant Sections conflict with the DFSG's modifiability requirement and are unsuitable for Debian main, while GFDL works without Invariant Sections are DFSG-free. The FSF's license list continues to recommend the GFDL for copylefted free documentation.",
+      "sources": [
+        {
+          "source": "FSF, GNU Free Documentation License 1.1 (canonical text, old-licenses)",
+          "url": "https://www.gnu.org/licenses/old-licenses/fdl-1.1.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6931cad1ee44b9b1a4dcc966ac7ab4804b579486e2f44bc5b1f7c29e22919e0e",
+          "archive_path": "licenses/gfdl-1.1-only/analysis-sources/6931cad1ee44b9b1a4dcc966ac7ab4804b579486e2f44bc5b1f7c29e22919e0e.html",
+          "excerpt": "GNU Free Documentation License Version 1.1, March 2000 Copyright (C) 2000 Free Software Foundation, Inc. ... The 'Invariant Sections' are certain Secondary Sections whose titles are designated, as being those of Invariant Sections, in the notice that says that the Document is released under this License. ... Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles."
+        },
+        {
+          "source": "Debian, General Resolution: Why the GNU Free Documentation License is not suitable for Debian main (vote_001, 2006)",
+          "url": "https://www.debian.org/vote/2006/vote_001",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "cdbaca6e9b2eacd8d858f473eb6a06f3cd083a6fbb55029d6f8607ab30c1e05c",
+          "archive_path": "licenses/gfdl-1.1-only/analysis-sources/cdbaca6e9b2eacd8d858f473eb6a06f3cd083a6fbb55029d6f8607ab30c1e05c.html",
+          "excerpt": "[GFDL] allows for non-removable, non-modifiable parts to be present in documents licensed under it. Such parts are commonly referred to as 'invariant sections', and are described in Section 4 of the GFDL. As modifiability is a fundamental requirement of the Debian Free Software Guidelines, this restriction is not acceptable for us, and we cannot accept in our distribution works that include such unmodifiable content. ... At the same time, we also consider that works licensed under the GNU Free Documentation License that include no invariant sections do fully meet the requirements of the Debian Free Software Guidelines."
+        },
+        {
+          "source": "FSF, free-software licenses list (FDL entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/gfdl-1.1-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "GNU Free Documentation License (#FDL) This is a license intended for use on copylefted free documentation. We plan to adopt it for all GNU manuals. It is also suitable for other kinds of useful works (such as textbooks and dictionaries, for instance). Its applicability is not limited to textual works."
+        }
+      ]
+    },
+    {
+      "topic": "original-gfdl-superseded",
+      "summary": "GFDL 1.1 is the original release, dated March 2000. It is superseded by GFDL 1.2 (November 2002) and GFDL 1.3 (November 2008), and is preserved only under /licenses/old-licenses/ for reference. Two features that later became legally important were absent from 1.1: (1) the Warranty Disclaimer machinery in §1 and §4.O, which lets a Document author attach a liability/warranty disclaimer that rides with the Document and must be preserved in Modified Versions, was added in 1.2; (2) the §11 Relicensing clause that let qualifying wiki-style Massive Multiauthor Collaboration sites migrate their GFDL content to CC-BY-SA 3.0 was added in 1.3 at the Wikimedia Foundation's request. Works released 'under GFDL 1.1 or any later version' automatically inherit both additions; works released 'under GFDL 1.1 only' do not. Because of this, almost all modern GFDL 1.1 documents are in practice 'or any later version' documents, and SPDX defines GFDL-1.1-only primarily so the version-locked case can be named when it does occur.",
+      "sources": [
+        {
+          "source": "FSF, Old Licenses index",
+          "url": "https://www.gnu.org/licenses/old-licenses/old-licenses.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d8e416c45ff38aec77bce88e88848e1f911a057692feebade9a183483333c7c5",
+          "archive_path": "licenses/gfdl-1.1-only/analysis-sources/d8e416c45ff38aec77bce88e88848e1f911a057692feebade9a183483333c7c5.html",
+          "excerpt": "This page contains old versions of the licenses published by the Free Software Foundation, kept here for reference. ... Old versions of the GNU Free Documentation License: GNU Free Documentation License, version 1.2; GNU Free Documentation License, version 1.1."
+        },
+        {
+          "source": "FSF, GNU Free Documentation License 1.1 (canonical text, old-licenses)",
+          "url": "https://www.gnu.org/licenses/old-licenses/fdl-1.1.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6931cad1ee44b9b1a4dcc966ac7ab4804b579486e2f44bc5b1f7c29e22919e0e",
+          "archive_path": "licenses/gfdl-1.1-only/analysis-sources/6931cad1ee44b9b1a4dcc966ac7ab4804b579486e2f44bc5b1f7c29e22919e0e.html",
+          "summary": "Canonical 1.1 text, dated March 2000. The words 'warranty', 'liability', and 'disclaimer' do not appear anywhere in the license body; §10 'FUTURE REVISIONS' is the basis for the automatic upgrade path under 'or any later version' notices."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF, GNU Free Documentation License 1.1",
+      "url": "https://www.gnu.org/licenses/old-licenses/fdl-1.1.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6931cad1ee44b9b1a4dcc966ac7ab4804b579486e2f44bc5b1f7c29e22919e0e",
+      "archive_path": "licenses/gfdl-1.1-only/analysis-sources/6931cad1ee44b9b1a4dcc966ac7ab4804b579486e2f44bc5b1f7c29e22919e0e.html"
+    },
+    {
+      "source": "FSF, Old Licenses index",
+      "url": "https://www.gnu.org/licenses/old-licenses/old-licenses.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "d8e416c45ff38aec77bce88e88848e1f911a057692feebade9a183483333c7c5",
+      "archive_path": "licenses/gfdl-1.1-only/analysis-sources/d8e416c45ff38aec77bce88e88848e1f911a057692feebade9a183483333c7c5.html"
+    },
+    {
+      "source": "FSF, free-software licenses list",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/gfdl-1.1-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Debian, General Resolution: Why the GNU Free Documentation License is not suitable for Debian main",
+      "url": "https://www.debian.org/vote/2006/vote_001",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "cdbaca6e9b2eacd8d858f473eb6a06f3cd083a6fbb55029d6f8607ab30c1e05c",
+      "archive_path": "licenses/gfdl-1.1-only/analysis-sources/cdbaca6e9b2eacd8d858f473eb6a06f3cd083a6fbb55029d6f8607ab30c1e05c.html"
+    }
+  ]
+}

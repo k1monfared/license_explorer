@@ -1,0 +1,4 @@
+{"timestamp":"2026-04-21T22:11:13.317Z","step":"session-start","prompt_version":"v1","license_id":"ogl-canada-2.0"}
+{"timestamp":"2026-04-21T22:11:38.572Z","step":"source-archive","topic":"uk-inspired-adaptation","url":"https://open.canada.ca/en/open-government-licence-canada","archive_sha256":"716a1e836121548eb5c225b41163522669fe0f99e20f6185fa61aaec801e306d"}
+{"timestamp":"2026-04-21T22:11:40.951Z","step":"source-archive","topic":"uk-inspired-adaptation","url":"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/","archive_sha256":"f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5"}
+{"timestamp":"2026-04-21T22:12:37.174Z","step":"session-complete","topics":1,"entries_written":1}

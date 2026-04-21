@@ -696,6 +696,54 @@
     "fsf_stance": "non-software"
   },
   {
+    "id": "ogl-canada-2.0",
+    "name": "Open Government Licence - Canada 2.0",
+    "spdx": "OGL-Canada-2.0",
+    "medium": "data",
+    "archetype": "attribution",
+    "blurb": "Canadian Open Government Licence 2.0. Covers federal Government of Canada works and data. Inspired by UK OGL.",
+    "tags": [
+      "data",
+      "government",
+      "attribution"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "unclassified"
+  },
+  {
+    "id": "ogl-uk-3.0",
+    "name": "Open Government Licence v3.0 (UK)",
+    "spdx": "OGL-UK-3.0",
+    "medium": "data",
+    "archetype": "attribution",
+    "blurb": "UK Open Government Licence v3. Applies to effectively all UK government data and works. Attribution-only with a broad permission grant.",
+    "tags": [
+      "data",
+      "government",
+      "attribution"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false,
+    "fsf_stance": "unclassified"
+  },
+  {
+    "id": "ufl-1.0",
+    "name": "Ubuntu Font Licence 1.0",
+    "spdx": "UFL-1.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Canonical's font licence. Governs the Ubuntu font family. Similar to SIL OFL with a broader embedding permission and reserved-font-name clause.",
+    "tags": [
+      "font",
+      "attribution",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
+  },
+  {
     "id": "cc-by-nc-sa-2.0",
     "name": "Creative Commons Attribution-NonCommercial-ShareAlike 2.0",
     "spdx": "CC-BY-NC-SA-2.0",
@@ -825,6 +873,46 @@
     "osi_approved": false,
     "fsf_libre": false,
     "fsf_stance": "unclassified"
+  },
+  {
+    "id": "gfdl-1.1-only",
+    "name": "GNU Free Documentation License v1.1 only",
+    "spdx": "GFDL-1.1-only",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Original GFDL. Predates the 1.3 Wikipedia-relicensing clause. Invariant sections and cover texts from the start.",
+    "tags": [
+      "copyleft",
+      "documentation",
+      "share-alike",
+      "gnu",
+      "invariant-sections",
+      "media",
+      "superseded"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
+  },
+  {
+    "id": "gfdl-1.2-only",
+    "name": "GNU Free Documentation License v1.2 only",
+    "spdx": "GFDL-1.2-only",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Pre-Wikipedia-relicensing GFDL. Still attached to many older docs. §11 added later in 1.3 enabled the 2009 Wikipedia migration to CC-BY-SA.",
+    "tags": [
+      "copyleft",
+      "documentation",
+      "share-alike",
+      "gnu",
+      "invariant-sections",
+      "media",
+      "superseded"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true,
+    "fsf_stance": "non-software"
   },
   {
     "id": "gfdl-1.3-only",

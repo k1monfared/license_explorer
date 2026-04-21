@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "uk-inspired-adaptation",
+      "summary": "OGL-Canada 2.0 is a close textual and structural adaptation of the UK Open Government Licence, re-scoped for the Canadian federal Crown copyright regime. Both licences open with a one-sentence invitation (\"You are encouraged to use … with only a few conditions\"), both grant a worldwide, royalty-free, perpetual, non-exclusive licence, both impose attribution as the sole active condition (with a mandated default notice when no Information Provider statement is supplied), both enumerate a narrow list of exemptions (personal information; third-party rights; names/crests/logos; patents and trade-marks), and both use the same 'Information' / 'Information Provider' / 'You' defined-terms framework. Canada's re-scoping is visible in the details: 'Information Provider' resolves to 'Her Majesty the Queen in right of Canada' (now the King in right of Canada) rather than the UK 'Keeper of Public Records'; governing law is Ontario plus applicable Canadian federal law rather than the UK Information Provider's place of business; the compatibility clause with CC BY 4.0 and ODC-BY present in the UK OGL is absent from OGL-Canada 2.0; and the Canadian exemption list is shorter and omits UK-specific items like military insignia, FOI-access gating, and the British Passport identity-document carve-out.",
+      "sources": [
+        {
+          "source": "Open Government Licence - Canada (canonical — Government of Canada)",
+          "url": "https://open.canada.ca/en/open-government-licence-canada",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "716a1e836121548eb5c225b41163522669fe0f99e20f6185fa61aaec801e306d",
+          "archive_path": "licenses/ogl-canada-2.0/analysis-sources/716a1e836121548eb5c225b41163522669fe0f99e20f6185fa61aaec801e306d.html",
+          "excerpt": "The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information, including for commercial purposes, subject to the terms below. … You must, where you do any of the above: Acknowledge the source of the Information by including any attribution statement specified by the Information Provider(s) … Contains information licensed under the Open Government Licence – Canada. … Exemptions: This licence does not grant you any right to use: Personal Information; third party rights the Information Provider is not authorized to license; the names, crests, logos, or other official symbols of the Information Provider; and Information subject to other intellectual property rights, including patents, trade-marks and official marks. … Governing Law: This licence is governed by the laws of the province of Ontario and the applicable laws of Canada."
+        },
+        {
+          "source": "Open Government Licence v3.0 (canonical — The National Archives, UK)",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5",
+          "archive_path": "licenses/ogl-canada-2.0/analysis-sources/f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5.html",
+          "excerpt": "The Licensor grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information subject to the conditions below. … You are free to: copy, publish, distribute and transmit the Information; adapt the Information; exploit the Information commercially and non-commercially … You must (where you do any of the above): acknowledge the source of the Information in your product or application by including or linking to any attribution statement specified by the Information Provider(s) … Contains public sector information licensed under the Open Government Licence v3.0. … These terms are compatible with the Creative Commons Attribution License 4.0 and the Open Data Commons Attribution License."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Open Government Licence - Canada (canonical — Government of Canada)",
+      "url": "https://open.canada.ca/en/open-government-licence-canada",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "716a1e836121548eb5c225b41163522669fe0f99e20f6185fa61aaec801e306d",
+      "archive_path": "licenses/ogl-canada-2.0/analysis-sources/716a1e836121548eb5c225b41163522669fe0f99e20f6185fa61aaec801e306d.html"
+    },
+    {
+      "source": "Open Government Licence v3.0 (canonical — The National Archives, UK)",
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5",
+      "archive_path": "licenses/ogl-canada-2.0/analysis-sources/f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5.html"
+    }
+  ]
+}

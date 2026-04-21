@@ -1,0 +1,120 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "The Information Provider grants you a worldwide, royalty-free, perpetual, non-exclusive licence to use the Information, including for commercial purposes, subject to the terms below." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-4", "note": "You are free to: Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium, mode or format for any lawful purpose." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-4", "note": "You are free to: Copy, modify, publish, translate, adapt, distribute or otherwise use the Information in any medium, mode or format for any lawful purpose." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "worldwide, royalty-free, perpetual, non-exclusive licence to use the Information; no limitation to public use." },
+        { "sentence_id": "s-4", "note": "use the Information in any medium, mode or format for any lawful purpose." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-8", "note": "Exemptions explicitly exclude 'Information subject to other intellectual property rights, including patents, trade-marks and official marks'." }
+      ],
+      "external_references": [],
+      "commentary": "OGL-Canada 2.0 does not grant a patent licence. The Exemptions clause expressly carves patents out of the licensed subject matter; the licence neither grants an express patent right nor forbids the Information Provider from asserting patents. Patent exposure is out of scope and default patent law applies."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-5", "note": "You must, where you do any of the above: Acknowledge the source of the Information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this licence." },
+        { "sentence_id": "s-6", "note": "If no specific attribution statement is given, you must use: 'Contains information licensed under the Open Government Licence – Canada.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-5", "note": "You must, where you do any of the above: Acknowledge the source of the Information by including any attribution statement specified by the Information Provider(s) and, where possible, provide a link to this licence." },
+        { "sentence_id": "s-6", "note": "Default attribution text: 'Contains information licensed under the Open Government Licence – Canada.'" },
+        { "sentence_id": "s-7", "note": "The terms of this licence are important, and if you fail to comply with any of them, the rights granted to you under this licence ... will end automatically." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-11", "note": "The Information Provider is not liable for any errors or omissions in the Information, and will not under any circumstances be liable for any direct, indirect, special, incidental, consequential, or other loss, injury or damage caused by its use or otherwise arising in connection with this licence or the Information, even if specifically advised of the possibility of such loss, injury or damage." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-10", "note": "The Information is licensed \"as is\", and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-8", "note": "Exemptions expressly exclude 'the names, crests, logos, or other official symbols of the Information Provider' and 'Information subject to other intellectual property rights, including patents, trade-marks and official marks'. This excludes the Government of Canada wordmark and other official symbols." }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "Open Government Licence - Canada 2.0 text", "url": "licenses/ogl-canada-2.0/text.html", "role": "primary evidence" }
+  ]
+}

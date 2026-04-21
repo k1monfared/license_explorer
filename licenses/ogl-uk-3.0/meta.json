@@ -1,0 +1,51 @@
+{
+  "id": "ogl-uk-3.0",
+  "name": "Open Government Licence v3.0 (UK)",
+  "spdx": "OGL-UK-3.0",
+  "medium": "data",
+  "archetype": "attribution",
+  "version": "3.0",
+  "year": 2014,
+  "canonical_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/OGL-UK-3.0.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "eb22384c866b63b513254ae3baff6b3bc7d001f559d03e02b6b8b83333a04806"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/OGL-UK-3.0.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "The National Archives (canonical publication)",
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication of the Open Government Licence v3.0 by The National Archives, UK."
+    },
+    {
+      "source": "UK Government Licensing Framework",
+      "url": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "The UKGLF describes the policy framework under which OGL is offered for Crown copyright and public sector information."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Not OSI-approved. OGL v3.0 is a government data/information licence and is not listed on OSI's approved-licenses page; its subject matter (public sector Crown copyright and database-right material) falls outside OSI's open-source software definition."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Government data license not classified by FSF. OGL v3.0 does not appear on the FSF license list as of retrieved_at.",
+      "stance": "unclassified"
+    }
+  ]
+}

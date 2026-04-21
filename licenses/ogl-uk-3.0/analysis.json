@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "scope-of-crown-copyright",
+      "summary": "OGL v3.0's reach is extraordinarily broad because the UK Crown holds copyright in virtually every work produced by or for officers and servants of the Crown under section 163 of the Copyright, Designs and Patents Act 1988, and the UK Government Licensing Framework (UKGLF), administered by The National Archives, mandates OGL as the default licence for all Crown bodies and recommends it for other public sector bodies. The OGL text itself gives the Keeper of the Public Records authority to license Information subject to Crown copyright and Crown database rights, which is the hook the UKGLF uses to cover essentially all UK government output under a single attribution-only grant. What the licence does NOT cover is narrow and exhaustively enumerated: personal data; information not yet disclosed under FOI; departmental logos, crests, and the Royal Arms (except when integral to a dataset); military insignia; third-party rights; other IP rights such as patents, trade marks, and design rights; and identity documents like the British Passport.",
+      "sources": [
+        {
+          "source": "UK Government Licensing Framework (The National Archives)",
+          "url": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "edbdd33beff82df5443979b5f732fe2bef5c26d199652dabb3798ac328379168",
+          "archive_path": "licenses/ogl-uk-3.0/analysis-sources/edbdd33beff82df5443979b5f732fe2bef5c26d199652dabb3798ac328379168.html",
+          "excerpt": "The UK Government Licensing Framework (UKGLF) provides a policy and legal overview of the arrangements for licensing the use and re-use of public sector information, both in central government and the wider public sector. It sets out best practice, standardises the licensing principles for government information, mandates the Open Government Licence (OGL) as the default licence for Crown bodies and recommends OGL for other public sector bodies. … Crown copyright is defined under section 163 of the Copyright, Designs and Patents Act 1988 as works made by officers or servants of the Crown in the course of their duties. The Keeper, who is also the Chief Executive Officer of The National Archives, manages Crown copyright and Crown database right under Letters Patent."
+        },
+        {
+          "source": "Open Government Licence v3.0 (canonical — The National Archives)",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+          "retrieved_at": "2026-04-21T19:00:00Z",
+          "archive_sha256": "f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5",
+          "archive_path": "licenses/ogl-uk-3.0/analysis-sources/f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5.html",
+          "excerpt": "'Licensor' means any Information Provider which has the authority to offer Information under the terms of this licence or the Keeper of Public Records, who has the authority to offer Information subject to Crown copyright and Crown database rights and Information subject to copyright and database right that has been assigned to or acquired by the Crown, under the terms of this licence. … Exemptions: This licence does not cover: personal data in the Information; … departmental or public sector organisation logos, crests and the Royal Arms except where they form an integral part of a document or dataset; military insignia; third party rights the Information Provider is not authorised to license; other intellectual property rights, including patents, trade marks, and design rights; and identity documents such as the British Passport."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "UK Government Licensing Framework (The National Archives)",
+      "url": "https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "edbdd33beff82df5443979b5f732fe2bef5c26d199652dabb3798ac328379168",
+      "archive_path": "licenses/ogl-uk-3.0/analysis-sources/edbdd33beff82df5443979b5f732fe2bef5c26d199652dabb3798ac328379168.html"
+    },
+    {
+      "source": "Open Government Licence v3.0 (canonical — The National Archives)",
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "archive_sha256": "f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5",
+      "archive_path": "licenses/ogl-uk-3.0/analysis-sources/f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5.html"
+    }
+  ]
+}

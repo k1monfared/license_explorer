@@ -1,0 +1,86 @@
+{
+  "entries": [
+    {
+      "topic": "ubuntu-font-family-adoption",
+      "summary": "The Ubuntu Font Licence is Canonical's house licence, created to govern the Ubuntu Font Family, a sans-serif typeface family commissioned by Canonical from the type foundry Dalton Maag and shipped as a default UI font across Ubuntu releases. The family covers 22 styles plus a variable font, along with a monospaced companion Ubuntu Mono in 8 styles, with roughly 1,200 glyphs covering Latin, Cyrillic and Greek for 200 to 250 languages. Canonical's design site frames the fonts and their source design files as being 'distributed under an open licence' with users 'expressly encouraged to experiment, modify, share and improve'. The UFL's practical importance is therefore very narrow, it is effectively a single-project licence for this font family and its derivatives, and Canonical's own UFL FAQ is explicit that the UFL is 'only intended as an interim license' pending a more generic libre font licence, at which point Canonical plans to relicense the Ubuntu Font Family using copyright assignment held in the interim.",
+      "sources": [
+        {
+          "source": "Canonical Design — Ubuntu font project page",
+          "url": "https://design.ubuntu.com/font",
+          "retrieved_at": "2026-04-21T22:09:40Z",
+          "archive_sha256": "100413cd9953d3eb3e8b4f695087afe2ee9edef1c1a47586a634146cd0655afb",
+          "archive_path": "licenses/ufl-1.0/analysis-sources/100413cd9953d3eb3e8b4f695087afe2ee9edef1c1a47586a634146cd0655afb.html",
+          "excerpt": "The Ubuntu font family are a set of matching new libre/open fonts. The development is being funded by Canonical on behalf the wider Free Software community and the Ubuntu project. The technical font design work and implementation is being undertaken by Dalton Maag. Both the final font Truetype/OpenType files and the design files used to produce the font family are distributed under an open licence and you are expressly encouraged to experiment, modify, share and improve. ... The Ubuntu font family is a sans-serif typeface family available in 22 styles plus a variable font with adjustable weight and width axes. Its fixed-width companion, Ubuntu Mono, comes in 8 styles."
+        },
+        {
+          "source": "Canonical — Ubuntu Font Licence FAQ",
+          "url": "https://ubuntu.com/legal/font-licence/faq",
+          "retrieved_at": "2026-04-21T22:09:40Z",
+          "archive_sha256": "facb360b42aecd9b8b47fc90a237910bd1591175c03623053ec23d5b195ca019",
+          "archive_path": "licenses/ufl-1.0/analysis-sources/facb360b42aecd9b8b47fc90a237910bd1591175c03623053ec23d5b195ca019.html",
+          "excerpt": "For the short-term only, the initial licence is the Ubuntu Font License (UFL). This is loosely inspired from the work on the SIL OFL 1.1, and seeks to clarify the issues that arose during discussions and legal review, from the perspective of the backers, Canonical Ltd. ... The UFL is only intended as an interim license, and the overriding aim is to support the creation of a more suitable and generic libre font licence. As soon as such a licence is developed, the Ubuntu Font Family will migrate to it, made possible by copyright assignment in the interim."
+        }
+      ]
+    },
+    {
+      "topic": "ofl-comparison",
+      "summary": "Canonical's UFL FAQ describes the UFL 1.0 as 'loosely inspired from' the SIL OFL 1.1 and enumerates the specific differences. Clarifications added in UFL: document embedding is addressed directly, the licence obligations apply at point of distribution rather than point of receipt, author and copyright holder are disambiguated (type designers are authors while the copyright holder is usually the funder), 'Propagate' is defined in a GPLv3-style way to cover internationalised copyright law, 'Substantially Changed' is defined, the non-transfer of trademarks is made explicit, and the renaming requirement is refined. Two OFL mechanisms are streamlined away in UFL: the OFL's 'Font Software may not be sold by itself' clause is removed, so UFL permits selling the font standalone, and the OFL's per-holder 'Reserved Font Name(s)' declaration is removed, replaced in UFL by a global naming rule in clause 2 that requires preserving the Original Version's name and systematically renaming derivatives ('Substantially Changed' derivatives must avoid the original name entirely, other derivatives append a 'derivative X' suffix). The net effect is that UFL is somewhat more permissive on commercial distribution than OFL but has a uniformly stronger, less-optional name-protection regime.",
+      "sources": [
+        {
+          "source": "Canonical — Ubuntu Font Licence FAQ (differences from SIL OFL 1.1)",
+          "url": "https://ubuntu.com/legal/font-licence/faq",
+          "retrieved_at": "2026-04-21T22:09:40Z",
+          "archive_sha256": "facb360b42aecd9b8b47fc90a237910bd1591175c03623053ec23d5b195ca019",
+          "archive_path": "licenses/ufl-1.0/analysis-sources/facb360b42aecd9b8b47fc90a237910bd1591175c03623053ec23d5b195ca019.html",
+          "excerpt": "Between the OFL 1.1, and the UFL 1.0, the following changes are made to produce the Ubuntu Font Licence: Clarification: Document embedding (see embedding section above). Apply at point of distribution, instead of receipt. Author vs. copyright holder disambiguation (type designers are authors, with the copyright holder normally being the funder). Define \"Propagate\" (for internationalisation, similar to the GPLv3). Define \"Substantially Changed\". Trademarks are explicitly not transferred. Refine renaming requirement. Streamlining: Remove \"not to be sold separately\" clause. Remove \"Reserved Font Name(s)\" declaration."
+        },
+        {
+          "source": "Canonical — Ubuntu Font Licence (canonical page)",
+          "url": "https://ubuntu.com/legal/font-licence",
+          "retrieved_at": "2026-04-21T22:09:40Z",
+          "archive_sha256": "5616c3bc29f83c35e0ff85087c24c66cb4cded465c1a63faf61289e890bd082e",
+          "archive_path": "licenses/ufl-1.0/analysis-sources/5616c3bc29f83c35e0ff85087c24c66cb4cded465c1a63faf61289e890bd082e.html",
+          "excerpt": "The present Ubuntu Font Licence 1.0 is loosely inspired from the SIL Open Font Licence (OFL) version 1.1. Using the Ubuntu Font Licence 1.0 is an interim solution and the choice of licence will likely change as alternative licences become available in the future. Note that the Ubuntu Font Licence and the SIL Open Font Licence are not identical (view the differences) and should not be confused with each other. Please read the terms precisely and read through the FAQ for more details."
+        },
+        {
+          "source": "SIL — Open Font License landing page (comparison baseline)",
+          "url": "https://scripts.sil.org/OFL",
+          "retrieved_at": "2026-04-21T22:09:40Z",
+          "archive_sha256": "c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f",
+          "archive_path": "licenses/ufl-1.0/analysis-sources/c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f.html",
+          "summary": "SIL's canonical OFL landing page, referenced here to establish the OFL 1.1 baseline that Canonical's UFL FAQ is comparing against: the widely used, community-approved free font licence administered by SIL International."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Canonical Design — Ubuntu font project page",
+      "url": "https://design.ubuntu.com/font",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "archive_sha256": "100413cd9953d3eb3e8b4f695087afe2ee9edef1c1a47586a634146cd0655afb",
+      "archive_path": "licenses/ufl-1.0/analysis-sources/100413cd9953d3eb3e8b4f695087afe2ee9edef1c1a47586a634146cd0655afb.html"
+    },
+    {
+      "source": "Canonical — Ubuntu Font Licence FAQ",
+      "url": "https://ubuntu.com/legal/font-licence/faq",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "archive_sha256": "facb360b42aecd9b8b47fc90a237910bd1591175c03623053ec23d5b195ca019",
+      "archive_path": "licenses/ufl-1.0/analysis-sources/facb360b42aecd9b8b47fc90a237910bd1591175c03623053ec23d5b195ca019.html"
+    },
+    {
+      "source": "Canonical — Ubuntu Font Licence (canonical page)",
+      "url": "https://ubuntu.com/legal/font-licence",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "archive_sha256": "5616c3bc29f83c35e0ff85087c24c66cb4cded465c1a63faf61289e890bd082e",
+      "archive_path": "licenses/ufl-1.0/analysis-sources/5616c3bc29f83c35e0ff85087c24c66cb4cded465c1a63faf61289e890bd082e.html"
+    },
+    {
+      "source": "SIL — Open Font License landing page",
+      "url": "https://scripts.sil.org/OFL",
+      "retrieved_at": "2026-04-21T22:09:40Z",
+      "archive_sha256": "c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f",
+      "archive_path": "licenses/ufl-1.0/analysis-sources/c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f.html"
+    }
+  ]
+}

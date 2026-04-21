@@ -1,48 +1,4 @@
 {
   "description": "Planned licenses to ingest. When an entry appears in licenses/index.json, scripts/aggregate-index.mjs removes it from this list automatically. Update this file to add new work; do not hand-edit to mark things done.",
-  "planned": [
-    {
-      "id": "gfdl-1.2-only",
-      "name": "GNU Free Documentation License 1.2 only",
-      "spdx": "GFDL-1.2-only",
-      "medium": "media",
-      "archetype": "share-alike",
-      "category": "older-docs",
-      "rationale": "Pre-Wikipedia relicensing GFDL. Still attached to many older docs."
-    },
-    {
-      "id": "gfdl-1.1-only",
-      "name": "GNU Free Documentation License 1.1 only",
-      "spdx": "GFDL-1.1-only",
-      "medium": "media",
-      "archetype": "share-alike",
-      "category": "older-docs"
-    },
-    {
-      "id": "ogl-uk-3.0",
-      "name": "UK Open Government Licence 3.0",
-      "spdx": "OGL-UK-3.0",
-      "medium": "data",
-      "archetype": "attribution",
-      "category": "government",
-      "rationale": "Covers effectively all UK government data and works."
-    },
-    {
-      "id": "ogl-canada-2.0",
-      "name": "Open Government Licence - Canada 2.0",
-      "spdx": "OGL-Canada-2.0",
-      "medium": "data",
-      "archetype": "attribution",
-      "category": "government"
-    },
-    {
-      "id": "ufl-1.0",
-      "name": "Ubuntu Font Licence 1.0",
-      "spdx": "UFL-1.0",
-      "medium": "media",
-      "archetype": "attribution",
-      "category": "fonts",
-      "rationale": "Canonical's font license; governs Ubuntu and several derivative fonts."
-    }
-  ]
+  "planned": []
 }
