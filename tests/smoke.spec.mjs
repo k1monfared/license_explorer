@@ -42,3 +42,21 @@ test('text page highlights sentence via :target', async ({ page }) => {
   await expect(el).toBeVisible();
   await expect(el).toHaveClass(/pulse/);
 });
+
+test('compare page: add column via + button renders immediately (no refresh)', async ({ page }) => {
+  await page.goto(BASE + '/#/compare?set=mit');
+  await expect(page.locator('.cmp-col-head')).toHaveCount(1);
+  await page.locator('.cmp-add-btn').click();
+  await expect(page.locator('.add-picker')).toBeVisible();
+  await page.locator('.add-picker-input').fill('apache');
+  await page.locator('.add-picker-list li').first().click();
+  await expect(page.locator('.cmp-col-head')).toHaveCount(2);
+  await expect(page.locator('.cmp-col-name').nth(1)).toContainText('Apache');
+});
+
+test('compare page: remove column via × button', async ({ page }) => {
+  await page.goto(BASE + '/#/compare?set=mit,apache-2.0');
+  await expect(page.locator('.cmp-col-head')).toHaveCount(2);
+  await page.locator('.col-close').first().click();
+  await expect(page.locator('.cmp-col-head')).toHaveCount(1);
+});

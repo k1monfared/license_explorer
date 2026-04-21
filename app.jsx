@@ -280,14 +280,17 @@ function ComparePage({ ids }) {
   const [data, setData]       = useState({});
   const [order, setOrder]     = useState(ids);
   const [expanded, setExpanded] = useState({});
+  const [addOpen, setAddOpen] = useState(false);
+  const [dragOverIdx, setDragOverIdx] = useState(null);
 
-  const orderKey = order.join(',');
+  // Keep order in sync with URL ids (for back button, shared links).
   useEffect(() => { setOrder(ids); }, [ids.join(',')]);
 
   useEffect(() => {
     fetch('licenses/index.json', NOCACHE).then(r => r.json()).then(setCatalog).catch(() => {});
   }, []);
 
+  // Fetch whatever's missing whenever order changes.
   useEffect(() => {
     const missing = order.filter(id => !data[id]);
     if (missing.length === 0) return;
@@ -300,17 +303,23 @@ function ComparePage({ ids }) {
     )).then(results => {
       setData(d => { const next = { ...d }; for (const [id, v] of results) if (v) next[id] = v; return next; });
     });
-  }, [orderKey]);
+  }, [order.join(',')]);
 
-  const updateHash = (next) => { location.hash = '#/compare?set=' + next.join(','); };
-  const removeCol  = (id)   => { updateHash(order.filter(x => x !== id)); };
-  const addCol     = (id)   => { if (!order.includes(id)) updateHash([...order, id]); };
-  const moveCol    = (from, to) => {
-    if (from === to) return;
+  // Update order AND URL at the same time so the UI re-renders immediately
+  // (not waiting for the hashchange round-trip).
+  const updateSet = (next) => {
+    setOrder(next);
+    location.hash = '#/compare?set=' + next.join(',');
+  };
+  const removeCol = (id)       => updateSet(order.filter(x => x !== id));
+  const addCol    = (id)       => { if (!order.includes(id)) updateSet([...order, id]); };
+  const moveCol   = (from, to) => {
+    if (from === to || from == null || to == null) return;
     const next = [...order];
     const [x] = next.splice(from, 1);
-    next.splice(to, 0, x);
-    updateHash(next);
+    const target = to > from ? to - 1 : to;
+    next.splice(target, 0, x);
+    updateSet(next);
   };
 
   if (!catalog) return <p>Loading...</p>;
@@ -326,9 +335,10 @@ function ComparePage({ ids }) {
   }
 
   const findEntry = (id, g, key) => {
+    const placeholder = { key, value: 'not_assessed', citations: [], external_references: [] };
     const f = data[id]?.feat;
-    if (!f) return null;
-    return f[g].find(e => e.key === key) || { key, value: 'not_assessed', citations: [], external_references: [] };
+    if (!f) return placeholder;
+    return f[g].find(e => e.key === key) || placeholder;
   };
 
   const toggleExpand = (g, key) => setExpanded(x => ({ ...x, [`${g}:${key}`]: !x[`${g}:${key}`] }));
@@ -342,23 +352,45 @@ function ComparePage({ ids }) {
       <table className="cmp-table">
         <thead>
           <tr>
-            <th></th>
+            <th className="cmp-row-label"></th>
             {order.map((id, i) => (
-              <th key={id} draggable
+              <th key={id}
+                  className={`cmp-col-head ${dragOverIdx === i ? 'drop-before' : ''}`}
+                  draggable
                   onDragStart={e => e.dataTransfer.setData('from', String(i))}
-                  onDragOver={e => e.preventDefault()}
-                  onDrop={e => moveCol(Number(e.dataTransfer.getData('from')), i)}>
-                <span style={{cursor:'grab', marginRight:'0.3rem'}}>&equiv;</span>
-                <a href={`#/license/${id}`}>{data[id]?.meta?.name || id}</a>
-                <button onClick={() => removeCol(id)} aria-label={`remove ${id}`} style={{marginLeft:'0.5rem'}}>&times;</button>
+                  onDragOver={e => { e.preventDefault(); if (dragOverIdx !== i) setDragOverIdx(i); }}
+                  onDragLeave={e => { if (!e.currentTarget.contains(e.relatedTarget)) setDragOverIdx(v => v === i ? null : v); }}
+                  onDragEnd={() => setDragOverIdx(null)}
+                  onDrop={e => {
+                    e.preventDefault();
+                    const from = Number(e.dataTransfer.getData('from'));
+                    moveCol(from, dragOverIdx != null ? dragOverIdx : i);
+                    setDragOverIdx(null);
+                  }}>
+                <div className="cmp-col-inner">
+                  <span className="drag-handle" aria-hidden="true">&equiv;</span>
+                  <a href={`#/license/${id}`} className="cmp-col-name">{data[id]?.meta?.name || id}</a>
+                  <button type="button" className="col-close" onClick={() => removeCol(id)} aria-label={`remove ${id}`}>&times;</button>
+                </div>
               </th>
             ))}
-            <th>
-              {available.length > 0 && (
-                <select onChange={e => { if (e.target.value) { addCol(e.target.value); e.target.value = ''; }}} defaultValue="">
-                  <option value="">+ add</option>
-                  {available.map(l => <option key={l.id} value={l.id}>{l.name}</option>)}
-                </select>
+            <th className="cmp-add-col"
+                onDragOver={e => { e.preventDefault(); if (dragOverIdx !== order.length) setDragOverIdx(order.length); }}
+                onDrop={e => {
+                  e.preventDefault();
+                  const from = Number(e.dataTransfer.getData('from'));
+                  moveCol(from, order.length);
+                  setDragOverIdx(null);
+                }}>
+              {available.length > 0 && !addOpen && (
+                <button type="button" className="cmp-add-btn" onClick={() => setAddOpen(true)} title="Add license to comparison" aria-label="Add license">+</button>
+              )}
+              {addOpen && (
+                <AddColumnPicker
+                  available={available}
+                  onAdd={(id) => { addCol(id); setAddOpen(false); }}
+                  onCancel={() => setAddOpen(false)}
+                />
               )}
             </th>
           </tr>
@@ -371,6 +403,63 @@ function ComparePage({ ids }) {
         </tbody>
       </table>
       </div>
+    </div>
+  );
+}
+
+function AddColumnPicker({ available, onAdd, onCancel }) {
+  const [q, setQ] = useState('');
+  const [highlight, setHighlight] = useState(0);
+  const filtered = available.filter(l => {
+    if (!q) return true;
+    const needle = q.toLowerCase();
+    return l.name.toLowerCase().includes(needle)
+        || l.id.toLowerCase().includes(needle)
+        || (l.spdx && l.spdx.toLowerCase().includes(needle))
+        || (l.tags || []).some(t => t.toLowerCase().includes(needle));
+  });
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') onCancel(); };
+    const onDocClick = (e) => { if (!e.target.closest('.add-picker')) onCancel(); };
+    document.addEventListener('keydown', onKey);
+    document.addEventListener('mousedown', onDocClick);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      document.removeEventListener('mousedown', onDocClick);
+    };
+  }, [onCancel]);
+  return (
+    <div
+      className="add-picker"
+      onClick={e => e.stopPropagation()}
+      onMouseDown={e => e.stopPropagation()}
+    >
+      <input
+        autoFocus
+        className="add-picker-input"
+        value={q}
+        placeholder="Search licenses..."
+        onChange={e => { setQ(e.target.value); setHighlight(0); }}
+        onKeyDown={e => {
+          if (e.key === 'Enter' && filtered[highlight]) onAdd(filtered[highlight].id);
+          else if (e.key === 'ArrowDown') { setHighlight(h => Math.min(h + 1, filtered.length - 1)); e.preventDefault(); }
+          else if (e.key === 'ArrowUp')   { setHighlight(h => Math.max(h - 1, 0)); e.preventDefault(); }
+        }}
+      />
+      <ul className="add-picker-list">
+        {filtered.length === 0 && <li className="add-picker-empty">No matches</li>}
+        {filtered.map((l, i) => (
+          <li
+            key={l.id}
+            className={i === highlight ? 'hl' : ''}
+            onMouseEnter={() => setHighlight(i)}
+            onMouseDown={() => onAdd(l.id)}
+          >
+            <span className="add-picker-name">{l.name}</span>
+            <span className="add-picker-spdx">{l.spdx || l.id}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
