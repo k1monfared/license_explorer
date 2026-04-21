@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "topic": "secondary-license-mechanism",
+      "summary": "EPL 2.0 introduced a new opt-in 'Secondary License' mechanism that does not exist in EPL 1.0. Section 3.1(a) of the license text and Exhibit A together let the initial Contributor attach a notice declaring the GPL v2 or any later version as a Secondary License. When that notice is attached and the EPL-licensed file is combined with other material in a separate file under the Secondary License, the combined work may then be redistributed under the Secondary License. The Eclipse Foundation's EPL 2.0 FAQ explains the clause was added because 'a number of Eclipse projects require GPL compatibility' that EPL 1.0 could only address through a cumbersome EPL-1.0/BSD dual license that eliminated copyleft.",
+      "sources": [
+        {
+          "source": "Eclipse Public License 2.0 — plain HTML text (Section 3.1 and Exhibit A)",
+          "url": "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html",
+          "retrieved_at": "2026-04-21T21:21:48.238Z",
+          "archive_sha256": "928c4a6af7e9cf82589e560f98ffbb6ade7385b59fec8cb4ef36a6bb91cf7018",
+          "archive_path": "licenses/epl-2.0/analysis-sources/928c4a6af7e9cf82589e560f98ffbb6ade7385b59fec8cb4ef36a6bb91cf7018.html",
+          "excerpt": "'Secondary License' means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor. … it must be made available under this Agreement, or if the Program (i) is combined with other material in a separate file or files made available under a Secondary License, and (ii) the initial Contributor attached to the Source Code the notice described in Exhibit A of this Agreement, then the Program may be made available under the terms of such Secondary Licenses."
+        },
+        {
+          "source": "Eclipse Foundation — EPL 2.0 FAQ Q2.1 and Q2.2 (archive.org snapshot)",
+          "url": "https://web.archive.org/web/2020/https://www.eclipse.org/legal/epl-2.0/faq.php",
+          "retrieved_at": "2026-04-21T21:22:31.843Z",
+          "archive_sha256": "9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5",
+          "archive_path": "licenses/epl-2.0/analysis-sources/9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5.html",
+          "excerpt": "2.1. Why was the concept of Secondary Licenses added to the EPL-2.0? A number of Eclipse projects require GPL compatibility. Previously, our solution to this was to dual-license projects under the EPL-1.0 and the BSD. However, this had the effect of eliminating the copyleft provisions which are the norm within the Eclipse community. As a result, this was a pragmatic approach to resolve this issue. … 2.2. The notion of Secondary Licenses is intended to permit combining content licensed under the EPL-2.0 with an otherwise incompatible license, specifically the GNU General Public License, v2.0 or greater."
+        }
+      ]
+    },
+    {
+      "topic": "gpl-compatibility",
+      "summary": "EPL 2.0 is conditionally GPL-compatible, unlike EPL 1.0 which the FSF and Eclipse Foundation both classify as strictly GPL-incompatible. Compatibility is not the default: the Eclipse Foundation's EPL 2.0 FAQ Q4.1 states explicitly that an EPL-2.0 project is not GPL-compatible by default and that GPL compatibility must be added via the Exhibit A Secondary License notice. The FSF concurs that EPL 2.0 'without this designation remains incompatible with the GPL,' but when the GPL is designated as a Secondary License it becomes 'roughly equivalent, for users, to releasing that piece of code under a dual license, EPL | GPL.' The practical effect is to let downstream recipients combine and re-release covered material under the GPL.",
+      "sources": [
+        {
+          "source": "Eclipse Foundation — EPL 2.0 FAQ Q4.1 and Q2.13 (archive.org snapshot)",
+          "url": "https://web.archive.org/web/2020/https://www.eclipse.org/legal/epl-2.0/faq.php",
+          "retrieved_at": "2026-04-21T21:22:31.843Z",
+          "archive_sha256": "9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5",
+          "archive_path": "licenses/epl-2.0/analysis-sources/9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5.html",
+          "excerpt": "4.1. Is my EPL-2.0 licensed project GPL compatible by default? No. EPL-2.0 licensed projects may explicitly add GPL compatibility by way of adding a Secondary License as per Exhibit A — Form of Secondary Licenses Notice. See Section 3.2 of the EPL-2.0. Please note adding a secondary license is considered a relicensing exercise and all copyright holders must agree to the license change. … 2.13. How do I make my new project GPL compatible? You must re-license to EPL-2.0 adding GPL Compatibility as per Exhibit A."
+        },
+        {
+          "source": "FSF — License List (EPL v2.0 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:22:56.311Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/epl-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "In terms of GPL compatibility, the Eclipse Public License version 2.0 is essentially equivalent to version 1.0. The only change is that it explicitly offers the option of designating the GNU GPL version 2 or any later version as a 'secondary license' … When an initial contributor releases a specific piece of code specifying that the GPL version 2 or any later version is a 'secondary license', that provides explicit compatibility with those GPL versions for that code. (Doing so is roughly equivalent, for users, to releasing that piece of code under a dual license, EPL | GPL.) However, the EPL2 without this designation remains incompatible with the GPL."
+        }
+      ]
+    },
+    {
+      "topic": "epl-1-to-2-migration",
+      "summary": "The Eclipse Foundation released EPL-2.0 in August 2017 to modernize license terms that had been essentially unchanged from the Common Public License for 16 years. The FAQ lists the concrete changes: the term 'module' was replaced with 'file,' the choice-of-law provision was removed, the license was made suitable for scripting languages like JavaScript, and the optional GPL-2.0+ Secondary License mechanism was added. The Foundation formally deprecated EPL-1.0 and directed Eclipse projects to migrate 'in order to reduce license proliferation,' with each Eclipse project expected to adopt EPL-2.0 at its next simultaneous release.",
+      "sources": [
+        {
+          "source": "Eclipse Foundation — EPL 2.0 FAQ Q1.3, Q1.4, Q1.5 (archive.org snapshot)",
+          "url": "https://web.archive.org/web/2020/https://www.eclipse.org/legal/epl-2.0/faq.php",
+          "retrieved_at": "2026-04-21T21:22:31.843Z",
+          "archive_sha256": "9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5",
+          "archive_path": "licenses/epl-2.0/analysis-sources/9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5.html",
+          "excerpt": "1.3. Why did the Eclipse Foundation create a new version of the EPL? The EPL-1.0 is very close to the Common Public License; and as such, its terms are essentially 16 years old. A lot of the motivation was to simply update the license to reflect the norms and expectations of an industry that has changed a lot in that time. … 1.4. What are the major changes between EPL-1.0 and EPL-2.0? The term of art is now referred to as \"file\" rather than \"module\"; The choice of law provisions has been removed; The license is now suitable for scripting languages such as JavaScript; and The license now includes an option to add a secondary license for GPL-2.0+ compatibility. … 1.5. The EPL-1.0 has been deprecated; and in order to reduce license proliferation, the Eclipse open source project community will begin to migrate to the new EPL-2.0."
+        }
+      ]
+    },
+    {
+      "topic": "commercial-redistribution",
+      "summary": "EPL-2.0 §4 (Commercial Distribution) preserves EPL-1.0's distinctive Commercial Contributor indemnification obligation almost verbatim: a Contributor who ships the Program as part of a commercial product offering must defend and indemnify every other Contributor against third-party claims 'to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering.' Intellectual-property infringement claims are expressly carved out. This distinguishes EPL-2.0 from Apache-2.0, which contains no such commercial-redistributor indemnification and instead handles liability through its patent grant plus disclaimers of warranty.",
+      "sources": [
+        {
+          "source": "Eclipse Foundation — Eclipse Public License 2.0 plain HTML text (§4 Commercial Distribution)",
+          "url": "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html",
+          "retrieved_at": "2026-04-21T21:21:48.238Z",
+          "archive_sha256": "928c4a6af7e9cf82589e560f98ffbb6ade7385b59fec8cb4ef36a6bb91cf7018",
+          "archive_path": "licenses/epl-2.0/analysis-sources/928c4a6af7e9cf82589e560f98ffbb6ade7385b59fec8cb4ef36a6bb91cf7018.html",
+          "excerpt": "4. COMMERCIAL DISTRIBUTION. Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. … if a Contributor includes the Program in a commercial product offering, such Contributor (\"Commercial Contributor\") hereby agrees to defend and indemnify every other Contributor (\"Indemnified Contributor\") against any losses, damages and costs (collectively \"Losses\") arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Eclipse Public License 2.0 — plain HTML text",
+      "url": "https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html",
+      "retrieved_at": "2026-04-21T21:21:48.238Z",
+      "archive_sha256": "928c4a6af7e9cf82589e560f98ffbb6ade7385b59fec8cb4ef36a6bb91cf7018",
+      "archive_path": "licenses/epl-2.0/analysis-sources/928c4a6af7e9cf82589e560f98ffbb6ade7385b59fec8cb4ef36a6bb91cf7018.html"
+    },
+    {
+      "source": "Eclipse Foundation — EPL 2.0 FAQ (archive.org snapshot)",
+      "url": "https://web.archive.org/web/2020/https://www.eclipse.org/legal/epl-2.0/faq.php",
+      "retrieved_at": "2026-04-21T21:22:31.843Z",
+      "archive_sha256": "9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5",
+      "archive_path": "licenses/epl-2.0/analysis-sources/9c020017e407f13f4cb62324284484a79b0221cb84251ec41b42fd37d48d74e5.html"
+    },
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:22:56.311Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/epl-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

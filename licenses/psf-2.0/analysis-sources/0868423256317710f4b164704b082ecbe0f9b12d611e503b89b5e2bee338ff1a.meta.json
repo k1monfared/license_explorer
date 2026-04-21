@@ -1,0 +1,16 @@
+{
+  "url": "https://www.python.org/psf/license/",
+  "final_url": "https://docs.python.org/3/license.html",
+  "retrieved_at": "2026-04-21T21:20:28.430Z",
+  "sha256": "0868423256317710f4b164704b082ecbe0f9b12d611e503b89b5e2bee338ff1a",
+  "bytes": 88160,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:20:25.778Z",
+      "http_status": 200,
+      "final_url": "https://docs.python.org/3/license.html"
+    }
+  ]
+}

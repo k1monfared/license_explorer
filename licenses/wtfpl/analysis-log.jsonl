@@ -1,0 +1,8 @@
+{"timestamp":"2026-04-21T21:24:33.561Z","step":"session-start","prompt_version":"v1","license_id":"wtfpl"}
+{"timestamp":"2026-04-21T21:24:38.576Z","step":"session-start","prompt_version":"v1","license_id":"wtfpl"}
+{"timestamp":"2026-04-21T21:25:37.521Z","step":"source-archive","prompt_version":"v1","topic":"missing-warranty-disclaimer","url":"http://www.wtfpl.net/txt/copying/","archive_sha256":"0356258391e190dc1d44ea01565cfe627fe44e27dad693a0a54c2483a7b223e5","bytes":498}
+{"timestamp":"2026-04-21T21:25:37.543Z","step":"source-archive","prompt_version":"v1","topic":"missing-warranty-disclaimer","url":"http://www.wtfpl.net/faq/","archive_sha256":"f772d34c579d1be64ac016cdb22377e01d84d9801fdf3676f04c33670ffbc9b7","bytes":27390}
+{"timestamp":"2026-04-21T21:25:37.564Z","step":"source-archive","prompt_version":"v1","topic":"missing-warranty-disclaimer","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:25:37.584Z","step":"synthesize-entry","prompt_version":"v1","topic":"missing-warranty-disclaimer","sources_used":["0356258391e190dc1d44ea01565cfe627fe44e27dad693a0a54c2483a7b223e5","f772d34c579d1be64ac016cdb22377e01d84d9801fdf3676f04c33670ffbc9b7","450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:25:37.604Z","step":"session-complete","topics":1,"entries_written":1}
+{"timestamp":"2026-04-21T21:25:44.984Z","step":"session-complete","topics":1,"entries_written":1}

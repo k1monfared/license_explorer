@@ -1,0 +1,9 @@
+{"timestamp":"2026-04-21T21:18:40.519Z","step":"session-start","prompt_version":"v1","license_id":"bsd-2-clause"}
+{"timestamp":"2026-04-21T21:19:06.088Z","step":"source-archive","prompt_version":"v1","topic":"freebsd-heritage","url":"https://www.freebsd.org/copyright/freebsd-license/","archive_sha256":"4b007e4300f0119087c824e13931ba432d067d8e27c371b8269f2fe7a6681cf5","bytes":9698}
+{"timestamp":"2026-04-21T21:19:06.108Z","step":"source-archive","prompt_version":"v1","topic":"freebsd-heritage","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:19:25.275Z","step":"session-start","prompt_version":"v1","license_id":"bsd-2-clause"}
+{"timestamp":"2026-04-21T21:19:25.296Z","step":"source-archive","url":"https://choosealicense.com/licenses/bsd-2-clause/","archive_sha256":"bf09c7046d67be615944a92552867302f86474b31bafa0bd2b747d3f285c739a"}
+{"timestamp":"2026-04-21T21:19:25.316Z","step":"source-archive","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"}
+{"timestamp":"2026-04-21T21:19:31.406Z","step":"synthesize-entry","prompt_version":"v1","topic":"freebsd-heritage","sources_used":["4b007e4300f0119087c824e13931ba432d067d8e27c371b8269f2fe7a6681cf5","450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:19:31.426Z","step":"session-complete","topics":1,"entries_written":1}
+{"timestamp":"2026-04-21T21:20:40.141Z","step":"session-complete","topics":2,"entries_written":2}

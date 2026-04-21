@@ -1,4 +1,205 @@
 {
+  "0bsd": {
+    "topics": 1,
+    "topic_keys": [
+      "no-attribution-design"
+    ]
+  },
+  "apache-2.0": {
+    "topics": 6,
+    "topic_keys": [
+      "patent-grant-retaliation",
+      "gplv2-incompatibility-gplv3-compatibility",
+      "indemnification-clause",
+      "google-v-oracle-peripheral",
+      "contributor-agreement",
+      "enterprise-adoption"
+    ]
+  },
+  "bsd-2-clause": {
+    "topics": 2,
+    "topic_keys": [
+      "freebsd-heritage",
+      "notable-enforcement-rarity"
+    ]
+  },
+  "bsd-3-clause": {
+    "topics": 2,
+    "topic_keys": [
+      "modified-vs-original-bsd",
+      "no-endorsement-clause"
+    ]
+  },
+  "bsd-4-clause": {
+    "topics": 1,
+    "topic_keys": [
+      "advertising-clause-problem"
+    ]
+  },
+  "bsl-1.0": {
+    "topics": 1,
+    "topic_keys": [
+      "binary-distribution-notice-waiver"
+    ]
+  },
+  "cern-ohl-p-2.0": {
+    "topics": 4,
+    "topic_keys": [
+      "cern-ohl-family-design",
+      "hardware-scope-definitions",
+      "fsf-and-osi-stance",
+      "kicad-and-cern-projects"
+    ]
+  },
+  "isc": {
+    "topics": 2,
+    "topic_keys": [
+      "openbsd-default",
+      "fsf-and-or-wording-fix"
+    ]
+  },
+  "mit": {
+    "topics": 2,
+    "topic_keys": [
+      "no-patent-silence-debate",
+      "mit-vs-x11-naming-confusion"
+    ]
+  },
+  "ms-pl": {
+    "topics": 2,
+    "topic_keys": [
+      "osi-approval-story",
+      "gpl-incompatibility"
+    ]
+  },
+  "psf-2.0": {
+    "topics": 2,
+    "topic_keys": [
+      "gpl-compatibility-history",
+      "contribution-policy"
+    ]
+  },
+  "upl-1.0": {
+    "topics": 1,
+    "topic_keys": [
+      "patent-grant-scope"
+    ]
+  },
+  "zlib": {
+    "topics": 2,
+    "topic_keys": [
+      "not-misrepresent-clause",
+      "embedded-adoption"
+    ]
+  },
+  "artistic-2.0": {
+    "topics": 2,
+    "topic_keys": [
+      "compliance-alternatives",
+      "gpl-compatibility"
+    ]
+  },
+  "cddl-1.0": {
+    "topics": 3,
+    "topic_keys": [
+      "zfs-gpl-incompatibility",
+      "file-level-reciprocity",
+      "sun-rationale"
+    ]
+  },
+  "cern-ohl-w-2.0": {
+    "topics": 4,
+    "topic_keys": [
+      "cern-ohl-family-design",
+      "hardware-scope-definitions",
+      "fsf-and-osi-stance",
+      "weak-reciprocity-for-hardware"
+    ]
+  },
+  "epl-1.0": {
+    "topics": 3,
+    "topic_keys": [
+      "gpl-incompatibility",
+      "module-scope",
+      "indemnification"
+    ]
+  },
+  "epl-2.0": {
+    "topics": 4,
+    "topic_keys": [
+      "secondary-license-mechanism",
+      "gpl-compatibility",
+      "epl-1-to-2-migration",
+      "commercial-redistribution"
+    ]
+  },
+  "eupl-1.2": {
+    "topics": 3,
+    "topic_keys": [
+      "compatibility-clause",
+      "language-neutrality",
+      "gov-adoption"
+    ]
+  },
+  "lgpl-2.1-only": {
+    "topics": 3,
+    "topic_keys": [
+      "library-linking-boundary",
+      "gpl-compatibility",
+      "commercial-adoption"
+    ]
+  },
+  "lgpl-3.0-only": {
+    "topics": 4,
+    "topic_keys": [
+      "patent-grant",
+      "combined-work-scope",
+      "gpl-compatibility",
+      "static-linking-exception"
+    ]
+  },
+  "mpl-2.0": {
+    "topics": 4,
+    "topic_keys": [
+      "file-level-scope",
+      "gpl-compatibility",
+      "adoption",
+      "patent-grant"
+    ]
+  },
+  "ms-rl": {
+    "topics": 1,
+    "topic_keys": [
+      "file-level-reciprocity"
+    ]
+  },
+  "agpl-3.0-only": {
+    "topics": 4,
+    "topic_keys": [
+      "network-use-disclose",
+      "relicensing-controversies",
+      "google-policy",
+      "patent-grant"
+    ]
+  },
+  "cern-ohl-s-2.0": {
+    "topics": 4,
+    "topic_keys": [
+      "cern-ohl-family-design",
+      "hardware-scope-definitions",
+      "fsf-and-osi-stance",
+      "whole-product-reciprocity"
+    ]
+  },
+  "gpl-2.0-only": {
+    "topics": 4,
+    "topic_keys": [
+      "notable-enforcement",
+      "patent-implicit-license",
+      "network-use-boundary",
+      "linking-boundary"
+    ]
+  },
   "gpl-3.0-only": {
     "topics": 4,
     "topic_keys": [
@@ -6,6 +207,148 @@
       "tivoization",
       "gpl-compatibility",
       "network-use-boundary"
+    ]
+  },
+  "cc-by-3.0": {
+    "topics": 3,
+    "topic_keys": [
+      "jurisdiction-ports",
+      "stack-overflow-legacy",
+      "flickr-widespread-adoption"
+    ]
+  },
+  "cc-by-4.0": {
+    "topics": 3,
+    "topic_keys": [
+      "4-to-3-migration",
+      "international-harmonization",
+      "database-rights"
+    ]
+  },
+  "cc-by-nc-4.0": {
+    "topics": 2,
+    "topic_keys": [
+      "fsf-nonfree",
+      "commercial-scope-ambiguity"
+    ]
+  },
+  "cc-by-nc-nd-4.0": {
+    "topics": 2,
+    "topic_keys": [
+      "fsf-nonfree",
+      "maximum-restrictions"
+    ]
+  },
+  "cc-by-nd-4.0": {
+    "topics": 2,
+    "topic_keys": [
+      "fsf-nonfree",
+      "nd-mechanics"
+    ]
+  },
+  "ofl-1.1": {
+    "topics": 3,
+    "topic_keys": [
+      "reserved-font-name",
+      "fonts-in-documents",
+      "google-fonts-adoption"
+    ]
+  },
+  "cc-by-nc-sa-4.0": {
+    "topics": 2,
+    "topic_keys": [
+      "fsf-nonfree",
+      "adapter-license-obligation"
+    ]
+  },
+  "cc-by-sa-3.0": {
+    "topics": 3,
+    "topic_keys": [
+      "wikipedia-content-migration",
+      "stack-exchange-pre-2018",
+      "adapter-requirement-scope"
+    ]
+  },
+  "cc-by-sa-4.0": {
+    "topics": 3,
+    "topic_keys": [
+      "gpl-3-compatibility",
+      "wikipedia-sole-license",
+      "adapter-license-mechanism"
+    ]
+  },
+  "gfdl-1.3-only": {
+    "topics": 3,
+    "topic_keys": [
+      "wikipedia-relicensing",
+      "invariant-sections",
+      "software-unsuitability"
+    ]
+  },
+  "tapr-ohl-1.0": {
+    "topics": 3,
+    "topic_keys": [
+      "covenant-not-to-sue-on-patents",
+      "documentation-definition",
+      "pre-osi-endorsement"
+    ]
+  },
+  "cc0-1.0": {
+    "topics": 3,
+    "topic_keys": [
+      "osi-rejection-2012",
+      "patent-non-grant",
+      "europeana-adoption"
+    ]
+  },
+  "unlicense": {
+    "topics": 1,
+    "topic_keys": [
+      "vs-cc0-for-software"
+    ]
+  },
+  "wtfpl": {
+    "topics": 1,
+    "topic_keys": [
+      "missing-warranty-disclaimer"
+    ]
+  },
+  "busl-1.1": {
+    "topics": 4,
+    "topic_keys": [
+      "mariadb-origin",
+      "hashicorp-relicensing-2023",
+      "sentry-couchbase-adoption",
+      "change-date-mechanism"
+    ]
+  },
+  "elastic-2.0": {
+    "topics": 5,
+    "topic_keys": [
+      "elastic-vs-aws-trademark",
+      "2021-relicensing",
+      "opensearch-fork",
+      "managed-service-restriction",
+      "osi-position"
+    ]
+  },
+  "polyform-noncommercial-1.0.0": {
+    "topics": 4,
+    "topic_keys": [
+      "polyform-project-origin",
+      "license-family-design",
+      "noncommercial-definition",
+      "tenancy-and-adoption"
+    ]
+  },
+  "sspl-1.0": {
+    "topics": 5,
+    "topic_keys": [
+      "mongodb-2018-relicensing",
+      "osi-rejection",
+      "s13-scope-expansion",
+      "linux-distro-removal",
+      "aws-documentdb"
     ]
   }
 }

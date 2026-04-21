@@ -1,0 +1,16 @@
+{
+  "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+  "final_url": "https://www.gnu.org/licenses/agpl-3.0.html",
+  "retrieved_at": "2026-04-21T21:18:51.598Z",
+  "sha256": "3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf",
+  "bytes": 48645,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:17:48.255Z",
+      "http_status": 200,
+      "final_url": "https://www.gnu.org/licenses/agpl-3.0.html"
+    }
+  ]
+}

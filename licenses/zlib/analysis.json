@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "not-misrepresent-clause",
+      "summary": "The zlib License is almost MIT-shaped but adds two unusual restrictions that most permissive licenses do not: the origin of the software must not be misrepresented (you must not claim you wrote the original), and 'Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.' choosealicense.com highlights this as the defining feature in its one-line description, and the zlib FAQ is concrete about what 'plainly marked' means in practice: the maintainers expect redistributors of modified source to update the ZLIB_VERSION and ZLIB_VERNUM macros (appending an identification string) and to note the origin and nature of the changes in zlib.h, ChangeLog, and README. This turns a clause that could be a grey area of interpretation into a specific, testable convention, which is why the requirement has caused little friction in practice.",
+      "sources": [
+        {
+          "source": "OSI — The zlib/libpng License",
+          "url": "https://opensource.org/license/zlib",
+          "retrieved_at": "2026-04-21T21:20:16.243Z",
+          "archive_sha256": "a1168a47ae2371db81fbcf8bb6583388262307aa935ad474dbd796e568a00611",
+          "archive_path": "licenses/zlib/analysis-sources/a1168a47ae2371db81fbcf8bb6583388262307aa935ad474dbd796e568a00611.html",
+          "excerpt": "1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required. 2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software."
+        },
+        {
+          "source": "zlib FAQ (zlib.net)",
+          "url": "https://www.zlib.net/zlib_faq.html",
+          "retrieved_at": "2026-04-21T21:20:23.091Z",
+          "archive_sha256": "c1744543c49d40292cc89ab3c9f8f45520c8204bec882969bf1505c1bfa04244",
+          "archive_path": "licenses/zlib/analysis-sources/c1744543c49d40292cc89ab3c9f8f45520c8204bec882969bf1505c1bfa04244.html",
+          "excerpt": "The license says that altered source versions must be 'plainly marked'. So what exactly do I need to do to meet that requirement? You need to change the ZLIB_VERSION and ZLIB_VERNUM #defines in zlib.h. In particular, the final version number needs to be changed to f, and an identification string should be appended to ZLIB_VERSION. … For altered source distributions, you should also note the origin and nature of the changes in zlib.h, as well as in ChangeLog and README, along with the dates of the alterations."
+        },
+        {
+          "source": "choosealicense.com — zlib License",
+          "url": "https://choosealicense.com/licenses/zlib/",
+          "retrieved_at": "2026-04-21T21:20:19.322Z",
+          "archive_sha256": "c8d4c3c6397778c63475f9f90a3cd0eded1bb0f2a1b287765761f0d99da23a5e",
+          "archive_path": "licenses/zlib/analysis-sources/c8d4c3c6397778c63475f9f90a3cd0eded1bb0f2a1b287765761f0d99da23a5e.html",
+          "excerpt": "A short permissive license, compatible with GPL. Requires altered source versions to be documented as such."
+        }
+      ]
+    },
+    {
+      "topic": "embedded-adoption",
+      "summary": "The zlib FAQ confirms the library is explicitly approved for commercial use with no GPL entanglement ('Can I use zlib in my commercial application? Yes.' 'Is zlib under the GNU license? No.'). Combined with a short BSD-style grant, no advertising clause, no attribution obligation for binaries unless modified source is redistributed, and a long track record of defensive patent-clearance by the authors ('Does zlib infringe on any patents? As far as we know, no. In fact, that was originally the whole point behind zlib.'), this is the usual explanation cited for zlib's ubiquity in games, firmware, and embedded systems, where shipping GPL-encumbered or attribution-heavy code is often a non-starter. The core library has been adopted as the canonical reference for RFC 1950/1951/1952 (zlib/deflate/gzip), which effectively made the zlib License the default for a large class of compression code in shipping consumer devices.",
+      "sources": [
+        {
+          "source": "zlib FAQ (zlib.net)",
+          "url": "https://www.zlib.net/zlib_faq.html",
+          "retrieved_at": "2026-04-21T21:20:23.091Z",
+          "archive_sha256": "c1744543c49d40292cc89ab3c9f8f45520c8204bec882969bf1505c1bfa04244",
+          "archive_path": "licenses/zlib/analysis-sources/c1744543c49d40292cc89ab3c9f8f45520c8204bec882969bf1505c1bfa04244.html",
+          "excerpt": "Can I use zlib in my commercial application? Yes. Please read the license in zlib.h. … Is zlib under the GNU license? No. … Does zlib infringe on any patents? As far as we know, no. In fact, that was originally the whole point behind zlib."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "OSI — The zlib/libpng License",
+      "url": "https://opensource.org/license/zlib",
+      "retrieved_at": "2026-04-21T21:20:16.243Z",
+      "archive_sha256": "a1168a47ae2371db81fbcf8bb6583388262307aa935ad474dbd796e568a00611",
+      "archive_path": "licenses/zlib/analysis-sources/a1168a47ae2371db81fbcf8bb6583388262307aa935ad474dbd796e568a00611.html"
+    },
+    {
+      "source": "zlib FAQ (zlib.net)",
+      "url": "https://www.zlib.net/zlib_faq.html",
+      "retrieved_at": "2026-04-21T21:20:23.091Z",
+      "archive_sha256": "c1744543c49d40292cc89ab3c9f8f45520c8204bec882969bf1505c1bfa04244",
+      "archive_path": "licenses/zlib/analysis-sources/c1744543c49d40292cc89ab3c9f8f45520c8204bec882969bf1505c1bfa04244.html"
+    },
+    {
+      "source": "choosealicense.com — zlib License",
+      "url": "https://choosealicense.com/licenses/zlib/",
+      "retrieved_at": "2026-04-21T21:20:19.322Z",
+      "archive_sha256": "c8d4c3c6397778c63475f9f90a3cd0eded1bb0f2a1b287765761f0d99da23a5e",
+      "archive_path": "licenses/zlib/analysis-sources/c8d4c3c6397778c63475f9f90a3cd0eded1bb0f2a1b287765761f0d99da23a5e.html"
+    }
+  ]
+}

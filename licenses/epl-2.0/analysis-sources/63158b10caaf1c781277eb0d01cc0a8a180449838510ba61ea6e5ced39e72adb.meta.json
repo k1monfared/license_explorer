@@ -1,0 +1,31 @@
+{
+  "url": "https://www.eclipse.org/legal/epl-2.0/faq.php",
+  "final_url": "https://www.eclipse.org/legal/epl-2.0/faq/",
+  "retrieved_at": "2026-04-21T21:24:00.450Z",
+  "sha256": "63158b10caaf1c781277eb0d01cc0a8a180449838510ba61ea6e5ced39e72adb",
+  "bytes": 33430,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:23:34.383Z",
+      "http_status": 200,
+      "final_url": "https://www.eclipse.org/legal/epl-2.0/faq/"
+    },
+    {
+      "retrieved_at": "2026-04-21T21:22:53.625Z",
+      "http_status": 200,
+      "final_url": "https://www.eclipse.org/legal/epl-2.0/faq/"
+    },
+    {
+      "retrieved_at": "2026-04-21T21:22:21.734Z",
+      "http_status": 200,
+      "final_url": "https://www.eclipse.org/legal/epl-2.0/faq/"
+    },
+    {
+      "retrieved_at": "2026-04-21T21:20:57.183Z",
+      "http_status": 200,
+      "final_url": "https://www.eclipse.org/legal/epl-2.0/faq/"
+    }
+  ]
+}

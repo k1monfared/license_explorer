@@ -1,0 +1,6 @@
+{"timestamp":"2026-04-21T21:22:41.430Z","step":"session-start","prompt_version":"v1","license_id":"0bsd"}
+{"timestamp":"2026-04-21T21:23:23.722Z","step":"source-archive","prompt_version":"v1","topic":"no-attribution-design","url":"https://landley.net/toybox/license.html","archive_sha256":"8ed676d1690256f5f855c6f7db6a9b73e298b7089895ed96adaa003f02d9d554","bytes":5976}
+{"timestamp":"2026-04-21T21:23:23.749Z","step":"source-archive","prompt_version":"v1","topic":"no-attribution-design","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:23:23.774Z","step":"synthesize-entry","prompt_version":"v1","topic":"no-attribution-design","sources_used":["8ed676d1690256f5f855c6f7db6a9b73e298b7089895ed96adaa003f02d9d554","450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:23:23.796Z","step":"session-complete","topics":1,"entries_written":1}
+{"timestamp":"2026-04-21T21:23:49.232Z","step":"session-complete","topics":1,"entries_written":1}

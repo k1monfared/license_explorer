@@ -1,0 +1,16 @@
+{
+  "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+  "final_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+  "retrieved_at": "2026-04-21T21:17:37.120Z",
+  "sha256": "1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6",
+  "bytes": 32009,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:14:02.364Z",
+      "http_status": 200,
+      "final_url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+    }
+  ]
+}

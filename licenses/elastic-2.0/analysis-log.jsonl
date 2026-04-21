@@ -1,0 +1,14 @@
+{"timestamp":"2026-04-21T21:20:55.368Z","step":"session-start","prompt_version":"v1","license_id":"elastic-2.0"}
+{"timestamp":"2026-04-21T21:21:22.686Z","step":"source-archive","prompt_version":"v1","topic":"2021-relicensing","url":"https://www.elastic.co/pricing/faq/licensing","archive_sha256":"178e0d4c3776ad0ace6e50cf327ea2652e6b77bfaf6f794e76044a8891f3cb92","bytes":374797}
+{"timestamp":"2026-04-21T21:21:22.706Z","step":"source-archive","prompt_version":"v1","topic":"elastic-vs-aws-trademark","url":"https://www.elastic.co/blog/why-license-change-aws","archive_sha256":"27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146","bytes":408770}
+{"timestamp":"2026-04-21T21:21:22.727Z","step":"source-archive","prompt_version":"v1","topic":"managed-service-restriction","url":"https://www.elastic.co/licensing/elastic-license","archive_sha256":"589b04f868c504fee5788e5bf91c370e2422e97a46fde6456db22320fc8a9300","bytes":494873}
+{"timestamp":"2026-04-21T21:21:22.747Z","step":"source-archive","prompt_version":"v1","topic":"opensearch-fork","url":"https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/","archive_sha256":"086021a9ed8a70969d1a174e83c809f0411694d144cae15aebe01b6ef549bac7","bytes":1044255}
+{"timestamp":"2026-04-21T21:22:37.333Z","step":"session-start","prompt_version":"v1","license_id":"elastic-2.0"}
+{"timestamp":"2026-04-21T21:23:22.083Z","step":"synthesize-entry","prompt_version":"v1","topic":"elastic-vs-aws-trademark","sources_used":["27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146"],"entry_written":true}
+{"timestamp":"2026-04-21T21:23:22.104Z","step":"synthesize-entry","prompt_version":"v1","topic":"2021-relicensing","sources_used":["178e0d4c3776ad0ace6e50cf327ea2652e6b77bfaf6f794e76044a8891f3cb92"],"entry_written":true}
+{"timestamp":"2026-04-21T21:23:22.124Z","step":"synthesize-entry","prompt_version":"v1","topic":"opensearch-fork","sources_used":["086021a9ed8a70969d1a174e83c809f0411694d144cae15aebe01b6ef549bac7"],"entry_written":true}
+{"timestamp":"2026-04-21T21:23:22.143Z","step":"synthesize-entry","prompt_version":"v1","topic":"managed-service-restriction","sources_used":["589b04f868c504fee5788e5bf91c370e2422e97a46fde6456db22320fc8a9300"],"entry_written":true}
+{"timestamp":"2026-04-21T21:23:22.163Z","step":"session-complete","topics":4,"entries_written":4}
+{"timestamp":"2026-04-21T21:25:06.873Z","step":"source-archive","prompt_version":"v1","topic":"osi-position","url":"https://opensource.org/blog/the-sspl-is-not-an-open-source-license","archive_sha256":"4e53f9aa8d5540a0b888c420b7b3bd6e12fdc791e25bd14c2317a4e7e2942c37","bytes":184661}
+{"timestamp":"2026-04-21T21:25:09.103Z","step":"entry-written","prompt_version":"v1","topic":"osi-position","sources":1}
+{"timestamp":"2026-04-21T21:25:11.568Z","step":"session-complete","prompt_version":"v1","topics":5,"entries_written":5}

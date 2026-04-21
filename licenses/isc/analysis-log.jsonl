@@ -1,0 +1,6 @@
+{"timestamp":"2026-04-21T21:21:47.813Z","step":"session-start","prompt_version":"v1","license_id":"isc"}
+{"timestamp":"2026-04-21T21:22:32.614Z","step":"source-archive","prompt_version":"v1","topic":"openbsd-default","url":"https://www.openbsd.org/policy.html","archive_sha256":"682f296f8dd4288bd52e68a7e4cefcb4cbeeb7fcb208e0d346d1472531423849","bytes":18557}
+{"timestamp":"2026-04-21T21:22:32.634Z","step":"source-archive","prompt_version":"v1","topic":"openbsd-default","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:22:32.656Z","step":"synthesize-entry","prompt_version":"v1","topic":"openbsd-default","sources_used":["682f296f8dd4288bd52e68a7e4cefcb4cbeeb7fcb208e0d346d1472531423849","450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:22:32.676Z","step":"session-complete","topics":1,"entries_written":1}
+{"timestamp":"2026-04-21T21:23:36.538Z","step":"session-complete","topics":2,"entries_written":2}

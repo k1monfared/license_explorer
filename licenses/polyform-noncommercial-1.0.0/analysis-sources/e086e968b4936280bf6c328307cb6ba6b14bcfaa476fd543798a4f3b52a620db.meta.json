@@ -1,0 +1,16 @@
+{
+  "url": "https://polyformproject.org/",
+  "final_url": "https://polyformproject.org/",
+  "retrieved_at": "2026-04-21T21:30:57.998Z",
+  "sha256": "e086e968b4936280bf6c328307cb6ba6b14bcfaa476fd543798a4f3b52a620db",
+  "bytes": 28564,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:27:45.258Z",
+      "http_status": 200,
+      "final_url": "https://polyformproject.org/"
+    }
+  ]
+}

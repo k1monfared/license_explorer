@@ -1,0 +1,6 @@
+{"timestamp":"2026-04-21T21:21:04.323Z","step":"session-start","prompt_version":"v1","license_id":"bsd-4-clause"}
+{"timestamp":"2026-04-21T21:21:40.165Z","step":"source-archive","prompt_version":"v1","topic":"advertising-clause-problem","url":"https://www.gnu.org/licenses/bsd.html","archive_sha256":"771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0","bytes":18768}
+{"timestamp":"2026-04-21T21:21:40.185Z","step":"source-archive","prompt_version":"v1","topic":"advertising-clause-problem","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:21:40.205Z","step":"synthesize-entry","prompt_version":"v1","topic":"advertising-clause-problem","sources_used":["771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0","450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:21:40.225Z","step":"session-complete","topics":1,"entries_written":1}
+{"timestamp":"2026-04-21T21:22:15.251Z","step":"session-complete","topics":1,"entries_written":1}

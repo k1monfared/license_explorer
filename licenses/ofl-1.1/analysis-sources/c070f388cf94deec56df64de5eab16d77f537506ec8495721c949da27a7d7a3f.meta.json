@@ -1,0 +1,16 @@
+{
+  "url": "https://scripts.sil.org/OFL-FAQ_web",
+  "final_url": "https://openfontlicense.org/",
+  "retrieved_at": "2026-04-21T21:22:48.478Z",
+  "sha256": "c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f",
+  "bytes": 10363,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:22:39.381Z",
+      "http_status": 200,
+      "final_url": "https://openfontlicense.org/"
+    }
+  ]
+}

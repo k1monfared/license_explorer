@@ -1,0 +1,57 @@
+{
+  "entries": [
+    {
+      "topic": "missing-warranty-disclaimer",
+      "summary": "WTFPL version 2's entire operative text is a single clause: 'You just DO WHAT THE FUCK YOU WANT TO.' It contains no 'AS IS' warranty disclaimer. The WTFPL FAQ frames this as intentional because the license is 'all-purpose' and not specific to software, then recommends users append a separate no-warranty boilerplate to source files if they want one. The FSF classifies WTFPL as a 'lax permissive non-copyleft free software license, compatible with the GNU GPL,' but explicitly does not recommend it, preferring the X11 license for small programs and Apache 2.0 for larger ones.",
+      "sources": [
+        {
+          "source": "WTFPL — COPYING (Version 2, December 2004)",
+          "url": "http://www.wtfpl.net/txt/copying/",
+          "retrieved_at": "2026-04-21T21:24:35.505Z",
+          "archive_sha256": "0356258391e190dc1d44ea01565cfe627fe44e27dad693a0a54c2483a7b223e5",
+          "archive_path": "licenses/wtfpl/analysis-sources/0356258391e190dc1d44ea01565cfe627fe44e27dad693a0a54c2483a7b223e5.txt",
+          "excerpt": "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE Version 2, December 2004 Copyright (C) 2004 Sam Hocevar … TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 0. You just DO WHAT THE FUCK YOU WANT TO."
+        },
+        {
+          "source": "WTFPL — FAQ ('Why is there no no warranty clause?')",
+          "url": "http://www.wtfpl.net/faq/",
+          "retrieved_at": "2026-04-21T21:24:47.326Z",
+          "archive_sha256": "f772d34c579d1be64ac016cdb22377e01d84d9801fdf3676f04c33670ffbc9b7",
+          "archive_path": "licenses/wtfpl/analysis-sources/f772d34c579d1be64ac016cdb22377e01d84d9801fdf3676f04c33670ffbc9b7.html",
+          "excerpt": "Why is there no 'no warranty' clause? The WTFPL is an all-purpose license and does not cover only computer programs; it can be used for artwork, documentation and so on. As such, it only covers copying, distribution and modification. If you want to add a no warranty clause for a program, you may use the following wording in your source code: /* This program is free software. It comes without any warranty, to the extent permitted by applicable law. …*/"
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (WTFPL entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/wtfpl/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "WTFPL, Version 2 … This is a lax permissive non-copyleft free software license, compatible with the GNU GPL. We do not recommend this license. If you want a lax permissive license for a small program, we recommend the X11 license. A larger program usually ought to be copyleft; but if you are set on using a lax permissive license for one, we recommend the Apache 2.0 license since it protects users from patent treachery."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "WTFPL — COPYING",
+      "url": "http://www.wtfpl.net/txt/copying/",
+      "retrieved_at": "2026-04-21T21:24:35.505Z",
+      "archive_sha256": "0356258391e190dc1d44ea01565cfe627fe44e27dad693a0a54c2483a7b223e5",
+      "archive_path": "licenses/wtfpl/analysis-sources/0356258391e190dc1d44ea01565cfe627fe44e27dad693a0a54c2483a7b223e5.txt"
+    },
+    {
+      "source": "WTFPL — FAQ",
+      "url": "http://www.wtfpl.net/faq/",
+      "retrieved_at": "2026-04-21T21:24:47.326Z",
+      "archive_sha256": "f772d34c579d1be64ac016cdb22377e01d84d9801fdf3676f04c33670ffbc9b7",
+      "archive_path": "licenses/wtfpl/analysis-sources/f772d34c579d1be64ac016cdb22377e01d84d9801fdf3676f04c33670ffbc9b7.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/wtfpl/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

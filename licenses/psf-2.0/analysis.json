@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "topic": "gpl-compatibility-history",
+      "summary": "Python's license is a layered artifact, not a single text: the 'History and License' appendix in the official Python docs lists the CWI license (0.9.0-1.2), the CNRI license (1.3-1.5.2, plus 1.6 and 1.6.1), the BeOpen.com license (2.0), and the PSF License Version 2 (2.0.1, 2.1.1 and onward). Python's own documentation flags that releases 1.6, 2.0, and 2.1 were NOT GPL-compatible, that CNRI's 1.6.1 was retroactively treated as compatible after negotiation, and that every PSF-owned release from 2.0.1 and 2.1.1 onward is GPL-compatible. The incompatibility of 1.6/2.0/2.1 was driven by choice-of-law and related clauses in the CNRI and BeOpen agreements; PSF-2.0 was drafted specifically to remove those barriers. PSF notes carefully that 'GPL-compatible doesn't mean that we're distributing Python under the GPL. All Python licenses, unlike the GPL, let you distribute a modified version without making your changes open source.'",
+      "sources": [
+        {
+          "source": "Python docs — History and License",
+          "url": "https://docs.python.org/3/license.html",
+          "retrieved_at": "2026-04-21T21:20:28.430Z",
+          "archive_sha256": "0868423256317710f4b164704b082ecbe0f9b12d611e503b89b5e2bee338ff1a",
+          "archive_path": "licenses/psf-2.0/analysis-sources/0868423256317710f4b164704b082ecbe0f9b12d611e503b89b5e2bee338ff1a.html",
+          "excerpt": "Historically, most, but not all, Python releases have also been GPL-compatible; the table below summarizes the various releases. … 1.6 / 2000 / CNRI / no. 2.0 / 2000 / BeOpen.com / no. 1.6.1 / 2001 / CNRI / yes (2). 2.1 / 2001 / PSF / no. 2.0.1 / 2001 / PSF / yes. 2.1.1 / 2001 / PSF / yes. … 2.2 and above / 2001-now / PSF / yes. … GPL-compatible doesn't mean that we're distributing Python under the GPL. All Python licenses, unlike the GPL, let you distribute a modified version without making your changes open source."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:20:31.400Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/psf-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "summary": "FSF's license list classifies the Python Software Foundation License Version 2 among the GPL-compatible free software licenses, consistent with Python.org's own table."
+        }
+      ]
+    },
+    {
+      "topic": "contribution-policy",
+      "summary": "PSF collects formal Contributor Agreements from every past and future contributor to CPython. The agreement does not assign copyright to the PSF; contributors keep copyright and instead license their contribution under one of two approved 'Initial Licenses' (Academic Free License 3.0 or Apache License 2.0), both chosen for explicit copyright grants, explicit patent grants, and the ability for PSF to re-license. PSF then redistributes Python under the PSF License Version 2 rather than under those initial licenses. The recommended workflow is a fully automated CLA bot run through GitHub on the contributor's first pull request; manual paper forms exist mainly for organizational contributions. This 'contributor keeps copyright, PSF re-licenses under PSF-2.0' pattern is what lets PSF evolve the public-facing license without needing contributor assignments.",
+      "sources": [
+        {
+          "source": "Python Software Foundation — Contributing to the PSF",
+          "url": "https://www.python.org/psf/contrib/",
+          "retrieved_at": "2026-04-21T21:22:15.437Z",
+          "archive_sha256": "68680d8202fa5ae146f028f7a80e44a961fa53ee140363e3730f1947f009b179",
+          "archive_path": "licenses/psf-2.0/analysis-sources/68680d8202fa5ae146f028f7a80e44a961fa53ee140363e3730f1947f009b179.html",
+          "excerpt": "The PSF is now asking all past and future contributors to sign a Contributor Agreement. With these forms, contributors formally license their contribution to the PSF, under an open source license (the 'Initial License'). Currently, we accept contributions under the following initial licenses: Academic Free License v. 3.0 … Apache License, Version 2.0. This agreement solves, for the PSF, the major issue of relicensing … With the license form, PSF receives the permission to relicense the software under a different (open source) license than the initial license — and indeed we distribute Python under the Python license, not under one of the initial licenses. … At the same time, contributors remain copyright holders of their contributions — they are not asked to assign the copyright to the PSF."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Python docs — History and License",
+      "url": "https://docs.python.org/3/license.html",
+      "retrieved_at": "2026-04-21T21:20:28.430Z",
+      "archive_sha256": "0868423256317710f4b164704b082ecbe0f9b12d611e503b89b5e2bee338ff1a",
+      "archive_path": "licenses/psf-2.0/analysis-sources/0868423256317710f4b164704b082ecbe0f9b12d611e503b89b5e2bee338ff1a.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:20:31.400Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/psf-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Python Software Foundation — Contributing to the PSF",
+      "url": "https://www.python.org/psf/contrib/",
+      "retrieved_at": "2026-04-21T21:22:15.437Z",
+      "archive_sha256": "68680d8202fa5ae146f028f7a80e44a961fa53ee140363e3730f1947f009b179",
+      "archive_path": "licenses/psf-2.0/analysis-sources/68680d8202fa5ae146f028f7a80e44a961fa53ee140363e3730f1947f009b179.html"
+    }
+  ]
+}

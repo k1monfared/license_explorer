@@ -1,0 +1,78 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree",
+      "summary": "The Free Software Foundation classifies the CC BY-NC family of licenses (any version, including 4.0) as nonfree. Its license list entry explains that the NonCommercial restriction imposes 'restrictions on charging money for copies,' which disqualifies the license as a free-culture license for works of practical use such as software documentation. The FSF also notes a downstream drawback for any NC-licensed work: once a modified version has many contributors, obtaining commercial-use permission from all of them becomes infeasible in practice, so the work effectively cannot be relicensed for a commercial context later.",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-NC entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons NonCommercial, any version. This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation. In addition, it has a drawback for any sort of work: when a modified version has many authors, in practice getting permission for commercial use from all of them would become infeasible."
+        }
+      ]
+    },
+    {
+      "topic": "commercial-scope-ambiguity",
+      "summary": "The boundary of 'NonCommercial' is the famously contested feature of BY-NC. The license itself defines NonCommercial as 'not primarily intended for or directed towards commercial advantage or monetary compensation,' a standard Creative Commons' own FAQ acknowledges is deliberately not enumerated: it does not turn on the identity of the user (a nonprofit may still violate it, a for-profit may not) but on the intention and specifics of the use, and CC explicitly declines to advise licensees on what is and is not commercial. To explore how this is understood in practice, Creative Commons commissioned the 2008-09 study 'Defining Noncommercial,' which found that creators and users broadly agree that uses which earn money or involve advertising are commercial, but that for many middle cases there is 'more uncertainty than clarity around whether specific uses of online content are commercial or noncommercial.'",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY-NC 4.0 Legal Code, Section 1(k)",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "492074bb6e0ee9e2af349f05fd12ad1a880bb066d50624fa84c006c5c697b286",
+          "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/492074bb6e0ee9e2af349f05fd12ad1a880bb066d50624fa84c006c5c697b286.html",
+          "excerpt": "NonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange."
+        },
+        {
+          "source": "Creative Commons — FAQ: Does my use violate the NonCommercial clause?",
+          "url": "https://creativecommons.org/faq/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f",
+          "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f.html",
+          "excerpt": "CC's definition does not turn on the type of user: if you are a nonprofit or charitable organization, your use of an NC-licensed work could still run afoul of the NC restriction, and if you are a for-profit entity, your use of an NC-licensed work does not necessarily mean you have violated the term. Whether a use is commercial will depend on the specifics of the situation and the intentions of the user. … However, there will always be uses that are challenging to categorize as commercial or noncommercial. CC cannot advise you on what is and is not commercial use."
+        },
+        {
+          "source": "Creative Commons Wiki — Defining Noncommercial (2009 study)",
+          "url": "https://wiki.creativecommons.org/wiki/Defining_Noncommercial",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203",
+          "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203.html",
+          "excerpt": "Both creators and users generally consider uses that earn users money or involve online advertising to be commercial, while uses by organizations, by individuals, or for charitable purposes are less commercial but not decidedly noncommercial. … Perceptions of the many use cases studied suggest that with the exception of uses that earn users money or involve advertising … there is more uncertainty than clarity around whether specific uses of online content are commercial or noncommercial."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Creative Commons — CC BY-NC 4.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "492074bb6e0ee9e2af349f05fd12ad1a880bb066d50624fa84c006c5c697b286",
+      "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/492074bb6e0ee9e2af349f05fd12ad1a880bb066d50624fa84c006c5c697b286.html"
+    },
+    {
+      "source": "Creative Commons — FAQ",
+      "url": "https://creativecommons.org/faq/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f",
+      "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f.html"
+    },
+    {
+      "source": "Creative Commons Wiki — Defining Noncommercial (2009 study)",
+      "url": "https://wiki.creativecommons.org/wiki/Defining_Noncommercial",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203",
+      "archive_path": "licenses/cc-by-nc-4.0/analysis-sources/29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203.html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf",
+  "final_url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf",
+  "retrieved_at": "2026-04-21T21:21:52.491Z",
+  "sha256": "82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f",
+  "bytes": 107864,
+  "content_type": "application/pdf",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:21:14.864Z",
+      "http_status": 200,
+      "final_url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf"
+    }
+  ]
+}

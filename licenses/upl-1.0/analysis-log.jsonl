@@ -1,0 +1,4 @@
+{"timestamp":"2026-04-21T21:19:46.514Z","step":"session-start","prompt_version":"v1","license_id":"upl-1.0"}
+{"timestamp":"2026-04-21T21:24:08.707Z","step":"source-archive","url":"https://opensource.org/license/upl","archive_sha256":"3aa64d69f144008a2bc098534d068e87a98906fa07e8e526e6f3c7e11c68dd8a"}
+{"timestamp":"2026-04-21T21:24:08.732Z","step":"source-archive","url":"https://oss.oracle.com/licenses/upl/","archive_sha256":"a166e3d1aee2a183d87f5e9541827ba1dff0f989cb86e6a9cf2c653942f5243c"}
+{"timestamp":"2026-04-21T21:28:32.412Z","step":"session-complete","topics":1,"entries_written":1}

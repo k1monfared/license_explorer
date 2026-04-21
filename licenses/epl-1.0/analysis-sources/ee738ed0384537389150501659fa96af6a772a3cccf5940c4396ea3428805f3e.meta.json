@@ -1,0 +1,16 @@
+{
+  "url": "https://www.eclipse.org/legal/eplfaq.php",
+  "final_url": "https://www.eclipse.org/legal/epl/faq/",
+  "retrieved_at": "2026-04-21T21:20:37.297Z",
+  "sha256": "ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e",
+  "bytes": 57825,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:18:30.428Z",
+      "http_status": 200,
+      "final_url": "https://www.eclipse.org/legal/epl/faq/"
+    }
+  ]
+}

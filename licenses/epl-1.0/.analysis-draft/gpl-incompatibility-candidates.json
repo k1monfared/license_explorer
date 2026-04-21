@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://www.gnu.org/licenses/license-list.html",
+    "why": "FSF license list entry on EPL-1.0 explicitly states incompatibility with the GPL.",
+    "authority_tier": 1
+  },
+  {
+    "url": "https://www.eclipse.org/legal/eplfaq.php",
+    "why": "Eclipse Foundation official FAQ explains compatibility of EPL (v1) with other licenses.",
+    "authority_tier": 1
+  }
+]

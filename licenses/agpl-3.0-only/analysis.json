@@ -1,0 +1,173 @@
+{
+  "entries": [
+    {
+      "topic": "network-use-disclose",
+      "summary": "AGPLv3 §13 is the clause that distinguishes AGPL from plain GPLv3 and is the entire reason the AGPL exists. It says that if you modify the Program and run the modified version on a server that lets remote users interact with it, you must prominently offer those users the opportunity to download the Corresponding Source of your modified version, at no charge, from a network server. The FSF's rationale is that without this provision a SaaS operator could modify a GPL program, deploy it behind a web API, and never trigger the GPL's distribution-based source-disclosure obligation, thereby denying users the right to study and change the software they are using. §13 closes that 'ASP loophole' by treating network interaction as the trigger for source availability.",
+      "sources": [
+        {
+          "source": "FSF — GNU Affero General Public License, version 3 (§13)",
+          "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf.html",
+          "excerpt": "13. Remote Network Interaction; Use with the GNU General Public License. Notwithstanding any other provision of this License, if you modify the Program, your modified version must prominently offer all users interacting with it remotely through a computer network (if your version supports such interaction) an opportunity to receive the Corresponding Source of your version by providing access to the Corresponding Source from a network server at no charge, through some standard or customary means of facilitating copying of software."
+        },
+        {
+          "source": "FSF — Why the Affero GPL",
+          "url": "https://www.gnu.org/licenses/why-affero-gpl.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23.html",
+          "excerpt": "The GNU Affero General Public License is a modified version of the ordinary GNU GPL version 3. It has one added requirement: if you run a modified program on a server and let other users communicate with it there, your server must also allow them to download the source code corresponding to the modified version running there. The purpose of the GNU Affero GPL is to prevent a problem that affects developers of free programs that are often used on servers."
+        }
+      ]
+    },
+    {
+      "topic": "relicensing-controversies",
+      "summary": "Because AGPLv3 closes the SaaS loophole for user-facing modifications but does not reach across process boundaries to separate 'service stacks', several commercial open-source companies concluded it did not go far enough for their business model and moved to source-available licenses instead of (or alongside) AGPL. In October 2018 MongoDB relicensed from AGPLv3 to the Server Side Public License (SSPL), which rewrites AGPL's §13 to require disclosure of the entire surrounding service stack (management software, user interfaces, APIs, automation, monitoring, backup, storage, hosting). MongoDB submitted SSPL to OSI for approval in 2018 and withdrew the submission in 2019 after it became clear it would not be approved. In January 2021 Elastic relicensed Elasticsearch and Kibana from Apache-2.0 to a dual SSPL / Elastic License, triggering Amazon's OpenSearch fork. The OSI board's 19 January 2021 statement called SSPL a 'fauxpen' source license. Separately, Neo4j added a Commons Clause rider on top of AGPLv3 for its Enterprise edition in 2018, later suing PureThink for exercising a recipient's AGPL right to remove 'further restrictions' and winning a $597,000 damages award in 2024 on DMCA and trademark grounds.",
+      "sources": [
+        {
+          "source": "OSI — 'The SSPL is Not an Open Source License' (board statement, 19 Jan 2021)",
+          "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "4d97a40aba51c416245b5f4f33634fd2db4a8cf17c9a520584c017c8adf1978c",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/4d97a40aba51c416245b5f4f33634fd2db4a8cf17c9a520584c017c8adf1978c.html",
+          "excerpt": "The license du jour is the Server Side Public License. This license was submitted to the Open Source Initiative for approval but later withdrawn by the license steward when it became clear that the license would not be approved. … Fauxpen source licenses allow a user to view the source code but do not allow other highly important rights protected by the Open Source Definition, such as the right to make use of the program for any field of endeavor."
+        },
+        {
+          "source": "Wikipedia — Server Side Public License",
+          "url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39.html",
+          "excerpt": "The SSPL is based on the GNU Affero General Public License (AGPL), with a modified Section 13 that requires that those making SSPL-licensed software available to third-parties (modified or not) as part of a 'service' must release the source code for the entirety of the service … In October 2018, the MongoDB database was relicensed under the SSPL. Debian, Red Hat Enterprise Linux, and Fedora subsequently dropped MongoDB, citing concerns about the SSPL."
+        },
+        {
+          "source": "Wikipedia — Neo4j (Commons Clause and PureThink litigation)",
+          "url": "https://en.wikipedia.org/wiki/Neo4j",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "a5b91ceddb531befbf05b2bb8e6f7578d29bdf8326829f37cb87850b28513aa4",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/a5b91ceddb531befbf05b2bb8e6f7578d29bdf8326829f37cb87850b28513aa4.html",
+          "excerpt": "It is dual-licensed: GPL v3 (with parts of the code under AGPLv3 with Commons Clause), and a proprietary license. … Neo4j sued PureThink, for utilizing a power created under the terms of the GNU AGPL, to remove a restrictive Commons clause that Neo4j had added to the AGPL license. The United States District Court for the Northern District of California made a decision on 2024-07-22 to impose $597,000 in actual damages on PureThink, having previously decided that PureThink had violated the DMCA by removing the Commons Clause from Neo4j's AGPL license."
+        },
+        {
+          "source": "MongoDB — 'MongoDB Now Released Under the Server Side Public License' (2018 announcement)",
+          "url": "https://www.mongodb.com/blog/post/mongodb-now-released-under-the-server-side-public-license",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "e1748eaf6dc1e6051cab7b8359e5df5479666eed2f4ca7c6bed7564eca854f53",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/e1748eaf6dc1e6051cab7b8359e5df5479666eed2f4ca7c6bed7564eca854f53.html",
+          "summary": "MongoDB's announcement blog post for the SSPL relicensing. MongoDB frames SSPL as a successor to AGPL that 'clearly and explicitly sets forth the conditions to offering the licensed program as a third-party service', arguing AGPL §13 scope was unclear."
+        }
+      ]
+    },
+    {
+      "topic": "google-policy",
+      "summary": "Google maintains a strict, company-wide ban on the AGPL. Its Open Source policy page (opensource.google) states: 'Code licensed under the GNU Affero General Public License (AGPL) MUST NOT be used at Google.' The stated rationale is that §13's 'remote network interaction' trigger is incompatible with Google's business: because Google's core products (Search, Gmail, Maps, YouTube) are services users reach over a network, any accidental inclusion of AGPL code in a service stack could require Google to release the corresponding source of that stack to the world. The policy explicitly blocks both checking AGPL code into google3 and installing AGPL-licensed programs on Google-issued workstations or phones without Open Source Programs Office authorisation. The policy is long-standing and is routinely cited by third-party compliance guides (FOSSA, Snyk) as the canonical example of a large enterprise refusing AGPL outright.",
+      "sources": [
+        {
+          "source": "Google — AGPL Policy (opensource.google)",
+          "url": "https://opensource.google/documentation/reference/using/agpl-policy",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31.html",
+          "excerpt": "WARNING: Code licensed under the GNU Affero General Public License (AGPL) MUST NOT be used at Google. The license places restrictions on software used over a network which are extremely difficult for Google to comply with. … Because Google's core products are services that users interact with over a remote network interface (Search, Gmail, Maps, YouTube), the consequences of an engineer accidentally depending on AGPL for one of these services are so great that we maintain an aggressively-broad ban on all AGPL software to doubly-ensure that AGPL could never be incorporated in these services in any manner."
+        },
+        {
+          "source": "FOSSA — Open Source Software Licenses 101: The AGPL License",
+          "url": "https://fossa.com/blog/open-source-software-licenses-101-agpl-license/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "87dc04b55df170b1d5d455396713cc4d6969c0559312e060aadf8e6af8c53632",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/87dc04b55df170b1d5d455396713cc4d6969c0559312e060aadf8e6af8c53632.html",
+          "summary": "Third-party compliance summary surveying how enterprises treat AGPL. Documents Google's outright ban and notes that other large companies similarly restrict AGPL, confirming that §13's network trigger is a routine reason for enterprise policy blocks."
+        }
+      ]
+    },
+    {
+      "topic": "patent-grant",
+      "summary": "AGPLv3 inherits GPLv3's patent-grant architecture verbatim. Section 11, identical in wording to GPLv3 §11, defines a 'contributor' as any copyright holder who authorises use of the Program under the license, then grants each downstream recipient a 'non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims' to make, use, sell, offer for sale, import, run, modify and propagate the contributor version. Section 11 also prohibits distribution under 'discriminatory' patent-license arrangements (the anti-Microsoft-Novell clause), with a carve-out for arrangements entered into before 28 March 2007. Because AGPLv3 was drafted alongside GPLv3 in the same process, the drafting committee that produced §11 as a response to the November 2006 Microsoft-Novell patent pact applied identical text here. Patent-retaliation commentary from the FSF GPL FAQ therefore applies equally to AGPL.",
+      "sources": [
+        {
+          "source": "FSF — GNU Affero General Public License, version 3 (§11 Patents)",
+          "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf.html",
+          "excerpt": "11. Patents. A 'contributor' is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. … Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version. … You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants … a discriminatory patent license … unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007."
+        },
+        {
+          "source": "FSF — GPL FAQ (GPLv3 patent retaliation, applicable to AGPLv3)",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/agpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "summary": "FSF's FAQ entry on GPLv3 patent retaliation, which applies identically to AGPLv3 §11: patent-license termination is triggered if someone files a patent suit targeted at a GPL-covered work."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — GNU Affero General Public License, version 3",
+      "url": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/3cea8a3640e0a825b1e6f975994ef107fe39b0aed40cddcf876970bb12a6bbcf.html"
+    },
+    {
+      "source": "FSF — Why the Affero GPL",
+      "url": "https://www.gnu.org/licenses/why-affero-gpl.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23.html"
+    },
+    {
+      "source": "OSI — 'The SSPL is Not an Open Source License'",
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "4d97a40aba51c416245b5f4f33634fd2db4a8cf17c9a520584c017c8adf1978c",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/4d97a40aba51c416245b5f4f33634fd2db4a8cf17c9a520584c017c8adf1978c.html"
+    },
+    {
+      "source": "Wikipedia — Server Side Public License",
+      "url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39.html"
+    },
+    {
+      "source": "Wikipedia — Neo4j",
+      "url": "https://en.wikipedia.org/wiki/Neo4j",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "a5b91ceddb531befbf05b2bb8e6f7578d29bdf8326829f37cb87850b28513aa4",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/a5b91ceddb531befbf05b2bb8e6f7578d29bdf8326829f37cb87850b28513aa4.html"
+    },
+    {
+      "source": "MongoDB — 'MongoDB Now Released Under the Server Side Public License'",
+      "url": "https://www.mongodb.com/blog/post/mongodb-now-released-under-the-server-side-public-license",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "e1748eaf6dc1e6051cab7b8359e5df5479666eed2f4ca7c6bed7564eca854f53",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/e1748eaf6dc1e6051cab7b8359e5df5479666eed2f4ca7c6bed7564eca854f53.html"
+    },
+    {
+      "source": "Google — AGPL Policy",
+      "url": "https://opensource.google/documentation/reference/using/agpl-policy",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/adb5be8d20f57324d5b4d94a6802c5c91d0fccbd99e7c72388479999f2ee9b31.html"
+    },
+    {
+      "source": "FOSSA — Open Source Software Licenses 101: The AGPL License",
+      "url": "https://fossa.com/blog/open-source-software-licenses-101-agpl-license/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "87dc04b55df170b1d5d455396713cc4d6969c0559312e060aadf8e6af8c53632",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/87dc04b55df170b1d5d455396713cc4d6969c0559312e060aadf8e6af8c53632.html"
+    },
+    {
+      "source": "FSF — GPL FAQ",
+      "url": "https://www.gnu.org/licenses/gpl-faq.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+      "archive_path": "licenses/agpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html"
+    }
+  ]
+}

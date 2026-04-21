@@ -1,0 +1,85 @@
+{
+  "entries": [
+    {
+      "topic": "4-to-3-migration",
+      "summary": "CC's License_Versions comparison enumerates the concrete deltas between 3.0 and 4.0: v4.0 adds a global license over sui generis database rights (previously addressed only in EU ports), waives moral rights 'to the limited extent necessary to exercise the licensed rights' (v3.0 required licensees not to distort the work), and for the first time expressly reserves trademark and patent rights. v4.0 also makes attribution 'reasonable to the means, medium, and context' of use and allows credit to a designated party beyond just the author.",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — License Versions (4.0 vs 3.0 comparison)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T21:19:41Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-4.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "In version 4.0, moral rights are waived to the limited extent necessary to exercise the licensed rights. … The international licenses began to address moral rights in version 3.0. In version 4.0, moral rights are waived or not asserted to the extent possible under local law, to the limited extent they would otherwise interfere with exercise of the licensed rights. … In the 4.0 licenses, trademark and patent rights are expressly mentioned as not among the rights licensed."
+        }
+      ]
+    },
+    {
+      "topic": "international-harmonization",
+      "summary": "CC's 4.0 wiki explicitly lists 'Internationalization' as the first goal of the 4.0 versioning process, and the License_Versions page records that v4.0 is the first suite in which the core licenses are labeled 'international' rather than 'unported' or 'generic.' While the 3.0 unported licenses were already drafted jurisdiction-agnostically against international treaties, v4.0 extended that single text across all jurisdictions, and Creative Commons announced at Q2 2014 it would post considerations on 'the future of porting' — ultimately declining to port v4.0 in the manner of earlier versions.",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — 4.0 (goals and porting timeline)",
+          "url": "https://wiki.creativecommons.org/wiki/4.0",
+          "retrieved_at": "2026-04-21T21:19:49Z",
+          "archive_sha256": "a07d06cf8d8e0e09be7723a4e02a24103e450b4221357e48dbeb9a4137f79b4c",
+          "archive_path": "licenses/cc-by-4.0/analysis-sources/a07d06cf8d8e0e09be7723a4e02a24103e450b4221357e48dbeb9a4137f79b4c.html",
+          "excerpt": "Version 4.0 of the CC license suite was published on 25 November 2013, after CC conducted a multi-year versioning process. … Goals and objectives … Internationalization – further adapt the core suite of international licenses to operate globally, ensuring they are robust, enforceable and easily adopted worldwide. … Q2 2014: CC to post considerations on the future of porting, including possible criteria."
+        },
+        {
+          "source": "Creative Commons Wiki — License Versions (nomenclature)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T21:19:41Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-4.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "The 4.0 licenses are referred to as 'international.' Version 3.0 licenses were referred to as 'unported' licenses until 2010, at which point they were re-branded as the 'international' licenses. … Starting with version 3.0, Creative Commons drafted its core suite of licenses to conform to relevant international treaties and drafting conventions. In this sense, version 3.0 and the current 4.0 international license suites are jurisdiction-agnostic"
+        }
+      ]
+    },
+    {
+      "topic": "database-rights",
+      "summary": "CC BY 4.0 §4 is a dedicated 'Sui Generis Database Rights' section that grants extraction, reuse, reproduction, and sharing rights over database contents, declares that inclusion of a substantial portion in a new database causes that new database (but not its contents) to be 'Adapted Material,' and carries the Section 3(a) attribution obligation to shared database contents. The License_Versions page frames this as the first unified treatment of database rights in any international CC suite, contrasted with 3.0 where only EU ports licensed sui generis rights and the unported 3.0 text was silent.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY 4.0 Legal Code (§4 Sui Generis Database Rights)",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "retrieved_at": "2026-04-21T21:19:34Z",
+          "archive_sha256": "6862d37bfefb2f40247bd174b6dd1f0ebb699b9c6a56c62c03c050da9aa2ad78",
+          "archive_path": "licenses/cc-by-4.0/analysis-sources/6862d37bfefb2f40247bd174b6dd1f0ebb699b9c6a56c62c03c050da9aa2ad78.html",
+          "excerpt": "Section 4 – Sui Generis Database Rights. Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material: (a) for the avoidance of doubt, Section 2(a)(1) grants You the right to extract, reuse, reproduce, and Share all or a substantial portion of the contents of the database; (b) if You include all or a substantial portion of the database contents in a database in which You have Sui Generis Database Rights, then the database in which You have Sui Generis Database Rights (but not its individual contents) is Adapted Material"
+        },
+        {
+          "source": "Creative Commons Wiki — License Versions (sui generis database rights)",
+          "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+          "retrieved_at": "2026-04-21T21:19:41Z",
+          "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+          "archive_path": "licenses/cc-by-4.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html",
+          "excerpt": "The 4.0 international suite licenses database rights along with copyright. Where the use of a database under a CC license implicates sui generis database rights, whether or not copyright is implicated, that use is subject to the terms and conditions of the license. … In 3.0, the international (unported) license suite does not mention sui generis rights. However, ported 3.0 licenses for jurisdictions where those rights exist address them according to CC's 3.0 database rights policy."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC BY 4.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "retrieved_at": "2026-04-21T21:19:34Z",
+      "archive_sha256": "6862d37bfefb2f40247bd174b6dd1f0ebb699b9c6a56c62c03c050da9aa2ad78",
+      "archive_path": "licenses/cc-by-4.0/analysis-sources/6862d37bfefb2f40247bd174b6dd1f0ebb699b9c6a56c62c03c050da9aa2ad78.html"
+    },
+    {
+      "source": "Creative Commons Wiki — License Versions",
+      "url": "https://wiki.creativecommons.org/wiki/License_Versions",
+      "retrieved_at": "2026-04-21T21:19:41Z",
+      "archive_sha256": "54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a",
+      "archive_path": "licenses/cc-by-4.0/analysis-sources/54bc05c9e1196680fe80ea70f432831e629d5d0752544830a87c77031b4bfe1a.html"
+    },
+    {
+      "source": "Creative Commons Wiki — 4.0",
+      "url": "https://wiki.creativecommons.org/wiki/4.0",
+      "retrieved_at": "2026-04-21T21:19:49Z",
+      "archive_sha256": "a07d06cf8d8e0e09be7723a4e02a24103e450b4221357e48dbeb9a4137f79b4c",
+      "archive_path": "licenses/cc-by-4.0/analysis-sources/a07d06cf8d8e0e09be7723a4e02a24103e450b4221357e48dbeb9a4137f79b4c.html"
+    }
+  ]
+}

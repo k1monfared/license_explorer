@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-21T21:19:58.532Z","step":"session-start","prompt_version":"v1","license_id":"artistic-2.0"}
+{"timestamp":"2026-04-21T21:24:08.963Z","step":"source-archive","url":"https://www.perlfoundation.org/artistic-license-20.html","archive_sha256":"b458dbb666217135164a6a6ae31a2034c7956917caee69c0be7b9b2a0b223d9a"}
+{"timestamp":"2026-04-21T21:24:08.984Z","step":"source-archive","url":"https://choosealicense.com/licenses/artistic-2.0/","archive_sha256":"ed7e1c622b779bba8517377cb03b9af9c8bf0cdf53227608ee44914f022ab3ff"}
+{"timestamp":"2026-04-21T21:24:09.006Z","step":"source-archive","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"}
+{"timestamp":"2026-04-21T21:28:32.515Z","step":"session-complete","topics":2,"entries_written":2}

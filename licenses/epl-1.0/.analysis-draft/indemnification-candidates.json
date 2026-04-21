@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://www.eclipse.org/legal/epl-v10.html",
+    "why": "Official EPL v1.0 license text contains Section 6 — the commercial distributor indemnification clause.",
+    "authority_tier": 1
+  },
+  {
+    "url": "https://www.eclipse.org/legal/eplfaq.php",
+    "why": "Eclipse FAQ discusses the commercial distributor indemnification obligation.",
+    "authority_tier": 1
+  }
+]

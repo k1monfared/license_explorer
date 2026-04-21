@@ -1,0 +1,16 @@
+{
+  "url": "https://www.freebsd.org/copyright/license/",
+  "final_url": "https://www.freebsd.org/copyright/license/",
+  "retrieved_at": "2026-04-21T21:19:48.627Z",
+  "sha256": "177340d498644b3afb44395e63bd9355ef8e85cd50924ce7e0c4aff445a76e80",
+  "bytes": 13672,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:19:41.113Z",
+      "http_status": 200,
+      "final_url": "https://www.freebsd.org/copyright/license/"
+    }
+  ]
+}

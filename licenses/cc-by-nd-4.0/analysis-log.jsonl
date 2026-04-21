@@ -1,0 +1,7 @@
+{"timestamp":"2026-04-21T21:19:19.358Z","step":"session-start","prompt_version":"v1","license_id":"cc-by-nd-4.0"}
+{"timestamp":"2026-04-21T21:20:43.396Z","step":"source-archive","prompt_version":"v1","topic":"fsf-nonfree","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:20:43.417Z","step":"source-archive","prompt_version":"v1","topic":"nd-mechanics","url":"https://creativecommons.org/licenses/by-nd/4.0/legalcode","archive_sha256":"e872d58050e4d8a62ce9686bc07973d0a8907a37daf2073e5f2abe267e09ed5f","bytes":48941}
+{"timestamp":"2026-04-21T21:20:43.437Z","step":"source-archive","prompt_version":"v1","topic":"nd-mechanics","url":"https://creativecommons.org/faq/","archive_sha256":"27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f","bytes":230924}
+{"timestamp":"2026-04-21T21:25:19.186Z","step":"synthesize-entry","prompt_version":"v1","topic":"fsf-nonfree","sources_used":["450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:25:19.207Z","step":"synthesize-entry","prompt_version":"v1","topic":"nd-mechanics","sources_used":["e872d58050e4d8a62ce9686bc07973d0a8907a37daf2073e5f2abe267e09ed5f","27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f"],"entry_written":true}
+{"timestamp":"2026-04-21T21:25:19.228Z","step":"session-complete","topics":2,"entries_written":2}

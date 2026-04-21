@@ -1,0 +1,16 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+  "final_url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+  "retrieved_at": "2026-04-21T21:19:15.964Z",
+  "sha256": "29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39",
+  "bytes": 103950,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:18:55.354Z",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/Server_Side_Public_License"
+    }
+  ]
+}

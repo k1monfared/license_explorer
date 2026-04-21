@@ -1,0 +1,16 @@
+{
+  "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+  "final_url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+  "retrieved_at": "2026-04-21T21:18:04.071Z",
+  "sha256": "665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca",
+  "bytes": 69197,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:17:42.983Z",
+      "http_status": 200,
+      "final_url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/"
+    }
+  ]
+}

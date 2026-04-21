@@ -1,0 +1,16 @@
+{
+  "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "final_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "retrieved_at": "2026-04-21T21:18:04.340Z",
+  "sha256": "73cd8ecdcf33b5923f3c092fba6d8f8c3faecf64d84a9ecfa6c5e028f980211a",
+  "bytes": 50244,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:17:42.606Z",
+      "http_status": 200,
+      "final_url": "https://www.gnu.org/licenses/gpl-3.0.html"
+    }
+  ]
+}

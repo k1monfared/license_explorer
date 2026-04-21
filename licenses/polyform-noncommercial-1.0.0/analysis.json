@@ -1,0 +1,128 @@
+{
+  "entries": [
+    {
+      "topic": "polyform-project-origin",
+      "summary": "The PolyForm Project describes itself as 'a group of experienced licensing lawyers and technologists developing simple, standardized, plain-language software source code licenses. PolyForm aims to fill gaps in the menu of standardized software licenses, like non-commercial, trial, and small-business-only terms.' The project was launched in 2020 as an explicit, standards-based response to the proliferation of ad-hoc source-available licenses such as the Commons Clause, Elastic License, and Confluent License — PolyForm's own 'What is PolyForm?' page names those three as predecessors whose lack of standardization the project exists to address.",
+      "sources": [
+        {
+          "source": "PolyForm Project — homepage (mission statement)",
+          "url": "https://polyformproject.org/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "e086e968b4936280bf6c328307cb6ba6b14bcfaa476fd543798a4f3b52a620db",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/e086e968b4936280bf6c328307cb6ba6b14bcfaa476fd543798a4f3b52a620db.html",
+          "excerpt": "The PolyForm Project is a group of experienced licensing lawyers and technologists developing simple, standardized, plain-language software source code licenses. PolyForm aims to fill gaps in the menu of standardized software licenses, like non-commercial, trial, and small-business-only terms."
+        },
+        {
+          "source": "PolyForm Project — 'What is PolyForm?' (predecessors and motivation)",
+          "url": "https://polyformproject.org/what-is-polyform/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "97fc94c25d2e896bb4e30b7a9842be9618e0648d53b99bc4deddd9c5f15691d1",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/97fc94c25d2e896bb4e30b7a9842be9618e0648d53b99bc4deddd9c5f15691d1.html",
+          "excerpt": "PolyForm is a project to draft and make freely available plain-language source code licenses with limited rights. … Some licenses that have been released before include the Commons Clause, Elastic and Confluent licenses, and others. These licenses grant broad rights, including source code access, but reserve some rights to the licensor. … PolyForm is not … Open source or free software. There are plenty of existing open source licenses. PolyForm is not a substitute for them, but an alternative for those who want to license source code under limited rights."
+        }
+      ]
+    },
+    {
+      "topic": "license-family-design",
+      "summary": "PolyForm explicitly chose a family of licenses over a single document, modeled on the Creative Commons approach: 'Like the Creative Commons licenses for non-software materials, PolyForm licenses offer a menu of several useful license limitations that can be adopted and expressed easily.' The published family is PolyForm Noncommercial, Strict, Free-Trial, Internal-Use, Small-Business, Perimeter, and Shield — each preserving the same plain-language skeleton and swapping in one of several standardized limitations. The project cites 'Until now, there has been no standardization of this kind of source code license' and 'reduction of costs for developers and users' as its design rationale.",
+      "sources": [
+        {
+          "source": "PolyForm Project — 'What is PolyForm?' (standardization rationale)",
+          "url": "https://polyformproject.org/what-is-polyform/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "97fc94c25d2e896bb4e30b7a9842be9618e0648d53b99bc4deddd9c5f15691d1",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/97fc94c25d2e896bb4e30b7a9842be9618e0648d53b99bc4deddd9c5f15691d1.html",
+          "excerpt": "Until now, there has been no standardization of this kind of source code license, even though it has become increasingly common. This has resulted in confusing and overlapping licenses, which need to be analyzed one at a time. Lack of standardization has used up the time and resources of many in the software industry, as well as their lawyers. The objective of the PolyForm Project is standardization and reduction of costs for developers and users. … Standardization and Modularity. Like the 'Creative Commons' licenses for non-software materials, PolyForm licenses offers a menu of several useful license limitations that can be adopted and expressed easily."
+        },
+        {
+          "source": "PolyForm Project — Licenses index (family enumeration)",
+          "url": "https://polyformproject.org/licenses/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "a40ccd55bcd4a4026f102fad95a87cb2155214d52f8ffb92f99ac8dd8de15ba3",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/a40ccd55bcd4a4026f102fad95a87cb2155214d52f8ffb92f99ac8dd8de15ba3.html",
+          "excerpt": "PolyForm Project publishes a suite of standardized licenses: PolyForm Noncommercial is a general noncommercial license for software. PolyForm Perimeter permits uses other than those that compete with the software. PolyForm Shield permits uses other than those that compete with the provider of the software. PolyForm Strict removes permission to distribute copies and make changes, leaving only permission to use for noncommercial purposes. PolyForm Internal Use permits use for internal business purposes. PolyForm Small Business permits use by small businesses and other small organizations. PolyForm Free Trial permits a free, time-limited trial. PolyForm Countdown helps developers schedule changes to different license terms in the future."
+        }
+      ]
+    },
+    {
+      "topic": "noncommercial-definition",
+      "summary": "PolyForm Noncommercial 1.0.0 defines 'noncommercial purposes' in enumerated categories rather than a single abstract test. Two sub-sections list permitted purposes: Personal Uses covers 'research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application.' Noncommercial Organizations covers 'any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution … regardless of the source of funding or obligations resulting from the funding.' The license also expressly preserves statutory fair-use rights.",
+      "sources": [
+        {
+          "source": "PolyForm Project — PolyForm Noncommercial 1.0.0 (canonical text)",
+          "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "2789b3ac42725ab7e7d303c2030c21ca09776b9c797c42f4bdc82a2d7dfd647a",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/2789b3ac42725ab7e7d303c2030c21ca09776b9c797c42f4bdc82a2d7dfd647a.html",
+          "excerpt": "Noncommercial Purposes. Any noncommercial purpose is a permitted purpose. Personal Uses. Personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application, is use for a permitted purpose. Noncommercial Organizations. Use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is use for a permitted purpose regardless of the source of funding or obligations resulting from the funding. Fair Use. You may have 'fair use' rights for the software under the law. These terms do not limit them."
+        }
+      ]
+    },
+    {
+      "topic": "tenancy-and-adoption",
+      "summary": "PolyForm Noncommercial has been adopted by small commercial software vendors as a dual-license 'freemium' instrument: the PolyForm terms cover noncommercial use for free while the vendor sells a separate commercial license for business use. The PolyForm Project's public Adopters list includes Enable Data Union (K-12 education analytics), the Mun programming language's VSCode extension, AppsCode (Kubernetes tooling), Kanevia (game engine fork), and EPPlus (a .NET spreadsheet library). EPPlus is the most detailed public case: in 2020 it relicensed version 5+ from LGPL to PolyForm Noncommercial 1.0.0, explicitly describing PolyForm as enabling a sustainable business: 'In combination with the Polyform Noncommercial license we sell licenses for customers who use EPPlus in a commercial business.' Older EPPlus 4 remains LGPL.",
+      "sources": [
+        {
+          "source": "PolyForm Project — Adopters list",
+          "url": "https://polyformproject.org/adopters/",
+          "retrieved_at": "2026-04-21T21:40:00Z",
+          "archive_sha256": "53996d50f9911f5c725db65686c83d4572bcf2cacfc3931c48eb044c9a1f4c6f",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/53996d50f9911f5c725db65686c83d4572bcf2cacfc3931c48eb044c9a1f4c6f.html",
+          "excerpt": "Enable Data Union, an open framework for analytics and data warehousing of K-12 Education data, is licensed under Polyform NonCommercial. ... AppsCode creates tools to deploy, manage, upgrade Kubernetes on any cloud and automate deployment, scaling, and management of containerized applications, adopted PolyForm NonCommercial and Free Trial for various elements of its offering. EPPlus Software, an improved version of the world's most popular spreadsheet library for .NET Framework/Core, adopted version 5 of its library under PolyForm NonCommercial. Kanevia, an open fork of original Kaneva game engine, was released under PolyForm NonCommercial. ... The Mun programming language uses PolyForm Noncommercial for its vscode-extension library."
+        },
+        {
+          "source": "EPPlus Software — From LGPL to Polyform Noncommercial",
+          "url": "https://www.epplussoftware.com/en/Home/LgplToPolyform",
+          "retrieved_at": "2026-04-21T21:40:00Z",
+          "archive_sha256": "119dcb3fa9f8a42877520412547bd1533e6535db4782e40314254623a7fa0f34",
+          "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/119dcb3fa9f8a42877520412547bd1533e6535db4782e40314254623a7fa0f34.html",
+          "excerpt": "From version 5, we have changed the license from LGPL to Polyform Noncommercial 1.0.0 - a license that permits noncommercial use only. In combination with the Polyform Noncommercial license we sell licenses for customers who use EPPlus in a commercial business. ... EPPlus 4 is still (and will always be) licensed under LGPL. You can of course continue to use EPPlus 4 and previous versions and you can still install them via Nuget (these versions are marked as deprecated and are no longer maintained by us). ... EPPlus 5 and up is licensed under the Polyform Noncommercial 1.0.0 license."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "PolyForm Project — homepage",
+      "url": "https://polyformproject.org/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "e086e968b4936280bf6c328307cb6ba6b14bcfaa476fd543798a4f3b52a620db",
+      "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/e086e968b4936280bf6c328307cb6ba6b14bcfaa476fd543798a4f3b52a620db.html"
+    },
+    {
+      "source": "PolyForm Project — 'What is PolyForm?'",
+      "url": "https://polyformproject.org/what-is-polyform/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "97fc94c25d2e896bb4e30b7a9842be9618e0648d53b99bc4deddd9c5f15691d1",
+      "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/97fc94c25d2e896bb4e30b7a9842be9618e0648d53b99bc4deddd9c5f15691d1.html"
+    },
+    {
+      "source": "PolyForm Project — Licenses index",
+      "url": "https://polyformproject.org/licenses/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "a40ccd55bcd4a4026f102fad95a87cb2155214d52f8ffb92f99ac8dd8de15ba3",
+      "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/a40ccd55bcd4a4026f102fad95a87cb2155214d52f8ffb92f99ac8dd8de15ba3.html"
+    },
+    {
+      "source": "PolyForm Project — PolyForm Noncommercial 1.0.0 (canonical text)",
+      "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "2789b3ac42725ab7e7d303c2030c21ca09776b9c797c42f4bdc82a2d7dfd647a",
+      "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/2789b3ac42725ab7e7d303c2030c21ca09776b9c797c42f4bdc82a2d7dfd647a.html"
+    },
+    {
+      "source": "PolyForm Project — Adopters list",
+      "url": "https://polyformproject.org/adopters/",
+      "retrieved_at": "2026-04-21T21:40:00Z",
+      "archive_sha256": "53996d50f9911f5c725db65686c83d4572bcf2cacfc3931c48eb044c9a1f4c6f",
+      "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/53996d50f9911f5c725db65686c83d4572bcf2cacfc3931c48eb044c9a1f4c6f.html"
+    },
+    {
+      "source": "EPPlus Software — From LGPL to Polyform Noncommercial",
+      "url": "https://www.epplussoftware.com/en/Home/LgplToPolyform",
+      "retrieved_at": "2026-04-21T21:40:00Z",
+      "archive_sha256": "119dcb3fa9f8a42877520412547bd1533e6535db4782e40314254623a7fa0f34",
+      "archive_path": "licenses/polyform-noncommercial-1.0.0/analysis-sources/119dcb3fa9f8a42877520412547bd1533e6535db4782e40314254623a7fa0f34.html"
+    }
+  ]
+}

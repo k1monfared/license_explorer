@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://www.eclipse.org/legal/epl-2.0/",
+    "why": "Official EPL 2.0 license text including Exhibit A — the Secondary License opt-in.",
+    "authority_tier": 1
+  },
+  {
+    "url": "https://www.eclipse.org/legal/epl-2.0/faq.php",
+    "why": "Eclipse Foundation FAQ on EPL 2.0 explaining the Secondary License mechanism.",
+    "authority_tier": 1
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "entries": [
+    {
+      "topic": "elastic-vs-aws-trademark",
+      "summary": "Elastic founder Shay Banon wrote in January 2021 that the license change was driven by years of conflict with AWS over the Amazon Elasticsearch Service. Banon argued that the service drove 'confusion with users thinking Amazon Elasticsearch Service is actually a service provided jointly with Elastic' and pointed to AWS's Open Distro for Elasticsearch fork (2019) as containing code Elastic believed was 'copied by a third party from our commercial code.' Elastic had filed a trademark lawsuit against Amazon and later reached a settlement on February 16, 2022.",
+      "sources": [
+        {
+          "source": "Elastic Blog — Shay Banon, 'Amazon: NOT OK — why we had to change Elastic licensing' (Jan 19 2021)",
+          "url": "https://www.elastic.co/blog/why-license-change-aws",
+          "retrieved_at": "2026-04-21T21:10:00Z",
+          "archive_sha256": "27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146",
+          "archive_path": "licenses/elastic-2.0/analysis-sources/27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146.html",
+          "excerpt": "On February 16, 2022, Elastic announced it had reached an agreement with Amazon on the trademark infringement lawsuit. … So why the change? AWS and Amazon Elasticsearch Service. They have been doing things that we think are just NOT OK since 2015 and it has only gotten worse. … We have seen that this trademark issue drives confusion with users thinking Amazon Elasticsearch Service is actually a service provided jointly with Elastic, with our blessing and collaboration. This is just not true. NOT OK. … When Amazon announced their Open Distro for Elasticsearch fork, they used code that we believe was copied by a third party from our commercial code."
+        }
+      ]
+    },
+    {
+      "topic": "2021-relicensing",
+      "summary": "Elastic's licensing FAQ confirms that in January 2021 'we changed the Apache 2.0-licensed source code of Elasticsearch and Kibana to be dual licensed under SSPL 1.0 and the Elastic License 2.0 (ELv2), giving users the choice of which of the two licenses to apply.' The default distribution shipped under ELv2. In September 2024 Elastic added AGPLv3 as a third option alongside SSPL and ELv2, describing 2021 as 'the hard decision to move the Open Source portions … to non-OSI approved software licenses … as a way to reduce the risk of market confusion.'",
+      "sources": [
+        {
+          "source": "Elastic — Licensing FAQ (summary of 2021 changes)",
+          "url": "https://www.elastic.co/pricing/faq/licensing",
+          "retrieved_at": "2026-04-21T21:10:00Z",
+          "archive_sha256": "178e0d4c3776ad0ace6e50cf327ea2652e6b77bfaf6f794e76044a8891f3cb92",
+          "archive_path": "licenses/elastic-2.0/analysis-sources/178e0d4c3776ad0ace6e50cf327ea2652e6b77bfaf6f794e76044a8891f3cb92.html",
+          "excerpt": "Can you summarize the 2021 changes? We changed the Apache 2.0-licensed source code of Elasticsearch and Kibana to be dual licensed under SSPL 1.0 and the Elastic License 2.0 (ELv2), giving users the choice of which of the two licenses to apply. Our default distribution continued to be made available under the Elastic License 2.0 as it had been for nearly the last three years, and we no longer produce an Apache 2.0 distribution. … In 2021, we made the hard decision to move the Open Source portions of Elasticsearch and Kibana source code to non-OSI approved software licenses - SSPL and Elastic License v2, as a way to reduce the risk of market confusion."
+        }
+      ]
+    },
+    {
+      "topic": "opensearch-fork",
+      "summary": "AWS responded to Elastic's January 2021 relicensing by announcing an Apache-2.0-licensed fork of Elasticsearch and Kibana, later named OpenSearch. The AWS post framed the fork as a continuation of its earlier 'upstream first' Open Distro for Elasticsearch work: 'AWS will step up to create and maintain a ALv2-licensed fork of open source Elasticsearch and Kibana.' AWS cited Grafana's fork of Kibana 3 as precedent and committed to 'implementing shared project governance with a community of contributors,' starting from the last ALv2-licensed versions (7.10).",
+      "sources": [
+        {
+          "source": "AWS Open Source Blog — 'Stepping up for a truly open source Elasticsearch' (Jan 21 2021)",
+          "url": "https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/",
+          "retrieved_at": "2026-04-21T21:10:00Z",
+          "archive_sha256": "086021a9ed8a70969d1a174e83c809f0411694d144cae15aebe01b6ef549bac7",
+          "archive_path": "licenses/elastic-2.0/analysis-sources/086021a9ed8a70969d1a174e83c809f0411694d144cae15aebe01b6ef549bac7.html",
+          "excerpt": "To ensure open source versions of both packages remain available and well supported, including in our own offerings, we are announcing today that AWS will step up to create and maintain a ALv2-licensed fork of open source Elasticsearch and Kibana. … Choosing to fork a project is not a decision to be taken lightly, but it can be the right path forward when the needs of a community diverge … Our forks of Elasticsearch and Kibana will be based on the latest ALv2-licensed codebases, version 7.10. … We're in this for the long haul, and will work in a way that fosters healthy and sustainable open source practices—including implementing shared project governance with a community of contributors."
+        }
+      ]
+    },
+    {
+      "topic": "managed-service-restriction",
+      "summary": "The load-bearing clause of Elastic License 2.0 is the Limitations section's first prohibition: the licensee 'may not provide the software to third parties as a hosted or managed service, where the service provides users with access to any substantial set of the features or functionality of the software.' Two adjacent limitations reinforce vendor control: no circumventing the license-key functionality, and no altering copyright or licensing notices. This is the clause directly targeting AWS-style managed-Elasticsearch offerings that motivated the 2021 relicensing.",
+      "sources": [
+        {
+          "source": "Elastic — Elastic License 2.0 (canonical text)",
+          "url": "https://www.elastic.co/licensing/elastic-license",
+          "retrieved_at": "2026-04-21T21:10:00Z",
+          "archive_sha256": "589b04f868c504fee5788e5bf91c370e2422e97a46fde6456db22320fc8a9300",
+          "archive_path": "licenses/elastic-2.0/analysis-sources/589b04f868c504fee5788e5bf91c370e2422e97a46fde6456db22320fc8a9300.html",
+          "excerpt": "Limitations. You may not provide the software to third parties as a hosted or managed service, where the service provides users with access to any substantial set of the features or functionality of the software. You may not move, change, disable, or circumvent the license key functionality in the software, and you may not remove or obscure any functionality in the software that is protected by the license key. You may not alter, remove, or obscure any licensing, copyright, or other notices of the licensor in the software."
+        }
+      ]
+    },
+    {
+      "topic": "osi-position",
+      "summary": "The Open Source Initiative responded to Elastic's 2021 relicensing with a board-signed statement, 'The SSPL is Not an Open Source License.' Although the post's title targets SSPL, its body addresses Elastic's move directly: OSI argues that both ELv2's managed-service prohibition and the SSPL's §13 copyleft fail clause 6 of the Open Source Definition (No Discrimination Against Fields of Endeavor). OSI coined the term 'fauxpen source' for such licenses, accused Elastic of deception for continuing to describe the product as open, and observed that outside contributors' work under the old Apache License is now 'embedded in a proprietary product.'",
+      "sources": [
+        {
+          "source": "Open Source Initiative — The SSPL is Not an Open Source License (OSI Board)",
+          "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+          "retrieved_at": "2026-04-21T21:25:00Z",
+          "archive_sha256": "4e53f9aa8d5540a0b888c420b7b3bd6e12fdc791e25bd14c2317a4e7e2942c37",
+          "archive_path": "licenses/elastic-2.0/analysis-sources/4e53f9aa8d5540a0b888c420b7b3bd6e12fdc791e25bd14c2317a4e7e2942c37.html",
+          "excerpt": "The hallmark of a fauxpen source license is that those who made the switch claim that their product continues to remain 'open' under the new license, but the new license actually has taken away user rights. ... Fauxpen source licenses allow a user to view the source code but do not allow other highly important rights protected by the Open Source Definition, such as the right to make use of the program for any field of endeavor. By design, and as explained by the most recent adopter, Elastic, in a post it unironically titled 'Doubling Down on Open,' Elastic says that it now can 'restrict cloud service providers from offering our software as a service' in violation of OSD6. Elastic didn't double down, it threw its cards in. ... What a company may not do is claim or imply that software under a license that has not been approved by the Open Source Initiative, much less a license that does not meet the Open Source Definition, is open source software."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Elastic Blog — Shay Banon, 'Amazon: NOT OK — why we had to change Elastic licensing'",
+      "url": "https://www.elastic.co/blog/why-license-change-aws",
+      "retrieved_at": "2026-04-21T21:10:00Z",
+      "archive_sha256": "27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146",
+      "archive_path": "licenses/elastic-2.0/analysis-sources/27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146.html"
+    },
+    {
+      "source": "Elastic — Licensing FAQ",
+      "url": "https://www.elastic.co/pricing/faq/licensing",
+      "retrieved_at": "2026-04-21T21:10:00Z",
+      "archive_sha256": "178e0d4c3776ad0ace6e50cf327ea2652e6b77bfaf6f794e76044a8891f3cb92",
+      "archive_path": "licenses/elastic-2.0/analysis-sources/178e0d4c3776ad0ace6e50cf327ea2652e6b77bfaf6f794e76044a8891f3cb92.html"
+    },
+    {
+      "source": "AWS Open Source Blog — 'Stepping up for a truly open source Elasticsearch'",
+      "url": "https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/",
+      "retrieved_at": "2026-04-21T21:10:00Z",
+      "archive_sha256": "086021a9ed8a70969d1a174e83c809f0411694d144cae15aebe01b6ef549bac7",
+      "archive_path": "licenses/elastic-2.0/analysis-sources/086021a9ed8a70969d1a174e83c809f0411694d144cae15aebe01b6ef549bac7.html"
+    },
+    {
+      "source": "Elastic — Elastic License 2.0 (canonical text)",
+      "url": "https://www.elastic.co/licensing/elastic-license",
+      "retrieved_at": "2026-04-21T21:10:00Z",
+      "archive_sha256": "589b04f868c504fee5788e5bf91c370e2422e97a46fde6456db22320fc8a9300",
+      "archive_path": "licenses/elastic-2.0/analysis-sources/589b04f868c504fee5788e5bf91c370e2422e97a46fde6456db22320fc8a9300.html"
+    },
+    {
+      "source": "Open Source Initiative — The SSPL is Not an Open Source License",
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T21:25:00Z",
+      "archive_sha256": "4e53f9aa8d5540a0b888c420b7b3bd6e12fdc791e25bd14c2317a4e7e2942c37",
+      "archive_path": "licenses/elastic-2.0/analysis-sources/4e53f9aa8d5540a0b888c420b7b3bd6e12fdc791e25bd14c2317a4e7e2942c37.html"
+    }
+  ]
+}

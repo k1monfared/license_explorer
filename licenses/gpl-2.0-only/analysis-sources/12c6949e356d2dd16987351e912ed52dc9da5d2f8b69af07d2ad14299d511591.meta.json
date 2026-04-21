@@ -1,0 +1,16 @@
+{
+  "url": "https://sfconservancy.org/copyleft-compliance/",
+  "final_url": "https://sfconservancy.org/copyleft-compliance/",
+  "retrieved_at": "2026-04-21T21:18:22.218Z",
+  "sha256": "12c6949e356d2dd16987351e912ed52dc9da5d2f8b69af07d2ad14299d511591",
+  "bytes": 28308,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:13:43.070Z",
+      "http_status": 200,
+      "final_url": "https://sfconservancy.org/copyleft-compliance/"
+    }
+  ]
+}

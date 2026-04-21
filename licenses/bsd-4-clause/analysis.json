@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "advertising-clause-problem",
+      "summary": "BSD-4-Clause is the original University of California BSD license, which the FSF classifies as a 'lax, permissive non-copyleft free software license with a serious flaw: the obnoxious BSD advertising clause.' Clause 3 requires every advertisement mentioning features or use of the software to display a University-of-California acknowledgment sentence. Because downstream projects substituted their own names, the clause becomes a multi-notice burden as programs are combined. The FSF documents counting 75 such sentences in a 1997 NetBSD build. This flaw makes BSD-4-Clause incompatible with the GNU GPL, which is why the FSF classifies the original BSD among GPL-incompatible free software licenses and urges developers not to use it.",
+      "sources": [
+        {
+          "source": "FSF — Richard Stallman, 'The BSD License Problem'",
+          "url": "https://www.gnu.org/licenses/bsd.html",
+          "retrieved_at": "2026-04-21T21:19:48.977Z",
+          "archive_sha256": "771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0",
+          "archive_path": "licenses/bsd-4-clause/analysis-sources/771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0.html",
+          "excerpt": "the license used for BSD until 1999 had a special problem: the 'obnoxious BSD advertising clause.' It said that every advertisement mentioning the software must include a particular sentence: 3. All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Berkeley and its contributors. … When people put many such programs together in an operating system, the result is a serious problem. … In a 1997 version of NetBSD, I counted 75 of these sentences."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Original BSD entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/bsd-4-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Original BSD license … This license is also sometimes called the '4-clause BSD license'. This is a lax, permissive non-copyleft free software license with a serious flaw: the 'obnoxious BSD advertising clause'. The flaw is not fatal; that is, it does not render the software nonfree. But it does cause practical problems, including incompatibility with the GNU GPL. We urge you not to use the original BSD license for software you write."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — Richard Stallman, 'The BSD License Problem'",
+      "url": "https://www.gnu.org/licenses/bsd.html",
+      "retrieved_at": "2026-04-21T21:19:48.977Z",
+      "archive_sha256": "771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0",
+      "archive_path": "licenses/bsd-4-clause/analysis-sources/771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/bsd-4-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.gnu.org/licenses/why-not-lgpl.html",
+  "final_url": "https://www.gnu.org/licenses/why-not-lgpl.html",
+  "retrieved_at": "2026-04-21T21:18:10.153Z",
+  "sha256": "ae89b7b4f2d33baf1231e70d83428ef4efc0dabcc895d158e9bf1542f62e69cd",
+  "bytes": 18405,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:14:22.317Z",
+      "http_status": 200,
+      "final_url": "https://www.gnu.org/licenses/why-not-lgpl.html"
+    }
+  ]
+}

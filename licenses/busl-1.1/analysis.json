@@ -1,0 +1,144 @@
+{
+  "entries": [
+    {
+      "topic": "mariadb-origin",
+      "summary": "MariaDB introduced the Business Source License as an alternative to closed-source and open-core models, where source is publicly available, non-production use is always free, and the licensor may grant limited production use via an Additional Use Grant. MariaDB's FAQ states the goal was to 'ensure that Open Source development can continue to deliver the innovation benefits of entirely open code (vs. say open core), while providing a model for the company to have a sustainable business.' The license text is stewarded by MariaDB plc, which owns the 'Business Source License' trademark.",
+      "sources": [
+        {
+          "source": "MariaDB — Business Source License 1.1 (canonical text)",
+          "url": "https://mariadb.com/bsl11/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "9e565dacf472c3cea7a48f188cef4fee07cb8026beb000dacf96fc1e48f77249",
+          "archive_path": "licenses/busl-1.1/analysis-sources/9e565dacf472c3cea7a48f188cef4fee07cb8026beb000dacf96fc1e48f77249.html",
+          "excerpt": "License text copyright © 2024 MariaDB plc, All Rights Reserved. 'Business Source License' is a trademark of MariaDB plc. … The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work. The Licensor may make an Additional Use Grant, above, permitting limited production use. … The Business Source License (this document, or the 'License') is not an Open Source license. However, the Licensed Work will eventually be made available under an Open Source License, as stated in this License."
+        },
+        {
+          "source": "MariaDB — BSL FAQ ('Why did MariaDB plc adopt a new license')",
+          "url": "https://mariadb.com/bsl-faq-mariadb/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d7dc46ea46ff6b41c9401db99c1eb80cb6ca0dadd8ab164c8e5e375b57ebb5b7",
+          "archive_path": "licenses/busl-1.1/analysis-sources/d7dc46ea46ff6b41c9401db99c1eb80cb6ca0dadd8ab164c8e5e375b57ebb5b7.html",
+          "excerpt": "MariaDB plc adopted BSL to ensure that Open Source development can continue to deliver the innovation benefits of entirely open code (vs. say open core), while providing a model for the company to have a sustainable business. BSL is a licensing innovation designed to drive stronger community participation by making the code freely available and open for non-production usage, modification or distribution that is below the specified use limitation."
+        }
+      ]
+    },
+    {
+      "topic": "hashicorp-relicensing-2023",
+      "summary": "On August 10, 2023, HashiCorp announced it was moving Terraform, Vault, Consul, Nomad, and related products from MPL 2.0 to BUSL 1.1. CTO Armon Dadgar wrote that 'other vendors … take advantage of pure OSS models … without providing material contributions back' and that the change would prevent competitors from incorporating 'future releases, bug fixes, or security patches.' Within a month, a coalition of vendors and users published the OpenTofu Manifesto, calling BUSL 'a poison pill for Terraform' and forking the last MPL-licensed Terraform into what became OpenTofu (initially OpenTF).",
+      "sources": [
+        {
+          "source": "HashiCorp Blog — Armon Dadgar, 'HashiCorp adopts Business Source License' (Wayback)",
+          "url": "https://web.archive.org/web/20230814203300/https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "fb482e6cb9a933f4c2e229d606155cf22a086a3eee9bc72b2b00e8d9c4ff5b7e",
+          "archive_path": "licenses/busl-1.1/analysis-sources/fb482e6cb9a933f4c2e229d606155cf22a086a3eee9bc72b2b00e8d9c4ff5b7e.html",
+          "excerpt": "That is why today we are announcing that HashiCorp is changing its source code license from Mozilla Public License v2.0 (MPL 2.0) to the Business Source License (BSL, also known as BUSL) v1.1 on all future releases of HashiCorp products. … Vendors who provide competitive services built on our community products will no longer be able to incorporate future releases, bug fixes, or security patches contributed to our products."
+        },
+        {
+          "source": "OpenTofu — Manifesto",
+          "url": "https://opentofu.org/manifesto/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "cef699efc941ddc3eeedf0a9c2d0722763f0bf135d00d2e717254c912e264aa3",
+          "archive_path": "licenses/busl-1.1/analysis-sources/cef699efc941ddc3eeedf0a9c2d0722763f0bf135d00d2e717254c912e264aa3.html",
+          "excerpt": "Then, on August 10th, 2023, with little or no advance notice or chance for much, if not all, of the community to have any input, HashiCorp switched the license for Terraform from the MPL to the Business Source License (v1.1) (the 'BUSL'), a non-open source license. In our opinion, this change threatens the entire community and ecosystem that's built up around Terraform over the last 9 years. Our concern: the BUSL license is a poison pill for Terraform."
+        },
+        {
+          "source": "OpenTofu — homepage (fork provenance)",
+          "url": "https://opentofu.org/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "dfb0604345c91fd35c0bf633ae181af5fff392fa1309a20f1cc9c9a52ca90686",
+          "archive_path": "licenses/busl-1.1/analysis-sources/dfb0604345c91fd35c0bf633ae181af5fff392fa1309a20f1cc9c9a52ca90686.html",
+          "summary": "OpenTofu landing page identifying the project as the community fork of Terraform under MPL 2.0, supported by the Linux Foundation, created in direct response to HashiCorp's BUSL relicensing."
+        }
+      ]
+    },
+    {
+      "topic": "sentry-couchbase-adoption",
+      "summary": "Sentry adopted BUSL in November 2019, citing Cockroach Labs's June 2019 move to BSL as the model. Sentry's terms: no competing commercial hosted service, and automatic conversion to Apache-2.0 after 36 months. Sentry explicitly framed the license as 'eventually open-source' while acknowledging it is 'formally not an open-source license.' Couchbase and Cockroach Labs are listed in HashiCorp's 2023 announcement among the cohort of companies that previously adopted BSL or similar vendor-protective source-available licenses.",
+      "sources": [
+        {
+          "source": "Sentry Blog — 'Relicensing Sentry'",
+          "url": "https://blog.sentry.io/relicensing-sentry/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "38fb6a693905ae1a601708d7609d3ca18e034c3bd5d09cd366b992b9f74d5d94",
+          "archive_path": "licenses/busl-1.1/analysis-sources/38fb6a693905ae1a601708d7609d3ca18e034c3bd5d09cd366b992b9f74d5d94.html",
+          "excerpt": "In June, we saw our friends at Cockroach Labs (the creators of CockroachDB) moving to a new protections-focused license known as the 'Business Source License' (or BSL). … The BSL is a standardized license with two distinct components: a license grant restriction and a conversion date whereby the license 'converts' to a more permissive license … You cannot offer a commercial version of Sentry's service (the license grant restriction). After 36 months, the code becomes Apache-2.0 licensed (the conversion period) … due to the grant restriction, it is formally not an open-source license."
+        },
+        {
+          "source": "HashiCorp Blog — prior adopters list (Wayback)",
+          "url": "https://web.archive.org/web/20230814203300/https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "fb482e6cb9a933f4c2e229d606155cf22a086a3eee9bc72b2b00e8d9c4ff5b7e",
+          "archive_path": "licenses/busl-1.1/analysis-sources/fb482e6cb9a933f4c2e229d606155cf22a086a3eee9bc72b2b00e8d9c4ff5b7e.html",
+          "excerpt": "With this change we are following a path similar to other companies in recent years. These companies include Couchbase, Cockroach Labs, Sentry, and MariaDB, which developed this license in 2013. Companies including Confluent, MongoDB, Elastic, Redis Labs, and others have also adopted alternative licenses that include restrictions on commercial usage."
+        }
+      ]
+    },
+    {
+      "topic": "change-date-mechanism",
+      "summary": "The distinguishing BUSL feature is the mandatory Change Date: effective on the licensor-specified Change Date, or on 'the fourth anniversary of the first publicly available distribution of a specific version of the Licensed Work under this License, whichever comes first,' the work automatically converts to the Change License. BUSL 1.1 constrains the Change License to GPL v2.0-or-later or any GPL-compatible license, so the eventual license is always an OSI-approved license. Each released version has its own Change Date, so the conversion ratchets forward per release.",
+      "sources": [
+        {
+          "source": "MariaDB — Business Source License 1.1 (Change Date clause)",
+          "url": "https://mariadb.com/bsl11/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "9e565dacf472c3cea7a48f188cef4fee07cb8026beb000dacf96fc1e48f77249",
+          "archive_path": "licenses/busl-1.1/analysis-sources/9e565dacf472c3cea7a48f188cef4fee07cb8026beb000dacf96fc1e48f77249.html",
+          "excerpt": "Effective on the Change Date, or the fourth anniversary of the first publicly available distribution of a specific version of the Licensed Work under this License, whichever comes first, the Licensor hereby grants you rights under the terms of the Change License, and the rights granted in the paragraph above terminate. … This License applies separately for each version of the Licensed Work and the Change Date may vary for each version of the Licensed Work released by Licensor."
+        },
+        {
+          "source": "MariaDB — BSL FAQ (Change License constraint)",
+          "url": "https://mariadb.com/bsl-faq-mariadb/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d7dc46ea46ff6b41c9401db99c1eb80cb6ca0dadd8ab164c8e5e375b57ebb5b7",
+          "archive_path": "licenses/busl-1.1/analysis-sources/d7dc46ea46ff6b41c9401db99c1eb80cb6ca0dadd8ab164c8e5e375b57ebb5b7.html",
+          "excerpt": "On the Change Date, or the fourth anniversary of the first publicly available distribution of the code under the BSL, whichever comes first, the code automatically becomes available under the Change License. The Change License is mandated to be GPL Version 2.0 or later, or a compatible license (i.e., the Change License is always an Open Source license that enables use of the software in a GPL project)."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "MariaDB — Business Source License 1.1 (canonical text)",
+      "url": "https://mariadb.com/bsl11/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "9e565dacf472c3cea7a48f188cef4fee07cb8026beb000dacf96fc1e48f77249",
+      "archive_path": "licenses/busl-1.1/analysis-sources/9e565dacf472c3cea7a48f188cef4fee07cb8026beb000dacf96fc1e48f77249.html"
+    },
+    {
+      "source": "MariaDB — BSL FAQ",
+      "url": "https://mariadb.com/bsl-faq-mariadb/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "d7dc46ea46ff6b41c9401db99c1eb80cb6ca0dadd8ab164c8e5e375b57ebb5b7",
+      "archive_path": "licenses/busl-1.1/analysis-sources/d7dc46ea46ff6b41c9401db99c1eb80cb6ca0dadd8ab164c8e5e375b57ebb5b7.html"
+    },
+    {
+      "source": "HashiCorp Blog — 'HashiCorp adopts Business Source License' (Wayback)",
+      "url": "https://web.archive.org/web/20230814203300/https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "fb482e6cb9a933f4c2e229d606155cf22a086a3eee9bc72b2b00e8d9c4ff5b7e",
+      "archive_path": "licenses/busl-1.1/analysis-sources/fb482e6cb9a933f4c2e229d606155cf22a086a3eee9bc72b2b00e8d9c4ff5b7e.html"
+    },
+    {
+      "source": "OpenTofu — Manifesto",
+      "url": "https://opentofu.org/manifesto/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "cef699efc941ddc3eeedf0a9c2d0722763f0bf135d00d2e717254c912e264aa3",
+      "archive_path": "licenses/busl-1.1/analysis-sources/cef699efc941ddc3eeedf0a9c2d0722763f0bf135d00d2e717254c912e264aa3.html"
+    },
+    {
+      "source": "OpenTofu — homepage",
+      "url": "https://opentofu.org/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "dfb0604345c91fd35c0bf633ae181af5fff392fa1309a20f1cc9c9a52ca90686",
+      "archive_path": "licenses/busl-1.1/analysis-sources/dfb0604345c91fd35c0bf633ae181af5fff392fa1309a20f1cc9c9a52ca90686.html"
+    },
+    {
+      "source": "Sentry Blog — 'Relicensing Sentry'",
+      "url": "https://blog.sentry.io/relicensing-sentry/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "38fb6a693905ae1a601708d7609d3ca18e034c3bd5d09cd366b992b9f74d5d94",
+      "archive_path": "licenses/busl-1.1/analysis-sources/38fb6a693905ae1a601708d7609d3ca18e034c3bd5d09cd366b992b9f74d5d94.html"
+    }
+  ]
+}

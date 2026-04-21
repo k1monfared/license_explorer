@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "topic": "compliance-alternatives",
+      "summary": "Artistic License 2.0 is unusual among OSS licenses in giving downstream distributors of modified versions an explicit menu of compliance paths. Clause 4 applies when you Distribute a Modified Version in Source form: you must 'do at least ONE of the following' — (a) submit the Modified Version back to the Copyright Holder under the Original License for possible inclusion in the Standard Version; (b) ensure the Modified Version installs without preventing the Standard Version from running, and rename it so it is clearly distinguishable from the Standard Version; or (c) re-license the Modified Version under the Artistic License itself or under 'a license that permits the licensee to freely copy, modify and redistribute the Modified Version using the same licensing terms that apply to the copy that the licensee received'. Clause 5 applies to Compiled-only distributions of the Standard Version (you must still make Source instructions available), and clause 6 extends clause 4's menu to Compiled Modified Versions. This structure is what Perl's ecosystem uses to preserve the 'do not break the Standard Version' invariant without imposing a full copyleft.",
+      "sources": [
+        {
+          "source": "Perl Foundation — The Artistic License 2.0",
+          "url": "https://www.perlfoundation.org/artistic-license-20.html",
+          "retrieved_at": "2026-04-21T21:20:49.306Z",
+          "archive_sha256": "b458dbb666217135164a6a6ae31a2034c7956917caee69c0be7b9b2a0b223d9a",
+          "archive_path": "licenses/artistic-2.0/analysis-sources/b458dbb666217135164a6a6ae31a2034c7956917caee69c0be7b9b2a0b223d9a.html",
+          "excerpt": "(4) You may Distribute your Modified Version as Source … provided that you do at least ONE of the following: (a) make the Modified Version available to the Copyright Holder of the Standard Version, under the Original License, so that the Copyright Holder may include your modifications in the Standard Version. (b) ensure that installation of your Modified Version does not prevent the user installing or running the Standard Version. … the Modified Version must bear a name that is different from the name of the Standard Version. (c) allow anyone who receives a copy of the Modified Version to make the Source form … available to others under (i) the Original License or (ii) a license that permits the licensee to freely copy, modify and redistribute the Modified Version using the same licensing terms that apply to the copy that the licensee received."
+        }
+      ]
+    },
+    {
+      "topic": "gpl-compatibility",
+      "summary": "FSF classifies Artistic License 2.0 as a free software license that is GPL-compatible, and identifies the specific mechanism making it so: the relicensing option in clause 4(c)(ii). That sub-clause lets downstream distributors of a Modified Version choose a license that 'permits the licensee to freely copy, modify and redistribute the Modified Version using the same licensing terms that apply to the copy that the licensee received' — which a GPL re-licensing satisfies. (The original Perl Artistic License 1.0 was considered by FSF to be too vague to be GPL-compatible on its own, which was one of the motivations for the 2.0 revision.) Practically, Perl 5 itself is distributed under a dual 'Artistic or GPL' choice, but standalone Artistic-2.0 code can reach GPL combinations via 4(c)(ii) without needing that explicit dual-license declaration.",
+      "sources": [
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Artistic License 2.0 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:20:55.248Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/artistic-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Artistic License 2.0 … This license is a free software license, compatible with the GPL thanks to the relicensing option in section 4(c)(ii)."
+        },
+        {
+          "source": "choosealicense.com — Artistic License 2.0",
+          "url": "https://choosealicense.com/licenses/artistic-2.0/",
+          "retrieved_at": "2026-04-21T21:20:52.031Z",
+          "archive_sha256": "ed7e1c622b779bba8517377cb03b9af9c8bf0cdf53227608ee44914f022ab3ff",
+          "archive_path": "licenses/artistic-2.0/analysis-sources/ed7e1c622b779bba8517377cb03b9af9c8bf0cdf53227608ee44914f022ab3ff.html",
+          "excerpt": "Heavily favored by the Perl community, the Artistic license requires that modified versions of the software do not prevent users from running the standard version."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Perl Foundation — The Artistic License 2.0",
+      "url": "https://www.perlfoundation.org/artistic-license-20.html",
+      "retrieved_at": "2026-04-21T21:20:49.306Z",
+      "archive_sha256": "b458dbb666217135164a6a6ae31a2034c7956917caee69c0be7b9b2a0b223d9a",
+      "archive_path": "licenses/artistic-2.0/analysis-sources/b458dbb666217135164a6a6ae31a2034c7956917caee69c0be7b9b2a0b223d9a.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them (Artistic License 2.0 entry)",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:20:55.248Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/artistic-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "choosealicense.com — Artistic License 2.0",
+      "url": "https://choosealicense.com/licenses/artistic-2.0/",
+      "retrieved_at": "2026-04-21T21:20:52.031Z",
+      "archive_sha256": "ed7e1c622b779bba8517377cb03b9af9c8bf0cdf53227608ee44914f022ab3ff",
+      "archive_path": "licenses/artistic-2.0/analysis-sources/ed7e1c622b779bba8517377cb03b9af9c8bf0cdf53227608ee44914f022ab3ff.html"
+    }
+  ]
+}

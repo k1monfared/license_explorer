@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "vs-cc0-for-software",
+      "summary": "The Unlicense and CC0 both aim to dedicate software to the public domain, but recommendations differ on which to use. The FSF classifies both as GPL-compatible, but in its CC0 entry recommends CC0 only for non-software works, citing CC0's explicit patent non-grant as a reason it is 'not recommended' for software. Unlicense.org itself acknowledges the domain split from the opposite side: it lists CC0 among 'Other Popular Unlicenses' with the note 'not intended for software per se.' The Unlicense combines a public-domain waiver (patterned after SQLite) with an MIT/X11-style no-warranty statement, positioning itself as the public-domain option specifically for software.",
+      "sources": [
+        {
+          "source": "FSF — Various Licenses and Comments about Them (CC0 and Unlicense entries)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/unlicense/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "The Unlicense … The Unlicense is a public domain dedication. A work released under the Unlicense is dedicated to the public domain to the fullest extent permitted by law, and also comes with an additional lax license that helps cover any cases where the dedication is inadequate. … CC0 1.0 Universal … If you want to release your non-software work to the public domain, we recommend you use CC0. For works of software it is not recommended, as CC0 has a term expressly stating it does not grant you any patent licenses."
+        },
+        {
+          "source": "Unlicense.org — Unlicense Yourself: Set Your Code Free",
+          "url": "https://unlicense.org/",
+          "retrieved_at": "2026-04-21T21:23:33.872Z",
+          "archive_sha256": "5462ed7a8901bfc650e02dbc5e902457910fd2a86c25126f1c89fa8e17072608",
+          "archive_path": "licenses/unlicense/analysis-sources/5462ed7a8901bfc650e02dbc5e902457910fd2a86c25126f1c89fa8e17072608.html",
+          "excerpt": "The Unlicense is a template for disclaiming copyright monopoly interest in software you've written … It combines a copyright waiver patterned after the very successful public domain SQLite project with the no-warranty statement from the widely-used MIT/X11 license. … Other Popular Unlicenses … CC0 - Creative Commons Zero is not intended for software per se."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/unlicense/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Unlicense.org — Unlicense Yourself",
+      "url": "https://unlicense.org/",
+      "retrieved_at": "2026-04-21T21:23:33.872Z",
+      "archive_sha256": "5462ed7a8901bfc650e02dbc5e902457910fd2a86c25126f1c89fa8e17072608",
+      "archive_path": "licenses/unlicense/analysis-sources/5462ed7a8901bfc650e02dbc5e902457910fd2a86c25126f1c89fa8e17072608.html"
+    }
+  ]
+}

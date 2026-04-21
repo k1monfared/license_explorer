@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "patent-grant-scope",
+      "summary": "Oracle drafted the UPL after starting from the MIT license with the explicit goal of pairing a broad permissive copyright grant with an unambiguous express patent license that is 'uniformly copyleft compatible' (including definitively GPLv2-compatible). Oracle's FAQ argues the UPL addresses a gap in MIT/BSD (no express patent license) and a concern with Apache-2.0 (debated GPLv2 compatibility). The patent grant covers 'any and all patent rights owned or freely licensable by each licensor' reading on (i) the unmodified Software as contributed, or (ii) any 'Larger Work' listed in an accompanying lrgrwrks.txt file, which Oracle describes as facilitating CLA-style use where contributors license patents covering the designated larger work. The UPL intentionally omits Apache-2.0-style defensive patent termination, on the theory that such termination provisions can interfere with commercial distributors' ability to enforce their rights.",
+      "sources": [
+        {
+          "source": "Oracle — Universal Permissive License FAQ",
+          "url": "https://oss.oracle.com/licenses/upl/",
+          "retrieved_at": "2026-04-21T21:20:13.467Z",
+          "archive_sha256": "a166e3d1aee2a183d87f5e9541827ba1dff0f989cb86e6a9cf2c653942f5243c",
+          "archive_path": "licenses/upl-1.0/analysis-sources/a166e3d1aee2a183d87f5e9541827ba1dff0f989cb86e6a9cf2c653942f5243c.html",
+          "excerpt": "Clear patent protection. The UPL is a broad permissive license including both a copyright license and an express patent license … By virtue of the unambiguous patent license, the UPL is materially clearer with respect to the rights licensed and likely broader than either the MIT or BSD licenses. … The most important problem the UPL solves is the inclusion of an express patent license in a license that is both broadly agreed to be uniformly copyleft compatible and also permits the software to be freely used in commercially licensed software. … The MIT and BSD licenses do not include express patent licenses … The Apache license, on the other hand, is argued by some not to be GPLv2 compatible."
+        },
+        {
+          "source": "OSI — The Universal Permissive License 1.0",
+          "url": "https://opensource.org/license/upl",
+          "retrieved_at": "2026-04-21T21:20:10.846Z",
+          "archive_sha256": "3aa64d69f144008a2bc098534d068e87a98906fa07e8e526e6f3c7e11c68dd8a",
+          "archive_path": "licenses/upl-1.0/analysis-sources/3aa64d69f144008a2bc098534d068e87a98906fa07e8e526e6f3c7e11c68dd8a.html",
+          "excerpt": "permission is hereby granted to any person obtaining a copy of this software, associated documentation and/or data … free of charge and under any and all copyright rights in the Software, and any and all patent rights owned or freely licensable by each licensor hereunder covering either (i) the unmodified Software as contributed to or provided by such licensor, or (ii) the Larger Works (as defined below), to deal in both (a) the Software, and (b) any piece of software and/or hardware listed in the lrgrwrks.txt file if one is included with the Software."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Oracle — Universal Permissive License FAQ",
+      "url": "https://oss.oracle.com/licenses/upl/",
+      "retrieved_at": "2026-04-21T21:20:13.467Z",
+      "archive_sha256": "a166e3d1aee2a183d87f5e9541827ba1dff0f989cb86e6a9cf2c653942f5243c",
+      "archive_path": "licenses/upl-1.0/analysis-sources/a166e3d1aee2a183d87f5e9541827ba1dff0f989cb86e6a9cf2c653942f5243c.html"
+    },
+    {
+      "source": "OSI — The Universal Permissive License 1.0",
+      "url": "https://opensource.org/license/upl",
+      "retrieved_at": "2026-04-21T21:20:10.846Z",
+      "archive_sha256": "3aa64d69f144008a2bc098534d068e87a98906fa07e8e526e6f3c7e11c68dd8a",
+      "archive_path": "licenses/upl-1.0/analysis-sources/3aa64d69f144008a2bc098534d068e87a98906fa07e8e526e6f3c7e11c68dd8a.html"
+    }
+  ]
+}

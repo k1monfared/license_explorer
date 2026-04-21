@@ -1,0 +1,16 @@
+{
+  "url": "https://www.eclipse.org/legal/epl-2.0/",
+  "final_url": "https://www.eclipse.org/legal/epl-2.0/",
+  "retrieved_at": "2026-04-21T21:22:49.989Z",
+  "sha256": "db9bfaf0b418c73ce466384630fcb512fa568a8d1c962dcc485b4719f1042dc7",
+  "bytes": 33406,
+  "content_type": "text/html",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:20:50.865Z",
+      "http_status": 200,
+      "final_url": "https://www.eclipse.org/legal/epl-2.0/"
+    }
+  ]
+}

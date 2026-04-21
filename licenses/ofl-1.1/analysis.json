@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "topic": "reserved-font-name",
+      "summary": "The OFL's distinctive restriction is the Reserved Font Name (RFN) mechanism in §3 of the license. A copyright holder may designate certain words in the font's name as reserved, and no modified version of the font may use any reserved word as its primary name presented to the user, unless the original copyright holder grants written permission. Its purpose, explained in the SIL FAQ, is to let designers keep artistic integrity over the canonical release while still permitting unrestricted modification under a different name. RFNs are optional (§5.6 of the FAQ, a change introduced in v1.1), and the restriction applies only to the primary font name, not to part numbers, style names, or generic typographic words like 'Sans'.",
+      "sources": [
+        {
+          "source": "SIL Open Font License v1.1 (official text, section 3 and Preamble)",
+          "url": "https://openfontlicense.org/open-font-license-official-text/",
+          "retrieved_at": "2026-04-21T21:23:19.020Z",
+          "archive_sha256": "43c18586117a7002005d972c7e36b4c13d3f7d424ff9b94db15552eaa3fa3c2d",
+          "archive_path": "licenses/ofl-1.1/analysis-sources/43c18586117a7002005d972c7e36b4c13d3f7d424ff9b94db15552eaa3fa3c2d.html",
+          "excerpt": "No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users. ... Reserved Font Name refers to any names specified as such after the copyright statement(s)."
+        },
+        {
+          "source": "SIL OFL FAQ section 5 (Choosing Reserved Font Names)",
+          "url": "https://openfontlicense.org/ofl-faq/",
+          "retrieved_at": "2026-04-21T21:23:19.040Z",
+          "archive_sha256": "ad66fb6969f752031d576feb26e560228c5bf1a9d659741e394bba28bd251ebb",
+          "archive_path": "licenses/ofl-1.1/analysis-sources/ad66fb6969f752031d576feb26e560228c5bf1a9d659741e394bba28bd251ebb.html",
+          "excerpt": "5.1 What are Reserved Font Names? These are font names, or portions of font names, that the author has chosen to reserve for use only with the Original Version of the font, or for Modified Version(s) created by the original author. ... Reserved Font Names ensure that the only fonts that have the original names are the unmodified Original Versions. This allows designers to maintain artistic integrity while allowing collaboration to happen. It eliminates potential confusion and name conflicts. ... 5.6 Do I, as an author, have to identify any Reserved Font Names? No. RFNs are optional and not required."
+        }
+      ]
+    },
+    {
+      "topic": "fonts-in-documents",
+      "summary": "A recurring OFL question is whether embedding an OFL font in a PDF, ebook, or application document obligates the document itself to be OFL-licensed. The license text explicitly closes that door: the requirement for fonts to remain under this license does not apply to any document created using the Font Software. The SIL FAQ elaborates. Full or subset embedding in a document, as well as bundling an unmodified font inside a compressed document container such as an ODT or EPUB, does not change the document's license, and webfonts served via CSS @font-face are treated as separate from the documents that reference them. The only constraint flowing through is that, if an embedded font is later extracted and redistributed as a font, the OFL applies again.",
+      "sources": [
+        {
+          "source": "SIL Open Font License v1.1 (official text, Permission and Conditions)",
+          "url": "https://openfontlicense.org/open-font-license-official-text/",
+          "retrieved_at": "2026-04-21T21:23:19.020Z",
+          "archive_sha256": "43c18586117a7002005d972c7e36b4c13d3f7d424ff9b94db15552eaa3fa3c2d",
+          "archive_path": "licenses/ofl-1.1/analysis-sources/43c18586117a7002005d972c7e36b4c13d3f7d424ff9b94db15552eaa3fa3c2d.html",
+          "excerpt": "The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software."
+        },
+        {
+          "source": "SIL OFL FAQ sections 1.11 to 1.13 (embedding in documents)",
+          "url": "https://openfontlicense.org/ofl-faq/",
+          "retrieved_at": "2026-04-21T21:23:19.040Z",
+          "archive_sha256": "ad66fb6969f752031d576feb26e560228c5bf1a9d659741e394bba28bd251ebb",
+          "archive_path": "licenses/ofl-1.1/analysis-sources/ad66fb6969f752031d576feb26e560228c5bf1a9d659741e394bba28bd251ebb.html",
+          "excerpt": "1.12 So can I embed OFL fonts in my document? Yes, either in full or a subset. The restrictions regarding font modification and redistribution do not apply, as the font is not intended for use outside the document. 1.13 Does embedding alter the license of the document itself? No. Referencing or embedding an OFL font in any document does not change the license of the document itself. The requirement for fonts to remain under the OFL does not apply to any document created using the fonts and their derivatives. Similarly, creating any kind of graphic using a font under the OFL does not make the resulting artwork subject to the OFL."
+        }
+      ]
+    },
+    {
+      "topic": "google-fonts-adoption",
+      "summary": "The OFL is the dominant license for the free-font ecosystem because the largest free font distribution platforms standardise on it. The google/fonts GitHub repository, the canonical source for the Google Fonts catalog, states that 'most of the fonts in the collection use the SIL Open Font License, v1.1,' with a small minority under Apache 2.0 or the Ubuntu Font License. SIL itself describes the OFL as 'the widely used, community-approved, free, libre, and open source license specifically designed for fonts,' positioning the OFL as the de facto norm rather than one option among many.",
+      "sources": [
+        {
+          "source": "google/fonts GitHub repository README",
+          "url": "https://github.com/google/fonts",
+          "retrieved_at": "2026-04-21T21:45:00.000Z",
+          "archive_sha256": "acf5daef254a033df716774b9fab1931a375215fb3f6493e99ccb317e200c0a4",
+          "archive_path": "licenses/ofl-1.1/analysis-sources/acf5daef254a033df716774b9fab1931a375215fb3f6493e99ccb317e200c0a4.html",
+          "excerpt": "Most of the fonts in the collection use the SIL Open Font License, v1.1. Some fonts use the Apache 2 license. The Ubuntu fonts use the Ubuntu Font License v1.0. The SIL Open Font License has an option for copyright holders to include a Reserved Font Name requirement, and this option is used with some of the fonts."
+        },
+        {
+          "source": "SIL Open Font License website landing page",
+          "url": "https://scripts.sil.org/OFL",
+          "retrieved_at": "2026-04-21T21:23:19.000Z",
+          "archive_sha256": "c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f",
+          "archive_path": "licenses/ofl-1.1/analysis-sources/c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f.html",
+          "excerpt": "The SIL Open Font License: The widely used, community-approved, free, libre, and open source license specifically designed for fonts and related software: a solid legal framework for worldwide development, sharing, and improvement of fonts and related software in a collaborative manner."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "SIL Open Font License v1.1 (official text)",
+      "url": "https://openfontlicense.org/open-font-license-official-text/",
+      "retrieved_at": "2026-04-21T21:23:19.020Z",
+      "archive_sha256": "43c18586117a7002005d972c7e36b4c13d3f7d424ff9b94db15552eaa3fa3c2d",
+      "archive_path": "licenses/ofl-1.1/analysis-sources/43c18586117a7002005d972c7e36b4c13d3f7d424ff9b94db15552eaa3fa3c2d.html"
+    },
+    {
+      "source": "SIL OFL FAQ",
+      "url": "https://openfontlicense.org/ofl-faq/",
+      "retrieved_at": "2026-04-21T21:23:19.040Z",
+      "archive_sha256": "ad66fb6969f752031d576feb26e560228c5bf1a9d659741e394bba28bd251ebb",
+      "archive_path": "licenses/ofl-1.1/analysis-sources/ad66fb6969f752031d576feb26e560228c5bf1a9d659741e394bba28bd251ebb.html"
+    },
+    {
+      "source": "google/fonts GitHub repository README",
+      "url": "https://github.com/google/fonts",
+      "retrieved_at": "2026-04-21T21:45:00.000Z",
+      "archive_sha256": "acf5daef254a033df716774b9fab1931a375215fb3f6493e99ccb317e200c0a4",
+      "archive_path": "licenses/ofl-1.1/analysis-sources/acf5daef254a033df716774b9fab1931a375215fb3f6493e99ccb317e200c0a4.html"
+    },
+    {
+      "source": "SIL Open Font License website landing page",
+      "url": "https://scripts.sil.org/OFL",
+      "retrieved_at": "2026-04-21T21:23:19.000Z",
+      "archive_sha256": "c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f",
+      "archive_path": "licenses/ofl-1.1/analysis-sources/c070f388cf94deec56df64de5eab16d77f537506ec8495721c949da27a7d7a3f.html"
+    }
+  ]
+}

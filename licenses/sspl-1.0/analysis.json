@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "topic": "mongodb-2018-relicensing",
+      "summary": "MongoDB announced on October 16, 2018 that all subsequent versions and patch releases would be issued under the new Server Side Public License instead of AGPL-3.0. MongoDB CTO Eliot Horowitz framed the change as a response to large cloud vendors testing the boundaries of AGPL compliance: 'as AGPL-licensed software like MongoDB has become more popular, organizations like the international cloud providers have begun to test the boundaries of this license. We would prefer to avoid litigation to defend the AGPL but instead devote our time to build great products.' MongoDB retained 100% copyright, enabling the unilateral license change.",
+      "sources": [
+        {
+          "source": "MongoDB Blog — Eliot Horowitz, 'MongoDB now released under the Server Side Public License' (Oct 16 2018, Wayback)",
+          "url": "https://web.archive.org/web/20181017000000/https://www.mongodb.com/blog/post/mongodb-now-released-under-the-server-side-public-license",
+          "retrieved_at": "2026-04-21T21:20:00Z",
+          "archive_sha256": "808fd5f2450408ad695284f9499f4cfc8267121578818e718cd091428d94273a",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/808fd5f2450408ad695284f9499f4cfc8267121578818e718cd091428d94273a.html",
+          "excerpt": "MongoDB has created a new software license called the Server Side Public License, or SSPL. … All subsequent versions and patch releases to prior versions of MongoDB made after October 16th, 2018 will be issued under the new SSPL. … as AGPL-licensed software like MongoDB has become more popular, organizations like the international cloud providers have begun to test the boundaries of this license. We would prefer to avoid litigation to defend the AGPL but instead devote our time to build great products for the community and our customers. … Since we own 100% of the copyright of MongoDB, one option available to us was to convert our open source license to a closed source license."
+        }
+      ]
+    },
+    {
+      "topic": "osi-rejection",
+      "summary": "OSI withdrew consideration of SSPL after it 'became clear that the license would not be approved' and published a formal board statement on January 19, 2021 titled 'The SSPL is Not an Open Source License.' OSI called SSPL a 'fauxpen source' license that lets users read the source but takes away 'the right to make use of the program for any field of endeavor,' violating clause 6 of the Open Source Definition. OSI specifically called out Elastic's contemporaneous adoption of SSPL as violating OSD6.",
+      "sources": [
+        {
+          "source": "OSI — 'The SSPL is Not an Open Source License' (Jan 19 2021)",
+          "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+          "retrieved_at": "2026-04-21T21:20:00Z",
+          "archive_sha256": "ba23dd2d9d261a3c42391d86d1c6afd1f77ccb61497e342abe0d6dbaa1628e43",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/ba23dd2d9d261a3c42391d86d1c6afd1f77ccb61497e342abe0d6dbaa1628e43.html",
+          "excerpt": "The license du jour is the Server Side Public License. This license was submitted to the Open Source Initiative for approval but later withdrawn by the license steward when it became clear that the license would not be approved. … Fauxpen source licenses allow a user to view the source code but do not allow other highly important rights protected by the Open Source Definition, such as the right to make use of the program for any field of endeavor. By design, and as explained by the most recent adopter, Elastic … Elastic says that it now can 'restrict cloud service providers from offering our software as a service' in violation of OSD6."
+        }
+      ]
+    },
+    {
+      "topic": "s13-scope-expansion",
+      "summary": "SSPL §13 ('Offering the Program as a Service') is the license's defining departure from AGPL. Where AGPL §13 requires only the modified Program's source, SSPL's 'Service Source Code' sweeps in 'the Corresponding Source for all programs that you use to make the Program or modified version available as a service, including, without limitation, management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software' — the entire stack needed 'such that a user could run an instance of the service using the Service Source Code you make available.'",
+      "sources": [
+        {
+          "source": "MongoDB — Server Side Public License 1.0 (canonical text, §13)",
+          "url": "https://www.mongodb.com/licensing/server-side-public-license",
+          "retrieved_at": "2026-04-21T21:20:00Z",
+          "archive_sha256": "ec97458c02022ff08a172191f284b0fdc0e0c54d0f0c78b29e9736f8acefef22",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/ec97458c02022ff08a172191f284b0fdc0e0c54d0f0c78b29e9736f8acefef22.html",
+          "excerpt": "13. Offering the Program as a Service. If you make the functionality of the Program or a modified version available to third parties as a service, you must make the Service Source Code available via network download to everyone at no charge, under the terms of this License. … 'Service Source Code' means the Corresponding Source for the Program or the modified version, and the Corresponding Source for all programs that you use to make the Program or modified version available as a service, including, without limitation, management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software, all such that a user could run an instance of the service using the Service Source Code you make available."
+        }
+      ]
+    },
+    {
+      "topic": "linux-distro-removal",
+      "summary": "Debian bug #916107 (filed December 2018) resolved to remove MongoDB from Debian because Debian would not distribute SSPL-licensed software. Maintainer Apollon Oikonomopoulos wrote that 'upstream's switch to SSPLv1 complicates matters … we will not be distributing any SSPL-licensed software, and keeping the last AGPL-licensed version (3.6.8 or 4.0.3) without the ability to cherry-pick upstream fixes is not a viable option.' Red Hat Enterprise Linux and Fedora made equivalent decisions to drop MongoDB in the same window, citing the SSPL's non-OSI-approved status. Wikipedia's summary confirms that 'Debian, Red Hat Enterprise Linux, and Fedora subsequently dropped MongoDB, citing concerns about the SSPL.'",
+      "sources": [
+        {
+          "source": "Debian — Bug #916107, 'mongodb: MongoDB should not be part of a stable release'",
+          "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=916107",
+          "retrieved_at": "2026-04-21T21:20:00Z",
+          "archive_sha256": "864d54e37154683db48b10021db72993771b9f902211e3075de534a737c61dd1",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/864d54e37154683db48b10021db72993771b9f902211e3075de534a737c61dd1.html",
+          "excerpt": "MongoDB should not be part of (at least) Buster for the following reasons: … MongoDB 3.6 and 4.0 will be supported longer, but upstream's switch to SSPLv1 complicates matters. As discussed in #915537, we will not be distributing any SSPL-licensed software, and keeping the last AGPL-licensed version (3.6.8 or 4.0.3) without the ability to cherry-pick upstream fixes is not a viable option. (I am currently not considering distributing mongodb in non-free.) … eventually auto-removal will kick in."
+        },
+        {
+          "source": "Wikipedia — Server Side Public License (distro removals)",
+          "url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39.html",
+          "excerpt": "The SSPL is not recognized as free software by the Open Source Initiative (OSI), Red Hat, or Debian, who claim the aforementioned provision is discriminatory towards specific fields of use. Specifically, they assert this is discriminatory against those who use proprietary software within their stack, as the license requires the open-sourcing of every part interacting with the service, and argue this violates criteria 6 and 9 of the Open Source Definition. ... In October 2018, the MongoDB database was relicensed under the SSPL. Debian, Red Hat Enterprise Linux, and Fedora subsequently dropped MongoDB, citing concerns about the SSPL."
+        }
+      ]
+    },
+    {
+      "topic": "aws-documentdb",
+      "summary": "In January 2019 AWS released Amazon DocumentDB, a proprietary, MongoDB-API-compatible document database that was AWS's answer to MongoDB's SSPL move. DocumentDB is not a fork of MongoDB's source: it is an independent implementation of the MongoDB wire protocol, so the §13 service-source-code obligation does not attach. This let AWS continue offering a managed MongoDB-shaped experience to its customers without touching SSPL-licensed code, and it has become the template response for hyperscalers facing anti-cloud source-available licenses. AWS's product page continues to market DocumentDB to MongoDB shops as 'MongoDB API-compatible' enabling migration 'typically without application code changes or downtime.'",
+      "sources": [
+        {
+          "source": "Amazon DocumentDB product page",
+          "url": "https://aws.amazon.com/documentdb/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "bbd8095bbec9941a977ad75423ad5bcc0eef0a78baaf93fc88492a8e61249bd5",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/bbd8095bbec9941a977ad75423ad5bcc0eef0a78baaf93fc88492a8e61249bd5.html",
+          "excerpt": "Amazon DocumentDB (with MongoDB compatibility). Serverless, fully managed, MongoDB API-compatible document database service. ... Amazon DocumentDB is compatible with MongoDB APIs and drivers so you can migrate applications, typically without application code changes or downtime."
+        },
+        {
+          "source": "Wikipedia — Server Side Public License (AWS DocumentDB response)",
+          "url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39",
+          "archive_path": "licenses/sspl-1.0/analysis-sources/29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39.html",
+          "excerpt": "In October 2018, the MongoDB database was relicensed under the SSPL. Debian, Red Hat Enterprise Linux, and Fedora subsequently dropped MongoDB, citing concerns about the SSPL. Amazon released a partially compatible but proprietary service named DocumentDB."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "MongoDB Blog — 'MongoDB now released under the Server Side Public License' (Wayback)",
+      "url": "https://web.archive.org/web/20181017000000/https://www.mongodb.com/blog/post/mongodb-now-released-under-the-server-side-public-license",
+      "retrieved_at": "2026-04-21T21:20:00Z",
+      "archive_sha256": "808fd5f2450408ad695284f9499f4cfc8267121578818e718cd091428d94273a",
+      "archive_path": "licenses/sspl-1.0/analysis-sources/808fd5f2450408ad695284f9499f4cfc8267121578818e718cd091428d94273a.html"
+    },
+    {
+      "source": "OSI — 'The SSPL is Not an Open Source License'",
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T21:20:00Z",
+      "archive_sha256": "ba23dd2d9d261a3c42391d86d1c6afd1f77ccb61497e342abe0d6dbaa1628e43",
+      "archive_path": "licenses/sspl-1.0/analysis-sources/ba23dd2d9d261a3c42391d86d1c6afd1f77ccb61497e342abe0d6dbaa1628e43.html"
+    },
+    {
+      "source": "MongoDB — Server Side Public License 1.0 (canonical text)",
+      "url": "https://www.mongodb.com/licensing/server-side-public-license",
+      "retrieved_at": "2026-04-21T21:20:00Z",
+      "archive_sha256": "ec97458c02022ff08a172191f284b0fdc0e0c54d0f0c78b29e9736f8acefef22",
+      "archive_path": "licenses/sspl-1.0/analysis-sources/ec97458c02022ff08a172191f284b0fdc0e0c54d0f0c78b29e9736f8acefef22.html"
+    },
+    {
+      "source": "Debian — Bug #916107, MongoDB removal discussion",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=916107",
+      "retrieved_at": "2026-04-21T21:20:00Z",
+      "archive_sha256": "864d54e37154683db48b10021db72993771b9f902211e3075de534a737c61dd1",
+      "archive_path": "licenses/sspl-1.0/analysis-sources/864d54e37154683db48b10021db72993771b9f902211e3075de534a737c61dd1.html"
+    },
+    {
+      "source": "Amazon DocumentDB product page",
+      "url": "https://aws.amazon.com/documentdb/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "bbd8095bbec9941a977ad75423ad5bcc0eef0a78baaf93fc88492a8e61249bd5",
+      "archive_path": "licenses/sspl-1.0/analysis-sources/bbd8095bbec9941a977ad75423ad5bcc0eef0a78baaf93fc88492a8e61249bd5.html"
+    },
+    {
+      "source": "Wikipedia — Server Side Public License",
+      "url": "https://en.wikipedia.org/wiki/Server_Side_Public_License",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39",
+      "archive_path": "licenses/sspl-1.0/analysis-sources/29078ca5360cd54603fc0bd57dcf2cf232c817a5a4954aa3765b096719819b39.html"
+    }
+  ]
+}

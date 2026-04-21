@@ -1,0 +1,93 @@
+{
+  "entries": [
+    {
+      "topic": "covenant-not-to-sue-on-patents",
+      "summary": "TAPR-OHL v1.0 SS2.1 uses a 'covenant not to sue' rather than an Apache-style affirmative patent grant: each Licensor grants 'every other Licensee, and every possessor or user of Products a perpetual, worldwide, and royalty-free immunity from suit under any patent, patent application, or other intellectual property right which he or she controls, to the extent necessary to make, have made, possess, use, and distribute Products.' The preamble frames the covenant directly: 'those who benefit from an OHL design may not bring lawsuits claiming that design infringes their patents or other intellectual property.' The immunity does not extend to downstream modifications made by others.",
+      "sources": [
+        {
+          "source": "TAPR Open Hardware License v1.0 (canonical text)",
+          "url": "https://files.tapr.org/OHL/TAPR_Open_Hardware_License_v1.0.txt",
+          "retrieved_at": "2026-04-21T21:24:05Z",
+          "archive_sha256": "fb4f4bbe0c9027d8a04f889f1de9af79915d4ccb31423e2bf4414d97e03ce539",
+          "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/fb4f4bbe0c9027d8a04f889f1de9af79915d4ccb31423e2bf4414d97e03ce539.txt",
+          "excerpt": "2.1  Each Licensor grants you, every other Licensee, and every possessor or user of Products a perpetual, worldwide, and royalty-free immunity from suit under any patent, patent application, or other intellectual property right which he or she controls, to the extent necessary to make, have made, possess, use, and distribute Products.  This immunity does not extend to infringement arising from modifications subsequently made by others."
+        },
+        {
+          "source": "TAPR - The TAPR Open Hardware License (preamble)",
+          "url": "https://tapr.org/the-tapr-open-hardware-license/",
+          "retrieved_at": "2026-04-21T21:23:52Z",
+          "archive_sha256": "5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9",
+          "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9.html",
+          "excerpt": "Although it does not prohibit anyone from patenting inventions embodied in an Open Hardware design, and of course cannot prevent a third party from enforcing their patent rights, those who benefit from an OHL design may not bring lawsuits claiming that design infringes their patents or other intellectual property."
+        }
+      ]
+    },
+    {
+      "topic": "documentation-definition",
+      "summary": "TAPR-OHL SS1 defines 'Documentation' as the hardware-source analog of source code: '(a) schematic diagrams; (b) circuit or circuit board layouts, including Gerber and other data files used for manufacture; (c) mechanical drawings, including CAD, CAM, and other data files used for manufacture; (d) flow charts and descriptive text; and (e) other explanatory material.' The TAPR page commentary explains the motivation: hardware licensing 'isn't as straight-forward as it seems because legal concepts that work well for software (such as copyright and copyleft) don't neatly fit when dealing with hardware products and the documentation used to create them.'",
+      "sources": [
+        {
+          "source": "TAPR Open Hardware License v1.0 (canonical text, SS1.2)",
+          "url": "https://files.tapr.org/OHL/TAPR_Open_Hardware_License_v1.0.txt",
+          "retrieved_at": "2026-04-21T21:24:05Z",
+          "archive_sha256": "fb4f4bbe0c9027d8a04f889f1de9af79915d4ccb31423e2bf4414d97e03ce539",
+          "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/fb4f4bbe0c9027d8a04f889f1de9af79915d4ccb31423e2bf4414d97e03ce539.txt",
+          "excerpt": "1.2  \"Documentation\" includes:\n     (a) schematic diagrams;\n     (b) circuit or circuit board layouts, including Gerber and other\n         data files used for manufacture;\n     (c) mechanical drawings, including CAD, CAM, and other data files\n         used for manufacture;\n     (d) flow charts and descriptive text; and\n     (e) other explanatory material."
+        },
+        {
+          "source": "TAPR - The TAPR Open Hardware License (About the OHL)",
+          "url": "https://tapr.org/the-tapr-open-hardware-license/",
+          "retrieved_at": "2026-04-21T21:23:52Z",
+          "archive_sha256": "5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9",
+          "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9.html",
+          "excerpt": "The TAPR Open Hardware License (\"OHL\") provides a framework for hardware projects that is similar to the one used for Open Source software. This isn't as straight-forward as it seems because legal concepts that work well for software (such as copyright and copyleft) don't neatly fit when dealing with hardware products and the documentation used to create them."
+        }
+      ]
+    },
+    {
+      "topic": "pre-osi-endorsement",
+      "summary": "TAPR-OHL 1.0 was written by John Ackermann (N8UR, a software-licensing attorney) for Tucson Amateur Packet Radio, a U.S. amateur-radio nonprofit whose first packet-radio TNC contact dates to 1982. A public comment period ran on Technocrat.net in February 2007 and v1.0 was released May 25, 2007. The license predates OSI's 2020 process for endorsing open-hardware licences (OSI did not approve any hardware license until the CERN-OHL family in January 2021) and was never submitted to OSI. The canonical TAPR page describes it simply as 'TAPR's contribution to the community of Open Hardware developers' and carries no OSI/FSF endorsement language.",
+      "sources": [
+        {
+          "source": "TAPR - The TAPR Open Hardware License (credits, history, and 2007 release)",
+          "url": "https://tapr.org/the-tapr-open-hardware-license/",
+          "retrieved_at": "2026-04-21T21:23:52Z",
+          "archive_sha256": "5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9",
+          "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9.html",
+          "excerpt": "John Ackermann, N8UR, is the author of the TAPR Open Hardware License. John is an attorney who specializes in software licensing. ... In February, 2007, a public comment period took place, hosted at Technocrat.net ... The TAPR Open Hardware License is TAPR's contribution to the community of Open Hardware developers. TAPR grants permission for anyone to use the OHL as the license for their hardware project, provided only that it is used in unaltered form."
+        },
+        {
+          "source": "TAPR - History (Tucson Amateur Packet Radio, founded 1982)",
+          "url": "https://tapr.org/history/",
+          "retrieved_at": "2026-04-21T21:23:52Z",
+          "archive_sha256": "f40470965329b90447fc9f4566a2577ad86de754cb29566eb2eb667001c5b74b",
+          "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/f40470965329b90447fc9f4566a2577ad86de754cb29566eb2eb667001c5b74b.html",
+          "excerpt": "After several hours of transmission of test packets, Lyle Johnson, WA7GXD, successfully initiated the first Amateur packet radio contact with all-American hardware and software, using the Tucson Amateur Packet Radio Terminal Node Controller (TNC), at 9:12pm PST, June 25th, 1982."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "TAPR Open Hardware License v1.0 (canonical text)",
+      "url": "https://files.tapr.org/OHL/TAPR_Open_Hardware_License_v1.0.txt",
+      "retrieved_at": "2026-04-21T21:24:05Z",
+      "archive_sha256": "fb4f4bbe0c9027d8a04f889f1de9af79915d4ccb31423e2bf4414d97e03ce539",
+      "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/fb4f4bbe0c9027d8a04f889f1de9af79915d4ccb31423e2bf4414d97e03ce539.txt"
+    },
+    {
+      "source": "TAPR - The TAPR Open Hardware License",
+      "url": "https://tapr.org/the-tapr-open-hardware-license/",
+      "retrieved_at": "2026-04-21T21:23:52Z",
+      "archive_sha256": "5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9",
+      "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/5077ae68e9a746bbf73d5b18d3132ce670861835ddfe63a32d2bde72998f62a9.html"
+    },
+    {
+      "source": "TAPR - History (Tucson Amateur Packet Radio, founded 1982)",
+      "url": "https://tapr.org/history/",
+      "retrieved_at": "2026-04-21T21:23:52Z",
+      "archive_sha256": "f40470965329b90447fc9f4566a2577ad86de754cb29566eb2eb667001c5b74b",
+      "archive_path": "licenses/tapr-ohl-1.0/analysis-sources/f40470965329b90447fc9f4566a2577ad86de754cb29566eb2eb667001c5b74b.html"
+    }
+  ]
+}

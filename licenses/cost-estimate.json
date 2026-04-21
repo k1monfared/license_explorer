@@ -1,26 +1,202 @@
 {
-  "calculated_at": "2026-04-21T21:10:41.974Z",
+  "calculated_at": "2026-04-21T21:34:26.695Z",
   "pricing_model": "claude-opus-4-7",
   "price_input_per_mtok": 15,
   "price_output_per_mtok": 75,
   "bytes_per_token": 3.5,
-  "mode": "benchmark",
-  "analyzed_count": 1,
+  "mode": "average",
+  "analyzed_count": 45,
   "sample": {
-    "input_bytes": 436789,
-    "output_bytes": 67711,
-    "input_tokens": 249594,
-    "output_tokens": 19346,
-    "cost_usd": 5.1949
+    "input_bytes": 782609,
+    "output_bytes": 36018,
+    "input_tokens": 447205,
+    "output_tokens": 10291,
+    "cost_usd": 7.4799
   },
   "sample_details": [
     {
+      "license_id": "0bsd",
+      "cost_usd": 3.0513
+    },
+    {
+      "license_id": "apache-2.0",
+      "cost_usd": 7.3956
+    },
+    {
+      "license_id": "bsd-2-clause",
+      "cost_usd": 3.3779
+    },
+    {
+      "license_id": "bsd-3-clause",
+      "cost_usd": 3.6017
+    },
+    {
+      "license_id": "bsd-4-clause",
+      "cost_usd": 1.7915
+    },
+    {
+      "license_id": "bsl-1.0",
+      "cost_usd": 0.8667
+    },
+    {
+      "license_id": "cern-ohl-p-2.0",
+      "cost_usd": 17.5031
+    },
+    {
+      "license_id": "isc",
+      "cost_usd": 3.1874
+    },
+    {
+      "license_id": "mit",
+      "cost_usd": 5.8507
+    },
+    {
+      "license_id": "ms-pl",
+      "cost_usd": 3.1448
+    },
+    {
+      "license_id": "psf-2.0",
+      "cost_usd": 2.7041
+    },
+    {
+      "license_id": "upl-1.0",
+      "cost_usd": 2.0856
+    },
+    {
+      "license_id": "zlib",
+      "cost_usd": 2.2397
+    },
+    {
+      "license_id": "artistic-2.0",
+      "cost_usd": 2.712
+    },
+    {
+      "license_id": "cddl-1.0",
+      "cost_usd": 6.2257
+    },
+    {
+      "license_id": "cern-ohl-w-2.0",
+      "cost_usd": 11.5632
+    },
+    {
+      "license_id": "epl-1.0",
+      "cost_usd": 2.8329
+    },
+    {
+      "license_id": "epl-2.0",
+      "cost_usd": 4.2869
+    },
+    {
+      "license_id": "eupl-1.2",
+      "cost_usd": 5.6699
+    },
+    {
+      "license_id": "lgpl-2.1-only",
+      "cost_usd": 5.4139
+    },
+    {
+      "license_id": "lgpl-3.0-only",
+      "cost_usd": 6.0825
+    },
+    {
+      "license_id": "mpl-2.0",
+      "cost_usd": 4.4701
+    },
+    {
+      "license_id": "ms-rl",
+      "cost_usd": 3.1548
+    },
+    {
+      "license_id": "agpl-3.0-only",
+      "cost_usd": 16.6614
+    },
+    {
+      "license_id": "cern-ohl-s-2.0",
+      "cost_usd": 14.7939
+    },
+    {
+      "license_id": "gpl-2.0-only",
+      "cost_usd": 12.183
+    },
+    {
       "license_id": "gpl-3.0-only",
       "cost_usd": 5.1949
+    },
+    {
+      "license_id": "cc-by-3.0",
+      "cost_usd": 11.8128
+    },
+    {
+      "license_id": "cc-by-4.0",
+      "cost_usd": 7.9019
+    },
+    {
+      "license_id": "cc-by-nc-4.0",
+      "cost_usd": 5.0038
+    },
+    {
+      "license_id": "cc-by-nc-nd-4.0",
+      "cost_usd": 5.0176
+    },
+    {
+      "license_id": "cc-by-nd-4.0",
+      "cost_usd": 4.7071
+    },
+    {
+      "license_id": "ofl-1.1",
+      "cost_usd": 13.3255
+    },
+    {
+      "license_id": "cc-by-nc-sa-4.0",
+      "cost_usd": 3.1015
+    },
+    {
+      "license_id": "cc-by-sa-3.0",
+      "cost_usd": 7.4899
+    },
+    {
+      "license_id": "cc-by-sa-4.0",
+      "cost_usd": 6.6152
+    },
+    {
+      "license_id": "gfdl-1.3-only",
+      "cost_usd": 2.9364
+    },
+    {
+      "license_id": "tapr-ohl-1.0",
+      "cost_usd": 3.7898
+    },
+    {
+      "license_id": "cc0-1.0",
+      "cost_usd": 11.1231
+    },
+    {
+      "license_id": "unlicense",
+      "cost_usd": 3.4089
+    },
+    {
+      "license_id": "wtfpl",
+      "cost_usd": 2.0125
+    },
+    {
+      "license_id": "busl-1.1",
+      "cost_usd": 37.4046
+    },
+    {
+      "license_id": "elastic-2.0",
+      "cost_usd": 31.1824
+    },
+    {
+      "license_id": "polyform-noncommercial-1.0.0",
+      "cost_usd": 2.8092
+    },
+    {
+      "license_id": "sspl-1.0",
+      "cost_usd": 18.9078
     }
   ],
   "licenses_count": 45,
-  "avg_cost_per_license_usd": 5.1949,
-  "total_cost_usd": 233.7687,
-  "note": "Order-of-magnitude estimate. Only one license (gpl-3.0-only) has a deep-analysis run yet, so the per-license figure is benchmarked off that single data point. As soon as a second license is analyzed, this estimate will switch automatically to a true mean across all analyzed licenses."
+  "avg_cost_per_license_usd": 7.4799,
+  "total_cost_usd": 336.5955,
+  "note": "Order-of-magnitude estimate. Per-license cost is the mean across 45 licenses that currently have deep-analysis runs. Total scales that mean up to the full 45-license catalog. Input bytes = license text + features + archived sources; output bytes = tokenized HTML + features + analysis + progress + log. Conversational overhead is approximated with a 2× multiplier on input. The average will refine further as more licenses are analyzed."
 }

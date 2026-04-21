@@ -1,0 +1,194 @@
+{
+  "entries": [
+    {
+      "topic": "patent-grant-retaliation",
+      "summary": "Apache-2.0 §3 grants each recipient a perpetual, worldwide, royalty-free patent license on the contributor's claims necessarily infringed by their Contribution or by its combination with the Work to which the Contribution was submitted. Uniquely among widely-used permissive licenses, §3 pairs this with defensive patent termination: if the licensee initiates patent litigation (including a cross-claim or counterclaim) alleging that the Work or a Contribution infringes, every patent license granted to them for that Work terminates as of the filing date. The ASF FAQ clarifies the scope is narrow in one direction (only claims reading on the contribution as it existed at submission are licensed, and no new claims arise from later combinations) but broad in another (the grant expands to future-acquired claims of the contributor that read on the original submission).",
+      "sources": [
+        {
+          "source": "Apache Software Foundation — Apache License, Version 2.0 (§3 Grant of Patent License, termination clause)",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "33492ade6e67d48fac256d155edd01b1a9a9866f77586698ff6d714b49699a5f",
+          "archive_path": "licenses/apache-2.0/analysis-sources/33492ade6e67d48fac256d155edd01b1a9a9866f77586698ff6d714b49699a5f.html",
+          "excerpt": "3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license … If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed."
+        },
+        {
+          "source": "Apache Software Foundation — Licenses FAQ (Q1–Q4 on patent-grant scope)",
+          "url": "https://www.apache.org/foundation/license-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4",
+          "archive_path": "licenses/apache-2.0/analysis-sources/6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4.html",
+          "excerpt": "The only patent claims that are licensed to the ASF are those you own or have the right to license that read on your contribution or on the combination of your contribution with the specific Apache product to which you contributed as it existed at the time of your contribution. No additional patent claims become licensed as a result of subsequent combinations of your contribution with any other software. Note, however, that licensable patent claims include those that you acquire in the future, as long as they read on your original contribution as made at the original time."
+        }
+      ]
+    },
+    {
+      "topic": "gplv2-incompatibility-gplv3-compatibility",
+      "summary": "Apache-2.0 is one-way compatible with GPLv3 but incompatible with GPLv2, and was the license whose clauses motivated the GPLv3 drafters to design explicit compatibility with Apache-style patent-termination and indemnification provisions. The ASF states this explicitly: Apache-2.0 code can be included in GPLv3 projects because GPLv3 was written to accept Apache's patent-termination and indemnification clauses, but GPLv3 code cannot be incorporated into Apache projects because GPLv3's interpretation of linking as creating derivative works conflicts with the ASF's requirement that Apache releases ship under Apache-2.0. The FSF has never considered Apache-2.0 GPLv2-compatible, citing the same patent-termination and indemnification provisions as GPLv2-incompatible added restrictions.",
+      "sources": [
+        {
+          "source": "Apache Software Foundation — Apache License v2.0 and GPL Compatibility",
+          "url": "https://www.apache.org/licenses/GPL-compatibility.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+          "archive_path": "licenses/apache-2.0/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html",
+          "excerpt": "Apache 2 software can therefore be included in GPLv3 projects, because the GPLv3 license accepts our software into GPLv3 works. However, GPLv3 software cannot be included in Apache projects. The licenses are incompatible in one direction only, and it is a result of ASF's licensing philosophy and the GPLv3 authors' interpretation of copyright law. … Despite our best efforts, the FSF has never considered the Apache License to be compatible with GPL version 2, citing the patent termination and indemnification provisions as restrictions not present in the older GPL license."
+        },
+        {
+          "source": "FSF — License List (Apache-2.0 classification: free-software, GPLv3-compatible, GPLv2-incompatible)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/apache-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "summary": "FSF's authoritative license-compatibility registry, which lists Apache-2.0 as a free-software license compatible with GPLv3 but not GPLv2. Used as a cross-reference to the ASF's statement."
+        },
+        {
+          "source": "Apache Software Foundation — Licenses FAQ (Is the Apache license compatible with the GPL?)",
+          "url": "https://www.apache.org/foundation/license-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4",
+          "archive_path": "licenses/apache-2.0/analysis-sources/6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4.html",
+          "excerpt": "This is a free software license, compatible with version 3 of the GPL. Please note that this license is not compatible with GPL version 2, because it has some requirements that are not in that older version. These include certain patent termination and indemnification provisions."
+        }
+      ]
+    },
+    {
+      "topic": "indemnification-clause",
+      "summary": "Apache-2.0 §9 (Accepting Warranty or Additional Liability) is the clause the FSF identifies as making the license GPLv2-incompatible and is unusual among permissive licenses. It lets a redistributor offer warranty, support, or indemnity obligations alongside the Apache-licensed Work, but conditions that privilege on the redistributor agreeing to indemnify, defend, and hold each original Contributor harmless for any liability arising from those added obligations. The effect is that downstream commercial distributors who make promises to their own customers cannot drag upstream contributors into any resulting lawsuits, a provision tailored to enterprise redistribution. The FSF identifies this indemnification clause, together with §3's patent-termination, as the two GPLv2-incompatible added restrictions.",
+      "sources": [
+        {
+          "source": "Apache Software Foundation — Apache License, Version 2.0 (§9 Accepting Warranty or Additional Liability)",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "33492ade6e67d48fac256d155edd01b1a9a9866f77586698ff6d714b49699a5f",
+          "archive_path": "licenses/apache-2.0/analysis-sources/33492ade6e67d48fac256d155edd01b1a9a9866f77586698ff6d714b49699a5f.html",
+          "excerpt": "9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability."
+        },
+        {
+          "source": "Apache Software Foundation — Apache License v2.0 and GPL Compatibility (FSF rationale for GPLv2 incompatibility)",
+          "url": "https://www.apache.org/licenses/GPL-compatibility.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+          "archive_path": "licenses/apache-2.0/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html",
+          "excerpt": "Despite our best efforts, the FSF has never considered the Apache License to be compatible with GPL version 2, citing the patent termination and indemnification provisions as restrictions not present in the older GPL license."
+        }
+      ]
+    },
+    {
+      "topic": "google-v-oracle-peripheral",
+      "summary": "Google v. Oracle America (593 U.S. ___, 2021) did not turn on Apache-2.0 directly but is the backdrop for the best-known Apache-2.0 downstream use: the Android platform and Apache Harmony, an Apache-2.0 reimplementation of the Java class libraries that Google drew on for Android. The Supreme Court held that Google's copying of roughly 11,500 lines of Java SE API declaring code was fair use as a matter of law. The opinion reversed the Federal Circuit and did not address license-compatibility questions, leaving Apache-2.0's treatment of API reimplementations untouched as doctrine.",
+      "sources": [
+        {
+          "source": "Supreme Court of the United States — Google LLC v. Oracle America, Inc., 593 U.S. ___ (2021), slip opinion",
+          "url": "https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "397b5815544e53b7dfb90f4f028b082a6a05c7356ae6af27f768d3d99ff40c72",
+          "archive_path": "licenses/apache-2.0/analysis-sources/397b5815544e53b7dfb90f4f028b082a6a05c7356ae6af27f768d3d99ff40c72.pdf",
+          "excerpt": "Google's copying of the Java SE API, which included only those lines of code that were needed to allow programmers to put their accrued talents to work in a new and transformative program, was a fair use of that material as a matter of law. … Because Google wanted millions of programmers, familiar with Java, to be able easily to work with its new Android platform, it also copied roughly 11,500 lines of code from the Java SE program. … The copied lines are part of a tool called an Application Programming Interface, or API."
+        }
+      ]
+    },
+    {
+      "topic": "contributor-agreement",
+      "summary": "The Apache Software Foundation requires contributor license agreements (the ICLA for individuals, the CCLA for corporations) beyond the Apache-2.0 license itself. The stated purpose is to clearly record the intellectual-property terms under which code was contributed so the ASF can defend its projects in any legal dispute. An ICLA must be on file before a contributor is granted commit rights; corporations sign a CCLA to cover employees' assignments, but every individual developer still signs an ICLA in their own name. Small contributions are covered by clause 5 of Apache-2.0 without a CLA.",
+      "sources": [
+        {
+          "source": "Apache Software Foundation — Contributor License Agreements",
+          "url": "https://www.apache.org/licenses/contributor-agreements.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d40b6fac299083de9223214d795b307650c98c2c88534f74e77d93b99f222a06",
+          "archive_path": "licenses/apache-2.0/analysis-sources/d40b6fac299083de9223214d795b307650c98c2c88534f74e77d93b99f222a06.html",
+          "excerpt": "While small contributions to Apache projects are made under clause 5 of the Apache-2.0 license, all project maintainers of, as well as contributors of any large contributions to, any Apache projects must complete, sign, and submit via email an Individual Contributor License Agreement (ICLA). The purpose of this agreement is to clearly define the terms under which intellectual property has been contributed to the ASF and thereby allow us to defend the project should there be a legal dispute regarding the software. … Note that a Corporate CLA does not remove the need for every developer to sign their own ICLA as an individual."
+        }
+      ]
+    },
+    {
+      "topic": "enterprise-adoption",
+      "summary": "Apache-2.0 is the license the ASF requires for all of its projects, and is preferred over MIT/BSD by enterprise-leaning projects for three reasons grounded in the license itself: (1) an explicit, broad patent grant in §3 that MIT lacks, giving corporate contributors and users patent-infringement safety; (2) the §9 indemnification clause that shifts commercial redistributors' liability away from upstream contributors; and (3) explicit permission in §4 to distribute modifications under different terms. The ASF's Category A/B/X classification system (resolved.html) formally codifies which licenses may be included in Apache products; only Apache-compatible permissive licenses are Category A, with GPL-family licenses Category X. The ASF's governance structure was designed from the start to let companies and individuals contribute to a single legal entity under a single license, making Apache-2.0 the default choice for corporate-backed open source foundations.",
+      "sources": [
+        {
+          "source": "Apache Software Foundation — How the ASF works (nonprofit for collaborative development)",
+          "url": "https://www.apache.org/foundation/how-it-works.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "ed4ab3c5bbb246e0454688fc13c02660f7761c327351449929f0e507c57208c7",
+          "archive_path": "licenses/apache-2.0/analysis-sources/ed4ab3c5bbb246e0454688fc13c02660f7761c327351449929f0e507c57208c7.html",
+          "excerpt": "The Apache Software Foundation (ASF) is a 501(c)3 non-profit public charity organization incorporated in the United States of America. It was formed in 1999 primarily to: provide a foundation for open, collaborative software development projects by supplying hardware, communication, and business infrastructure … create an independent legal entity to which companies and individuals can donate resources and be assured that those resources will be used for the public benefit … provide a means for individual volunteers to be sheltered from legal suits directed at the Foundation's projects."
+        },
+        {
+          "source": "Apache Software Foundation — Legal Resolved (Category A/B/X classification of third-party licenses)",
+          "url": "https://www.apache.org/legal/resolved.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "c8ca0fdc5fc04007eee59eb63ac4133b7b66673e8fba6b1b383b8536f9745b84",
+          "archive_path": "licenses/apache-2.0/analysis-sources/c8ca0fdc5fc04007eee59eb63ac4133b7b66673e8fba6b1b383b8536f9745b84.html",
+          "excerpt": "Category A: Licenses in Category A may be included in Apache Software Foundation products. They are said to be \"Apache-like\". Category B: Licenses in Category B may be, under certain conditions, included in Apache Software Foundation products. They 'may Be' included. Category X: Licenses in Category X may NOT be included in Apache Software Foundation products. … The license, as applied in practice, must not impose significant restrictions beyond those imposed by the Apache License 2.0."
+        },
+        {
+          "source": "Apache Software Foundation — Licenses FAQ (reusability, broad adoption beyond the ASF)",
+          "url": "https://www.apache.org/foundation/license-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4",
+          "archive_path": "licenses/apache-2.0/analysis-sources/6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4.html",
+          "excerpt": "May I license my own software under the Apache license? Certainly. Version 2.0 of the license was designed to be reusable, and many parties other than the ASF use it. … This is regardless of the use of the software. We do not distinguish between personal, internal, or commercial use of our software, and we do not charge for any of these uses."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Apache Software Foundation — Apache License, Version 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "33492ade6e67d48fac256d155edd01b1a9a9866f77586698ff6d714b49699a5f",
+      "archive_path": "licenses/apache-2.0/analysis-sources/33492ade6e67d48fac256d155edd01b1a9a9866f77586698ff6d714b49699a5f.html"
+    },
+    {
+      "source": "Apache Software Foundation — Licenses FAQ",
+      "url": "https://www.apache.org/foundation/license-faq.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4",
+      "archive_path": "licenses/apache-2.0/analysis-sources/6bdb098e33f0f0cf4c1b3aa3b7e8bc0ca66e919699518886f1926da1c98c71f4.html"
+    },
+    {
+      "source": "Apache Software Foundation — Apache License v2.0 and GPL Compatibility",
+      "url": "https://www.apache.org/licenses/GPL-compatibility.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+      "archive_path": "licenses/apache-2.0/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html"
+    },
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/apache-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Apache Software Foundation — How the ASF works",
+      "url": "https://www.apache.org/foundation/how-it-works.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "ed4ab3c5bbb246e0454688fc13c02660f7761c327351449929f0e507c57208c7",
+      "archive_path": "licenses/apache-2.0/analysis-sources/ed4ab3c5bbb246e0454688fc13c02660f7761c327351449929f0e507c57208c7.html"
+    },
+    {
+      "source": "Apache Software Foundation — Legal Resolved (Category A/B/X)",
+      "url": "https://www.apache.org/legal/resolved.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "c8ca0fdc5fc04007eee59eb63ac4133b7b66673e8fba6b1b383b8536f9745b84",
+      "archive_path": "licenses/apache-2.0/analysis-sources/c8ca0fdc5fc04007eee59eb63ac4133b7b66673e8fba6b1b383b8536f9745b84.html"
+    },
+    {
+      "source": "Supreme Court of the United States — Google LLC v. Oracle America, Inc., 593 U.S. ___ (2021)",
+      "url": "https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "397b5815544e53b7dfb90f4f028b082a6a05c7356ae6af27f768d3d99ff40c72",
+      "archive_path": "licenses/apache-2.0/analysis-sources/397b5815544e53b7dfb90f4f028b082a6a05c7356ae6af27f768d3d99ff40c72.pdf"
+    },
+    {
+      "source": "Apache Software Foundation — Contributor License Agreements",
+      "url": "https://www.apache.org/licenses/contributor-agreements.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "d40b6fac299083de9223214d795b307650c98c2c88534f74e77d93b99f222a06",
+      "archive_path": "licenses/apache-2.0/analysis-sources/d40b6fac299083de9223214d795b307650c98c2c88534f74e77d93b99f222a06.html"
+    }
+  ]
+}

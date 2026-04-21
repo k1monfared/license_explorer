@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "no-attribution-design",
+      "summary": "0BSD deliberately removes the attribution requirement of its parent, the OpenBSD license template (functionally the ISC license). Rob Landley, the originator of 0BSD for Toybox, describes it as 'the OpenBSD suggested template license, minus the half sentence requiring the license text be copied verbatim into derived works,' and frames the goal as a public-domain-equivalent license that works around perceived FUD about public-domain dedications. FSF agrees the license is based on the ISC License, but cautions that dropping the notice requirement creates risk: 'if the copyright notice or license notice is removed from the program, it is not possible to safely rely on the license and users might even face liability.'",
+      "sources": [
+        {
+          "source": "Rob Landley — 'Why 0BSD?' (Toybox license page)",
+          "url": "https://landley.net/toybox/license.html",
+          "retrieved_at": "2026-04-21T21:22:42.509Z",
+          "archive_sha256": "8ed676d1690256f5f855c6f7db6a9b73e298b7089895ed96adaa003f02d9d554",
+          "archive_path": "licenses/0bsd/analysis-sources/8ed676d1690256f5f855c6f7db6a9b73e298b7089895ed96adaa003f02d9d554.html",
+          "excerpt": "Zero clause BSD is a public domain equivalent license. As with CC0, unlicense, and wtfpl, the intent is to effectively place the licensed material into the public domain … To work around this perception, the above license is the OpenBSD suggested template license, minus the half sentence requiring the license text be copied verbatim into derived works. If 2BSD is ok, then 0BSD should be ok, despite being equivalent to placing code in the public domain."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Zero-clause BSD entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/0bsd/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Zero-clause BSD license … Contrary to its name, it is not based on any of the BSD licenses, but on the ISC License, with the only difference being that it doesn't contain clauses that require preservation of copyright notices and the license notice. … The Zero-clause BSD License can operate as a free software license compatible with the GNU GPL, but if the copyright notice or license notice is removed from the program, it is not possible to safely rely on the license and users might even face liability."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Rob Landley — 'Why 0BSD?' (Toybox license page)",
+      "url": "https://landley.net/toybox/license.html",
+      "retrieved_at": "2026-04-21T21:22:42.509Z",
+      "archive_sha256": "8ed676d1690256f5f855c6f7db6a9b73e298b7089895ed96adaa003f02d9d554",
+      "archive_path": "licenses/0bsd/analysis-sources/8ed676d1690256f5f855c6f7db6a9b73e298b7089895ed96adaa003f02d9d554.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/0bsd/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

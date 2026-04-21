@@ -1,0 +1,16 @@
+{
+  "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+  "final_url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+  "retrieved_at": "2026-04-21T21:31:00.531Z",
+  "sha256": "2789b3ac42725ab7e7d303c2030c21ca09776b9c797c42f4bdc82a2d7dfd647a",
+  "bytes": 38273,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:27:49.002Z",
+      "http_status": 200,
+      "final_url": "https://polyformproject.org/licenses/noncommercial/1.0.0/"
+    }
+  ]
+}

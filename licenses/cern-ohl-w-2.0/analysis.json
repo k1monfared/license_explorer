@@ -1,0 +1,106 @@
+{
+  "entries": [
+    {
+      "topic": "cern-ohl-family-design",
+      "summary": "CERN published three variants of OHL v2 in March 2020 as the hardware analog of the permissive/weak-copyleft/strong-copyleft software stack. CERN-OHL-W is the weakly-reciprocal middle variant, filling the role that LGPL plays in the GNU family. The rationale document (Ayass, Katz, Serrano) explains that an earlier single-text draft with a 'weak copyleft exception' proved 'complex and cumbersome', and the drafters split the licence into three siblings so each regime could be stated plainly.",
+      "sources": [
+        {
+          "source": "CERN OHL v2 - An Introduction and Explanation (rationale document)",
+          "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf",
+          "retrieved_at": "2026-04-21T21:23:50Z",
+          "archive_sha256": "82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f",
+          "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f.pdf",
+          "excerpt": "at one point during the drafting process for the next version we considered (and drafted) a set of exceptions designed to allow for weak copyleft, the use of proprietary library files for HDL design, and compatibility with GPLv3 and TAPR. From a legal perspective, these seemed to work, but we are conscious that the licence was becoming complex and cumbersome ... Finally, we've adopted the following names for the licences: the CERN Open Hardware Licence - Stronger Reciprocal ... Weakly Reciprocal ... and a simpler CERN Open Hardware Licence - Permissive."
+        }
+      ]
+    },
+    {
+      "topic": "hardware-scope-definitions",
+      "summary": "CERN-OHL-W introduces hardware-specific terms that have no direct software analog: 'Covered Source' (the licensed design files), 'Available Component' (a part, sub-assembly, library or code whose Complete Source does not need to be redistributed because it is widely obtainable or shipped with a standard tool, SS1.7), 'External Material' (anything combined via a documented interface that is not a derivative, SS1.8), and 'Complete Source' (the preferred form for modification, SS1.9). The rationale explains this vocabulary was built to resolve the 'horizontal' and 'vertical' boundary problems of reciprocal hardware licensing.",
+      "sources": [
+        {
+          "source": "CERN OHL v2 - An Introduction and Explanation (rationale document)",
+          "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf",
+          "retrieved_at": "2026-04-21T21:23:50Z",
+          "archive_sha256": "82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f",
+          "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f.pdf",
+          "excerpt": "We call components which are generally and readily available (even if they have to be paid for, or you have to sign up to an NDA to get them), Available Components. When you provide the Complete Source (the design documentation) for your design under the CERN-OHL, you do not have to provide the Complete Source for each of the Available Components ... 'Available Component' works slightly differently depending on whether the variant of CERN-OHL is the 'W' or the 'S' variant."
+        }
+      ]
+    },
+    {
+      "topic": "fsf-and-osi-stance",
+      "summary": "OSI approved CERN-OHL-W-2.0 on January 15, 2021 (submitted June 29, 2020 by Andrew Katz), together with the -P and -S variants. The FSF license list does not classify CERN-OHL variants: the page is a catalogue of 'software licenses' and notes that it lists 'the most commonly encountered free software license on this page, but cannot list them all', and does not purport to classify hardware-design licences as free or non-free software.",
+      "sources": [
+        {
+          "source": "Open Source Initiative - CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
+          "url": "https://opensource.org/license/cern-ohl-w-2-0",
+          "retrieved_at": "2026-04-21T21:23:39Z",
+          "archive_sha256": "9c56e90982123b523cd32078a98752c7aa4f291143bec9397e0360b5ea34f03c",
+          "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/9c56e90982123b523cd32078a98752c7aa4f291143bec9397e0360b5ea34f03c.html",
+          "excerpt": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal ... Version 2 ... Submitted: June 29, 2020 ... Submitter: Andrew Katz ... Approved: January 15, 2021 ... Board minutes"
+        },
+        {
+          "source": "FSF - License List",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:23:50Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "We try to list the most commonly encountered free software license on this page, but cannot list them all; we'll try our best to answer questions about free software licenses whether or not they are listed here."
+        }
+      ]
+    },
+    {
+      "topic": "weak-reciprocity-for-hardware",
+      "summary": "CERN-OHL-W's weak reciprocity is realised through SS3.3(d): modified Covered Source must be licensed 'as a whole' under CERN-OHL-W, 'but excluding Available Components contained in it or External Material to which it is interfaced, which remain licensed under their own applicable licences.' The rationale document draws the explicit parallel with LGPL: 'For those of you familiar with free software licensing, the ability for the -W variant to combine with third party libraries is similar to the way the LGPL works: you can interface LGPL code in a larger work without the whole larger work having to be itself released under the LGPL.' In hardware terms, 'files' are design documents (schematics, HDL, layout) and the W-variant lets third-party proprietary libraries and tool-chain outputs stay proprietary so long as interface information is provided.",
+      "sources": [
+        {
+          "source": "CERN-OHL-W v2 User Guide (official how-to)",
+          "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/c2e5e9d297949b5c2d324a6cbf6adda0/cern_ohl_w_v2_howto.pdf",
+          "retrieved_at": "2026-04-21T21:17:52Z",
+          "archive_sha256": "d4bb9f31df7c0033597dbc76ebd2df8f9d440d3f2982870792b18233eb71d993",
+          "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/d4bb9f31df7c0033597dbc76ebd2df8f9d440d3f2982870792b18233eb71d993.pdf",
+          "excerpt": "Source location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on these sources, You must maintain the Source Location visible on the external case of the White Rabbit switch or other product you make using this documentation."
+        },
+        {
+          "source": "CERN OHL v2 - An Introduction and Explanation (rationale document)",
+          "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf",
+          "retrieved_at": "2026-04-21T21:23:50Z",
+          "archive_sha256": "82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f",
+          "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f.pdf",
+          "excerpt": "For those of you familiar with free software licensing, the ability for the -W variant to combine with third party libraries is similar to the way the LGPL works: you can interface LGPL code in a larger work without the whole larger work having to be itself released under the LGPL, provided you provide enough information about the LGPL work to enable it to be modified and re-interfaced to the larger work."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "CERN OHL v2 - An Introduction and Explanation (rationale document)",
+      "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf",
+      "retrieved_at": "2026-04-21T21:23:50Z",
+      "archive_sha256": "82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f",
+      "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/82991c9bc52ca75dd209b79c4eaabfb7b0f2b518c619529f137d6b06f0c6573f.pdf"
+    },
+    {
+      "source": "Open Source Initiative - CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
+      "url": "https://opensource.org/license/cern-ohl-w-2-0",
+      "retrieved_at": "2026-04-21T21:23:39Z",
+      "archive_sha256": "9c56e90982123b523cd32078a98752c7aa4f291143bec9397e0360b5ea34f03c",
+      "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/9c56e90982123b523cd32078a98752c7aa4f291143bec9397e0360b5ea34f03c.html"
+    },
+    {
+      "source": "FSF - License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:23:50Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "CERN-OHL-W v2 User Guide (official how-to)",
+      "url": "https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/c2e5e9d297949b5c2d324a6cbf6adda0/cern_ohl_w_v2_howto.pdf",
+      "retrieved_at": "2026-04-21T21:17:52Z",
+      "archive_sha256": "d4bb9f31df7c0033597dbc76ebd2df8f9d440d3f2982870792b18233eb71d993",
+      "archive_path": "licenses/cern-ohl-w-2.0/analysis-sources/d4bb9f31df7c0033597dbc76ebd2df8f9d440d3f2982870792b18233eb71d993.pdf"
+    }
+  ]
+}

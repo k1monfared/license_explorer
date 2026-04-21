@@ -1,0 +1,56 @@
+{
+  "entries": [
+    {
+      "topic": "osi-approval-story",
+      "summary": "OSI's license page for Ms-PL records the submission metadata as 'Microsoft permissive license, submitted on Aug 10, 2007', making Ms-PL part of Microsoft's first round of OSI-approved licenses, alongside Ms-RL. This was a significant shift at the time: Microsoft had historically been hostile to open source licensing, and the 2007 approval of the Microsoft Public License (originally 'Microsoft Permissive License') and Microsoft Reciprocal License marked its formal entry into the OSI ecosystem. The Ms-PL itself is a short permissive license with an explicit copyright grant, an explicit patent grant, and a short reciprocity clause requiring that source-code redistributions ship under the same Ms-PL (binary redistributions may go under any license that 'complies with' Ms-PL). It is OSI-approved and remains listed as an active license on the OSI site.",
+      "sources": [
+        {
+          "source": "OSI — Microsoft Public License (Ms-PL)",
+          "url": "https://opensource.org/license/ms-pl-html",
+          "retrieved_at": "2026-04-21T21:20:35.131Z",
+          "archive_sha256": "47e085f77d9d09350543e4fd97ae62e2d9dbafd5cbbfd6a14af9d959ea8251d4",
+          "archive_path": "licenses/ms-pl/analysis-sources/47e085f77d9d09350543e4fd97ae62e2d9dbafd5cbbfd6a14af9d959ea8251d4.html",
+          "excerpt": "was: Microsoft permissive license, submitted on Aug 10, 2007 … This license governs use of the accompanying software. … (A) Copyright Grant … (B) Patent Grant … (D) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license."
+        }
+      ]
+    },
+    {
+      "topic": "gpl-incompatibility",
+      "summary": "FSF classifies the Ms-PL as a free software license with 'a copyleft that is not strong', and explicitly lists it among the GPL-incompatible free software licenses: 'This is a free software license; it has a copyleft that is not strong, but incompatible with the GNU GPL. We urge you not to use the Ms-PL for this reason.' The incompatibility stems from clause 3(D) of Ms-PL, which requires that source-code redistributions be made only under Ms-PL itself (forbidding relicensing under GPL) and that binary redistributions go under a license that 'complies with' Ms-PL. Because the GPL itself does not 'comply with' Ms-PL's own terms, Ms-PL code cannot be combined with GPL code in a single derivative work.",
+      "sources": [
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Ms-PL entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:20:40.231Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/ms-pl/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Microsoft Public License (Ms-PL) … This is a free software license; it has a copyleft that is not strong, but incompatible with the GNU GPL. We urge you not to use the Ms-PL for this reason."
+        },
+        {
+          "source": "OSI — Microsoft Public License (Ms-PL)",
+          "url": "https://opensource.org/license/ms-pl-html",
+          "retrieved_at": "2026-04-21T21:20:35.131Z",
+          "archive_sha256": "47e085f77d9d09350543e4fd97ae62e2d9dbafd5cbbfd6a14af9d959ea8251d4",
+          "archive_path": "licenses/ms-pl/analysis-sources/47e085f77d9d09350543e4fd97ae62e2d9dbafd5cbbfd6a14af9d959ea8251d4.html",
+          "excerpt": "(D) If you distribute any portion of the software in source code form, you may do so only under this license by including a complete copy of this license with your distribution. If you distribute any portion of the software in compiled or object code form, you may only do so under a license that complies with this license."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "OSI — Microsoft Public License (Ms-PL)",
+      "url": "https://opensource.org/license/ms-pl-html",
+      "retrieved_at": "2026-04-21T21:20:35.131Z",
+      "archive_sha256": "47e085f77d9d09350543e4fd97ae62e2d9dbafd5cbbfd6a14af9d959ea8251d4",
+      "archive_path": "licenses/ms-pl/analysis-sources/47e085f77d9d09350543e4fd97ae62e2d9dbafd5cbbfd6a14af9d959ea8251d4.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them (Ms-PL entry)",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:20:40.231Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/ms-pl/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "no-patent-silence-debate",
+      "summary": "FSF classifies the Expat License (commonly called MIT) as a 'lax, permissive non-copyleft free software license, compatible with the GNU GPL' but explicitly recommends the Apache 2.0 license for substantial programs 'since it blocks patent treachery.' The MIT/Expat text grants no express patent rights, which is the feature most commonly cited as a deficiency relative to Apache-2.0. OSI likewise continues to approve the MIT text unchanged, leaving patent treatment to whatever implied rights arise from the copyright grant.",
+      "sources": [
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Expat entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/mit/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Expat License … This is a lax, permissive non-copyleft free software license, compatible with the GNU GPL. Some people call this license 'the MIT License,' but that term is misleading, since MIT has used many licenses for software. … For substantial programs it is better to use the Apache 2.0 license since it blocks patent treachery."
+        },
+        {
+          "source": "OSI — The MIT License",
+          "url": "https://opensource.org/license/mit",
+          "retrieved_at": "2026-04-21T21:16:19.054Z",
+          "archive_sha256": "891422be9d09e34568dd0b73e08a4fa9412e78db9ae6ce45821d959cea3443cc",
+          "archive_path": "licenses/mit/analysis-sources/891422be9d09e34568dd0b73e08a4fa9412e78db9ae6ce45821d959cea3443cc.html",
+          "summary": "OSI's approved-license page for MIT, the canonical source of the OSI-approved text. OSI's entry reproduces the MIT text verbatim without a patent clause, confirming that any patent permission is implicit rather than expressly granted."
+        }
+      ]
+    },
+    {
+      "topic": "mit-vs-x11-naming-confusion",
+      "summary": "FSF recommends against the label 'MIT License' entirely, noting that MIT has used several different licenses and that the name is commonly applied ambiguously to both the Expat License and the X11 License. The only substantive difference the FSF identifies is the X11 license's additional paragraph restricting use of the X Consortium name. GitHub's choosealicense.com nevertheless uses 'MIT License' as the canonical label for the Expat text, illustrating the naming split between strict FSF usage and pragmatic community usage.",
+      "sources": [
+        {
+          "source": "FSF — Various Licenses and Comments about Them",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/mit/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Some people call this license 'the MIT License,' but that term is misleading, since MIT has used many licenses for software. It is also ambiguous, since the same people also call the X11 license 'the MIT License,' failing to distinguish them. We recommend not using the term 'MIT License.' … The difference between the X11 license and the Expat license is that the X11 license contains an extra paragraph about using the X Consortium's name."
+        },
+        {
+          "source": "choosealicense.com — MIT License",
+          "url": "https://choosealicense.com/licenses/mit/",
+          "retrieved_at": "2026-04-21T21:16:21.634Z",
+          "archive_sha256": "870ac801a2a6297e1eb3de095254e68ea248fa42456b4c405aae72c2e0ca1fd6",
+          "archive_path": "licenses/mit/analysis-sources/870ac801a2a6297e1eb3de095254e68ea248fa42456b4c405aae72c2e0ca1fd6.html",
+          "excerpt": "MIT License … A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/mit/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "OSI — The MIT License",
+      "url": "https://opensource.org/license/mit",
+      "retrieved_at": "2026-04-21T21:16:19.054Z",
+      "archive_sha256": "891422be9d09e34568dd0b73e08a4fa9412e78db9ae6ce45821d959cea3443cc",
+      "archive_path": "licenses/mit/analysis-sources/891422be9d09e34568dd0b73e08a4fa9412e78db9ae6ce45821d959cea3443cc.html"
+    },
+    {
+      "source": "choosealicense.com — MIT License",
+      "url": "https://choosealicense.com/licenses/mit/",
+      "retrieved_at": "2026-04-21T21:16:21.634Z",
+      "archive_sha256": "870ac801a2a6297e1eb3de095254e68ea248fa42456b4c405aae72c2e0ca1fd6",
+      "archive_path": "licenses/mit/analysis-sources/870ac801a2a6297e1eb3de095254e68ea248fa42456b4c405aae72c2e0ca1fd6.html"
+    }
+  ]
+}

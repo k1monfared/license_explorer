@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "topic": "osi-rejection-2012",
+      "summary": "Creative Commons submitted CC0 to OSI for approval in February 2012, but after intense License Review Committee debate it was withdrawn rather than approved. OSI's FAQ records that the most serious concern was §4(a)'s explicit disclaimer of any patent conveyance, which committee members felt could set a dangerous precedent for open-source licensing and weaken users' patent-infringement defenses. CC formally withdrew the application, and CC0 has not been OSI-approved since.",
+      "sources": [
+        {
+          "source": "Open Source Initiative — FAQ: 'What about the Creative Commons CC0 public domain dedication?'",
+          "url": "https://opensource.org/faq",
+          "retrieved_at": "2026-04-21T21:15:42Z",
+          "archive_sha256": "b34b63c594f7c11e8bf89bba31652d3e25602edf8b74622c9c2c5e4523741efb",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/b34b63c594f7c11e8bf89bba31652d3e25602edf8b74622c9c2c5e4523741efb.html",
+          "excerpt": "CC0 was not explicitly rejected, but the License Review Committee was unable to reach consensus that it should be approved, and Creative Commons eventually withdrew the application. The most serious of the concerns raised had to do with the effects of clause 4(a), which reads: 'No … patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.' … the Committee felt that approving such a license would set a dangerous precedent"
+        },
+        {
+          "source": "Wikipedia — Creative Commons license (CC0 section)",
+          "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+          "retrieved_at": "2026-04-21T21:16:59Z",
+          "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html",
+          "excerpt": "In February 2012, CC0 was submitted to Open Source Initiative (OSI) for their approval. However, controversy arose over its clause which excluded from the scope of the license any relevant patents held by the copyright holder. This clause was added for scientific data rather than software, but some members of the OSI believed it could weaken users' defenses against software patents. As a result, Creative Commons withdrew their submission, and the license is not currently approved by the OSI."
+        }
+      ]
+    },
+    {
+      "topic": "patent-non-grant",
+      "summary": "CC0 §4(a) explicitly disclaims any waiver or grant of patent or trademark rights: the Affirmer dedicates copyright and 'neighboring' rights but preserves all patent and trademark rights. This language is the core reason both OSI declined approval and the FSF, while listing CC0 as a free license, recommends against using it for software: Wikipedia notes Fedora Linux disallowed CC0-licensed software in July 2022 specifically because patent rights are not waived.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC0 1.0 Universal Legal Code (§4 Limitations and Disclaimers)",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+          "retrieved_at": "2026-04-21T21:15:33Z",
+          "archive_sha256": "55904f93ac0fc0a10c555574ca598ff781134a6e5921f1787c0aba8807bf1246",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/55904f93ac0fc0a10c555574ca598ff781134a6e5921f1787c0aba8807bf1246.html",
+          "excerpt": "4. Limitations and Disclaimers. … No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document."
+        },
+        {
+          "source": "Wikipedia — Creative Commons license (CC0 section, FSF and Fedora notes)",
+          "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+          "retrieved_at": "2026-04-21T21:16:59Z",
+          "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html",
+          "excerpt": "In 2011, the Free Software Foundation added CC0 to its free software licenses. However, the Free Software Foundation currently does not recommend using CC0 to release software into the public domain because it explicitly does not grant a patent license. … In July 2022, Fedora Linux disallowed software licensed under CC0 due to patent rights explicitly not being waived under the license."
+        }
+      ]
+    },
+    {
+      "topic": "europeana-adoption",
+      "summary": "CC0's waiver-plus-fallback structure made it the de facto choice for cultural-heritage metadata, where aggregators like Europeana needed assurance that contextual data could be freely re-used across 3,000+ contributing institutions without attribution chains. The Creative Commons wiki notes CC0 was designed as a single-purpose dedication tool intended to operate across jurisdictions even where formal public-domain dedication is difficult, and Wikipedia records that a major target of the license from its 2009 release was the scientific and open-data community for exactly this reason.",
+      "sources": [
+        {
+          "source": "Creative Commons Wiki — CC0 page",
+          "url": "https://wiki.creativecommons.org/wiki/CC0",
+          "retrieved_at": "2026-04-21T21:15:53Z",
+          "archive_sha256": "44349db10487ceeb08da1816215f59ae9279d4000ae0b03af421c8dbff89d4c2",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/44349db10487ceeb08da1816215f59ae9279d4000ae0b03af421c8dbff89d4c2.html",
+          "excerpt": "CC0 is the 'no copyright reserved' option in the Creative Commons toolkit, it effectively means relinquishing all copyright and similar rights that you hold in a work and dedicating those rights to the public domain. CC0 is a single purpose tool, designed to take on the dedication function of the former, deprecated Public Domain Dedication and Certification. How effectively CC0 works will depend on the legal regime in which the work is used, but the tool is intended to effectively release rights even in jurisdictions where it is difficult to do so."
+        },
+        {
+          "source": "Wikipedia — Creative Commons license (CC0 adoption history)",
+          "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+          "retrieved_at": "2026-04-21T21:16:59Z",
+          "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html",
+          "excerpt": "Besides copyright licenses, Creative Commons also offers CC0, a tool for relinquishing copyright and releasing material into the public domain. CC0 is a legal tool for waiving as many rights as legally possible. Or, when not legally possible, CC0 acts as fallback as public domain equivalent license. Development of CC0 began in 2007 and it was released in 2009. … A major target of the license was the scientific data community."
+        },
+        {
+          "source": "Wikipedia — Europeana (aggregator scale and metadata model)",
+          "url": "https://en.wikipedia.org/wiki/Europeana",
+          "retrieved_at": "2026-04-21T21:16:30Z",
+          "archive_sha256": "39b3f008d4e98d676146107f9a4a92288bccf72f8430cfa6fc630d8c185fead9",
+          "archive_path": "licenses/cc0-1.0/analysis-sources/39b3f008d4e98d676146107f9a4a92288bccf72f8430cfa6fc630d8c185fead9.html",
+          "excerpt": "Europeana collects contextual information, or metadata, about the items, including a small picture. Users search this contextual information. … More than 3,000 institutions across Europe have contributed to Europeana, including the Rijksmuseum, the British Library and the Louvre. … In 2024 Europeana claims to give access to records of more than 50 million objects."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC0 1.0 Universal Legal Code",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+      "retrieved_at": "2026-04-21T21:15:33Z",
+      "archive_sha256": "55904f93ac0fc0a10c555574ca598ff781134a6e5921f1787c0aba8807bf1246",
+      "archive_path": "licenses/cc0-1.0/analysis-sources/55904f93ac0fc0a10c555574ca598ff781134a6e5921f1787c0aba8807bf1246.html"
+    },
+    {
+      "source": "Open Source Initiative — FAQ: 'What about the Creative Commons CC0 public domain dedication?'",
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T21:15:42Z",
+      "archive_sha256": "b34b63c594f7c11e8bf89bba31652d3e25602edf8b74622c9c2c5e4523741efb",
+      "archive_path": "licenses/cc0-1.0/analysis-sources/b34b63c594f7c11e8bf89bba31652d3e25602edf8b74622c9c2c5e4523741efb.html"
+    },
+    {
+      "source": "Creative Commons Wiki — CC0 page",
+      "url": "https://wiki.creativecommons.org/wiki/CC0",
+      "retrieved_at": "2026-04-21T21:15:53Z",
+      "archive_sha256": "44349db10487ceeb08da1816215f59ae9279d4000ae0b03af421c8dbff89d4c2",
+      "archive_path": "licenses/cc0-1.0/analysis-sources/44349db10487ceeb08da1816215f59ae9279d4000ae0b03af421c8dbff89d4c2.html"
+    },
+    {
+      "source": "Wikipedia — Europeana",
+      "url": "https://en.wikipedia.org/wiki/Europeana",
+      "retrieved_at": "2026-04-21T21:16:30Z",
+      "archive_sha256": "39b3f008d4e98d676146107f9a4a92288bccf72f8430cfa6fc630d8c185fead9",
+      "archive_path": "licenses/cc0-1.0/analysis-sources/39b3f008d4e98d676146107f9a4a92288bccf72f8430cfa6fc630d8c185fead9.html"
+    },
+    {
+      "source": "Wikipedia — Creative Commons license",
+      "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+      "retrieved_at": "2026-04-21T21:16:59Z",
+      "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+      "archive_path": "licenses/cc0-1.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html"
+    }
+  ]
+}

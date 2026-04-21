@@ -1,0 +1,1287 @@
+
+
+<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#">
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>GPL Violations Related to Combining ZFS and Linux - Conservancy Blog - Software Freedom Conservancy</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="The Software Freedom Conservancy provides a non-profit home and services to Free, Libre and Open Source Software (FLOSS) projects." />
+    <meta name="keywords" content="software, freedom, conservancy, open source, gnu, GNU, Open Source, Free and Open Source, Free and Open Source Software, FLOSS, FOSS, protect, protection, help, policy, linux, non-profit" />
+    <link rel="shortcut icon" href="/static/favicon.641dcd867f20.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/static/css/tachyons.min.b08933e143e6.css"/>
+    <link rel="stylesheet" type="text/css" media="(min-width: 67em)" href="/static/css/conservancy-bigscreen.0ac8bcb524e0.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/conservancy.0df4fc650f78.css" />
+    <script src="/static/js/conservancy.0701dc242404.js" ></script>
+    
+
+
+
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@conservancy">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Software Freedom Conservancy">
+
+
+
+<meta property="og:url" content="https://sfconservancy.org/blog/2016/feb/25/zfs-and-linux/">
+
+
+
+<meta property="og:title" content="GPL Violations Related to Combining ZFS and Linux">
+
+
+
+<meta property="og:description" content="This post discusses an atypical GPL violation.  Unlike most GPL violations
+Conservancy faces, in this case, a third-party entity holds a magic wand that
+can instantly resolve the situation.  Oracle is the primary copyright holder
+of ZFS, and, despite nearly eight years (going back to the days of Sun's
+control of the code) of the anti-license-proliferation community's urging,
+Oracle continues to license their code under their own, GPL-incompatible
+license.  While this violation has many facets, and Oracle did not themselves
+violate GPL in this specific case, they hold the keys to this particular
+kingdom and they forbid the Linux community to enter.  While there are
+complexities that we must address, in this context, Oracle could make
+everyone's life easier by waving their magic relicensing wand.  Nevertheless,
+until they do, since GPL-incompatible licenses are the root of all GPL
+violations, combinations of GPL'd code with Oracle's GPL-incompatible code
+yield GPL violations, such as the ongoing violation by Canonical, Ltd.">
+
+
+
+
+
+
+
+<meta property="og:image" content="https://sfconservancy.org/static/img/conservancy-logo.png">
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <body class="conservancy-blog">
+
+  <a class="notification-bar" href="/copyleft-compliance/vizio.html" role="alert" aria-label="Important notification: Get the latest update on our Vizio court case">Get the latest update on our Vizio court case <svg class="arrow-right" aria-hidden="true"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#arrow-right"></use></svg></a>
+
+  <header class="header-container">
+      <div class="header-inner"> 
+
+        <nav id="primary-nav-bar">
+          <a href="/" class="header-logo-link">
+            <img src="/static/img/conservancy-header-logo.322da8acaa91.svg" alt="Software Freedom Conservancy" class="header-logo" width="284" height="90" />
+          </a>
+
+          <button id="mobile-menu-toggle" class="dn-ns bg-transparent bn pa2 pointer" aria-expanded="false" aria-controls="main-mobile-nav">
+              <svg style="color: var(--orange); width: 30px; height: 30px;"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#bars"></use></svg>
+              <span class="sr-only">Toggle navigation menu</span>
+          </button>
+
+          <ul id="main-desktop-list" role="menu"> 
+
+            <li class="News"><a href="/news/" role="menuitem" aria-haspopup="true">News <svg class="menu-arrow"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a> 
+              <ul class="dropdown-menu-list">
+ 
+ <li>
+  <a class_="dropdown-item-link" href="/news/">
+   <h3>
+    Press Releases
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/">
+   <h3>
+    Press
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/blog/">
+   <h3>
+    Blog
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/vizio-coverage.html">
+   <h3>
+    Vizio Lawsuit in the News
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/inthenews.html">
+   <h3>
+    Our Issues in the News
+   </h3>
+  </a>
+ </li>
+</ul>
+
+            </li>
+            <li class="About"><a href="/about/" role="menuitem" aria-haspopup="true">About <svg class="menu-arrow"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a> 
+              <ul class="dropdown-menu-list">
+ 
+ <li class="Sponsors">
+  <a class_="dropdown-item-link" href="/sponsors/">
+   <h3>
+    Sponsors
+   </h3>
+  </a>
+ </li>
+ <li class="Sustainers">
+  <a class_="dropdown-item-link" href="/sustainer/">
+   <h3>
+    Sustainers
+   </h3>
+  </a>
+ </li>
+ <li class="Directors">
+  <a class_="dropdown-item-link" href="/about/board/">
+   <h3>
+    Board of Directors
+   </h3>
+  </a>
+ </li>
+ <li class="Staff">
+  <a class_="dropdown-item-link" href="/about/staff/">
+   <h3>
+    Staff
+   </h3>
+  </a>
+ </li>
+ <li class="Eval">
+  <a class_="dropdown-item-link" href="/about/eval-committee/">
+   <h3>
+    Evaluation Committee
+   </h3>
+  </a>
+ </li>
+ <li class="Outside">
+  <a class_="dropdown-item-link" href="/about/outside/">
+   <h3>
+    Outside Counsel, et alia
+   </h3>
+  </a>
+ </li>
+ <li class="Transparency">
+  <a class_="dropdown-item-link" href="/about/transparency">
+   <h3>
+    Transparency
+   </h3>
+  </a>
+ </li>
+ <li class="Contact">
+  <a class_="dropdown-item-link" href="/about/contact/">
+   <h3>
+    Contact
+   </h3>
+  </a>
+ </li>
+</ul>
+ 
+            </li>
+            <li class="OurWork"><a href="/activities" role="menuitem" aria-haspopup="true">Our Work <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a> 
+              <ul class="dropdown-menu-list">
+ 
+ <li class="CopyleftCompliance">
+  <a class_="dropdown-item-link" href="/copyleft-compliance/">
+   <h3>
+    Copyleft Compliance
+   </h3>
+   <p class_="dropdown-description">
+    We defend and uphold the rights of software users and consumers under copyleft licenses.
+   </p>
+  </a>
+ </li>
+ <li class="ImpactLitigaton">
+  <a class_="dropdown-item-link" href="/copyleft-compliance/past-lawsuits.html">
+   <h3>
+    Impact Litigation
+   </h3>
+   <p class_="dropdown-description">
+    We defend the legal rights of software users. Learn the details, status, and stakes of our court cases.
+   </p>
+  </a>
+ </li>
+ <li class="GiveUpGitHub">
+  <a class_="dropdown-item-link" href="https://GiveUpGitHub.org">
+   <h3>
+    Give Up GitHub
+   </h3>
+   <p class_="dropdown-description">
+    We urge FOSS Developers to <em>Give Up GitHub!</em>  Learn why.
+   </p>
+  </a>
+ </li>
+ <li class="Outreachy">
+  <a class_="dropdown-item-link" href="https://outreachy.org">
+   <h3>
+    Outreachy
+   </h3>
+   <p class_="dropdown-description">
+    We offer internships for anyone who faces under&shy;representation, systemic bias, or discrimination in the tech industry.
+   </p>
+  </a>
+ </li>
+ <li class="FOSSY">
+  <a class_="dropdown-item-link" href="https://fossy.ca">
+   <h3>
+    FOSSY
+   </h3>
+   <p class_="dropdown-description">
+    Our annual community-oriented conference focused on the creation and impact of free and open source software.
+   </p>
+  </a>
+ </li>
+</ul>
+
+            </li>
+            <li class="Tools"><a href="#" role="menuitem" aria-haspopup="true">Tools <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+              <ul class="dropdown-menu-list">
+ 
+ <li class="MemberProjects">
+  <a class_="dropdown-item-link" href="/projects/">
+   <h3>
+    Member Projects
+   </h3>
+   <p class_="dropdown-description">
+    We provide non-profit infrastructure and services to our members creating Free/Libre and Open Source Software.
+   </p>
+  </a>
+ </li>
+ <li class="UseTheSource">
+  <a class_="dropdown-item-link" href="/usethesource/">
+   <h3>
+    Use The Source
+   </h3>
+   <p class_="dropdown-description">
+    Our tool for evaluating the source code candidates companies must provide for GPLed software.
+   </p>
+  </a>
+ </li>
+ <li class="OpenWrtOneRouter">
+  <a class_="dropdown-item-link" href="/activities/openwrt-one.html">
+   <h3>
+    OpenWrt One
+   </h3>
+   <p class_="dropdown-description">
+    We designed and built the first ever wireless Internet router designed with software freedom and right to repair in mind.
+   </p>
+  </a>
+ </li>
+</ul>
+
+            </li>
+            <li class="Learn"><a href="/learn" role="menuitem" aria-haspopup="true">Learn <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+              <ul class="dropdown-menu-list">
+ 
+ <li>
+  <a class_="dropdown-item-link" href="/casts/the-corresponding-source/">
+   <h3>
+    The Corresponding Source
+   </h3>
+   <p class_="dropdown-description">
+    A bi-weekly oggcast about legal, policy, and many other issues in the Free, Libre, and Open Source Software (FLOSS) world. 
+   </p>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/copyleft-compliance/glossary.html">
+   <h3>
+    Glossary of Terms
+   </h3>
+   <p class_="dropdown-description">
+    A list of terms you might be unfamiliar with but occur frequently in our work.
+   </p>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/qanda.html">
+   <h3>
+    FAQ About the Vizio Lawsuit
+   </h3>
+   <p class_="dropdown-description">
+    Your most frequently asked questions about the Vizio lawsuit, answered in one place.
+   </p>
+  </a>
+ </li>
+</ul>
+
+            </li>
+            <li>
+              <a href="/donate/" class="desktop-donate-btn">Donate</a> 
+            </li>
+          </ul>
+        </nav>
+
+
+      </div>
+    </header>
+
+    <div id="main-mobile-nav" class="mobile-nav-overlay" aria-hidden="true">
+        <div class="mobile-nav-header">
+            <a href="/" class="mobile-logo-link">
+                <img src="/static/img/conservancy-header-logo.322da8acaa91.svg" alt="Software Freedom Conservancy" width="200" />
+            </a>
+            <button id="mobile-nav-close" class="bg-transparent bn pa2 pointer">
+                <svg style="color: var(--navy); width: 30px; height: 30px;"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#xmark"></use></svg>
+                <span class="sr-only">Close navigation menu</span>
+            </button>
+        </div>
+
+        <nav class="mobile-nav-content" aria-label="Main Mobile Navigation">
+            <ul class="mobile-main-menu list" role="menu">
+                <li class="News"><a href="/news/" role="menuitem" aria-haspopup="true">News <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+                    <ul class="dropdown-menu-list">
+ 
+ <li>
+  <a class_="dropdown-item-link" href="/news/">
+   <h3>
+    Press Releases
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/">
+   <h3>
+    Press
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/blog/">
+   <h3>
+    Blog
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/vizio-coverage.html">
+   <h3>
+    Vizio Lawsuit in the News
+   </h3>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/inthenews.html">
+   <h3>
+    Our Issues in the News
+   </h3>
+  </a>
+ </li>
+</ul>
+
+                </li>
+                <li class="About"><a href="/about/" role="menuitem" aria-haspopup="true">About <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+                    <ul class="dropdown-menu-list">
+ 
+ <li class="Sponsors">
+  <a class_="dropdown-item-link" href="/sponsors/">
+   <h3>
+    Sponsors
+   </h3>
+  </a>
+ </li>
+ <li class="Sustainers">
+  <a class_="dropdown-item-link" href="/sustainer/">
+   <h3>
+    Sustainers
+   </h3>
+  </a>
+ </li>
+ <li class="Directors">
+  <a class_="dropdown-item-link" href="/about/board/">
+   <h3>
+    Board of Directors
+   </h3>
+  </a>
+ </li>
+ <li class="Staff">
+  <a class_="dropdown-item-link" href="/about/staff/">
+   <h3>
+    Staff
+   </h3>
+  </a>
+ </li>
+ <li class="Eval">
+  <a class_="dropdown-item-link" href="/about/eval-committee/">
+   <h3>
+    Evaluation Committee
+   </h3>
+  </a>
+ </li>
+ <li class="Outside">
+  <a class_="dropdown-item-link" href="/about/outside/">
+   <h3>
+    Outside Counsel, et alia
+   </h3>
+  </a>
+ </li>
+ <li class="Transparency">
+  <a class_="dropdown-item-link" href="/about/transparency">
+   <h3>
+    Transparency
+   </h3>
+  </a>
+ </li>
+ <li class="Contact">
+  <a class_="dropdown-item-link" href="/about/contact/">
+   <h3>
+    Contact
+   </h3>
+  </a>
+ </li>
+</ul>
+
+                </li>
+                <li class="OurWork"><a href="/activities" role="menuitem" aria-haspopup="true">Our Work <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+                    <ul class="dropdown-menu-list">
+ 
+ <li class="CopyleftCompliance">
+  <a class_="dropdown-item-link" href="/copyleft-compliance/">
+   <h3>
+    Copyleft Compliance
+   </h3>
+   <p class_="dropdown-description">
+    We defend and uphold the rights of software users and consumers under copyleft licenses.
+   </p>
+  </a>
+ </li>
+ <li class="ImpactLitigaton">
+  <a class_="dropdown-item-link" href="/copyleft-compliance/past-lawsuits.html">
+   <h3>
+    Impact Litigation
+   </h3>
+   <p class_="dropdown-description">
+    We defend the legal rights of software users. Learn the details, status, and stakes of our court cases.
+   </p>
+  </a>
+ </li>
+ <li class="GiveUpGitHub">
+  <a class_="dropdown-item-link" href="https://GiveUpGitHub.org">
+   <h3>
+    Give Up GitHub
+   </h3>
+   <p class_="dropdown-description">
+    We urge FOSS Developers to <em>Give Up GitHub!</em>  Learn why.
+   </p>
+  </a>
+ </li>
+ <li class="Outreachy">
+  <a class_="dropdown-item-link" href="https://outreachy.org">
+   <h3>
+    Outreachy
+   </h3>
+   <p class_="dropdown-description">
+    We offer internships for anyone who faces under&shy;representation, systemic bias, or discrimination in the tech industry.
+   </p>
+  </a>
+ </li>
+ <li class="FOSSY">
+  <a class_="dropdown-item-link" href="https://fossy.ca">
+   <h3>
+    FOSSY
+   </h3>
+   <p class_="dropdown-description">
+    Our annual community-oriented conference focused on the creation and impact of free and open source software.
+   </p>
+  </a>
+ </li>
+</ul>
+
+                </li>
+                <li class="Tools"><a href="/tools" role="menuitem" aria-haspopup="true">Tools <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+                    <ul class="dropdown-menu-list">
+ 
+ <li class="MemberProjects">
+  <a class_="dropdown-item-link" href="/projects/">
+   <h3>
+    Member Projects
+   </h3>
+   <p class_="dropdown-description">
+    We provide non-profit infrastructure and services to our members creating Free/Libre and Open Source Software.
+   </p>
+  </a>
+ </li>
+ <li class="UseTheSource">
+  <a class_="dropdown-item-link" href="/usethesource/">
+   <h3>
+    Use The Source
+   </h3>
+   <p class_="dropdown-description">
+    Our tool for evaluating the source code candidates companies must provide for GPLed software.
+   </p>
+  </a>
+ </li>
+ <li class="OpenWrtOneRouter">
+  <a class_="dropdown-item-link" href="/activities/openwrt-one.html">
+   <h3>
+    OpenWrt One
+   </h3>
+   <p class_="dropdown-description">
+    We designed and built the first ever wireless Internet router designed with software freedom and right to repair in mind.
+   </p>
+  </a>
+ </li>
+</ul>
+
+                </li>
+                <li class="Learn"><a href="/learn" role="menuitem" aria-haspopup="true">Learn <svg class="menu-arrow" ><use href="/static/img/font_awesome_subset.8fba61a09652.svg#chevron-down"></use></svg></a>
+                    <ul class="dropdown-menu-list">
+ 
+ <li>
+  <a class_="dropdown-item-link" href="/casts/the-corresponding-source/">
+   <h3>
+    The Corresponding Source
+   </h3>
+   <p class_="dropdown-description">
+    A bi-weekly oggcast about legal, policy, and many other issues in the Free, Libre, and Open Source Software (FLOSS) world. 
+   </p>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/copyleft-compliance/glossary.html">
+   <h3>
+    Glossary of Terms
+   </h3>
+   <p class_="dropdown-description">
+    A list of terms you might be unfamiliar with but occur frequently in our work.
+   </p>
+  </a>
+ </li>
+ <li>
+  <a class_="dropdown-item-link" href="/press/qanda.html">
+   <h3>
+    FAQ About the Vizio Lawsuit
+   </h3>
+   <p class_="dropdown-description">
+    Your most frequently asked questions about the Vizio lawsuit, answered in one place.
+   </p>
+  </a>
+ </li>
+</ul>
+
+                </li>
+                
+                <li class="mobile-donate"><a href="/donate/" role="menuitem">Donate</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+  
+
+ 
+
+
+    <div>
+      
+ <div id="container" class="mw8 center ph2 ph3">
+     <div id="mainContent">
+<div class="breadcrumbs">
+  <p><a href="/">Home</a> / <a href="/news/">News</a> / <a href="/blog/">Blog</a></p>
+</div>
+
+
+
+<div class="blog-entry">
+
+<h2 class="clear"
+  >GPL Violations Related to Combining ZFS and Linux</h2>
+
+
+<p class="date">by <span class="author">Bradley M. Kühn and Karen M. Sandler</span>
+  on February 25, 2016
+</p>
+
+
+
+
+<p>This post discusses an atypical GPL violation.  Unlike most GPL violations
+Conservancy faces, in this case, a third-party entity holds a magic wand that
+can instantly resolve the situation.  Oracle is the primary copyright holder
+of ZFS, and, despite nearly eight years (going back to the days of Sun's
+control of the code) of the anti-license-proliferation community's urging,
+Oracle continues to license their code under their own, GPL-incompatible
+license.  While this violation has many facets, and Oracle did not themselves
+violate GPL in this specific case, they hold the keys to this particular
+kingdom and they forbid the Linux community to enter.  While there are
+complexities that we must address, in this context, Oracle could make
+everyone's life easier by waving their magic relicensing wand.  Nevertheless,
+until they do, since GPL-incompatible licenses are the root of all GPL
+violations, combinations of GPL'd code with Oracle's GPL-incompatible code
+yield GPL violations, such as the ongoing violation by Canonical, Ltd.</p>
+
+
+<h2>The Basic Facts</h2>
+
+<p>Sun released the Z File System (ZFS) code
+under the <a href="https://opensource.org/licenses/CDDL-1.0">Common Development
+and Distribution License, version 1 (CDDLv1)</a> as part of OpenSolaris.  Sun
+was ultimately acquired by Oracle.  Community members, mostly acting
+non-commercially, have improved ZFS and adapted it to function with Linux,
+but unfortunately, CDDLv1 is incompatible with GPLv2, so distribution of
+binaries is not permitted (see below for details).  Many community members
+have been frustrated for years that Oracle didn't simply relicense the code
+under a GPLv2-compatible license.</p>
+
+<p>The situation escalated last week
+because <a href="https://insights.ubuntu.com/2016/02/16/zfs-is-the-fs-for-containers-in-ubuntu-16-04/">Canonical,
+Ltd. announced their plans to commercially distribute, in Ubuntu 16.04, a
+binary distribution of ZFS as a Linux kernel module</a>, which adapts ZFS
+natively for Linux.  Conservancy contacted Canonical to inform them of their
+GPL violation, and Canonical encouraged us to speak publicly.  We're glad to
+do so to clarify the differing views on this issue.  As you'll read below,
+Conservancy disagrees with Canonical's decision, and Conservancy hopes to
+continue dialogue with Canonical regarding their violation.  We do not give
+up on friendly resolution of a GPL violation easily and are glad Canonical
+seeks to transparently discuss both sides of this issue in public.
+</p>
+
+<h2>Summary of our Conclusion</h2>
+
+<p>We are sympathetic to Canonical's frustration in this desire to easily
+  support more features for their users.  However, as set out below, we have
+  concluded that their distribution of zfs.ko violates the GPL.  We have
+  written this statement to answer, from the point of view of many key Linux
+  copyright holders, the community questions that we've seen on this
+  matter.</p>
+
+<p>Specifically, we provide our detailed analysis of the incompatibility
+between CDDLv1 and GPLv2 &mdash; and its potential impact on the trajectory
+of free software development &mdash; below.  However, our conclusion is simple: Conservancy and the Linux copyright
+holders in the <a href="/copyleft-compliance/">GPL Compliance Project for
+Linux Developers</a> believe that distribution of ZFS binaries is a GPL
+violation and infringes Linux's copyright.  We are also concerned that it may
+infringe Oracle's copyrights in ZFS.  As such, we again ask Oracle to respect
+community norms against license proliferation and simply relicense its
+copyrights in ZFS under a GPLv2-compatible license.</p>
+
+<h2>GPL Incompatibility</h2>
+
+<p>The license of Linux, the GNU General Public License, version 2 (GPLv2), is
+conceptually known as a strong <a href="https://copyleft.org/">copyleft</a>
+license.  A strong copyleft license extends software freedom policies as far
+as copyright law allows.  As such, GPLv2 requires that, when combinations
+and/or derivatives are made under copyright law with GPLv2'd works, the
+license of the resulting combination and/or derivative is also GPLv2.</p>
+
+<p>The Free Software Foundation (FSF)
+has <a href="https://www.gnu.org/licenses/gpl-faq.html#WhatIsCompatible">long
+  discussed the question of licenses incompatible with the GPL</a>, pointing
+out that:</p>
+<blockquote>
+   In order to combine two programs (or substantial parts of them) into a
+   larger work, you need to have permission to use both programs in this
+   way. If the two programs' licenses permit this, they are compatible. If
+   there is no way to satisfy both licenses at once, they are incompatible.
+</blockquote>
+
+<p>License compatibility is not merely a question for Free Software
+licenses.  We can analyze any two copyright licenses and consider whether
+they are compatible.</p>
+
+<p>In the proprietary software world, rarely are two licenses ever
+compatible.  You can't, by default, license a copy of Oracle's database, and
+then make a combination with Apple's iOS.  To do so, you would need to
+negotiate (and pay for) a special license from both Apple and Oracle to make
+that combination.</p>
+
+<p>Furthermore, with proprietary software, there is a practical problem
+somewhat unrelated to the legal permission: you must procure (again, likely
+for a rather expensive fee) a copy of the source code for Apple's and
+Oracle's proprietary software to have the practical ability to make the
+combination.</p>
+
+<p>Since the GPL, and all copyleft licenses, are fundamentally copyright
+licenses, the analysis is similar.  However,
+GPL requires that all software distributions include complete corresponding
+source code to any binaries, so the practical problem never presents itself.
+Nevertheless, when you wish to combine GPL'd software with some other
+software and distribute the resulting combination, both the copyright holders
+of the GPL'd software and the copyright holders of the other software must
+provide a license that allows distribution of the combination.</p>
+
+<p>Most prefer to discuss the issue of combining truly proprietary,
+no-source-available copyrighted material with GPL'd software, as it creates the most
+stark practical contrast, and is the most offensive fact pattern.
+Proprietary software gives the users no freedom to even examine, let alone
+modify, rebuild, and reinstall the software.  The proprietary license doesn't
+allow nor even give the practical ability to redistribute source code, and
+the GPL mandates source distribution when binary distribution occurs.  The
+incompatibility is intuitively obvious.  Few consider the fact that
+proprietary software licensing is just one (rather egregious) example of a
+GPL-incompatible license.</p>
+
+<p>In that context, we can imagine licenses that are GPL-incompatible, but do
+give some interesting permissions to users.  An example is
+source-code-available systems that prohibit commercial distribution and
+forbid modification to the source code.  The GPL has terms that permit
+modification and allow commercial distribution of GPL'd software, and as
+such, even though source code is available for non-commercial, non-modifiable
+software, the license is nonetheless GPL-incompatible.</p>
+
+<p>Finally, we can consider the most subtle class of GPL-incompatibility, in
+which we find ZFS's license,
+the <a href="https://github.com/zfsonlinux/zfs/blob/master/OPENSOLARIS.LICENSE">Common
+Development and Distribution License, version 1 (CDDLv1)</a>.  The CDDLv1 is
+considered both
+a <a href="https://www.gnu.org/licenses/license-list.html#CDDL">Free
+Software</a> and an <a href="https://opensource.org/licenses/CDDL-1.0">Open
+Source</a> license, and is a weak copyleft license.  Nevertheless, neither
+CDDLv1 nor GPLv2 permits combination of copyrighted material under the
+  other license.</p>
+
+<p>To understand this non-intuitive incompatibility, we can analyze in
+  detail the requirements of both licenses.  First, GPLv2 requires:
+</p>
+
+<blockquote>
+<p>[&sect;2](b) You must cause any work that you distribute &hellip; that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole &hellip; under the terms of this
+  License.&hellip;</p>
+<p>[&sect;]3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also&hellip;
+  </p>
+<p> a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+  1 and 2 above&hellip;</p>
+<p>[&sect;]6. &hellip;You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.</p>
+</blockquote>
+
+<p>According to these provisions of GPLv2, if you create a binary work that
+incorporates components from the GPLv2'd program, you must provide the
+complete corresponding source for that entire work with the binary, and the
+terms of the GPLv2 apply to that source.  If the sources as a whole cannot be
+outbound-licensed under GPLv2, you have no permission under copyright law to
+distribute the binary work, since GPLv2 didn't grant you that permission.</p>
+
+<p>GPLv2-compatible licenses do not contradict the requirements of GPLv2, which is
+  what makes them compatible.  For example, highly permissive licenses like
+  <a href="https://www.gnu.org/licenses/license-list.en.html#ISC">the ISC
+  license</a> allow imposition of additional licensing requirements (even
+  proprietary ones), and so combining ISC-licensed source and GPLv2'd
+  source into a binary work is permitted; compliance with GPLv2 is possible
+  when distributing binaries based on the combined sources.</p>
+
+<p>CDDLv1, however, contains various provisions that are incompatible with
+  that outcome.  Specifically, CDDLv1 requires (emphasis ours):
+</p>
+  <blockquote>
+<p>[&sect;]3.1 &hellip; Any Covered Software that You distribute or otherwise make available in
+    Executable form must also be made available in Source Code form and that
+    Source Code form must be distributed <strong>only under the terms of this
+    License</strong>. &hellip;</p>
+
+<p>[&sect;] 3.4 &hellip; You may not offer or impose any terms on any Covered
+    Software in Source Code form that <strong>alters or restricts the applicable
+    version of this License</strong></p>
+  </blockquote>
+
+<p>CDDLv1 is a weak copyleft license in that it allows you create a binary work with
+  components under different terms (see CDDLv1&sect;3.6).  However, as seen
+  in the text above, with regard to the specific copyrighted material already
+  under CDDLv1, that material must remain only licensed under the terms of
+  the CDDLv1.  Furthermore, when redistributing the source code, you cannot
+  alter the terms of the license on that copyrighted material.</p>
+
+<p>GPLv2, as shown above, requires that you alter those terms for the source
+  code &mdash; namely, as a strong copyleft, the terms of GPLv2 apply to the
+  entire complete corresponding source for any binary work.  Furthermore,
+  downstream users need permission to make GPLv2'd modifications to that
+  source.  This creates a contradiction; you cannot simultaneously satisfy
+  that obligation of GPLv2 and also avoid <q>alter[ing]</q> the terms of
+  CDDLv1-licensed source.  Thus, the licenses are incompatible, and
+  redistributing a binary work incorporating CDDLv1'd and GPLv2'd copyrighted
+  portions constitutes copyright infringement in both directions.  (In
+  addition to this big incompatibility, there are also other smaller
+  incompatibilities throughout CDDLv1.)</p>
+
+<p>We believe Sun was aware when drafting CDDLv1 of
+  the incompatibilities; in fact, our research into its history indicates the
+  GPLv2-incompatibility was Sun's design choice.  At the time, Sun's apparent
+  goal was to draw developers away from GNU and Linux development into
+  Solaris.  Not only did Sun not want code from GNU and Linux in Solaris,
+  more importantly, Sun did not want technological advantages from Solaris' kernel to
+  appear in Linux.</p>
+
+<p>Much has changed in the seven and a half years since CDDLv1's publication
+  and promulgation.  OpenSolaris has been discontinued; CDDLv1 codebases
+  never became an active area of Free Software development like GNU and
+  Linux.  Oracle could now easily indicate that combination of ZFS with Linux
+  into binary works is permitted, (e.g., as the overwhelming majority
+  copyright holder<a id="return-other-ZFS-copyright-holders"
+  href="#footnote-other-ZFS-copyright-holders"><sup>0</sup></a>, Oracle
+  could <a href="ftp://ftp.cs.berkeley.edu/pub/4bsd/README.Impt.License.Change">make
+  a decree like the one University of California did to fix a similar
+  incompatibility</a>).  Until Oracle takes an action like that, it remains a
+  license violation of <strong>both</strong> CDDLv1 and GPLv2 to distribute
+  binary works that combine together and/or derive from both GPLv2 and CDDLv1
+  sources.</p>
+
+<h2>What Constitutes a Combined/Derivative Work?</h2>
+
+<p>Once license incompatibility is established, the
+remaining question is solely whether or not combining ZFS with Linux creates
+a combined and/or derivative work under copyright law (which then would, in
+turn, trigger the GPLv2 obligations on the ZFS code).</p>
+
+<p>Conservancy has helped put similar questions (still
+ pending) before a Court,
+ in <a href="/copyleft-compliance/vmware-lawsuit-faq.html#combined-and-derivative-works">Hellwig's
+ VMware case</a> that
+ Conservancy <a href="/news/2015/mar/05/vmware-lawsuit/">currently funds</a>.
+ In fact, the same questions come up with all sorts of GPL-incompatible Linux
+ modules and reuses of Linux code.</p>
+
+<p>Courts have not spoken specifically on this question; precedents that
+  exist are not perfectly on-topic.  Citing an opinion of a lawyer is
+  often not helpful in this context, because lawyers advise clients, and
+  argue zealously for their clients' views.  When Courts are unclear on a
+  matter, it generates disputes, and only Courts (or possibly new
+  legislation) can ultimately resolve those disputes.</p>
+
+<p>Nevertheless, our lawyers have analyzed these situations with
+  the assistance of our license compliance and software forensics staff for
+  many years, and we have yet to encounter a Linux module that &mdash; when
+  distributed in binary form &mdash; did not, in our view, yield combined
+  work with Linux.  The FSF, stewards of the GPL,
+  have <a href="https://www.gnu.org/licenses/gpl-faq.en.html#GPLStaticVsDynamic">stated
+  many times over the past decades that they believe there is no legal 
+ distinction between dynamic and static
+  linking of a C program</a> and we agree.  Accordingly, the analysis is quite
+  obvious to us<a id="return-more-on-combined-works"
+  href="#footnote-more-on-combined-works"><sup>1</sup></a>: if ZFS were
+  statically linked with Linux and shipped as a single work, few would argue
+  it was not a &ldquo;work based on the Program&rdquo; under GPLv2.  And, if
+  we believe there is no legal difference when we change that linking from
+  static to dynamic, we conclude easily that binary distribution of ZFS plus
+  Linux &mdash; even with ZFS in a .ko file &mdash; constitutes distribution
+  of a combined work, which we name <em>Linux+ZFS</em>.</p>
+
+<p>Canonical has found some lawyers who disagree &mdash; a minority position, from our understanding of community norms.  But Canonical's
+public position on the matter contributes to license uncertainty, and
+opponents of Free Software may use this as an opportunity to marginalize
+copyleft enforcement generally.  Canonical can resolve the situation by
+ceasing the infringing distribution, but Oracle can also unilaterally resolve
+this trivially with a simple relicense of ZFS to a GPL-compatible license. </p>
+
+<p>Thus, all parties currently stand at an impasse.  Conservancy (as a Linux
+  copyright holder ourselves), along with the members of our coalition in the
+  GPL Compliance Project for Linux Developers, all agree that Canonical and
+  others infringe Linux copyrights when they distribute zfs.ko.  Canonical's
+  lawyers disagree.  Oracle refuses to relicense their ZFS copyrights under a
+  GPL-compatible license.</p>
+
+<p>Ultimately, various Courts in the world will have to rule on the more
+  general question of Linux combinations.  Conservancy is committed to  
+ working towards achieving clarity on these questions in the long term.  That work began in earnest last year with the
+  VMware lawsuit, and our work in this area will continue indefinitely,
+  <a href="/supporter/">as resources permit</a>. We must do so, because, too
+  often, companies are complacent about compliance. While we and other
+  community-driven organizations have historically avoided lawsuits at any cost
+  in the past, the absence of litigation on these questions caused many
+  companies to treat the GPL as a weaker copyleft than it actually is.</p>
+
+<h2>Why Conservancy Does Not Use Litigation Immediately</h2>
+
+<p>As discussed in <a href="/copyleft-compliance/principles.html">our
+principles</a>, Conservancy, while willing to litigate, uses
+litigation <em>only</em> as a last resort.  Compliance actions are primarily
+education and assistance processes to aid those who are not following the
+license.
+We <a href="/copyleft-compliance/vmware-lawsuit-faq.html#why-lawsuit">completely
+exhaust every other diplomatic option</a> for compliance before seeking
+resolution from the Courts.</p>
+
+<h2>&ldquo;Almost There&rdquo; is More Painful Than Proprietary</h2>
+
+<p>Conservancy and our GPL Compliance Project for Linux Developers are quite
+sympathetic to the feeling of &ldquo;almost there&rdquo; that exists with ZFS
+for Linux.  CDDL <em>is</em> a Free Software license, but sadly a
+GPL-incompatible one.  Like a partial fix for a problematic bug, a
+GPL-incompatible Free Software license feels like a solution that's
+&ldquo;oh-so-close&rdquo;.  Everyone wants to try to tweak
+that incomplete solution into a full one.  We hope this explanation helps
+bring clarity that the seemingly &ldquo;almost there&rdquo; of
+combining CDDL'd and GPL'd code is a mirage.  The community must seek
+together a better solution.</p>
+
+<p>Oracle holds the better solution in their hands; like waving a magic wand,
+  they can take any of a myriad of actions to communicate permission to
+  relicense ZFS under GPL.  Conservancy encourages Free Software enthusiasts
+  and for-profit companies alike to lobby Oracle to relicense their ZFS
+  copyrights.  While this change by Oracle cannot resolve Canonical's
+  violation, Oracle's relicensing would create a path for Canonical that
+  might ultimately yield a compliant binary distribution of Linux+ZFS.  As
+  such, we've asked Canonical to commit to lobbying Oracle for this
+  change.</p>
+
+
+<h2>Is The Analysis Different With Source-Only Distribution?</h2>
+
+<p>We cannot close discussion without considering one final unique aspect to
+  this situation.  CDDLv1 does allow for free redistribution of ZFS source
+  code.  We can also therefore consider the requirements when distributing
+  Linux and ZFS in source code form only.</p>
+
+<p>Pure distribution of  source with no binaries is undeniably
+  different.  When distributing  source code and no binaries,
+  requirements in those sections of GPLv2 and CDDLv1 that cover modification
+  and/or binary (or &ldquo;Executable&rdquo;, as CDDLv1 calls it)
+  distribution do not activate.  Therefore, the analysis is simpler, and we
+  find no specific clause in either license that prohibits 
+  source-only redistribution of Linux and ZFS, even on the same distribution
+  media.</p>
+
+<p>Nevertheless, there may be arguments for contributory and/or indirect
+  copyright infringement in many jurisdictions. We present no specific
+  analysis ourselves on the efficacy of a contributory infringement claim
+  regarding source-only distributions of ZFS and Linux.  However, in our GPL
+  litigation experience, we have noticed that judges are savvy at sniffing
+  out attempts to circumvent legal requirements, and they are skeptical about
+  attempts to exploit loopholes.  Furthermore, we cannot predict Oracle's
+  view &mdash; given its past willingness to enforce copyleft licenses, and
+  Oracle's recent attempts to adjudicate the limits of copyright in Court.
+  Downstream users should consider carefully before engaging in even
+  source-only distribution.
+  </p>
+
+<p>We note
+  that <a href="http://blog.halon.org.uk/2016/01/on-zfs-in-debian/">Debian's
+  decision to place source-only ZFS in a relegated area of their archive
+  called <code>contrib</code></a>, is an innovative solution.  Debian
+  fortunately had a long-standing policy that <code>contrib</code> was
+  specifically designed for source code that, while licensed under an
+  acceptable license
+  for <a href="https://www.debian.org/social_contract#guidelines">Debian's
+  Free Software Guidelines</a>, also has a default use that can cause
+  licensing problems for downstream Debian users.  Therefore, Debian
+  communicates clearly to their users that this code is problematic by
+  keeping it out of their <code>main</code> archive.  Furthermore, Debian
+  does not distribute any binary form of zfs.ko.</p>
+
+<p>(Full disclosure: Conservancy has a services agreement with Debian in
+  which Conservancy occasionally gives its opinions, in a non-legal capacity,
+  to Debian on topics of Free Software licensing, and gave Debian advice on
+  this matter under that agreement.  Conservancy is not Debian's legal
+  counsel.)</p>
+
+
+<h2>Do <strong>Not</strong> Rely On This Document As Legal Advice</h2>
+
+<p>You <strong>cannot</strong> and should not rely on this document as legal
+advice.  Our lawyers, in conjunction with our GPL compliance and software
+forensics experts, have analyzed the Linux+ZFS that Canonical includes in
+their Ubuntu 16.04 prereleases.  Conservancy has determined, with the advice
+of both inside and outside law firm legal counsel, that the binary
+distribution constitutes a derivative and/or combined work of ZFS and Linux
+together, and therefore violates the GPL, as explained above.  We also know
+from <a href="https://insights.ubuntu.com/2016/02/18/zfs-licensing-and-linux/">Canonical's
+blog post</a> that they have found other lawyers to give them contradictory
+advice.  Such situations are common on groundbreaking legal issues, and,
+after all, copyleft is perhaps the most novel legal construction for
+copyright in its history.  Lawyers and their clients who oppose copyleft will
+attempt to limit copyleft's scope (with litigation, FUD, and moxie), and
+those of us who use copyleft as a tool for software freedom will
+diametrically seek to uphold its scope to achieve the license drafter's and
+licensors' intended broad impact for software freedom.</p>
+
+<p>Indeed, Conservancy believes this situation is one battle in a larger
+proxy war by those who seek to limit the scope of strong copyleft generally.
+Yet, the GPL not only benefits charitable community organizations like
+Conservancy, but also for-profit companies, since GPL ensures your
+competitors cannot circumvent the license and gain an unfair advantage.  We
+therefore urge charities, trade associations and companies who care about
+Linux to stand with us in opposition of GPL violations like this one.</p>
+
+<hr class="footnote-separator"/>
+
+
+<p><a href="#return-other-ZFS-copyright-holders"
+id="footnote-other-ZFS-copyright-holders"><sup>0</sup></a> More work might be
+required to relicense all modern ZFS code, since others have contributed, but
+we expect that those contributors would gladly relicense in the same manner
+if Oracle does first.</p>
+
+<p><a href="#return-more-on-combined-works"
+id="footnote-more-on-combined-works"><sup>1</sup></a> More discussion on
+these issues can be found in <a href="http://copyleft.guide/gplv2s2b">this
+section of <cite>Copyleft and the GNU General Public License: A Comprehensive
+Tutorial and Guide</cite></a>, which is part
+of <a href="https://copyleft.org">copyleft.org</a>, a project co-sponsored by
+the FSF and Software Freedom Conservancy.</p>
+
+
+
+
+
+<p class="permalink"><a href="/blog/2016/feb/25/zfs-and-linux/">[permalink]</a></p>
+
+
+
+<p class="blog-tags">Tags:
+  
+  <a href="/blog/?tag=gpl">GPL</a></p>
+
+
+
+
+
+</div>
+
+
+<p class="blog-comments">Please email any comments on this entry to
+  <a href="mailto:info@sfconservancy.org">info@sfconservancy.org</a>.</p>
+
+<p><span class="continued"><a href="/blog/">Other Conservancy Blog entries&hellip;</a></span></p>
+
+</div>
+         <div id="sidebar" class="">
+
+
+<h2><a href="/blog/">See all blog posts&hellip;</a></h2>
+<!-- <p><a href="/blog/query/">Query...</a></p> -->
+
+<h2>Blog Index by Year</h2>
+<ul>
+<li><a href="/blog/2026/">2026</a></li><li><a href="/blog/2025/">2025</a></li><li><a href="/blog/2024/">2024</a></li><li><a href="/blog/2023/">2023</a></li><li><a href="/blog/2022/">2022</a></li><li><a href="/blog/2021/">2021</a></li><li><a href="/blog/2020/">2020</a></li><li><a href="/blog/2019/">2019</a></li><li><a href="/blog/2018/">2018</a></li><li><a href="/blog/2017/">2017</a></li><li><a href="/blog/2016/">2016</a></li><li><a href="/blog/2015/">2015</a></li><li><a href="/blog/2014/">2014</a></li><li><a href="/blog/2013/">2013</a></li><li><a href="/blog/2012/">2012</a></li><li><a href="/blog/2011/">2011</a></li><li><a href="/blog/2010/">2010</a></li>
+</ul>
+
+
+<h2>Blogs by Tag</h2>
+<ul>
+
+<li><a href="/blog/?tag=conservancy">conservancy</a></li>
+
+<li><a href="/blog/?tag=gpl">GPL</a></li>
+
+<li><a href="/blog/?tag=supporter">supporter</a></li>
+
+<li><a href="/blog/?tag=licensing">licensing</a></li>
+
+<li><a href="/blog/?tag=conferences">conferences</a></li>
+
+<li><a href="/blog/?tag=law">law</a></li>
+
+<li><a href="/blog/?tag=events">events</a></li>
+
+<li><a href="/blog/?tag=FreedomforEveryone">software freedom for everyone</a></li>
+
+<li><a href="/blog/?tag=member-projects">Member Projects</a></li>
+
+<li><a href="/blog/?tag=outreachy">Outreachy</a></li>
+
+<li><a href="/blog/?tag=sustainability">FOSS Sustainability</a></li>
+
+<li><a href="/blog/?tag=diversity">diversity</a></li>
+
+<li><a href="/blog/?tag=resources">resources</a></li>
+
+<li><a href="/blog/?tag=copyleftconf">Copyleft Conf</a></li>
+
+<li><a href="/blog/?tag=ContractPatch">ContractPatch</a></li>
+
+<li><a href="/blog/?tag=filings">Filings</a></li>
+
+<li><a href="/blog/?tag=godot">Godot</a></li>
+
+<li><a href="/blog/?tag=reproducible-builds">Reproducible Builds</a></li>
+
+<li><a href="/blog/?tag=yir-2016">Year In Review 2016</a></li>
+
+<li><a href="/blog/?tag=fundraiser">fundraiser</a></li>
+
+<li><a href="/blog/?tag=cla">CLA</a></li>
+
+<li><a href="/blog/?tag=wine">Wine</a></li>
+
+<li><a href="/blog/?tag=yir-2015">Year In Review 2015</a></li>
+
+<li><a href="/blog/?tag=kallithea">Kallithea</a></li>
+
+<li><a href="/blog/?tag=qemu">QEMU</a></li>
+
+<li><a href="/blog/?tag=selenium">Selenium</a></li>
+
+<li><a href="/blog/?tag=security">security</a></li>
+
+<li><a href="/blog/?tag=gsoc">Google Summer of Code</a></li>
+
+<li><a href="/blog/?tag=homebrew">Homebrew</a></li>
+
+<li><a href="/blog/?tag=inkscape">inkscape</a></li>
+
+<li><a href="/blog/?tag=patent">patent</a></li>
+
+<li><a href="/blog/?tag=clojars">Clojars</a></li>
+
+<li><a href="/blog/?tag=Git">Git</a></li>
+
+<li><a href="/blog/?tag=hackfests">Hackfests</a></li>
+
+<li><a href="/blog/?tag=racket">Racket</a></li>
+
+<li><a href="/blog/?tag=cyborg">cyborg</a></li>
+
+<li><a href="/blog/?tag=inclusion">inclusion</a></li>
+
+<li><a href="/blog/?tag=phpmyadmin">phpMyAdmin</a></li>
+
+<li><a href="/blog/?tag=pypy">pypy</a></li>
+
+<li><a href="/blog/?tag=volunteer">volunteer</a></li>
+
+<li><a href="/blog/?tag=accounting">Accounting</a></li>
+
+<li><a href="/blog/?tag=librehealth">LibreHealth</a></li>
+
+<li><a href="/blog/?tag=Shotwell">Shotwell</a></li>
+
+<li><a href="/blog/?tag=jquery">jQuery</a></li>
+
+<li><a href="/blog/?tag=microblocks">microblocks</a></li>
+
+<li><a href="/blog/?tag=sourceware">sourceware</a></li>
+
+</ul>
+
+<h2>Blogs by Author</h2>
+<ul>
+
+<li><a href="/blog/?author=Vladimir Bejdo">Vladimir Bejdo</a></li>
+
+<li><a href="/blog/?author=kate">Kate Chapman</a></li>
+
+<li><a href="/blog/?author=pchestek">Pamela Chestek</a></li>
+
+<li><a href="/blog/?author=denver">Denver Gingerich</a></li>
+
+<li><a href="/blog/?author=denverandbkuhn">Bradley M. Kühn and Denver Gingerich</a></li>
+
+<li><a href="/blog/?author=hawkinsw">Will Hawkins</a></li>
+
+<li><a href="/blog/?author=esquiring">Fred Jennings</a></li>
+
+<li><a href="/blog/?author=debandkaren">Deb and Karen</a></li>
+
+<li><a href="/blog/?author=JeffKing">Jeff King</a></li>
+
+<li><a href="/blog/?author=bkuhn">Bradley M. Kühn</a></li>
+
+<li><a href="/blog/?author=conservancybrolt">Conservancy + Bro LT</a></li>
+
+<li><a href="/blog/?author=cwebber">Christine Lemmer-Webber</a></li>
+
+<li><a href="/blog/?author=deb">Deb Nicholson</a></li>
+
+<li><a href="/blog/?author=Sourceware PLC">Sourceware PLC</a></li>
+
+<li><a href="/blog/?author=rick">Rick Sanders</a></li>
+
+<li><a href="/blog/?author=bkuhnandkaren">Bradley M. Kühn and Karen M. Sandler</a></li>
+
+<li><a href="/blog/?author=karen">Karen Sandler</a></li>
+
+<li><a href="/blog/?author=tony">Tony Sebro</a></li>
+
+<li><a href="/blog/?author=sage">Sage A. Sharp</a></li>
+
+<li><a href="/blog/?author=brett">Brett Smith</a></li>
+
+<li><a href="/blog/?author=allstaff">Conservancy&#x27;s Staff</a></li>
+
+<li><a href="/blog/?author=pono">Daniel Takamori</a></li>
+
+<li><a href="/blog/?author=Outreachy Team">Outreachy Team</a></li>
+
+<li><a href="/blog/?author=marina">Marina Zhurakhinskaya</a></li>
+
+<li><a href="/blog/?author=mollydb">Molly deBlanc</a></li>
+
+</ul>
+         </div>
+   </div>
+
+    </div>
+
+    <footer class="footer-container" role="contentinfo">
+      <div class="footer-inner">
+       
+        <a href="/" id="footer-logo-link">
+          <img class="footer-logo" src="/static/img/conservancy-header-logo.322da8acaa91.svg" alt="Software Freedom Conservancy" />
+        </a>
+
+        
+        <div class="social-links">
+          <a class="social-x" href="https://x.com/conservancy" aria-label="X">
+            <svg class="fa-icon" aria-hidden="true"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#x-twitter"></use></svg>
+          </a>
+          <a class="social-facebook" href="https://www.facebook.com/SoftwareFreedomConservancy/" aria-label="Facebook">
+            <svg class="fa-icon" aria-hidden="true"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#facebook-f"></use></svg>
+          </a>
+          <a class="social-youtube" href="https://www.youtube.com/channel/UCUEeuNvX2UyTTyTYXR9dm_A" aria-label="YouTube">
+            <svg class="fa-icon" aria-hidden="true"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#youtube"></use></svg>
+          </a>
+          <a class="social-mastodon" href="https://social.sfconservancy.org/conservancy" aria-label="Fediverse">
+            <svg class="fa-icon" aria-hidden="true"><use href="/static/img/font_awesome_subset.8fba61a09652.svg#mastodon"></use></svg>
+          </a>
+        </div>
+
+        
+        <div class="footer-nav">
+          <nav aria-label="Footer navigation">
+            <ul>
+              <li><a href="/">Main Page</a></li>
+              <li><a href="/about/">Contact</a></li>
+              <li><a href="/sponsors/">Sponsors</a></li>
+              <li><a href="/feeds/omnibus/">RSS Feed</a></li>
+              <li><a href="/donate/" id="footer-donate-btn" aria-label="Donate to Software Freedom Conservancy">Donate</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        
+        <div class="charity-info">
+          <p>Software Freedom Conservancy is a 501(c)(3) non-profit charity.</p>
+        </div>
+
+      </div>
+      
+      
+      
+      <div class="site-footer-info">
+        <div class="privacy-policy">
+          <p><a href="/privacy-policy/">Privacy Policy</a> last updated 22 December 2020.</p>
+        </div>
+        <div class="cc-license">
+          <p>This page and its contents are licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0"> Creative Commons Attribution-Share Alike 4.0 International License</a>.</p>
+        </div>
+        <a class="cc-logo" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0">
+          <img src="/static/img/creative-commons-footer-icons.42c681015296.svg" alt="Creative Commons Attribution-Share Alike 4.0 International License" />
+        </a>
+      </div>
+
+
+    </footer>
+
+    <script src="/static/js/mobile-nav.ed67bf382581.js"></script> 
+  </body>
+</html>

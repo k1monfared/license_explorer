@@ -1,0 +1,78 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree",
+      "summary": "CC BY-NC-ND is classified as nonfree by the FSF on two independent grounds. The FSF's 'Creative Commons NonCommercial, any version' entry rejects the license because of the NC restriction ('there are restrictions on charging money for copies'). Its separate 'Creative Commons Noderivatives, any version' entry rejects the license again for the ND restriction ('there are restrictions on distributing modified versions'). Either clause alone would make the license nonfree; BY-NC-ND combines both, so the FSF recommends against using it for documentation or any work of practical use.",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-NC entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons NonCommercial, any version. This license does not qualify as free, because there are restrictions on charging money for copies. … Creative Commons Noderivatives, any version. This license does not qualify as free, because there are restrictions on distributing modified versions. We recommend you do not use this license for documentation."
+        }
+      ]
+    },
+    {
+      "topic": "maximum-restrictions",
+      "summary": "BY-NC-ND is the most restrictive of the six core Creative Commons licenses: Section 2(a)(1) of the 4.0 legal code only grants the rights to reproduce and Share the Licensed Material (in whole or in part) 'for NonCommercial purposes only,' and to produce and reproduce — but not Share — Adapted Material, also only for NonCommercial purposes. In other words, a reuser can read, copy, and redistribute the unmodified work for noncommercial use, but cannot redistribute any modification at all, regardless of purpose. Because both the NC and ND terms apply, there is no CC compatibility path: CC's FAQ notes that 'The BY-ND and BY-NC-ND licenses do not permit distribution of adaptations … Since you may not share remixes of these materials at all, there is no compatibility with other licenses.' This is why BY-NC-ND is commonly chosen by publishers who want broad noncommercial circulation of fixed text (opinion pieces, position papers, scholarly essays) without allowing derivative reworking.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY-NC-ND 4.0 Legal Code, Section 2(a)(1)",
+          "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "ce0e09e212526b95b2e107fff3f5ebce51f7d4692a63e53728a391bb89d553a7",
+          "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/ce0e09e212526b95b2e107fff3f5ebce51f7d4692a63e53728a391bb89d553a7.html",
+          "excerpt": "Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to exercise the Licensed Rights in the Licensed Material to: (A) reproduce and Share the Licensed Material, in whole or in part, for NonCommercial purposes only; and (B) produce and reproduce, but not Share, Adapted Material for NonCommercial purposes only."
+        },
+        {
+          "source": "Creative Commons — FAQ: BY-ND and BY-NC-ND material",
+          "url": "https://creativecommons.org/faq/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f",
+          "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f.html",
+          "excerpt": "The BY-ND and BY-NC-ND licenses do not permit distribution of adaptations (also known as remixes or derivative works), and prohibits the creation of adaptations under the pre-4.0 versions of those licenses. Since you may not share remixes of these materials at all, there is no compatibility with other licenses. (Note that the ND licenses do allow you to reproduce the material in unmodified form together with other material in a collection, as indicated in the next FAQ.)"
+        },
+        {
+          "source": "Creative Commons Wiki — Defining Noncommercial",
+          "url": "https://wiki.creativecommons.org/wiki/Defining_Noncommercial",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203",
+          "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203.html",
+          "summary": "Cited because under BY-NC-ND the NC condition layers on top of the ND condition, so the commercial-scope ambiguity explored in CC's Defining Noncommercial study compounds with the outright prohibition on sharing adaptations."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Creative Commons — CC BY-NC-ND 4.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "ce0e09e212526b95b2e107fff3f5ebce51f7d4692a63e53728a391bb89d553a7",
+      "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/ce0e09e212526b95b2e107fff3f5ebce51f7d4692a63e53728a391bb89d553a7.html"
+    },
+    {
+      "source": "Creative Commons — FAQ",
+      "url": "https://creativecommons.org/faq/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f",
+      "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f.html"
+    },
+    {
+      "source": "Creative Commons Wiki — Defining Noncommercial",
+      "url": "https://wiki.creativecommons.org/wiki/Defining_Noncommercial",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203",
+      "archive_path": "licenses/cc-by-nc-nd-4.0/analysis-sources/29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203.html"
+    }
+  ]
+}

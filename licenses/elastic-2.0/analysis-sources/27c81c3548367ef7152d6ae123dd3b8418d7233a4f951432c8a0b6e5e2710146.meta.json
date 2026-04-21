@@ -1,0 +1,16 @@
+{
+  "url": "https://www.elastic.co/blog/why-license-change-aws",
+  "final_url": "https://www.elastic.co/blog/why-license-change-aws",
+  "retrieved_at": "2026-04-21T21:22:39.739Z",
+  "sha256": "27c81c3548367ef7152d6ae123dd3b8418d7233a4f951432c8a0b6e5e2710146",
+  "bytes": 408770,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:21:06.726Z",
+      "http_status": 200,
+      "final_url": "https://www.elastic.co/blog/why-license-change-aws"
+    }
+  ]
+}

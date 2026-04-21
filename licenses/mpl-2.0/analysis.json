@@ -1,0 +1,122 @@
+{
+  "entries": [
+    {
+      "topic": "file-level-scope",
+      "summary": "MPL-2.0's distinctive feature is file-level reciprocity: the copyleft obligation attaches to any file containing Covered Software, not to the entire program. Under §1.10, a Modification is any file that results from editing Covered Software or any new file that contains Covered Software. Mozilla's FAQ states this plainly: MPL's copyleft applies to any files containing MPLed code, LGPL's to any library based on LGPLed code, GPL's to all software based on GPLed code. This lets developers combine MPL files with proprietary files in a single executable without the proprietary files becoming subject to the MPL, distinguishing MPL-2.0 from the stronger LGPL/GPL copyleft.",
+      "sources": [
+        {
+          "source": "Mozilla — Mozilla Public License Version 2.0 (§1.7 Larger Work, §1.10 Modifications, §3.1 Distribution of Source Form)",
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/",
+          "retrieved_at": "2026-04-21T21:18:01Z",
+          "archive_sha256": "657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4.html",
+          "excerpt": "1.7. \"Larger Work\" means a work that combines Covered Software with other material, in a separate file or files, that is not Covered Software. … 1.10. \"Modifications\" means any of the following: (a) any file in Source Code Form that results from an addition to, deletion from, or modification of the contents of Covered Software; or (b) any new file in Source Code Form that contains any Covered Software. … 3.1. Distribution of Source Form. All distribution of Covered Software in Source Code Form, including any Modifications that You create or to which You contribute, must be under the terms of this License."
+        },
+        {
+          "source": "Mozilla — MPL 2.0 FAQ (Q1 what is the MPL, Q11 virality, Q12 copyleft scope)",
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+          "retrieved_at": "2026-04-21T21:18:04Z",
+          "archive_sha256": "665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca.html",
+          "excerpt": "The MPL's \"file-level\" copyleft is designed to encourage contributors to share modifications they make to your code, while still allowing them to combine your code with code under other licenses (open or proprietary) with minimal restrictions. … new files containing no MPL-licensed code are not Modifications, and therefore do not need to be distributed under the terms of the MPL, even if you create a Larger Work (as defined in Section 1.7) by using, compiling, or distributing the non-MPL files together with MPL-licensed files. This allows, for example, programs using MPL-licensed code to be statically linked to and distributed as part of a larger proprietary piece of software…"
+        }
+      ]
+    },
+    {
+      "topic": "gpl-compatibility",
+      "summary": "MPL-2.0 achieves GPL-compatibility through §3.3's Secondary Licenses mechanism, defined in §1.12 to mean GPL-2.0, LGPL-2.1, AGPL-3.0, or later versions. When a Larger Work combines MPL code with GPL/LGPL/AGPL code, §3.3 lets the distributor additionally offer the MPL files under the Secondary License, so the whole can ship under the GNU license's terms while the original files remain dual-licensed. The FSF confirms this as indirect compatibility and notes that the obligation to keep MPL files available under the MPL falls only on the party creating the Larger Work, not downstream recipients, so it is not a GPL further restriction. A licensor can opt out by marking files Incompatible With Secondary Licenses via Exhibit B.",
+      "sources": [
+        {
+          "source": "Mozilla — Mozilla Public License Version 2.0 (§1.12 Secondary License, §3.3 Distribution of a Larger Work)",
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/",
+          "retrieved_at": "2026-04-21T21:18:01Z",
+          "archive_sha256": "657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4.html",
+          "excerpt": "1.12. \"Secondary License\" means either the GNU General Public License, Version 2.0, the GNU Lesser General Public License, Version 2.1, the GNU Affero General Public License, Version 3.0, or any later versions of those licenses. … 3.3. Distribution of a Larger Work. You may create and distribute a Larger Work under terms of Your choice, provided that You also comply with the requirements of this License for the Covered Software. If the Larger Work is a combination of Covered Software with a work governed by one or more Secondary Licenses, and the Covered Software is not Incompatible With Secondary Licenses, this License permits You to additionally distribute such Covered Software under the terms of such Secondary License(s)…"
+        },
+        {
+          "source": "Mozilla — MPL 2.0 FAQ (Q14 combining MPL and (L)GPL code, Q15 license proliferation rationale)",
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+          "retrieved_at": "2026-04-21T21:18:04Z",
+          "archive_sha256": "665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca.html",
+          "excerpt": "You must \"additionally distribute\" under (L)GPL. In other words, you must make the MPL-licensed source code available to your recipients under both MPL and (L)GPL. Someone downstream from your recipients can then take under (L)GPL-only or MPL-only. … Mozilla's experience with MPL 1.1, and the experience of some of our advisors, was that in practice license incompatibility is often resolved by the use of custom additional permissions or dual- and tri- licenses. … We feel that Sec. 3.3, by replacing these ad-hoc solutions with a single, standardized solution for the most common situation, should reduce, rather than increase, the practical risk of license proliferation."
+        },
+        {
+          "source": "FSF — License List (MPL-2.0 entry: indirect GPL compatibility via §3.3)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:18:10Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Section 3.3 provides indirect compatibility between this license and the GNU GPL version 2.0, the GNU LGPL version 2.1, the GNU AGPL version 3, and all later versions of those licenses. … It's important to understand that the condition to distribute files under the MPL's terms only applies to the party that first creates and distributes the Larger Work. If it applied to their recipients as well, it would be a further restriction and incompatible with the GPL and AGPL."
+        }
+      ]
+    },
+    {
+      "topic": "adoption",
+      "summary": "MPL-2.0 is the license chosen by projects that want a commercial-friendly weak copyleft: the file-level scope allows combination with proprietary code while still requiring shared improvements to the MPL files themselves. Mozilla's own products (Firefox, Thunderbird) use it, and The Document Foundation lists the MPL alongside the LGPL and CC-BY-SA as one of the copyleft licenses under which LibreOffice code is released. Mozilla's FAQ positions the MPL in the license spectrum between the Apache license, which does not require modifications to be shared, and the GNU family, which requires modifications to be shared under a much broader set of circumstances than the MPL.",
+      "sources": [
+        {
+          "source": "Mozilla — MPL 2.0 FAQ (Q2 why yet another license, Q7 Firefox example)",
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+          "retrieved_at": "2026-04-21T21:18:04Z",
+          "archive_sha256": "665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca.html",
+          "excerpt": "The MPL fills a useful space in the spectrum of free and open source software licenses, sitting between the Apache license, which does not require modifications to be shared, and the GNU family of licenses, which requires modifications to be shared under a much broader set of circumstances than the MPL. … In the case of Mozilla Firefox, the Mozilla-provided executable programs already meet the requirements of Section 3, including the notices required by Section 3.1 and 3.2."
+        },
+        {
+          "source": "The Document Foundation / LibreOffice — Who we are (copyleft licenses used by LibreOffice)",
+          "url": "https://www.libreoffice.org/about-us/licenses/",
+          "retrieved_at": "2026-04-21T21:19:10Z",
+          "archive_sha256": "ba2b2d1e7d33dbec590dadca919fa3ae49958d9b866d244e5257b80a5e33772e",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/ba2b2d1e7d33dbec590dadca919fa3ae49958d9b866d244e5257b80a5e33772e.html",
+          "excerpt": "Through the use of copyleft licenses such as the GNU Lesser General Public License, Mozilla Public License, and Creative Commons Attribution-ShareAlike License, we commit to protecting your rights as developers and content creators."
+        }
+      ]
+    },
+    {
+      "topic": "patent-grant",
+      "summary": "MPL-2.0 §2.1(b) grants each recipient a world-wide, royalty-free patent license from each Contributor under the Patent Claims that would be infringed by the Contributor's Contribution or Contributor Version. Compared to Apache-2.0's broader grant (which covers the Work as a whole and combinations with the Work), MPL-2.0's grant is narrower in scope: §2.3 excludes patent claims for infringements caused by third-party modifications or by combination of a Contribution with other software outside the Contributor Version. Defensive termination (§5.2) fires only if the licensee initiates a patent suit alleging a Contributor Version infringes, and explicitly excludes declaratory judgments, counter-claims, and cross-claims from the trigger, which makes MPL-2.0's termination narrower than Apache-2.0 §3's (which does include counter-claims).",
+      "sources": [
+        {
+          "source": "Mozilla — Mozilla Public License Version 2.0 (§1.11 Patent Claims, §2.1 Grants, §2.3 Limitations, §5.2 Termination for patent litigation)",
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/",
+          "retrieved_at": "2026-04-21T21:18:01Z",
+          "archive_sha256": "657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4",
+          "archive_path": "licenses/mpl-2.0/analysis-sources/657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4.html",
+          "excerpt": "Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license: … (b) under Patent Claims of such Contributor to make, use, sell, offer for sale, have made, import, and otherwise transfer either its Contributions or its Contributor Version. … Notwithstanding Section 2.1(b) above, no patent license is granted by a Contributor: (a) for any code that a Contributor has removed from Covered Software; or (b) for infringements caused by: (i) Your and any other third party's modifications of Covered Software, or (ii) the combination of its Contributions with other software (except as part of its Contributor Version)… 5.2. If You initiate litigation against any entity by asserting a patent infringement claim (excluding declaratory judgment actions, counter-claims, and cross-claims) alleging that a Contributor Version directly or indirectly infringes any patent, then the rights granted to You by any and all Contributors for the Covered Software under Section 2.1 of this License shall terminate."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Mozilla — Mozilla Public License, Version 2.0",
+      "url": "https://www.mozilla.org/en-US/MPL/2.0/",
+      "retrieved_at": "2026-04-21T21:18:01Z",
+      "archive_sha256": "657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4",
+      "archive_path": "licenses/mpl-2.0/analysis-sources/657c6bf1f09f877dcc862e214cecc312f77a9f4f7693cdf7ee7b1281854941a4.html"
+    },
+    {
+      "source": "Mozilla — MPL 2.0 FAQ",
+      "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+      "retrieved_at": "2026-04-21T21:18:04Z",
+      "archive_sha256": "665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca",
+      "archive_path": "licenses/mpl-2.0/analysis-sources/665a39d47d77f34d743c1c244d09a8e68431478e6c63cf47d0456a8cb74083ca.html"
+    },
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:18:10Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/mpl-2.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "The Document Foundation / LibreOffice — Who we are (licenses)",
+      "url": "https://www.libreoffice.org/about-us/licenses/",
+      "retrieved_at": "2026-04-21T21:19:10Z",
+      "archive_sha256": "ba2b2d1e7d33dbec590dadca919fa3ae49958d9b866d244e5257b80a5e33772e",
+      "archive_path": "licenses/mpl-2.0/analysis-sources/ba2b2d1e7d33dbec590dadca919fa3ae49958d9b866d244e5257b80a5e33772e.html"
+    }
+  ]
+}

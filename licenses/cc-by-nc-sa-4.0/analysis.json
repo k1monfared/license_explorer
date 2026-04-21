@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree",
+      "summary": "The FSF's License List classifies the CC BY-NC family (any version, including the BY-NC-SA variant) as nonfree because the NonCommercial condition 'restrict[s] charging money for copies,' which fails the free-software/free-documentation criteria. The FSF notes an additional structural problem that applies particularly to a copyleft NC license like BY-NC-SA: once a modified version accumulates many contributors, each of whom has licensed their contribution under the SA term requiring downstream works remain NC, in practice obtaining permission for commercial use from all of them becomes infeasible, so the work cannot be lifted out of its NC status later.",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-NC entry covering BY-NC-SA)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons NonCommercial, any version. This license does not qualify as free, because there are restrictions on charging money for copies. Thus, we recommend you do not use this license for documentation. In addition, it has a drawback for any sort of work: when a modified version has many authors, in practice getting permission for commercial use from all of them would become infeasible."
+        }
+      ]
+    },
+    {
+      "topic": "adapter-license-obligation",
+      "summary": "BY-NC-SA 4.0's ShareAlike clause (Section 3(b)) controls the Adapter's License: if a reuser Shares Adapted Material, the license they apply to the adaptation must itself be a Creative Commons license with the same License Elements (Attribution, NonCommercial, ShareAlike) as this version or later, or a designated BY-NC-SA Compatible License. They must include the text of (or a link to) that Adapter's License, and they may not add additional terms or apply Effective Technological Measures to the Adapted Material that restrict the Adapter's License rights. The effect is that a downstream remix of a BY-NC-SA 4.0 work cannot legally be distributed under BY-SA, under a proprietary license, or under any license that drops the NC term, because the NC restriction propagates with the ShareAlike obligation.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY-NC-SA 4.0 Legal Code, Section 3(b) ShareAlike",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99",
+          "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99.html",
+          "excerpt": "ShareAlike. In addition to the conditions in Section 3(a), if You Share Adapted Material You produce, the following conditions also apply. The Adapter's License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-NC-SA Compatible License. You must include the text of, or the URI or hyperlink to, the Adapter's License You apply. … You may not offer or impose any additional or different terms or conditions on, or apply any Effective Technological Measures to, Adapted Material that restrict exercise of the rights granted under the Adapter's License You apply."
+        },
+        {
+          "source": "Creative Commons — CC BY-NC-SA 4.0 Legal Code, Section 1(k) NonCommercial definition",
+          "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99",
+          "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99.html",
+          "excerpt": "NonCommercial means not primarily intended for or directed towards commercial advantage or monetary compensation. For purposes of this Public License, the exchange of the Licensed Material for other material subject to Copyright and Similar Rights by digital file-sharing or similar means is NonCommercial provided there is no payment of monetary compensation in connection with the exchange."
+        },
+        {
+          "source": "Creative Commons Wiki — Defining Noncommercial",
+          "url": "https://wiki.creativecommons.org/wiki/Defining_Noncommercial",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203",
+          "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203.html",
+          "summary": "Cited for the framing that noncommercial use remains contested in practice, which in turn means a BY-NC-SA adapter cannot always predict whether downstream uses will comply with the propagated NC condition of the Adapter's License."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Creative Commons — CC BY-NC-SA 4.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99",
+      "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99.html"
+    },
+    {
+      "source": "Creative Commons Wiki — Defining Noncommercial",
+      "url": "https://wiki.creativecommons.org/wiki/Defining_Noncommercial",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203",
+      "archive_path": "licenses/cc-by-nc-sa-4.0/analysis-sources/29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203.html"
+    }
+  ]
+}

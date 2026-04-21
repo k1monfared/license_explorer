@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "topic": "notable-enforcement",
+      "summary": "GPLv2 has a long record of enforcement against embedded-device vendors. In 2007 the Software Freedom Law Center filed the first U.S. copyright-infringement suit based on a GPL violation (SFLC on behalf of BusyBox authors Andersen and Landley against Monsoon Multimedia), followed by a December 2009 omnibus suit naming Best Buy, JVC, Samsung and other defendants. The enforcement programme then migrated to the Software Freedom Conservancy (SFC), which announced a default judgment against Westinghouse Digital in July 2010 and later funded Christoph Hellwig's Linux-kernel suit against VMware (2015) over ESXi (dismissed on procedural grounds in Hamburg). SFC continues GPL enforcement today, most visibly in its 2021-ongoing third-party-beneficiary suit against Vizio over its SmartCast TVs. In Europe, Harald Welte's gpl-violations.org project produced the first on-record rulings establishing GPL validity, including a 2005 Munich injunction against Fortinet and a 2006 Frankfurt judgment against D-Link Germany.",
+      "sources": [
+        {
+          "source": "SFLC — A Practical Guide to GPL Compliance (2008)",
+          "url": "https://www.softwarefreedom.org/resources/2008/compliance-guide.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "34f78b18f08b9b6246ddced070150bc406dd73641759b2791aa0f7eee2b71f99",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/34f78b18f08b9b6246ddced070150bc406dd73641759b2791aa0f7eee2b71f99.html",
+          "excerpt": "In 2007, the SFLC filed the first U.S. copyright infringement lawsuit based on a violation of the GPL. While the lawsuits filed by SFLC on behalf of its clients have been quite public, SFLC resolves the vast majority of enforcement actions privately via cooperative communications with violators. As we have worked to bring individual companies into compliance, we have encountered numerous violations resulting from preventable problems such as inadequate attention to licensing of upstream software, misconceptions about the GPL's terms, and poor communication between software developers and their management."
+        },
+        {
+          "source": "Wikipedia — BusyBox (GPL lawsuits section)",
+          "url": "https://en.wikipedia.org/wiki/BusyBox",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "08635d3412d38e2bdab432de147b73a37a307db01ec3836b0a345e5a44c02bdd",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/08635d3412d38e2bdab432de147b73a37a307db01ec3836b0a345e5a44c02bdd.html",
+          "excerpt": "What was claimed to be the first US lawsuit over a GPL violation concerned the use of BusyBox in an embedded device. The lawsuit, case 07-CV-8205, was filed on September 20, 2007, by the Software Freedom Law Center (SFLC) on behalf of Andersen and Landley against Monsoon Multimedia Inc., after BusyBox code was discovered in a firmware upgrade and attempts to contact the company had apparently failed. … On December 14, 2009, a new lawsuit was filed naming fourteen defendants including Best Buy, JVC, Samsung and others."
+        },
+        {
+          "source": "Wikipedia — Software Freedom Conservancy (Litigation section)",
+          "url": "https://en.wikipedia.org/wiki/Software_Freedom_Conservancy",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "eff3a3d6f89c40778ab7f3d3687ec8b59654df44327bde585aadaf4b9c286bda",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/eff3a3d6f89c40778ab7f3d3687ec8b59654df44327bde585aadaf4b9c286bda.html",
+          "excerpt": "In July 2010, Conservancy announced it had prevailed in court against Westinghouse Digital, receiving an injunction as part of a default judgement. In March 2015, Conservancy announced it was funding litigation by Christoph Hellwig against VMware for violation of his copyrights in its ESXi product. The case was taken up by the district court of Hamburg, Germany, where it was dismissed on procedural grounds, and then the same on appeal."
+        },
+        {
+          "source": "SFC — Copyleft Compliance Projects",
+          "url": "https://sfconservancy.org/copyleft-compliance/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "12c6949e356d2dd16987351e912ed52dc9da5d2f8b69af07d2ad14299d511591",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/12c6949e356d2dd16987351e912ed52dc9da5d2f8b69af07d2ad14299d511591.html",
+          "summary": "SFC landing page for its copyleft-compliance programme, which grew out of the original BusyBox enforcement coalition and now hosts the ongoing Vizio litigation."
+        }
+      ]
+    },
+    {
+      "topic": "patent-implicit-license",
+      "summary": "GPLv2 contains no explicit patent grant. Its only patent-related text is §7, which forbids distribution when patent restrictions (or any court-ordered conditions) make royalty-free redistribution impossible: the distributor must either comply with GPL terms or stop distributing. This is an exit clause, not an affirmative grant. The FSF's GPL FAQ defends the text on the theory that distributing software under GPLv2 creates an 'implicit patent license' in many jurisdictions, but acknowledges this is an inference from copyright and patent-exhaustion doctrine rather than a written grant in the license. The absence of an explicit grant is exactly what the 2006 Microsoft-Novell patent pact exposed, where Microsoft promised not to sue Novell's SUSE customers for patent infringement but excluded other Linux distributors. GPLv3 directly responded with §11, which grants an explicit, non-exclusive, royalty-free patent license from every contributor and prohibits discriminatory patent deals.",
+      "sources": [
+        {
+          "source": "FSF — GPL FAQ, 'My company owns a lot of patents...'",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "Do not take this to mean that you can threaten the community with your patents. In many countries, distributing software under GPLv2 provides recipients with an implicit patent license to exercise their rights under the GPL. Even if it didn't, anyone considering enforcing their patents aggressively is an enemy of the community, and we will defend ourselves against such an attack."
+        },
+        {
+          "source": "FSF — GNU General Public License, version 2 (§7)",
+          "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6.html",
+          "summary": "Canonical GPLv2 text. Section 7 addresses the patent-conflict scenario but contains no affirmative grant from licensor to licensee; there is no counterpart to GPLv3 §11."
+        }
+      ]
+    },
+    {
+      "topic": "network-use-boundary",
+      "summary": "GPLv2 is silent on network interaction. A web or API service that runs GPLv2 code on a server and responds to network requests is not 'distributing' the software in GPLv2's sense, so no source-disclosure obligation is triggered by SaaS deployment. The FSF explicitly recognized this gap as the motivation for splitting off the Affero GPL: under the ordinary GPL a developer who modifies a server-side program 'might very likely run it on his own server and never release copies. Then you would never get a copy of the source code of his version.' This 'ASP loophole' is the textual root of why network-facing projects migrated first to AGPL and, later, why companies uncomfortable with even AGPL's scope turned to source-available licenses like SSPL and BUSL.",
+      "sources": [
+        {
+          "source": "FSF — Why the Affero GPL",
+          "url": "https://www.gnu.org/licenses/why-affero-gpl.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23.html",
+          "excerpt": "Suppose you develop and release a free program under the ordinary GNU GPL. If developer D modifies the program and releases it, the GPL requires him to distribute his version under the GPL too. … But suppose the program is mainly useful on servers. When D modifies the program, he might very likely run it on his own server and never release copies. Then you would never get a copy of the source code of his version, so you would never have the chance to include his changes in your version."
+        }
+      ]
+    },
+    {
+      "topic": "linking-boundary",
+      "summary": "GPLv2's copyleft scope is defined by copyright law's 'derivative work' concept, and whether dynamic or static linking to a GPL library creates a derivative work has been debated since the license shipped. The FSF's position in the GPL FAQ is that there is no legal distinction between the two: 'Linking a GPL covered work statically or dynamically with other modules is making a combined work based on the GPL covered work. Thus, the terms and conditions of the GNU General Public License cover the whole combination.' Many practising lawyers and Linux-kernel maintainers, including Linus Torvalds, have taken a narrower view, arguing copyright is jurisdiction-specific and linking (especially dynamic linking across a well-defined ABI) does not automatically produce a derivative work. The debate has never been squarely resolved in U.S. case law, and the Linux kernel's long-standing loadable-kernel-module convention (stable ABI for in-tree modules, grey zone for out-of-tree) reflects a practical compromise rather than a judicial answer. In practice the FSF's view dominates because most distributors prefer compliance over litigation.",
+      "sources": [
+        {
+          "source": "FSF — GPL FAQ, 'Does the GPL have different requirements for statically vs dynamically linked modules?'",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "No. Linking a GPL covered work statically or dynamically with other modules is making a combined work based on the GPL covered work. Thus, the terms and conditions of the GNU General Public License cover the whole combination."
+        },
+        {
+          "source": "FSF — GNU General Public License, version 2 (copyleft scope)",
+          "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6",
+          "archive_path": "licenses/gpl-2.0-only/analysis-sources/1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6.html",
+          "summary": "GPLv2 §2(b) defines copyleft scope in terms of 'a work based on the Program', deferring to copyright-law definitions of derivative work rather than defining linking explicitly. This textual silence is the root of the linking debate."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "SFLC — A Practical Guide to GPL Compliance (2008)",
+      "url": "https://www.softwarefreedom.org/resources/2008/compliance-guide.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "34f78b18f08b9b6246ddced070150bc406dd73641759b2791aa0f7eee2b71f99",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/34f78b18f08b9b6246ddced070150bc406dd73641759b2791aa0f7eee2b71f99.html"
+    },
+    {
+      "source": "Wikipedia — BusyBox",
+      "url": "https://en.wikipedia.org/wiki/BusyBox",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "08635d3412d38e2bdab432de147b73a37a307db01ec3836b0a345e5a44c02bdd",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/08635d3412d38e2bdab432de147b73a37a307db01ec3836b0a345e5a44c02bdd.html"
+    },
+    {
+      "source": "Wikipedia — Software Freedom Conservancy",
+      "url": "https://en.wikipedia.org/wiki/Software_Freedom_Conservancy",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "eff3a3d6f89c40778ab7f3d3687ec8b59654df44327bde585aadaf4b9c286bda",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/eff3a3d6f89c40778ab7f3d3687ec8b59654df44327bde585aadaf4b9c286bda.html"
+    },
+    {
+      "source": "SFC — Copyleft Compliance Projects",
+      "url": "https://sfconservancy.org/copyleft-compliance/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "12c6949e356d2dd16987351e912ed52dc9da5d2f8b69af07d2ad14299d511591",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/12c6949e356d2dd16987351e912ed52dc9da5d2f8b69af07d2ad14299d511591.html"
+    },
+    {
+      "source": "FSF — GPL FAQ",
+      "url": "https://www.gnu.org/licenses/gpl-faq.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html"
+    },
+    {
+      "source": "FSF — GNU General Public License, version 2",
+      "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/1e2be00adb3bafa083fb4e493aee11b3300928c28d2eb68fbaa4c835de6bb8d6.html"
+    },
+    {
+      "source": "FSF — Why the Affero GPL",
+      "url": "https://www.gnu.org/licenses/why-affero-gpl.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23",
+      "archive_path": "licenses/gpl-2.0-only/analysis-sources/e20e83dd504d79fec17ea8a0f1c07cd0e2f25f1166339daa27eed2ef0c7e0d23.html"
+    }
+  ]
+}

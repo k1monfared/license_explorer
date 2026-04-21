@@ -1,0 +1,7 @@
+{"timestamp":"2026-04-21T21:19:19.309Z","step":"session-start","prompt_version":"v1","license_id":"cc-by-nc-sa-4.0"}
+{"timestamp":"2026-04-21T21:20:35.406Z","step":"source-archive","prompt_version":"v1","topic":"fsf-nonfree","url":"https://www.gnu.org/licenses/license-list.html","archive_sha256":"450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb","bytes":145922}
+{"timestamp":"2026-04-21T21:20:35.427Z","step":"source-archive","prompt_version":"v1","topic":"adapter-license-obligation","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode","archive_sha256":"8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99","bytes":53071}
+{"timestamp":"2026-04-21T21:20:35.447Z","step":"source-archive","prompt_version":"v1","topic":"adapter-license-obligation","url":"https://wiki.creativecommons.org/wiki/Defining_Noncommercial","archive_sha256":"29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203","bytes":22284}
+{"timestamp":"2026-04-21T21:25:09.840Z","step":"synthesize-entry","prompt_version":"v1","topic":"fsf-nonfree","sources_used":["450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb"],"entry_written":true}
+{"timestamp":"2026-04-21T21:25:09.862Z","step":"synthesize-entry","prompt_version":"v1","topic":"adapter-license-obligation","sources_used":["8be5351d3afd76d27d23a7e33a1c538b81b1bb6addf08cadaff3133bcef34d99","29395c041600c47e4d4e9caff845d8fb052a6c12e99b5afb4492bcaee8d54203"],"entry_written":true}
+{"timestamp":"2026-04-21T21:25:09.882Z","step":"session-complete","topics":2,"entries_written":2}

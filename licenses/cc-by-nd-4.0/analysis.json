@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "topic": "fsf-nonfree",
+      "summary": "The FSF classifies CC BY-ND (any version, including 4.0) as nonfree on a single ground: 'This license does not qualify as free, because there are restrictions on distributing modified versions.' A core requirement of the free-software definition and the FSF's free-documentation criteria is the right to redistribute modified versions of a work, which BY-ND forbids. Accordingly, the FSF explicitly recommends against using this license for documentation or any work of practical use.",
+      "sources": [
+        {
+          "source": "FSF — License List (CC BY-ND entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cc-by-nd-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Creative Commons Noderivatives, any version. This license does not qualify as free, because there are restrictions on distributing modified versions. We recommend you do not use this license for documentation."
+        }
+      ]
+    },
+    {
+      "topic": "nd-mechanics",
+      "summary": "What counts as an Adapted Material under BY-ND 4.0 is defined in Section 1(a) of the legal code: material 'derived from or based upon the Licensed Material' where the original is 'translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights' held by the licensor, with a specific rule that synching a musical work in timed relation with a moving image is always an Adapted Material. The license's grant (Section 2(a)(1)) lets a reuser reproduce and Share the unmodified work, and 'produce and reproduce, but not Share, Adapted Material' — so private adaptations are permitted but distribution of adaptations is not. CC's FAQ clarifies the practical edge cases: reformatting (mechanical, non-expressive) typically does not create an adaptation and is permitted; incorporating an unaltered excerpt in a larger work is not an adaptation 'if the larger work can be said to be built upon and derived from the work from which the excerpt was taken' only in the contrary case — so quoting an ND chapter in a new book is allowed, but re-using a fragment of an ND song inside a new song is not. The FAQ also notes that placing ND-licensed material unchanged alongside other works in a collection is still allowed.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY-ND 4.0 Legal Code, Section 1(a) and 2(a)(1)",
+          "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "e872d58050e4d8a62ce9686bc07973d0a8907a37daf2073e5f2abe267e09ed5f",
+          "archive_path": "licenses/cc-by-nd-4.0/analysis-sources/e872d58050e4d8a62ce9686bc07973d0a8907a37daf2073e5f2abe267e09ed5f.html",
+          "excerpt": "Adapted Material means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image. … (A) reproduce and Share the Licensed Material, in whole or in part; and (B) produce and reproduce, but not Share, Adapted Material."
+        },
+        {
+          "source": "Creative Commons — FAQ: Can I reuse an excerpt of a larger work with the NoDerivs restriction?",
+          "url": "https://creativecommons.org/faq/",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f",
+          "archive_path": "licenses/cc-by-nd-4.0/analysis-sources/27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f.html",
+          "excerpt": "The NoDerivs licenses (BY-ND and BY-NC-ND) prohibit reusers from creating adaptations. … Incorporating an unaltered excerpt from an ND-licensed work into a larger work only creates an adaptation if the larger work can be said to be built upon and derived from the work from which the excerpt was taken. Generally, no derivative work is made of the original from which the excerpt was taken when the excerpt is used to illuminate an idea or provide an example in another larger work. … For example, if a portion of a song was used as part of a new song, that may rise to the level of creating an adaptation of the original song, even though only a portion of it was used and even if that portion was used as-is."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cc-by-nd-4.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Creative Commons — CC BY-ND 4.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-nd/4.0/legalcode",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "e872d58050e4d8a62ce9686bc07973d0a8907a37daf2073e5f2abe267e09ed5f",
+      "archive_path": "licenses/cc-by-nd-4.0/analysis-sources/e872d58050e4d8a62ce9686bc07973d0a8907a37daf2073e5f2abe267e09ed5f.html"
+    },
+    {
+      "source": "Creative Commons — FAQ",
+      "url": "https://creativecommons.org/faq/",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f",
+      "archive_path": "licenses/cc-by-nd-4.0/analysis-sources/27bde9597d32c369ecc6508a1ddb58d017ebdbc44f2492e3f7f04fd5e503912f.html"
+    }
+  ]
+}

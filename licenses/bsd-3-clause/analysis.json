@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "modified-vs-original-bsd",
+      "summary": "BSD-3-Clause is 'the original BSD license, modified by removal of the advertising clause' per the FSF. Richard Stallman's 'The BSD License Problem' essay dates the change to June 1999, when the University of California (championed by Dean Hal Varian) removed the advertising clause after roughly two years of discussions. The advertising clause had been the defect that made the original BSD incompatible with the GNU GPL, so the 1999 change produced today's GPL-compatible 3-clause BSD.",
+      "sources": [
+        {
+          "source": "FSF — Richard Stallman, 'The BSD License Problem'",
+          "url": "https://www.gnu.org/licenses/bsd.html",
+          "retrieved_at": "2026-04-21T21:19:48.977Z",
+          "archive_sha256": "771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0",
+          "archive_path": "licenses/bsd-3-clause/analysis-sources/771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0.html",
+          "excerpt": "Dean Hal Varian at the University of California took up the cause, and championed it with the administration. In June 1999, after two years of discussions, the University of California removed this clause from the license of BSD. Thus, there is now a new BSD license which does not contain the advertising clause. Unfortunately, this does not eliminate the legacy of the advertising clause: similar clauses are still present in the licenses of many packages which are not part of BSD."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Modified BSD entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/bsd-3-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Modified BSD license … This is the original BSD license, modified by removal of the advertising clause. It is a lax, permissive non-copyleft free software license, compatible with the GNU GPL. This license is sometimes referred to as the 3-clause BSD license."
+        }
+      ]
+    },
+    {
+      "topic": "no-endorsement-clause",
+      "summary": "BSD-3-Clause's distinguishing clause 3 forbids using the names of the copyright holders or contributors to endorse or promote derivative products without written permission. OSI's canonical text reproduces this clause verbatim. The FSF notes that the modified BSD's third clause is a limited substitute for the stronger (and GPL-incompatible) advertising clause; the FSF still recommends choosing the X11 license instead of BSD-3-Clause because the 'BSD license' label risks confusion with the older 4-clause variant.",
+      "sources": [
+        {
+          "source": "OSI — The 3-Clause BSD License",
+          "url": "https://opensource.org/license/bsd-3-clause",
+          "retrieved_at": "2026-04-21T21:19:40.694Z",
+          "archive_sha256": "06cc80e6f65df08149fd3f655504150f56efd04312e3104041ff3b29a925d5b0",
+          "archive_path": "licenses/bsd-3-clause/analysis-sources/06cc80e6f65df08149fd3f655504150f56efd04312e3104041ff3b29a925d5b0.html",
+          "summary": "OSI's canonical page for BSD-3-Clause, which reproduces the three-clause text including the distinctive non-endorsement clause: 'Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.'"
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Modified BSD entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/bsd-3-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "The modified BSD license is not bad, as lax permissive licenses go, though the Apache 2.0 license is preferable. However, it is risky to recommend use of 'the BSD license', even for special cases such as small programs, because confusion could easily occur and lead to use of the flawed original BSD license. To avoid this risk, you can suggest the X11 license instead."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — Richard Stallman, 'The BSD License Problem'",
+      "url": "https://www.gnu.org/licenses/bsd.html",
+      "retrieved_at": "2026-04-21T21:19:48.977Z",
+      "archive_sha256": "771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0",
+      "archive_path": "licenses/bsd-3-clause/analysis-sources/771d7bfcf0298d2651cb699ef35283c6933a68aa9ce083c9dc4dd942e03befc0.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/bsd-3-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "OSI — The 3-Clause BSD License",
+      "url": "https://opensource.org/license/bsd-3-clause",
+      "retrieved_at": "2026-04-21T21:19:40.694Z",
+      "archive_sha256": "06cc80e6f65df08149fd3f655504150f56efd04312e3104041ff3b29a925d5b0",
+      "archive_path": "licenses/bsd-3-clause/analysis-sources/06cc80e6f65df08149fd3f655504150f56efd04312e3104041ff3b29a925d5b0.html"
+    }
+  ]
+}

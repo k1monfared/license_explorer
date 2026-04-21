@@ -1,0 +1,93 @@
+{
+  "entries": [
+    {
+      "topic": "gpl-incompatibility",
+      "summary": "The FSF and the Eclipse Foundation both classify EPL 1.0 as GPL-incompatible. The FSF notes the EPL is effectively the Common Public License minus broader patent retaliation, sharing CPL's weak copyleft and choice-of-law clause, which the FSF calls incompatible with the GPL. The Eclipse Foundation's own FAQ confirms EPL 1.0 and GPL cannot be combined in any derivative work, same source module, or linked scenario, for both GPLv2 and GPLv3. EPL 2.0 introduced an optional Secondary License mechanism (Exhibit A) that EPL 1.0 lacks, which is why v1.0 remains strictly GPL-incompatible while v2.0 can opt in to GPL-compatibility.",
+      "sources": [
+        {
+          "source": "FSF — License List (EPL v1.0 and EPL v2.0 entries)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:18:24.518Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/epl-1.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "The Eclipse Public License is similar to the Common Public License, and our comments on the CPL apply equally to the EPL. The only change is that the EPL removes the broader patent retaliation language regarding patent infringement suits specifically against Contributors to the EPL'd program. … In terms of GPL compatibility, the Eclipse Public License version 2.0 is essentially equivalent to version 1.0. The only change is that it explicitly offers the option of designating the GNU GPL version 2 or any later version as a 'secondary license' … the EPL2 without this designation remains incompatible with the GPL."
+        },
+        {
+          "source": "Eclipse Foundation — EPL FAQ (GPLCOMPATIBLE question)",
+          "url": "https://www.eclipse.org/legal/eplfaq.php",
+          "retrieved_at": "2026-04-21T21:18:30.428Z",
+          "archive_sha256": "ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e",
+          "archive_path": "licenses/epl-1.0/analysis-sources/ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e.html",
+          "excerpt": "The EPL 1.0 and the GPL are not compatible in any combination where the result would be considered either: (a) a 'derivative work' (which The Eclipse Foundation interprets consistent with the definition of that term in the U.S. Copyright Act) or (b) a work 'based on' the GPL code … you may not combine EPL 1.0 and GPL code in any scenario where source code under those licenses are both the same source code module. … Based upon the position of the Free Software Foundation, you may not combine EPL 1.0 and GPL code in any scenario where linking exists between code made available under those licenses."
+        }
+      ]
+    },
+    {
+      "topic": "module-scope",
+      "summary": "EPL-1.0's copyleft operates at the module boundary rather than the file boundary used by MPL. The license defines a Contribution (§1) to exclude 'additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.' The Eclipse FAQ clarifies that a module added to an EPL program does not have to be licensed under the EPL 'as long as the module is not a derivative work of the Program.' This is broader than MPL's per-file copyleft but narrower than the GPL's work-based scope.",
+      "sources": [
+        {
+          "source": "Eclipse Foundation — EPL-1.0 license text (§1 Contribution definition)",
+          "url": "https://www.eclipse.org/legal/epl-v10.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2",
+          "archive_path": "licenses/epl-1.0/analysis-sources/a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2.html",
+          "excerpt": "A Contribution 'originates' from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program."
+        },
+        {
+          "source": "Eclipse Foundation — EPL FAQ (module distribution)",
+          "url": "https://www.eclipse.org/legal/eplfaq.php",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e",
+          "archive_path": "licenses/epl-1.0/analysis-sources/ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e.html",
+          "excerpt": "If I write a module to add to a Program licensed under the EPL and distribute the object code of the module along with the rest of the Program, must I make the source code to my module available in accordance with the terms of the EPL? No, as long as the module is not a derivative work of the Program. … Per article 1(b)(ii) of the Eclipse Public License, \"...Contributions do not include additions to the Program which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.\""
+        }
+      ]
+    },
+    {
+      "topic": "indemnification",
+      "summary": "EPL 1.0 §4 ('Commercial Distribution') imposes a distinctive commercial-distributor indemnification obligation that sets the EPL apart from most permissive and copyleft licenses. Any Contributor who bundles the Program into a commercial product offering becomes a 'Commercial Contributor' and must defend and indemnify the other Contributors against third-party claims arising from the Commercial Contributor's own acts or omissions in distributing that commercial product. The clause is expressly carved out so it does not cover intellectual-property infringement claims. The FAQ and license text confirm the intent is that downstream commercial redistributors, not upstream individual Contributors, bear the risk of warranties or performance claims they make.",
+      "sources": [
+        {
+          "source": "Eclipse Public License 1.0 — official text (Section 4, Commercial Distribution)",
+          "url": "https://www.eclipse.org/legal/epl-v10.html",
+          "retrieved_at": "2026-04-21T21:18:33.866Z",
+          "archive_sha256": "a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2",
+          "archive_path": "licenses/epl-1.0/analysis-sources/a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2.html",
+          "excerpt": "if a Contributor includes the Program in a commercial product offering, such Contributor ('Commercial Contributor') hereby agrees to defend and indemnify every other Contributor ('Indemnified Contributor') against any losses, damages and costs (collectively 'Losses') arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement."
+        },
+        {
+          "source": "Eclipse Public License 1.0 — official text (Section 4 illustrative example)",
+          "url": "https://www.eclipse.org/legal/epl-v10.html",
+          "retrieved_at": "2026-04-21T21:18:33.866Z",
+          "archive_sha256": "a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2",
+          "archive_path": "licenses/epl-1.0/analysis-sources/a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2.html",
+          "excerpt": "For example, a Contributor might include the Program in a commercial product offering, Product X. That Contributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Contributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:18:24.518Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/epl-1.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Eclipse Foundation — EPL FAQ",
+      "url": "https://www.eclipse.org/legal/eplfaq.php",
+      "retrieved_at": "2026-04-21T21:18:30.428Z",
+      "archive_sha256": "ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e",
+      "archive_path": "licenses/epl-1.0/analysis-sources/ee738ed0384537389150501659fa96af6a772a3cccf5940c4396ea3428805f3e.html"
+    },
+    {
+      "source": "Eclipse Public License 1.0 — official text",
+      "url": "https://www.eclipse.org/legal/epl-v10.html",
+      "retrieved_at": "2026-04-21T21:18:33.866Z",
+      "archive_sha256": "a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2",
+      "archive_path": "licenses/epl-1.0/analysis-sources/a40741b59364cc49449255e9b9bfe1fcfe6a2e7ab4d37ca89db3bacbfb14e9d2.html"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "topic": "patent-grant",
+      "summary": "LGPLv3 has no standalone patent license clause; instead, §0 Additional Definitions declare that 'this License' incorporates 'the terms and conditions of version 3 of the GNU General Public License, supplemented by the additional permissions listed below.' Every LGPLv3 distribution therefore carries GPLv3 §11's express patent grant: each contributor grants downstream recipients a 'non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.' The GPL FAQ's #LGPLv3ContributorVersion entry clarifies that when a proprietary application links against a modified LGPLv3 library, the relevant 'contributor version' for the patent grant is only the contributor's modified library, not the whole proprietary combination. This inherited-from-GPLv3 express patent grant is the principal substantive improvement of LGPLv3 over LGPLv2.1, which was silent on patents except for §11's defensive 'cannot distribute at all' clause.",
+      "sources": [
+        {
+          "source": "FSF — GNU Lesser General Public License, version 3 (§0 Additional Definitions; incorporates GPLv3)",
+          "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22.html",
+          "excerpt": "This version of the GNU Lesser General Public License incorporates the terms and conditions of version 3 of the GNU General Public License, supplemented by the additional permissions listed below. ... As used herein, \"this License\" refers to version 3 of the GNU Lesser General Public License, and the \"GNU GPL\" refers to version 3 of the GNU General Public License."
+        },
+        {
+          "source": "FSF — GNU General Public License, version 3 (§11 Patents)",
+          "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "73cd8ecdcf33b5923f3c092fba6d8f8c3faecf64d84a9ecfa6c5e028f980211a",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/73cd8ecdcf33b5923f3c092fba6d8f8c3faecf64d84a9ecfa6c5e028f980211a.html",
+          "excerpt": "A \"contributor\" is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based.  The work thus licensed is called the contributor's \"contributor version\". ... Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version."
+        },
+        {
+          "source": "FSF — GPL FAQ, '#LGPLv3ContributorVersion'",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "If I distribute a proprietary program that links against an LGPLv3-covered library that I've modified, what is the \"contributor version\" for purposes of determining the scope of the explicit patent license grant I'm making, is it just the library, or is it the whole combination? ... The \"contributor version\" is only your version of the library."
+        }
+      ]
+    },
+    {
+      "topic": "combined-work-scope",
+      "summary": "LGPLv3 §4 'Combined Works' replaces the LGPLv2.1 §5/§6 scheme with a cleaner taxonomy keyed to three defined terms: the 'Library' is the covered work, an 'Application' is a work that uses the Library's interface but is not otherwise based on it (explicitly including subclassing a Library class), and a 'Combined Work' is the product of combining or linking an Application with a particular 'Linked Version' of the Library. A distributor may convey the Combined Work under terms of the distributor's choice provided those terms 'effectively do not restrict modification of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications,' plus a checklist: prominent notice (§4a), accompanying GPL/LGPL copies (§4b), inline copyright notice (§4c), and one of two linking disciplines (§4d) — shipping Minimal Corresponding Source plus relinkable Corresponding Application Code (§4d0), or using a suitable shared-library mechanism (§4d1). §4e then layers GPLv3-style 'Installation Information' on top when the Combined Work would otherwise trigger it. The FAQ's #LGPLv3ContributorVersion is also relevant here: the Application is not part of the contributor's 'contributor version,' distinct from what LGPLv2.1 did with the broader 'work that uses the Library' language.",
+      "sources": [
+        {
+          "source": "FSF — GNU Lesser General Public License, version 3 (§0 Definitions and §4 Combined Works)",
+          "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22.html",
+          "excerpt": "An \"Application\" is any work that makes use of an interface provided by the Library, but which is not otherwise based on the Library.  Defining a subclass of a class defined by the Library is deemed a mode of using an interface provided by the Library. A \"Combined Work\" is a work produced by combining or linking an Application with the Library.  The particular version of the Library with which the Combined Work was made is also called the \"Linked Version\". ... You may convey a Combined Work under terms of your choice that, taken together, effectively do not restrict modification of the portions of the Library contained in the Combined Work and reverse engineering for debugging such modifications."
+        },
+        {
+          "source": "FSF — GPL FAQ, '#LGPLv3ContributorVersion'",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "If I distribute a proprietary program that links against an LGPLv3-covered library that I've modified, what is the \"contributor version\" for purposes of determining the scope of the explicit patent license grant I'm making, is it just the library, or is it the whole combination? ... The \"contributor version\" is only your version of the library."
+        }
+      ]
+    },
+    {
+      "topic": "gpl-compatibility",
+      "summary": "The FSF's License List classifies LGPLv3 as compatible with GPLv3 but explicitly NOT compatible with GPLv2 by itself, then notes the practical upgrade path: because most GPLv2 code is distributed under 'GPLv2 or later,' an LGPLv3-licensed library can combine with such code by relicensing the GPLv2-or-later side as GPLv3. For code licensed LGPLv2.1-or-later, the GPL FAQ compatibility-matrix footnote 4 documents the symmetric upgrade: the owner can re-release under LGPLv3-or-later to absorb LGPLv3 contributions. LGPLv3 §6 (Revised Versions) together with the license's 'GPLv3 + additional permissions' structure (FAQ matrix footnote 8: 'LGPLv3 is GPLv3 plus extra permissions that you can ignore in this case') is what technically enables the incorporation: any GPLv3 project can absorb LGPLv3 code by disregarding the Lesser permissions. There is no direct path for LGPLv2.1-only code to convert to LGPLv3 (that requires the 'or later' option), and FAQ footnote 6 warns that an LGPLv2.1-only dependency will prevent an aggregate project from ever upgrading to LGPLv3.",
+      "sources": [
+        {
+          "source": "FSF — License List (LGPLv3 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "This is the latest version of the LGPL: a free software license, but not a strong copyleft license, because it permits linking with nonfree modules.  It is compatible with GPLv3.  We recommend it for special circumstances only. Please note that LGPLv3 is not compatible with GPLv2 by itself.  However, most software released under GPLv2 allows you to use the terms of later versions of the GPL as well.  When this is the case, you can use the code under GPLv3 to make the desired combination."
+        },
+        {
+          "source": "FSF — GPL FAQ, license compatibility matrix footnotes 4, 6, and 8",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "4: If you have the ability to release the project under LGPLv2.1 or any later version, you can choose to release it under LGPLv3 or any later version, and once you do that, you'll be able to incorporate the code released under LGPLv3. ... 6: If you do this, as long as the project contains the code released under LGPLv2.1 only, you will not be able to upgrade the project's license to LGPLv3 or later. ... 8: LGPLv3 is GPLv3 plus extra permissions that you can ignore in this case."
+        }
+      ]
+    },
+    {
+      "topic": "static-linking-exception",
+      "summary": "LGPLv3 does not carve out a separate 'static linking exception.' Instead, §4d offers a choice between two compliance paths that collectively cover static and dynamic linking. §4d0 covers the static-link case: the distributor must ship the 'Minimal Corresponding Source' for the Library portion plus the 'Corresponding Application Code' for the Application in a form that permits the user to 'recombine or relink the Application with a modified version of the Linked Version to produce a modified Combined Work.' §4d1 covers the shared-library case: it is satisfied by 'a suitable shared library mechanism for linking with the Library' that (a) uses a run-time copy of the Library already present on the user's system and (b) operates with interface-compatible modified versions. The GPL FAQ's LGPLStaticVsDynamic restates this operationally across all LGPL versions. Enterprise concern has historically centered on §4d0 because it requires distributing linkable object code (not necessarily source) for the proprietary application itself, which many commercial vendors treat as confidential. In practice most commercial LGPLv3 adopters choose §4d1 (dynamic linking) when technically feasible, and some projects avoid LGPLv3 for statically-linked contexts such as Go, Rust, and iOS where dynamic loading of third-party libraries is not the idiomatic deployment model.",
+      "sources": [
+        {
+          "source": "FSF — GNU Lesser General Public License, version 3 (§4d Combined Works linking options)",
+          "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22.html",
+          "excerpt": "d) Do one of the following: 0) Convey the Minimal Corresponding Source under the terms of this License, and the Corresponding Application Code in a form suitable for, and under terms that permit, the user to recombine or relink the Application with a modified version of the Linked Version to produce a modified Combined Work, in the manner specified by section 6 of the GNU GPL for conveying Corresponding Source. 1) Use a suitable shared library mechanism for linking with the Library.  A suitable mechanism is one that (a) uses at run time a copy of the Library already present on the user's computer system, and (b) will operate properly with a modified version of the Library that is interface-compatible with the Linked Version."
+        },
+        {
+          "source": "FSF — GPL FAQ, 'LGPLStaticVsDynamic'",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/lgpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "For the purpose of complying with the LGPL (any extant version: v2, v2.1 or v3): (1) If you statically link against an LGPLed library, you must also provide your application in an object (not necessarily source) format, so that a user has the opportunity to modify the library and relink the application. (2) If you dynamically link against an LGPLed library already present on the user's computer, you need not convey the library's source."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — GNU Lesser General Public License, version 3",
+      "url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22",
+      "archive_path": "licenses/lgpl-3.0-only/analysis-sources/94bbe8417044085c0230565885bb580d0bdc271b0125b3a9db1304c42292de22.html"
+    },
+    {
+      "source": "FSF — GNU General Public License, version 3",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "73cd8ecdcf33b5923f3c092fba6d8f8c3faecf64d84a9ecfa6c5e028f980211a",
+      "archive_path": "licenses/lgpl-3.0-only/analysis-sources/73cd8ecdcf33b5923f3c092fba6d8f8c3faecf64d84a9ecfa6c5e028f980211a.html"
+    },
+    {
+      "source": "FSF — GPL FAQ",
+      "url": "https://www.gnu.org/licenses/gpl-faq.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+      "archive_path": "licenses/lgpl-3.0-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html"
+    },
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/lgpl-3.0-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

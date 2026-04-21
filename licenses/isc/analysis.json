@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "openbsd-default",
+      "summary": "ISC is OpenBSD's preferred license for new code. OpenBSD's Copyright Policy describes the ISC copyright as 'functionally equivalent to a two-term BSD copyright with language removed that is made unnecessary by the Berne convention,' and maintains /usr/share/misc/license.template as the sample text. The FSF classifies the ISC License as a GPL-compatible permissive free software license (also called the OpenBSD License) and notes that post-'and/or' ISC cleanly avoids the old Pine-license ambiguity about modification rights.",
+      "sources": [
+        {
+          "source": "OpenBSD — Copyright Policy",
+          "url": "https://www.openbsd.org/policy.html",
+          "retrieved_at": "2026-04-21T21:21:48.741Z",
+          "archive_sha256": "682f296f8dd4288bd52e68a7e4cefcb4cbeeb7fcb208e0d346d1472531423849",
+          "archive_path": "licenses/isc/analysis-sources/682f296f8dd4288bd52e68a7e4cefcb4cbeeb7fcb208e0d346d1472531423849.html",
+          "excerpt": "ISC … The ISC copyright is functionally equivalent to a two-term BSD copyright with language removed that is made unnecessary by the Berne convention. This is the preferred license for new code incorporated into OpenBSD. A sample license is available in the file /usr/share/misc/license.template."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (ISC entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/isc/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "ISC License … This license is sometimes also known as the OpenBSD License. It is a free software license, and compatible with the GNU GPL. … ISC also updated the license to read 'Permission to use, copy, modify, and/or distribute this software…' While the inclusion of 'and/or' doesn't completely solve the issue, there's no reason to avoid software released under this license."
+        }
+      ]
+    },
+    {
+      "topic": "fsf-and-or-wording-fix",
+      "summary": "FSF records a historical wording ambiguity in the ISC license: the original text used 'Permission to use, copy, modify, distribute…' which one interpretation (attributed to the University of Washington) read as requiring all four actions together. ISC disputed that reading and updated the text to read 'Permission to use, copy, modify, and/or distribute…' FSF says it has 'every reason to believe' ISC's interpretation and continues to list the license as GPL-compatible; OSI reproduces the updated 'and/or' wording in the canonical ISC text it publishes.",
+      "sources": [
+        {
+          "source": "FSF — Various Licenses and Comments about Them (ISC entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/isc/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "ISC has told us they do not share the University of Washington's interpretation, and we have every reason to believe them. ISC also updated the license to read 'Permission to use, copy, modify, and/or distribute this software…'"
+        },
+        {
+          "source": "OSI — ISC License",
+          "url": "https://opensource.org/license/isc-license-txt",
+          "retrieved_at": "2026-04-21T21:21:49.097Z",
+          "archive_sha256": "60d2c3aeb27d3134591903986fa36c552180893ccbb98473a3e38ed1883affb7",
+          "archive_path": "licenses/isc/analysis-sources/60d2c3aeb27d3134591903986fa36c552180893ccbb98473a3e38ed1883affb7.html",
+          "summary": "OSI's approved-license page for ISC, reproducing the current canonical text with the 'and/or' wording."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "OpenBSD — Copyright Policy",
+      "url": "https://www.openbsd.org/policy.html",
+      "retrieved_at": "2026-04-21T21:21:48.741Z",
+      "archive_sha256": "682f296f8dd4288bd52e68a7e4cefcb4cbeeb7fcb208e0d346d1472531423849",
+      "archive_path": "licenses/isc/analysis-sources/682f296f8dd4288bd52e68a7e4cefcb4cbeeb7fcb208e0d346d1472531423849.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/isc/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "OSI — ISC License",
+      "url": "https://opensource.org/license/isc-license-txt",
+      "retrieved_at": "2026-04-21T21:21:49.097Z",
+      "archive_sha256": "60d2c3aeb27d3134591903986fa36c552180893ccbb98473a3e38ed1883affb7",
+      "archive_path": "licenses/isc/analysis-sources/60d2c3aeb27d3134591903986fa36c552180893ccbb98473a3e38ed1883affb7.html"
+    }
+  ]
+}

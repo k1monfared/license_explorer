@@ -1,0 +1,123 @@
+{
+  "entries": [
+    {
+      "topic": "zfs-gpl-incompatibility",
+      "summary": "The core Linux-community objection to CDDL is that CDDL-licensed kernel modules like ZFS cannot be lawfully combined in one binary with the GPLv2-licensed Linux kernel. The FSF classifies CDDL as having a weak per-file copyleft 'like version 1 of the Mozilla Public License' which makes it incompatible with the GNU GPL, so a module covered by the GPL and a module covered by the CDDL 'cannot legally be linked together.' The Software Freedom Conservancy's investigation into CDDL's drafting history concluded Sun's GPLv2-incompatibility was deliberate. The Software Freedom Law Center (Moglen & Choudhary, 2016) analyzed the specific ZFS-on-Linux situation and concluded that combining CDDL-licensed ZFS source with the GPL'd kernel source violates a literal reading of GPLv2 §2(b), although it may fall within the 'equity of the license' if the kernel copyright holders choose that interpretation. Canonical's Ubuntu ships ZFS as a separate .ko module under the opposite theory.",
+      "sources": [
+        {
+          "source": "FSF — License List (CDDL entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "This is a free software license. It has a weak per-file copyleft (like version 1 of the Mozilla Public License) which makes it incompatible with the GNU GPL. This means a module covered by the GPL and a module covered by the CDDL cannot legally be linked together. We urge you not to use the CDDL for this reason."
+        },
+        {
+          "source": "Software Freedom Law Center — The Linux Kernel, CDDL and Related Issues (Moglen & Choudhary, Feb 2016)",
+          "url": "https://www.softwarefreedom.org/resources/2016/linux-kernel-cddl.html",
+          "retrieved_at": "2026-04-21T21:24:16.726Z",
+          "archive_sha256": "0b1d5bb35e06a21da486e516ffdc26decbdda4c90abf2e55457fa6b63bafa78d",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/0b1d5bb35e06a21da486e516ffdc26decbdda4c90abf2e55457fa6b63bafa78d.html",
+          "excerpt": "In the present case, the files containing the code of the ZFS filesystem are available under free software license, but the terms offered are CDDL, not GPLv2. So although complete and corresponding source code for the GPLv2-licensed kernel binary is available under free license, some files are available only under terms of CDDL, which is inconsistent with the literal meaning of GPLv2 section 2(b). For a community of copyright holders whose consensus intention is to limit their permission to the literal meaning of GPLv2's words, this is a sufficient basis for an objection to the combination."
+        },
+        {
+          "source": "Software Freedom Conservancy — GPL Violations Related to Combining ZFS and Linux",
+          "url": "https://sfconservancy.org/blog/2016/feb/25/zfs-and-linux/",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "9de68979c112cea85053e677a633558bbfcbaf5577e9ddaeb23b14185012e034",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/9de68979c112cea85053e677a633558bbfcbaf5577e9ddaeb23b14185012e034.html",
+          "excerpt": "We believe Sun was aware when drafting CDDLv1 of the incompatibilities, in fact, our research into its history indicates the GPLv2-incompatibility was Sun's design choice. At the time, Sun's apparent goal was to draw developers away from GNU and Linux development into Solaris. Not only did Sun not want code from GNU and Linux in Solaris, more importantly, Sun did not want technological advantages from Solaris' kernel to appear in Linux."
+        }
+      ]
+    },
+    {
+      "topic": "file-level-reciprocity",
+      "summary": "CDDL 1.0 is a weak, file-level reciprocal (partial-copyleft) license in the lineage of the Mozilla Public License 1.1: the share-alike obligation attaches at the individual source-file level rather than at the whole-work level. Section 3.1 (Availability of Source Code) requires that any Covered Software distributed in Executable form must also be made available in Source Code form, and that source form must be distributed only under the CDDL. The FSF explicitly compares CDDL's per-file copyleft scope to MPL v1. SFLC notes that at the file level, all CDDL-licensed files must be redistributed in all modified or unmodified versions under CDDL, while CDDL permits the resulting executables or combinations to be redistributed under any terms, which is the hallmark of file-level reciprocity shared with MPL.",
+      "sources": [
+        {
+          "source": "SPDX — CDDL-1.0 license text (Section 3.1, Availability of Source Code)",
+          "url": "https://spdx.org/licenses/CDDL-1.0.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "41ccd3d9fb324dfae008592391a0c839907736a7c4bde2bac72c138278add947",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/41ccd3d9fb324dfae008592391a0c839907736a7c4bde2bac72c138278add947.html",
+          "excerpt": "3.1. Availability of Source Code. Any Covered Software that You distribute or otherwise make available in Executable form must also be made available in Source Code form and that Source Code form must be distributed only under the terms of this License. You must include a copy of this License with every copy of the Source Code form of the Covered Software You distribute … in Executable form as to how they can obtain such Covered Software in Source Code form."
+        },
+        {
+          "source": "FSF — License List (CDDL entry, MPL 1 comparison)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "It has a weak per-file copyleft (like version 1 of the Mozilla Public License) which makes it incompatible with the GNU GPL."
+        },
+        {
+          "source": "Software Freedom Law Center — Moglen & Choudhary, CDDL description",
+          "url": "https://www.softwarefreedom.org/resources/2016/linux-kernel-cddl.html",
+          "retrieved_at": "2026-04-21T21:24:16.726Z",
+          "archive_sha256": "0b1d5bb35e06a21da486e516ffdc26decbdda4c90abf2e55457fa6b63bafa78d",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/0b1d5bb35e06a21da486e516ffdc26decbdda4c90abf2e55457fa6b63bafa78d.html",
+          "excerpt": "CDDL permits source code under its terms to be compiled or otherwise made into executable versions or combinations that can be redistributed under any license terms. At the file level, all source code files initially distributed under CDDL by the copyright holder must be redistributed, in all modified or unmodified versions, under the terms of CDDL. This is a 'partial copyleft' license."
+        }
+      ]
+    },
+    {
+      "topic": "sun-rationale",
+      "summary": "Sun's own 2005 OpenSolaris licensing FAQ explains why it wrote a new license rather than using the MPL directly: Sun wanted a license with MPL-style file-level copyleft, the ability to distribute executables under another license, an explicit patent grant, and a files-based scope, but MPL was not a template license that third-party projects could reuse without modification. Sun therefore drafted CDDL as a reusable, 'template' variant of MPL with simplified notices, a clarified definition of Modifications, updated choice-of-law/venue language, and the option to lock to a specific license version. Sun explicitly rejected the GPL/LGPL because it needed CDDL-licensed files to be statically and dynamically linkable with files under other licenses, since it could not initially release all Solaris sources, and it wanted to let others ship extensions under different terms.",
+      "sources": [
+        {
+          "source": "Sun Microsystems / OpenSolaris.org — CDDL FAQ (archive.org snapshot, Dec 2005)",
+          "url": "https://web.archive.org/web/2005/https://www.opensolaris.org/os/about/faq/licensing_faq/",
+          "retrieved_at": "2026-04-21T21:24:30.805Z",
+          "archive_sha256": "4816b7d2919a01a30f633e6b86f44ac705277c3981be42a6d96889d43ac40253",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/4816b7d2919a01a30f633e6b86f44ac705277c3981be42a6d96889d43ac40253.html",
+          "excerpt": "Why did you base the CDDL on the MPL? The MPL is a well-regarded license and had several attributes Sun was looking for, including: The requirement that the source of modifications be made available under the open source license; The ability to distribute executables under a different license; A 'files based' definition of modifications and covered software; An explicit patent license. … What improvements over the MPL did you make? … Simplified required notices; Clarified definition of Modifications … we could not use the MPL because it is not a 'template' license allowing reuse by others."
+        },
+        {
+          "source": "Sun Microsystems / OpenSolaris.org — CDDL FAQ (Why not GPL/LGPL?)",
+          "url": "https://web.archive.org/web/2005/https://www.opensolaris.org/os/about/faq/licensing_faq/",
+          "retrieved_at": "2026-04-21T21:24:30.805Z",
+          "archive_sha256": "4816b7d2919a01a30f633e6b86f44ac705277c3981be42a6d96889d43ac40253",
+          "archive_path": "licenses/cddl-1.0/analysis-sources/4816b7d2919a01a30f633e6b86f44ac705277c3981be42a6d96889d43ac40253.html",
+          "excerpt": "If you wanted a copyleft license, why didn't you just use the GPL or LGPL? We needed an open source license that allowed files released under the license to be linked with files released under other licenses, since initially we will not be able to release the source for all of Solaris. While a license like LGPL would allow this for dynamically linked code, we also needed to be able to release software that statically links source files available under different licenses. In addition, we wanted to allow others to add extensions to OpenSolaris with different license terms."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/cddl-1.0/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Software Freedom Conservancy — GPL Violations Related to Combining ZFS and Linux",
+      "url": "https://sfconservancy.org/blog/2016/feb/25/zfs-and-linux/",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "9de68979c112cea85053e677a633558bbfcbaf5577e9ddaeb23b14185012e034",
+      "archive_path": "licenses/cddl-1.0/analysis-sources/9de68979c112cea85053e677a633558bbfcbaf5577e9ddaeb23b14185012e034.html"
+    },
+    {
+      "source": "Software Freedom Law Center — The Linux Kernel, CDDL and Related Issues",
+      "url": "https://www.softwarefreedom.org/resources/2016/linux-kernel-cddl.html",
+      "retrieved_at": "2026-04-21T21:24:16.726Z",
+      "archive_sha256": "0b1d5bb35e06a21da486e516ffdc26decbdda4c90abf2e55457fa6b63bafa78d",
+      "archive_path": "licenses/cddl-1.0/analysis-sources/0b1d5bb35e06a21da486e516ffdc26decbdda4c90abf2e55457fa6b63bafa78d.html"
+    },
+    {
+      "source": "SPDX — CDDL-1.0 license text",
+      "url": "https://spdx.org/licenses/CDDL-1.0.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "41ccd3d9fb324dfae008592391a0c839907736a7c4bde2bac72c138278add947",
+      "archive_path": "licenses/cddl-1.0/analysis-sources/41ccd3d9fb324dfae008592391a0c839907736a7c4bde2bac72c138278add947.html"
+    },
+    {
+      "source": "Sun Microsystems / OpenSolaris.org — CDDL FAQ (archive.org snapshot)",
+      "url": "https://web.archive.org/web/2005/https://www.opensolaris.org/os/about/faq/licensing_faq/",
+      "retrieved_at": "2026-04-21T21:24:30.805Z",
+      "archive_sha256": "4816b7d2919a01a30f633e6b86f44ac705277c3981be42a6d96889d43ac40253",
+      "archive_path": "licenses/cddl-1.0/analysis-sources/4816b7d2919a01a30f633e6b86f44ac705277c3981be42a6d96889d43ac40253.html"
+    }
+  ]
+}

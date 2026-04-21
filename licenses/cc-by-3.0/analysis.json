@@ -1,0 +1,114 @@
+{
+  "entries": [
+    {
+      "topic": "jurisdiction-ports",
+      "summary": "Through v3.0, Creative Commons maintained jurisdiction-specific 'ports' (localized adaptations of each license to reflect local copyright law), producing dozens of them with over 60 affiliate teams. Wikipedia records that by July 2011 CC licenses had been ported to over 50 jurisdictions. The unported 3.0 text coexisted with these ports. CC's own 'What's new in 4.0' page explains that 4.0 ended the port model: after six years of porting 3.0 and earlier versions, the team used the lessons to design a single international 4.0 text that is 'ready-to-use around the world, without porting.'",
+      "sources": [
+        {
+          "source": "Creative Commons — 'What's new in 4.0'",
+          "url": "https://creativecommons.org/version4/",
+          "retrieved_at": "2026-04-21T21:19:29Z",
+          "archive_sha256": "67dcbf982e946041df6ef33347ee1752abdb8a7c9e081103f82168c88694ed3a",
+          "archive_path": "licenses/cc-by-3.0/analysis-sources/67dcbf982e946041df6ef33347ee1752abdb8a7c9e081103f82168c88694ed3a.html",
+          "excerpt": "In the past six years, Creative Commons has worked with hundreds of volunteers around the world — literally, some of the best minds in copyright law and open licensing on the planet — to translate and adapt the 3.0 and earlier licenses to local laws in over 60 jurisdictions (what we call 'porting'). In the process, we've learned a lot about how our licenses work internationally and how they're impacted by the nuances of copyright law in various jurisdictions. We drew on this experience in the process of developing 4.0. … The 4.0 licenses are ready-to-use around the world, without porting."
+        },
+        {
+          "source": "Wikipedia — Creative Commons license (License porting section)",
+          "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+          "archive_path": "licenses/cc-by-3.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html",
+          "excerpt": "The original non-localized Creative Commons licenses were written with the U.S. legal system in mind; therefore, the wording may be incompatible with local legislation in other jurisdictions, rendering the licenses unenforceable there. To address this issue, Creative Commons asked its affiliates to translate the various licenses to reflect local laws in a process called 'porting'. As of July 2011, Creative Commons licenses have been ported to over 50 jurisdictions worldwide."
+        }
+      ]
+    },
+    {
+      "topic": "stack-overflow-legacy",
+      "summary": "Stack Overflow's official licensing page confirms the authoritative three-era split: content contributed before 2011-04-08 is CC BY-SA 2.5, content from 2011-04-08 up to (but not including) 2018-05-02 is CC BY-SA 3.0, and content from 2018-05-02 onward is CC BY-SA 4.0. The license applicable to each question and answer revision is recorded on the per-post timeline. This means the vast majority of legacy Stack Overflow content — pre-May 2018 — is the largest publicly-reusable corpus governed by CC BY-SA 3.0 specifically.",
+      "sources": [
+        {
+          "source": "Stack Overflow Help Center — 'Licensing'",
+          "url": "https://stackoverflow.com/help/licensing",
+          "retrieved_at": "2026-04-21T21:26:11Z",
+          "archive_sha256": "5a2812f2d24aee768be3de3ad1873ba7b355724ca95dade15d89b9daa44648c5",
+          "archive_path": "licenses/cc-by-3.0/analysis-sources/5a2812f2d24aee768be3de3ad1873ba7b355724ca95dade15d89b9daa44648c5.html",
+          "excerpt": "As noted in the Stack Exchange Terms of Service and in the footer of every page, all publicly accessible user contributions are licensed under Creative Commons Attribution-ShareAlike license as follows: Content contributed before 2011-04-08 (UTC) is distributed under the terms of CC BY-SA 2.5. Content contributed from 2011-04-08 up to but not including 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 3.0. Content contributed on or after 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 4.0."
+        },
+        {
+          "source": "Wikipedia — Stack Exchange (2019–2020 relicensing controversy)",
+          "url": "https://en.wikipedia.org/wiki/Stack_Exchange",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "d94475675c47285c02cb5ea9f2ee77890d8b7e4e442d212d4c599f47f71fca48",
+          "archive_path": "licenses/cc-by-3.0/analysis-sources/d94475675c47285c02cb5ea9f2ee77890d8b7e4e442d212d4c599f47f71fca48.html",
+          "excerpt": "On September 2, 2019, the terms of service (and the footer of every page served) changed to referencing the 'Creative Commons Attribution-ShareAlike' (CC BY-SA) license's 4.0 version instead of its 3.0 version. Users were puzzled as to how Stack Overflow acquired the rights for this relicensing of their past contributions … In March 2020, a post announced that content contributed before May 2, 2018 was available under a CC BY-SA 3.0 license."
+        }
+      ]
+    },
+    {
+      "topic": "flickr-widespread-adoption",
+      "summary": "Flickr's early integration with Creative Commons locked it to the 2.0-generation license family: Wikipedia's Flickr article notes that 'the licensing options primarily include the Creative Commons 2.0 attribution-based and minor content-control licenses — although jurisdiction and version-specific licenses cannot be selected.' As a result, millions of Flickr photos remain under CC BY 2.0 rather than 3.0 or 4.0. The platform later added CC0 and the Public Domain Mark in March 2015, and faced controversy in November 2014 when it began selling wall-prints of CC-commercial-licensed photos.",
+      "sources": [
+        {
+          "source": "Wikipedia — Flickr (Licensing section)",
+          "url": "https://en.wikipedia.org/wiki/Flickr",
+          "retrieved_at": "2026-04-21T21:26:18Z",
+          "archive_sha256": "7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74",
+          "archive_path": "licenses/cc-by-3.0/analysis-sources/7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74.html",
+          "excerpt": "Flickr offers users the ability to either release their images under certain common usage licenses or label them as 'all rights reserved'. The licensing options primarily include the Creative Commons 2.0 attribution-based and minor content-control licenses – although jurisdiction and version-specific licenses cannot be selected. … In November 2014, Flickr announced that it would sell wall-sized prints of photos from the service that are licensed under Creative Commons licenses allowing commercial use. … In March 2015, Flickr added the Creative Commons Public Domain Mark and Creative Commons Zero (CC0) to its licensing options."
+        },
+        {
+          "source": "Wikipedia — Creative Commons license (port history context)",
+          "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+          "retrieved_at": "2026-04-21T21:30:00Z",
+          "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+          "archive_path": "licenses/cc-by-3.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html",
+          "summary": "Wikipedia's general CC license article provides the surrounding context that CC 2.0 (2004) and 3.0 (2007) were the versions in active use during Flickr's early 2005-era CC integration, and confirms that Flickr's 'jurisdiction and version-specific licenses cannot be selected' design meant the platform never upgraded individual works to 3.0 or 4.0."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC BY 3.0 Unported Legal Code",
+      "url": "https://creativecommons.org/licenses/by/3.0/legalcode",
+      "retrieved_at": "2026-04-21T21:26:04Z",
+      "archive_sha256": "0545aedd118085f1426bc17ec3748c572329ea2c7aaeed10b3f4bdc77110bc74",
+      "archive_path": "licenses/cc-by-3.0/analysis-sources/0545aedd118085f1426bc17ec3748c572329ea2c7aaeed10b3f4bdc77110bc74.html"
+    },
+    {
+      "source": "Creative Commons — 'What's new in 4.0'",
+      "url": "https://creativecommons.org/version4/",
+      "retrieved_at": "2026-04-21T21:19:29Z",
+      "archive_sha256": "67dcbf982e946041df6ef33347ee1752abdb8a7c9e081103f82168c88694ed3a",
+      "archive_path": "licenses/cc-by-3.0/analysis-sources/67dcbf982e946041df6ef33347ee1752abdb8a7c9e081103f82168c88694ed3a.html"
+    },
+    {
+      "source": "Wikipedia — Creative Commons license",
+      "url": "https://en.wikipedia.org/wiki/Creative_Commons_license",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322",
+      "archive_path": "licenses/cc-by-3.0/analysis-sources/704858ef1d27c75f202f289124821b486b02e76513b10e77118e8e676d891322.html"
+    },
+    {
+      "source": "Wikipedia — Stack Exchange",
+      "url": "https://en.wikipedia.org/wiki/Stack_Exchange",
+      "retrieved_at": "2026-04-21T21:30:00Z",
+      "archive_sha256": "d94475675c47285c02cb5ea9f2ee77890d8b7e4e442d212d4c599f47f71fca48",
+      "archive_path": "licenses/cc-by-3.0/analysis-sources/d94475675c47285c02cb5ea9f2ee77890d8b7e4e442d212d4c599f47f71fca48.html"
+    },
+    {
+      "source": "Stack Overflow Help Center — Licensing",
+      "url": "https://stackoverflow.com/help/licensing",
+      "retrieved_at": "2026-04-21T21:26:11Z",
+      "archive_sha256": "5a2812f2d24aee768be3de3ad1873ba7b355724ca95dade15d89b9daa44648c5",
+      "archive_path": "licenses/cc-by-3.0/analysis-sources/5a2812f2d24aee768be3de3ad1873ba7b355724ca95dade15d89b9daa44648c5.html"
+    },
+    {
+      "source": "Wikipedia — Flickr",
+      "url": "https://en.wikipedia.org/wiki/Flickr",
+      "retrieved_at": "2026-04-21T21:26:18Z",
+      "archive_sha256": "7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74",
+      "archive_path": "licenses/cc-by-3.0/analysis-sources/7d96e0a3c95b4022bf9b002e981f9c71af39df8e8bca99a987d844f8d9df5c74.html"
+    }
+  ]
+}

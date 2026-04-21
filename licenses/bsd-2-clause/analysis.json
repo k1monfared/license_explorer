@@ -1,0 +1,71 @@
+{
+  "entries": [
+    {
+      "topic": "freebsd-heritage",
+      "summary": "BSD-2-Clause is the 'FreeBSD license' — the two-clause permissive license that the FreeBSD Project publishes as its own canonical copyright notice. FSF classifies it identically to the Modified BSD license: a lax, permissive non-copyleft free software license compatible with the GNU GPL, derived from the original BSD by removing the advertising clause and the non-endorsement clause. The FreeBSD Project page prints only two numbered conditions (source-notice retention and binary-notice retention) followed by the standard BSD warranty disclaimer.",
+      "sources": [
+        {
+          "source": "The FreeBSD Project — The FreeBSD Copyright",
+          "url": "https://www.freebsd.org/copyright/freebsd-license/",
+          "retrieved_at": "2026-04-21T21:18:41.565Z",
+          "archive_sha256": "4b007e4300f0119087c824e13931ba432d067d8e27c371b8269f2fe7a6681cf5",
+          "archive_path": "licenses/bsd-2-clause/analysis-sources/4b007e4300f0119087c824e13931ba432d067d8e27c371b8269f2fe7a6681cf5.html",
+          "excerpt": "The FreeBSD Copyright … Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (FreeBSD entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/bsd-2-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "FreeBSD license … This is the original BSD license with the advertising clause and another clause removed. (It is also sometimes called the '2-clause BSD license'.) It is a lax, permissive non-copyleft free software license, compatible with the GNU GPL."
+        }
+      ]
+    },
+    {
+      "topic": "notable-enforcement-rarity",
+      "summary": "BSD-2-Clause is one of the minimal permissive licenses that impose only a notice-retention requirement and a warranty disclaimer, so enforcement disputes are uncommon relative to copyleft licenses. choosealicense.com frames it as virtually interchangeable with the MIT license for these purposes, and the FSF groups it with the Modified BSD and Expat licenses as 'lax, permissive non-copyleft' terms it recommends preferentially over the original (4-clause) BSD because the advertising clause has been removed.",
+      "sources": [
+        {
+          "source": "choosealicense.com — BSD 2-Clause 'Simplified' License",
+          "url": "https://choosealicense.com/licenses/bsd-2-clause/",
+          "retrieved_at": "2026-04-21T21:18:54.413Z",
+          "archive_sha256": "bf09c7046d67be615944a92552867302f86474b31bafa0bd2b747d3f285c739a",
+          "archive_path": "licenses/bsd-2-clause/analysis-sources/bf09c7046d67be615944a92552867302f86474b31bafa0bd2b747d3f285c739a.html",
+          "excerpt": "A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-Clause. Both have very minute differences to the MIT license."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (FreeBSD entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:16:38.625Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/bsd-2-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "This is the original BSD license with the advertising clause and another clause removed. (It is also sometimes called the '2-clause BSD license'.) It is a lax, permissive non-copyleft free software license, compatible with the GNU GPL."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "The FreeBSD Project — The FreeBSD Copyright",
+      "url": "https://www.freebsd.org/copyright/freebsd-license/",
+      "retrieved_at": "2026-04-21T21:18:41.565Z",
+      "archive_sha256": "4b007e4300f0119087c824e13931ba432d067d8e27c371b8269f2fe7a6681cf5",
+      "archive_path": "licenses/bsd-2-clause/analysis-sources/4b007e4300f0119087c824e13931ba432d067d8e27c371b8269f2fe7a6681cf5.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:16:38.625Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/bsd-2-clause/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "choosealicense.com — BSD 2-Clause 'Simplified' License",
+      "url": "https://choosealicense.com/licenses/bsd-2-clause/",
+      "retrieved_at": "2026-04-21T21:18:54.413Z",
+      "archive_sha256": "bf09c7046d67be615944a92552867302f86474b31bafa0bd2b747d3f285c739a",
+      "archive_path": "licenses/bsd-2-clause/analysis-sources/bf09c7046d67be615944a92552867302f86474b31bafa0bd2b747d3f285c739a.html"
+    }
+  ]
+}

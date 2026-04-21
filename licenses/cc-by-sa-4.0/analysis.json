@@ -1,0 +1,92 @@
+{
+  "entries": [
+    {
+      "topic": "gpl-3-compatibility",
+      "summary": "On 8 October 2015, Creative Commons announced it had declared one-way compatibility from CC BY-SA 4.0 to GPLv3, after months of analysis with the Free Software Foundation under CC's ShareAlike compatibility process. Practically, this means a reuser may adapt a CC BY-SA 4.0 work and release the resulting adaptation under GPLv3, and downstream reusers then only need to satisfy GPLv3. The mechanism had existed since CC BY-SA 3.0 (2007) but was unused, and was enhanced in 4.0 to allow unilateral compatibility, driven by games and hardware use cases where software and non-software are hard to separate.",
+      "sources": [
+        {
+          "source": "Creative Commons — 'CC BY-SA 4.0 now one-way compatible with GPLv3' (CC blog, 8 Oct 2015)",
+          "url": "https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/",
+          "retrieved_at": "2026-04-21T21:22:03Z",
+          "archive_sha256": "61527292933254c878e84b6cabf68b564fd01d3868729eb9b0863787934f2bd9",
+          "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/61527292933254c878e84b6cabf68b564fd01d3868729eb9b0863787934f2bd9.html",
+          "excerpt": "Following additional months of detailed analysis, discussion and deliberation with the Free Software Foundation and other stakeholders, we are very pleased to announce that we have added a declaration of one-way compatibility from CC BY-SA 4.0 to GPLv3 to our compatible licenses page! Put simply this means you now have permission to adapt another licensor's work under CC BY-SA 4.0 and release your contributions to the adaptation under GPLv3"
+        }
+      ]
+    },
+    {
+      "topic": "wikipedia-sole-license",
+      "summary": "The Wikimedia Foundation proposed upgrading Wikimedia projects from CC BY-SA 3.0 to CC BY-SA 4.0 via a Terms-of-Use amendment, making CC BY-SA 4.0 the primary copyright license for all new and edited text. The current Wikimedia Terms of Use require contributors to license text under CC BY-SA 4.0 and the unversioned GFDL, so 4.0 is the primary license, with GFDL retained only as a co-license. Imports of text available 'solely under GFDL' are explicitly disallowed. The proposal cited 'improved clarity' and internationalization as motivations.",
+      "sources": [
+        {
+          "source": "Wikimedia Meta-Wiki — 'Terms of use/Creative Commons 4.0' (upgrade proposal)",
+          "url": "https://meta.wikimedia.org/wiki/Terms_of_use/Creative_Commons_4.0",
+          "retrieved_at": "2026-04-21T21:22:58Z",
+          "archive_sha256": "8ef4e581dca1d021c211deaa480de4f0ec06185f4f49a562506c924b67056a79",
+          "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/8ef4e581dca1d021c211deaa480de4f0ec06185f4f49a562506c924b67056a79.html",
+          "excerpt": "The Wikimedia Foundation invites you to provide comments and feedback on upgrading the default license for text on the Wikimedia projects to Creative Commons Attribution-ShareAlike 4.0. Wikipedia and other Wikimedia projects have been available under a Creative Commons license since June 2009, when the Wikimedia community expressed very strong support for using version 3.0 of the license. … The new version 4.0 keeps the same general terms requirements, with upgraded legal code"
+        },
+        {
+          "source": "Wikimedia Foundation — Policy:Terms of Use (current §7 Licensing of Content)",
+          "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+          "retrieved_at": "2026-04-21T21:22:38Z",
+          "archive_sha256": "fd8b98a3d336507e87d726f3597cc50a812120bfdf3f8c1f3689f3f43930575c",
+          "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/fd8b98a3d336507e87d726f3597cc50a812120bfdf3f8c1f3689f3f43930575c.html",
+          "excerpt": "Text to which you hold the copyright: When you submit text to which you hold the copyright, you agree to license it under: Creative Commons Attribution-ShareAlike 4.0 International License ('CC BY-SA 4.0'), and GNU Free Documentation License ('GFDL') (unversioned, with no invariant sections, front-cover texts, or back-cover texts). … You shall not import content that is available solely under GFDL."
+        }
+      ]
+    },
+    {
+      "topic": "adapter-license-mechanism",
+      "summary": "CC BY-SA 4.0 §3(b) requires that an 'Adapter's License' applied to a shared adaptation be a CC license with the same License Elements, a later version, or a 'BY-SA Compatible License' defined in §1(c) as a license on CC's public compatibility list approved as 'essentially the equivalent.' This three-tier regime (same, later, compatible) is the mechanism behind the 2015 BY-SA-4.0 → GPLv3 one-way compatibility declaration and is structurally broader than v3.0's 'Compatible License' definition. §3(b)(3) additionally prohibits the adapter from imposing Effective Technological Measures on the adapted material.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY-SA 4.0 Legal Code (§1(c) BY-SA Compatible License; §3(b) ShareAlike)",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+          "retrieved_at": "2026-04-21T21:21:47Z",
+          "archive_sha256": "87f9eba0de8168c4d7b718b7ab02a0b27b81a7f72c1381f2580f1035865505cf",
+          "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/87f9eba0de8168c4d7b718b7ab02a0b27b81a7f72c1381f2580f1035865505cf.html",
+          "excerpt": "Adapter's License means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License. BY-SA Compatible License means a license listed at creativecommons.org/compatiblelicenses, approved by Creative Commons as essentially the equivalent of this Public License. … ShareAlike. … The Adapter's License You apply must be a Creative Commons license with the same License Elements, this version or later, or a BY-SA Compatible License."
+        },
+        {
+          "source": "Creative Commons — 'CC BY-SA 4.0 now one-way compatible with GPLv3' (compatibility mechanism background)",
+          "url": "https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/",
+          "retrieved_at": "2026-04-21T21:22:03Z",
+          "archive_sha256": "61527292933254c878e84b6cabf68b564fd01d3868729eb9b0863787934f2bd9",
+          "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/61527292933254c878e84b6cabf68b564fd01d3868729eb9b0863787934f2bd9.html",
+          "excerpt": "this long-term push for increasing interoperability meant developing an explicit mechanism for declaring compatibility between CC BY-SA and similar share-alike or copyleft licenses. … We first introduced the mechanism in CC BY-SA 3.0 (2007) but it has yet to be used for that license … With CC BY-SA 4.0 (2013) the mechanism was enhanced, allowing the possibility of unilateral as well as bilateral compatibility."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC BY-SA 4.0 Legal Code",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "retrieved_at": "2026-04-21T21:21:47Z",
+      "archive_sha256": "87f9eba0de8168c4d7b718b7ab02a0b27b81a7f72c1381f2580f1035865505cf",
+      "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/87f9eba0de8168c4d7b718b7ab02a0b27b81a7f72c1381f2580f1035865505cf.html"
+    },
+    {
+      "source": "Creative Commons — 'CC BY-SA 4.0 now one-way compatible with GPLv3'",
+      "url": "https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/",
+      "retrieved_at": "2026-04-21T21:22:03Z",
+      "archive_sha256": "61527292933254c878e84b6cabf68b564fd01d3868729eb9b0863787934f2bd9",
+      "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/61527292933254c878e84b6cabf68b564fd01d3868729eb9b0863787934f2bd9.html"
+    },
+    {
+      "source": "Wikimedia Foundation — Policy:Terms of Use",
+      "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "retrieved_at": "2026-04-21T21:22:38Z",
+      "archive_sha256": "fd8b98a3d336507e87d726f3597cc50a812120bfdf3f8c1f3689f3f43930575c",
+      "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/fd8b98a3d336507e87d726f3597cc50a812120bfdf3f8c1f3689f3f43930575c.html"
+    },
+    {
+      "source": "Wikimedia Meta-Wiki — Terms of use/Creative Commons 4.0",
+      "url": "https://meta.wikimedia.org/wiki/Terms_of_use/Creative_Commons_4.0",
+      "retrieved_at": "2026-04-21T21:22:58Z",
+      "archive_sha256": "8ef4e581dca1d021c211deaa480de4f0ec06185f4f49a562506c924b67056a79",
+      "archive_path": "licenses/cc-by-sa-4.0/analysis-sources/8ef4e581dca1d021c211deaa480de4f0ec06185f4f49a562506c924b67056a79.html"
+    }
+  ]
+}

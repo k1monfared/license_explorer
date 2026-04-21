@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "topic": "compatibility-clause",
+      "summary": "EUPL 1.2 §5 contains a one-way 'compatibility clause' unique among mainstream copyleft licenses: when a licensee distributes a derivative work that combines EUPL code with code under a 'Compatible Licence' listed in the Appendix, the combined distribution may be relicensed under that compatible license, and the obligations of the compatible license prevail where they conflict. The Appendix lists GPL v2/v3, AGPL v3, MPL v2, and LGPL v2.1/v3, plus EPL v1, CeCILL v2.0/v2.1 and a few others in the full list. The EC's own FAQ describes the result as a new category, 'Copyleft compatible', distinct from strong/weak/non-copyleft.",
+      "sources": [
+        {
+          "source": "SPDX — EUPL-1.2 license text (Article 5 + Appendix)",
+          "url": "https://spdx.org/licenses/EUPL-1.2.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "2daa7f4637a9ba8b64d5a13946b8527057c06afe23a868bf8b402c01031cdabf",
+          "archive_path": "licenses/eupl-1.2/analysis-sources/2daa7f4637a9ba8b64d5a13946b8527057c06afe23a868bf8b402c01031cdabf.html",
+          "excerpt": "Compatibility clause: If the Licensee Distributes or Communicates Derivative Works or copies thereof based upon both the Work and another work licensed under a Compatible Licence, this Distribution or Communication can be done under the terms of this Compatible Licence. … Should the Licensee's obligations under the Compatible Licence conflict with his/her obligations under this Licence, the obligations of the Compatible Licence shall prevail. … 'Compatible Licences' according to Article 5 EUPL are: GNU General Public License (GPL) v. 2, v. 3; GNU Affero General Public License (AGPL) v. 3; Mozilla Public Licence (MPL) v. 2; GNU Lesser General Public Licence (LGPL) v. 2.1, v. 3 …"
+        },
+        {
+          "source": "EC Joinup — How to use the EUPL (FAQ: What makes the EUPL unique? / compatibility)",
+          "url": "https://joinup.ec.europa.eu/collection/eupl/how-use-eupl",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036",
+          "archive_path": "licenses/eupl-1.2/analysis-sources/44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036.html",
+          "excerpt": "The EUPL ensures downstream compatibility with the most relevant other reciprocal licences (including the first intensively used historically, the General Public licence or GPL). Its unique compatibility provisions create a new category of F/OSS licence: 'Copyleft compatible' (other are: 'Strong copyleft', 'Weak copyleft' and 'Without copyleft'). … the EUPL compatibility clause allows recipients to merge the covered code with other software covered by a compatible licence and to redistribute this merged software (= another project, with another name) under the compatible licence."
+        }
+      ]
+    },
+    {
+      "topic": "language-neutrality",
+      "summary": "The European Commission has approved the EUPL in 23 linguistic versions covering every current EU official language except Irish Gaelic, and all versions have identical legal value. The EC FAQ treats this as a defining and unique feature of the EUPL, with no comparable precedent among other F/OSS licenses, and it argues that the EUPL may therefore produce legal effects in any approved language version. Article 13 of the EUPL authorizes the Commission to publish further linguistic versions.",
+      "sources": [
+        {
+          "source": "EC Joinup — How to use the EUPL (FAQ: Where can I get the EUPL text in my language?)",
+          "url": "https://joinup.ec.europa.eu/collection/eupl/how-use-eupl",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036",
+          "archive_path": "licenses/eupl-1.2/analysis-sources/44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036.html",
+          "excerpt": "The EUPL is approved by the European Commission in 23 linguistic versions (all current EU languages, except Gaelic). All linguistic versions have identical value. Therefore the EUPL may produce legal effects in any approved linguistic version. … The EUPL has identical value in 23 linguistic versions (all EU languages, except Gaelic). No similar example exists in the world of Free/Open licences."
+        }
+      ]
+    },
+    {
+      "topic": "gov-adoption",
+      "summary": "The EUPL was drafted by the European Commission under the IDABC programme because no existing open-source licence satisfied requirements specific to EU and Member State law (copyright terminology, warranty and liability, applicable law and jurisdiction, and multilingual legal validity). The EC FAQ states that the EUPL is 'the default licence applied to all EC produced software (Decision C(2021) 8759)' and that, under Article 8.4 of the Interoperable Europe Act (Regulation 2024/903), national open-source catalogues connected to the Interoperable Europe Portal must offer the EUPL as a licensing option.",
+      "sources": [
+        {
+          "source": "EC Joinup — How to use the EUPL (FAQ: Why did the European Commission create the EUPL?)",
+          "url": "https://joinup.ec.europa.eu/collection/eupl/how-use-eupl",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036",
+          "archive_path": "licenses/eupl-1.2/analysis-sources/44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036.html",
+          "excerpt": "EUPL was created by the European Commission under the IDABC programme because it responded to a need … None of the existing Open Source licences (more than 100 models exist) was satisfactory regarding a series of criteria: the specificity of Community and Member State's law regarding copyright principles … the requirement to obtain a text legally valid in all the official languages of the European Union. … Today, the EUPL is used in all Member States and abroad. It is the default licence applied to all EC produced software (Decision C(2021) 8759) and is a licence that all national open software repositories connected to the Interoperable Europe Portal — in force as from April 11 2024 — must propose (Interoperable Europe Act, article 8.4)"
+        },
+        {
+          "source": "EC Joinup — EUPL collection landing page",
+          "url": "https://joinup.ec.europa.eu/collection/eupl",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d0641ff67b683a835e53dc2c80244705601ed3de0027750c4d25295bebb47efc",
+          "archive_path": "licenses/eupl-1.2/analysis-sources/d0641ff67b683a835e53dc2c80244705601ed3de0027750c4d25295bebb47efc.html",
+          "excerpt": "According to the Interoperable Europe Act (8.4) public sector portals of open source solutions and connected to the Interoperable Europe Portal shall allow for the use of the EUPL."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "SPDX — EUPL-1.2 license text",
+      "url": "https://spdx.org/licenses/EUPL-1.2.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "2daa7f4637a9ba8b64d5a13946b8527057c06afe23a868bf8b402c01031cdabf",
+      "archive_path": "licenses/eupl-1.2/analysis-sources/2daa7f4637a9ba8b64d5a13946b8527057c06afe23a868bf8b402c01031cdabf.html"
+    },
+    {
+      "source": "EC Joinup — How to use the EUPL",
+      "url": "https://joinup.ec.europa.eu/collection/eupl/how-use-eupl",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036",
+      "archive_path": "licenses/eupl-1.2/analysis-sources/44dab77824a2842394feb260b9bad64094d3192208fbf9c2eedae881a928d036.html"
+    },
+    {
+      "source": "EC Joinup — EUPL collection landing page",
+      "url": "https://joinup.ec.europa.eu/collection/eupl",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "d0641ff67b683a835e53dc2c80244705601ed3de0027750c4d25295bebb47efc",
+      "archive_path": "licenses/eupl-1.2/analysis-sources/d0641ff67b683a835e53dc2c80244705601ed3de0027750c4d25295bebb47efc.html"
+    },
+    {
+      "source": "EC Joinup — EUPL-compatible licences matrix",
+      "url": "https://joinup.ec.europa.eu/collection/eupl/matrix-eupl-compatible-open-source-licences",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "ebd3794b29b25b456caa78bafc797b118a0b39cb8d8ed919015a3925f76eb1be",
+      "archive_path": "licenses/eupl-1.2/analysis-sources/ebd3794b29b25b456caa78bafc797b118a0b39cb8d8ed919015a3925f76eb1be.html"
+    },
+    {
+      "source": "EC Joinup — EUPL v1.2 text page",
+      "url": "https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "e301782d86c0a22d865d297ab73bdbf8e2929543b60a4c3e6daaca018922ffd4",
+      "archive_path": "licenses/eupl-1.2/analysis-sources/e301782d86c0a22d865d297ab73bdbf8e2929543b60a4c3e6daaca018922ffd4.html"
+    }
+  ]
+}

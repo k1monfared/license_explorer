@@ -1,0 +1,115 @@
+{
+  "entries": [
+    {
+      "topic": "library-linking-boundary",
+      "summary": "LGPLv2.1's preamble expressly states the FSF's long-held position that linking a program with a library, whether statically or via a shared library, produces a 'combined work' that is legally a derivative of the library. The ordinary GPL would therefore forbid such linking against nonfree modules; the Lesser license exists to grant the extra permission needed. The GPL FAQ's LGPLStaticVsDynamic entry operationalizes this for all LGPL versions: static linkers must ship their application as object (not necessarily source) code so users can relink against a modified library, while dynamic linking against an LGPLed library already present on the user's computer imposes no source-conveyance obligation. This line between an outside 'work that uses the Library' and a linked combined work is the classic LGPL boundary that drove Qt/KDE adoption of the LGPL in the 2000s, when the Trolltech/Nokia/Digia Qt was relicensed to LGPL so proprietary applications could link against it without becoming GPL.",
+      "sources": [
+        {
+          "source": "FSF — GNU Lesser General Public License, version 2.1 (preamble)",
+          "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d0a93ae115926c12bfc2fa8ebce2316a5c8ec8d37837d605842292170c155f87",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/d0a93ae115926c12bfc2fa8ebce2316a5c8ec8d37837d605842292170c155f87.html",
+          "excerpt": "When a program is linked with a library, whether statically or using a shared library, the combination of the two is legally speaking a combined work, a derivative of the original library.  The ordinary General Public License therefore permits such linking only if the entire combination fits its criteria of freedom.  The Lesser General Public License permits more lax criteria for linking other code with the library."
+        },
+        {
+          "source": "FSF — GPL FAQ, 'Does the LGPL have different requirements for statically vs dynamically linked modules?'",
+          "url": "https://www.gnu.org/licenses/gpl-faq.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html",
+          "excerpt": "(1) If you statically link against an LGPLed library, you must also provide your application in an object (not necessarily source) format, so that a user has the opportunity to modify the library and relink the application. (2) If you dynamically link against an LGPLed library already present on the user's computer, you need not convey the library's source. On the other hand, if you yourself convey the executable LGPLed library along with your application, whether linked with statically or dynamically, you must also convey the library's sources, in one of the ways for which the LGPL provides."
+        }
+      ]
+    },
+    {
+      "topic": "gpl-compatibility",
+      "summary": "The FSF's License List explicitly classifies LGPLv2.1 as compatible with both GPLv2 and GPLv3, and §3 of the license itself provides an explicit one-way conversion: a recipient may relicense any copy of an LGPLed Library under the GPL version 2 or any later version (the conversion is irreversible for that copy). This one-way GPL upgrade path is the primary statutory mechanism by which LGPLv2.1 code flows into GPLv2 and GPLv3 projects. The Apache Software Foundation's own GPL compatibility page documents the mirror-image situation for permissive licenses, noting that FSF considers Apache-2.0 GPLv3-compatible but not GPLv2-compatible (due to Apache's patent-termination clause), which in practice means enterprises that want code that combines freely with both GPLv2 and GPLv3 reach for LGPLv2.1 rather than Apache-2.0 when the code is a library.",
+      "sources": [
+        {
+          "source": "FSF — License List (LGPLv2.1 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "This is the previous version of the LGPL: a free software license, but not a strong copyleft license, because it permits linking with nonfree modules.  It is compatible with GPLv2 and GPLv3.  We generally recommend the latest version of the LGPL, for special circumstances only."
+        },
+        {
+          "source": "FSF — GNU Lesser General Public License, version 2.1 (§3: opt to apply the GPL)",
+          "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "d0a93ae115926c12bfc2fa8ebce2316a5c8ec8d37837d605842292170c155f87",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/d0a93ae115926c12bfc2fa8ebce2316a5c8ec8d37837d605842292170c155f87.html",
+          "excerpt": "You may opt to apply the terms of the ordinary GNU General Public License instead of this License to a given copy of the Library.  To do this, you must alter all the notices that refer to this License, so that they refer to the ordinary GNU General Public License, version 2, instead of to this License.  (If a newer version than version 2 of the ordinary GNU General Public License has appeared, then you can specify that version instead if you wish.) ... Once this change is made in a given copy, it is irreversible for that copy, so the ordinary GNU General Public License applies to all subsequent copies and derivative works made from that copy."
+        },
+        {
+          "source": "Apache Software Foundation — Apache License v2.0 and GPL Compatibility",
+          "url": "https://www.apache.org/licenses/GPL-compatibility.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html",
+          "excerpt": "Apache 2 software can therefore be included in GPLv3 projects, because the GPLv3 license accepts our software into GPLv3 works. However, GPLv3 software cannot be included in Apache projects. The licenses are incompatible in one direction only ... Despite our best efforts, the FSF has never considered the Apache License to be compatible with GPL version 2, citing the patent termination and indemnification provisions as restrictions not present in the older GPL license."
+        }
+      ]
+    },
+    {
+      "topic": "commercial-adoption",
+      "summary": "The FSF's 'Why you shouldn't use the Lesser GPL for your next library' sets out the strategic case that is, read in reverse, the enterprise case for preferring LGPL over GPL when shipping libraries. The FSF's own argument acknowledges that the Lesser license 'permits use of the library in proprietary programs' while the ordinary GPL makes the library 'available only for free programs.' The FSF gives glibc as the canonical example: 'there are plenty of other C libraries; using the GPL for ours would have driven proprietary software developers to use another, no problem for them, only for us.' Enterprises reach for LGPL rather than GPL precisely because it permits dynamic linking from proprietary applications without triggering copyleft on the whole application, while still keeping modifications to the library itself copyleft. The FSF's License List openly recommends LGPL only 'for special circumstances,' confirming that its widespread use for libraries such as glibc and Qt is driven by commercial-interop pressure rather than by the FSF's own preferences.",
+      "sources": [
+        {
+          "source": "FSF — 'Why you shouldn't use the Lesser GPL for your next library'",
+          "url": "https://www.gnu.org/licenses/why-not-lgpl.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "ae89b7b4f2d33baf1231e70d83428ef4efc0dabcc895d158e9bf1542f62e69cd",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/ae89b7b4f2d33baf1231e70d83428ef4efc0dabcc895d158e9bf1542f62e69cd.html",
+          "excerpt": "The choice of license makes a big difference: using the Lesser GPL permits use of the library in proprietary programs; using the ordinary GPL for a library makes it available only for free programs. ... This is why we used the Lesser GPL for the GNU C library.  After all, there are plenty of other C libraries; using the GPL for ours would have driven proprietary software developers to use another, no problem for them, only for us."
+        },
+        {
+          "source": "FSF — License List (LGPLv2.1 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:00:00Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/lgpl-2.1-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "summary": "FSF License List describes LGPLv2.1 as 'a free software license, but not a strong copyleft license, because it permits linking with nonfree modules' and recommends it only 'for special circumstances', reflecting FSF's strategic preference for GPL over LGPL even as the market pulls library authors the other way."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "FSF — GNU Lesser General Public License, version 2.1",
+      "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "d0a93ae115926c12bfc2fa8ebce2316a5c8ec8d37837d605842292170c155f87",
+      "archive_path": "licenses/lgpl-2.1-only/analysis-sources/d0a93ae115926c12bfc2fa8ebce2316a5c8ec8d37837d605842292170c155f87.html"
+    },
+    {
+      "source": "FSF — GPL FAQ",
+      "url": "https://www.gnu.org/licenses/gpl-faq.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14",
+      "archive_path": "licenses/lgpl-2.1-only/analysis-sources/6b48c709107e216b22c8415ed5c190c1c10818ac79f792563dfa501ee8dcec14.html"
+    },
+    {
+      "source": "FSF — License List",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/lgpl-2.1-only/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    },
+    {
+      "source": "Apache Software Foundation — Apache License v2.0 and GPL Compatibility",
+      "url": "https://www.apache.org/licenses/GPL-compatibility.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a",
+      "archive_path": "licenses/lgpl-2.1-only/analysis-sources/6153368fd396cb7a7ef0c758bb45626091e3f38c5bbbe916a051f45b51de188a.html"
+    },
+    {
+      "source": "FSF — 'Why you shouldn't use the Lesser GPL for your next library'",
+      "url": "https://www.gnu.org/licenses/why-not-lgpl.html",
+      "retrieved_at": "2026-04-21T21:00:00Z",
+      "archive_sha256": "ae89b7b4f2d33baf1231e70d83428ef4efc0dabcc895d158e9bf1542f62e69cd",
+      "archive_path": "licenses/lgpl-2.1-only/analysis-sources/ae89b7b4f2d33baf1231e70d83428ef4efc0dabcc895d158e9bf1542f62e69cd.html"
+    }
+  ]
+}

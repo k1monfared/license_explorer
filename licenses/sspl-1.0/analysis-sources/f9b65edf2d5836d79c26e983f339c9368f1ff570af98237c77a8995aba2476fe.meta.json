@@ -1,0 +1,16 @@
+{
+  "url": "https://www.mongodb.com/licensing/server-side-public-license/faq",
+  "final_url": "https://www.mongodb.com/legal/licensing/server-side-public-license/faq",
+  "retrieved_at": "2026-04-21T21:25:41.259Z",
+  "sha256": "f9b65edf2d5836d79c26e983f339c9368f1ff570af98237c77a8995aba2476fe",
+  "bytes": 245470,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:23:35.030Z",
+      "http_status": 200,
+      "final_url": "https://www.mongodb.com/legal/licensing/server-side-public-license/faq"
+    }
+  ]
+}

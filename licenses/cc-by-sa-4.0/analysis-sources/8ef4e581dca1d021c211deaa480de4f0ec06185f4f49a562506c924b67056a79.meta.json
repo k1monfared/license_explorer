@@ -1,0 +1,16 @@
+{
+  "url": "https://meta.wikimedia.org/wiki/Terms_of_use/Creative_Commons_4.0",
+  "final_url": "https://meta.wikimedia.org/wiki/Terms_of_use/Creative_Commons_4.0",
+  "retrieved_at": "2026-04-21T21:22:58.971Z",
+  "sha256": "8ef4e581dca1d021c211deaa480de4f0ec06185f4f49a562506c924b67056a79",
+  "bytes": 73411,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:19:27.155Z",
+      "http_status": 200,
+      "final_url": "https://meta.wikimedia.org/wiki/Terms_of_use/Creative_Commons_4.0"
+    }
+  ]
+}

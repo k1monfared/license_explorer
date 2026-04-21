@@ -1,0 +1,301 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html class="gl-system ui-neutral with-top-bar with-header application-chrome page-with-panels with-gl-container-queries  user-logged-out" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>CERN OHL version 2 · Wiki · Open Hardware Repository / Projects / CERN Open Hardware Licence · GitLab</title>
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+window.gon={};gon.math_rendering_limits_enabled=true;gon.features={"allowIframesInMarkdown":false,"useMermaidV11":true,"wikiImmersiveEditor":false,"glqlLoadOnClick":false};
+//]]>
+</script>
+
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+const root = document.documentElement;
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  root.classList.add('gl-dark');
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+  if (e.matches) {
+    root.classList.add('gl-dark');
+  } else {
+    root.classList.remove('gl-dark');
+  }
+});
+
+//]]>
+</script>
+
+
+
+
+<meta content="light dark" name="color-scheme">
+<link rel="stylesheet" href="/assets/application-c1fca8824044eaf8bbbf598878dbe4cc322ddb916c6e9394943b1155356fba90.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="/assets/application_dark-bc82af11a7d7d57b958d34b0d51950b8f20dcb7af2c903fb763786abaaf2ca76.css" media="(prefers-color-scheme: dark)" />
+<link rel="stylesheet" href="/assets/page_bundles/wiki-39835911d0ae9b1c927a8a55e32c3b49b9ef262bc7876f91702a36518dd89907.css" /><link rel="stylesheet" href="/assets/page_bundles/commit_description-9e7efe20f0cef17d0606edabfad0418e9eb224aaeaa2dae32c817060fa60abcc.css" /><link rel="stylesheet" href="/assets/page_bundles/work_items-f9d1a890ba48e7f7782f8b56a021f064ac183910fb066d910d03673daf2ae3b0.css" /><link rel="stylesheet" href="/assets/page_bundles/notes_shared-a194998fc7c1d41bb05ecc92ee92d62f8348ddedf142d7292f5ff1d29f5dabe5.css" />
+<link rel="stylesheet" href="/assets/tailwind_cqs-ba5398968600a600d8e43683b92b86184bddb7290cdbba654a307366e61cac74.css" />
+
+
+<link rel="stylesheet" href="/assets/fonts-deb7ad1d55ca77c0172d8538d53442af63604ff490c74acc2859db295c125bdb.css" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-91053d9b33e6ca83f1ccc9f675156756bb42617c9bc1cda4b3915abc0547ceda.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="/assets/highlight/themes/dark-fa67ecd7679c9e378a28d89e0ab7f2423d7dbba3770b71f213b0453730ea247e.css" media="(prefers-color-scheme: dark)" />
+
+<script src="/assets/webpack/runtime.5b617974.bundle.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/main.d3042e8f.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/tracker.1eb446cb.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplowprd.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true};
+gl = window.gl || {};
+gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-1-8","data":{"environment":"production","source":"gitlab-rails","correlation_id":"9eff6fa20e7f5c9d-YVR","extra":{},"user_id":null,"global_user_id":null,"user_type":null,"is_gitlab_team_member":null,"namespace_id":105425055,"ultimate_parent_namespace_id":105419409,"project_id":68861053,"feature_enabled_by_namespace_ids":null,"realm":"saas","deployment_type":".com","context_generated_at":"2026-04-21T21:21:02.132Z","organization_id":1}};
+gl.snowplowPseudonymizedPageUrl = "https://gitlab.com/namespace105425055/project68861053/-/wikis/Documents/CERN-OHL-version-2";
+gl.maskedDefaultReferrerUrl = null;
+gl.ga4MeasurementId = 'G-ENFH3X7M5Y';
+gl.duoEvents = ["ai_question_category","perform_completion_worker","process_gitlab_duo_question","agent_platform_session_created","agent_platform_session_dropped","agent_platform_session_finished","agent_platform_session_resumed","agent_platform_session_started","agent_platform_session_stopped","ai_response_time","approve_tool_duo_chat","ci_repository_xray_artifact_created","cleanup_stuck_agent_platform_session","click_ai_catalog_button_duo_rail","click_dap_trial_or_paid_empty_state_agent","click_dap_trial_or_paid_empty_state_explore_agents_link","click_dap_trial_or_paid_empty_state_prompt","click_delete_ai_catalog_item_button","click_disable_ai_catalog_item_button","click_duo_agentic_not_available_empty_state_learn_more","click_duo_agentic_not_available_empty_state_start_trial","click_duo_agentic_trial_expired_learn_more","click_duo_agentic_trial_expired_upgrade","click_duo_quick_action","click_duplicate_ai_catalog_item_button","click_enable_ai_catalog_item_button","click_purchase_seats_button_group_duo_pro_home_page","click_through_flow_widget","close_vulnerability_resolution_merge_request","code_suggestion_accepted_in_ide","code_suggestion_rejected_in_ide","code_suggestion_shown_in_ide","code_suggestions_connection_details_rate_limit_exceeded","code_suggestions_direct_access_rate_limit_exceeded","code_suggestions_rate_limit_exceeded","create_ai_catalog_item","create_ai_catalog_item_consumer","create_ai_self_hosted_model","create_vulnerability_resolution_merge_request","default_answer","delete_ai_catalog_item","delete_ai_catalog_item_consumer","delete_ai_self_hosted_model","deny_tool_duo_chat","detected_high_comment_temperature","detected_repeated_high_comment_temperature","dismiss_sast_vulnerability_false_positive_analysis","dismiss_secret_detection_vulnerability_false_positive_analysis","encounter_duo_code_review_error_during_review","error_answer","excluded_files_from_duo_code_review","execute_llm_method","filter_ai_fp","find_no_issues_duo_code_review_after_review","find_nothing_to_review_duo_code_review_on_mr","finish_duo_workflow_execution","finish_mcp_tool_call","forced_high_temperature_commenting","i_quickactions_q","include_repository_xray_data_into_code_generation_prompt","mention_gitlabduo_in_mr_comment","merge_vulnerability_resolution_merge_request","post_comment_duo_code_review_on_diff","process_gitlab_duo_slash_command","react_thumbs_down_on_duo_code_review_comment","react_thumbs_up_on_duo_code_review_comment","recommend_tool_duo_chat","reported_sast_vulnerability_false_positive_analysis","reported_secret_detection_vulnerability_false_positive_analysis","request_ask_help","request_duo_chat_response","request_review_duo_code_review_on_mr_by_author","request_review_duo_code_review_on_mr_by_non_author","requested_comment_temperature","retry_duo_workflow_execution","start_duo_workflow_execution","start_mcp_tool_call","submit_dap_trial_or_paid_empty_state_message","submit_gitlab_duo_question","tokens_per_embedding","tokens_per_user_request_prompt","tokens_per_user_request_response","tool_failed_duo_chat","tool_succeeded_duo_chat","trigger_ai_catalog_item","trigger_sast_vulnerability_fp_detection_workflow","trigger_sast_vulnerability_resolution_workflow","trigger_secret_detection_vulnerability_fp_detection_workflow","troubleshoot_job","update_ai_catalog_item","update_ai_catalog_item_consumer","update_ai_self_hosted_model","update_model_selection_feature","update_self_hosted_ai_feature_to_vendored_model","view_ai_catalog_item","view_ai_catalog_item_index","view_ai_catalog_project_catalog","view_ai_catalog_project_managed","view_dap_trial_or_paid_empty_state","view_duo_agentic_not_available_empty_state","view_duo_agentic_trial_expired_empty_state"];
+gl.onlySendDuoEvents = false;
+
+
+//]]>
+</script>
+<link rel="preload" href="/assets/application-c1fca8824044eaf8bbbf598878dbe4cc322ddb916c6e9394943b1155356fba90.css" as="style" type="text/css" nonce="Idp3HX+d2+/7/MqvLLR/yA==">
+<link rel="preload" href="/assets/highlight/themes/white-91053d9b33e6ca83f1ccc9f675156756bb42617c9bc1cda4b3915abc0547ceda.css" as="style" type="text/css" nonce="Idp3HX+d2+/7/MqvLLR/yA==">
+<link crossorigin="" href="https://snowplowprd.trx.gitlab.net" rel="preconnect">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-9892dc17af892e03de41625c0ee325117a3b8ee4ba6005f3a3eac68510030aed.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-Italic-f96f17332d67b21ada2dfba5f0c0e1d5801eab99330472057bf18edd93d4ccf7.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-29c2152dac8739499dd0fe5cd37a486ebcc7d4798c9b6d3aeab65b3172375b05.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-Italic-af36701a2188df32a9dcea12e0424c380019698d4f76da9ad8ea2fd59432cf83.woff2" rel="preload">
+<link rel="preload" href="/assets/fonts-deb7ad1d55ca77c0172d8538d53442af63604ff490c74acc2859db295c125bdb.css" as="style" type="text/css" nonce="Idp3HX+d2+/7/MqvLLR/yA==">
+
+
+
+<script src="/assets/webpack/sentry.c846824b.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+
+<script src="/assets/webpack/super_sidebar.1bf75e25.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/prosemirror.18b146ef.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/commons-pages.groups-pages.groups.achievements-pages.groups.activity-pages.groups.analytics.ci_cd_an-72f20888.b8491fec.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/586e3272.6a1cd800.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.comment_templates-pages.groups.e-62d8c87c.093ae80e.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/540c13ba.44714bd7.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.comment_templates-pages.groups.e-27598f61.59d5691d.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.comment_templates-pages.groups.e-39fd14c8.780d005d.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.comment_templates-pages.groups.e-9ce223ed.188a5c53.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/fd4cb541.b4d41c78.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/74ddcb69.a893a34d.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/commons-pages.groups.wikis-pages.groups.wikis.diff-pages.groups.wikis.git_access-pages.groups.wikis.-3214ce60.0c800e45.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+<script src="/assets/webpack/pages.projects.wikis.show.c9b5b4e9.chunk.js" defer="defer" nonce="G/72pV+NvxVz9+B7ctJXiQ=="></script>
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="CERN OHL version 2 · Wiki · Open Hardware Repository / Projects / CERN Open Hardware Licence · GitLab" property="og:title">
+<meta content="A project devoted to developing and discussing the CERN Open Hardware Licence. More info at the Wiki page" property="og:description">
+<meta content="https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="CERN OHL version 2 · Wiki · Open Hardware Repository / Projects / CERN Open Hardware Licence · GitLab" property="twitter:title">
+<meta content="A project devoted to developing and discussing the CERN Open Hardware Licence. More info at the Wiki page" property="twitter:description">
+<meta content="https://gitlab.com/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="twitter:image">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="PFf27k0x97-Usv213Ii0nKIdak8514m9FgDCfa6VhQXzdqE0MR73kIR-lfAmd1dtwXZ6lEie_bZYdTVdzeU3Yw" />
+<meta name="csp-nonce" content="G/72pV+NvxVz9+B7ctJXiQ==" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" id="favicon" data-original-href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="A project devoted to developing and discussing the CERN Open Hardware Licence. More info at the Wiki page" name="description">
+<meta content="#F1F0F6" media="(prefers-color-scheme: light)" name="theme-color">
+<meta content="#232128" media="(prefers-color-scheme: dark)" name="theme-color">
+</head>
+
+<body class="tab-width-8 gl-browser-generic gl-platform-other" data-group="project" data-group-full-path="ohwr/project" data-namespace-id="105425055" data-page="projects:wikis:show" data-page-type-id="Documents/CERN-OHL-version-2" data-project="cernohl" data-project-full-path="ohwr/project/cernohl" data-project-id="68861053">
+<div id="js-tooltips-container"></div>
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+gl = window.gl || {};
+gl.GfmAutoComplete = gl.GfmAutoComplete || {};
+gl.GfmAutoComplete.dataSources = {"members":"/ohwr/project/cernohl/-/autocomplete_sources/members?type=Wiki\u0026type_id=Documents%2FCERN-OHL-version-2","issues":"/ohwr/project/cernohl/-/autocomplete_sources/issues","mergeRequests":"/ohwr/project/cernohl/-/autocomplete_sources/merge_requests","labels":"/ohwr/project/cernohl/-/autocomplete_sources/labels?type=Wiki\u0026type_id=Documents%2FCERN-OHL-version-2","milestones":"/ohwr/project/cernohl/-/autocomplete_sources/milestones","commands":"/ohwr/project/cernohl/-/autocomplete_sources/commands?type=Wiki\u0026type_id=Documents%2FCERN-OHL-version-2","snippets":"/ohwr/project/cernohl/-/autocomplete_sources/snippets","contacts":"/ohwr/project/cernohl/-/autocomplete_sources/contacts?type=Wiki\u0026type_id=Documents%2FCERN-OHL-version-2","wikis":"/ohwr/project/cernohl/-/autocomplete_sources/wikis"};
+
+
+//]]>
+</script>
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+<header class="super-topbar js-super-topbar"></header>
+<div class="layout-page js-page-layout page-gutter has-wiki-sidebar page-with-super-sidebar">
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+const outer = document.createElement('div');
+outer.style.visibility = 'hidden';
+outer.style.overflow = 'scroll';
+document.body.appendChild(outer);
+const inner = document.createElement('div');
+outer.appendChild(inner);
+const scrollbarWidth = outer.offsetWidth - inner.offsetWidth;
+outer.parentNode.removeChild(outer);
+document.documentElement.style.setProperty('--scrollbar-width', `${scrollbarWidth}px`);
+
+//]]>
+</script><aside class="js-super-sidebar super-sidebar super-sidebar-loading" data-command-palette="{&quot;project_files_url&quot;:&quot;/ohwr/project/cernohl/-/files/master?format=json&quot;,&quot;project_blob_url&quot;:&quot;/ohwr/project/cernohl/-/blob/master&quot;}" data-is-saas="true" data-root-path="/" data-sidebar="{&quot;whats_new_most_recent_release_items_count&quot;:9,&quot;whats_new_version_digest&quot;:&quot;d2b280b3172571b47a5ab481d3f974d68173880bc9771016d4810ff5dc7d5687&quot;,&quot;whats_new_read_articles&quot;:[],&quot;whats_new_mark_as_read_path&quot;:&quot;/-/whats_new/mark_as_read&quot;,&quot;is_logged_in&quot;:false,&quot;compare_plans_url&quot;:&quot;https://about.gitlab.com/pricing&quot;,&quot;context_switcher_links&quot;:[{&quot;title&quot;:&quot;Explore&quot;,&quot;link&quot;:&quot;/explore&quot;,&quot;icon&quot;:&quot;compass&quot;}],&quot;current_menu_items&quot;:[{&quot;id&quot;:&quot;project_overview&quot;,&quot;title&quot;:&quot;CERN Open Hardware Licence&quot;,&quot;entity_id&quot;:68861053,&quot;link&quot;:&quot;/ohwr/project/cernohl&quot;,&quot;link_classes&quot;:&quot;shortcuts-project&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;manage_menu&quot;,&quot;title&quot;:&quot;Manage&quot;,&quot;icon&quot;:&quot;users&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/activity&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[{&quot;id&quot;:&quot;activity&quot;,&quot;title&quot;:&quot;Activity&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/activity&quot;,&quot;link_classes&quot;:&quot;shortcuts-project-activity&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;members&quot;,&quot;title&quot;:&quot;Members&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/project_members&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;labels&quot;,&quot;title&quot;:&quot;Labels&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/labels&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;plan_menu&quot;,&quot;title&quot;:&quot;Plan&quot;,&quot;icon&quot;:&quot;planning&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/work_items&quot;,&quot;is_active&quot;:true,&quot;items&quot;:[{&quot;id&quot;:&quot;project_issue_list&quot;,&quot;title&quot;:&quot;Work items&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/work_items&quot;,&quot;link_classes&quot;:&quot;shortcuts-issues has-sub-items&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;boards&quot;,&quot;title&quot;:&quot;Issue boards&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/boards&quot;,&quot;link_classes&quot;:&quot;shortcuts-issue-boards&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;milestones&quot;,&quot;title&quot;:&quot;Milestones&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/milestones&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;project_wiki&quot;,&quot;title&quot;:&quot;Wiki&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/wikis&quot;,&quot;link_classes&quot;:&quot;shortcuts-wiki&quot;,&quot;is_active&quot;:true}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;code_menu&quot;,&quot;title&quot;:&quot;Code&quot;,&quot;icon&quot;:&quot;code&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/merge_requests&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[{&quot;id&quot;:&quot;project_merge_request_list&quot;,&quot;title&quot;:&quot;Merge requests&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/merge_requests&quot;,&quot;link_classes&quot;:&quot;shortcuts-merge_requests&quot;,&quot;pill_count_field&quot;:&quot;openMergeRequestsCount&quot;,&quot;pill_count_dynamic&quot;:false,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;files&quot;,&quot;title&quot;:&quot;Repository&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/tree/master&quot;,&quot;link_classes&quot;:&quot;shortcuts-tree&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;branches&quot;,&quot;title&quot;:&quot;Branches&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/branches&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;commits&quot;,&quot;title&quot;:&quot;Commits&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/commits/master?ref_type=heads&quot;,&quot;link_classes&quot;:&quot;shortcuts-commits&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;tags&quot;,&quot;title&quot;:&quot;Tags&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/tags&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;graphs&quot;,&quot;title&quot;:&quot;Repository graph&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/network/master?ref_type=heads&quot;,&quot;link_classes&quot;:&quot;shortcuts-network&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;compare&quot;,&quot;title&quot;:&quot;Compare revisions&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/compare?from=master\u0026to=master&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;deploy_menu&quot;,&quot;title&quot;:&quot;Deploy&quot;,&quot;icon&quot;:&quot;deployments&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/releases&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[{&quot;id&quot;:&quot;releases&quot;,&quot;title&quot;:&quot;Releases&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/releases&quot;,&quot;link_classes&quot;:&quot;shortcuts-deployments-releases&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;packages_registry&quot;,&quot;title&quot;:&quot;Package registry&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/packages&quot;,&quot;link_classes&quot;:&quot;shortcuts-container-registry&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;container_registry&quot;,&quot;title&quot;:&quot;Container registry&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/container_registry&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;model_registry&quot;,&quot;title&quot;:&quot;Model registry&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/ml/models&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;operations_menu&quot;,&quot;title&quot;:&quot;Operate&quot;,&quot;icon&quot;:&quot;cloud-pod&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/terraform_module_registry&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[{&quot;id&quot;:&quot;infrastructure_registry&quot;,&quot;title&quot;:&quot;Terraform modules&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/terraform_module_registry&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;monitor_menu&quot;,&quot;title&quot;:&quot;Monitor&quot;,&quot;icon&quot;:&quot;monitor&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/incidents&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[{&quot;id&quot;:&quot;incidents&quot;,&quot;title&quot;:&quot;Incidents&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/incidents&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false},{&quot;id&quot;:&quot;analyze_menu&quot;,&quot;title&quot;:&quot;Analyze&quot;,&quot;icon&quot;:&quot;chart&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/value_stream_analytics&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[{&quot;id&quot;:&quot;cycle_analytics&quot;,&quot;title&quot;:&quot;Value stream analytics&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/value_stream_analytics&quot;,&quot;link_classes&quot;:&quot;shortcuts-project-cycle-analytics&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;contributors&quot;,&quot;title&quot;:&quot;Contributor analytics&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/graphs/master?ref_type=heads&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;repository_analytics&quot;,&quot;title&quot;:&quot;Repository analytics&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/graphs/master/charts&quot;,&quot;link_classes&quot;:&quot;shortcuts-repository-charts&quot;,&quot;is_active&quot;:false},{&quot;id&quot;:&quot;model_experiments&quot;,&quot;title&quot;:&quot;Model experiments&quot;,&quot;link&quot;:&quot;/ohwr/project/cernohl/-/ml/experiments&quot;,&quot;is_active&quot;:false}],&quot;separated&quot;:false}],&quot;current_context_header&quot;:&quot;Project&quot;,&quot;university_path&quot;:&quot;https://university.gitlab.com&quot;,&quot;support_path&quot;:&quot;https://support.gitlab.com&quot;,&quot;docs_path&quot;:&quot;/help/docs&quot;,&quot;display_whats_new&quot;:true,&quot;show_version_check&quot;:null,&quot;search&quot;:{&quot;search_path&quot;:&quot;/search&quot;,&quot;issues_path&quot;:&quot;/dashboard/issues&quot;,&quot;mr_path&quot;:&quot;/dashboard/merge_requests&quot;,&quot;autocomplete_path&quot;:&quot;/search/autocomplete&quot;,&quot;settings_path&quot;:&quot;/search/settings&quot;,&quot;search_context&quot;:{&quot;group&quot;:{&quot;id&quot;:105425055,&quot;name&quot;:&quot;Projects&quot;,&quot;full_name&quot;:&quot;Open Hardware Repository / Projects&quot;},&quot;group_metadata&quot;:{&quot;issues_path&quot;:&quot;/groups/ohwr/project/-/issues&quot;,&quot;mr_path&quot;:&quot;/groups/ohwr/project/-/merge_requests&quot;},&quot;project&quot;:{&quot;id&quot;:68861053,&quot;name&quot;:&quot;CERN Open Hardware Licence&quot;},&quot;project_metadata&quot;:{&quot;mr_path&quot;:&quot;/ohwr/project/cernohl/-/merge_requests&quot;,&quot;issues_path&quot;:&quot;/ohwr/project/cernohl/-/issues&quot;},&quot;code_search&quot;:false,&quot;scope&quot;:&quot;wiki_blobs&quot;,&quot;for_snippets&quot;:null}},&quot;panel_type&quot;:&quot;project&quot;,&quot;shortcut_links&quot;:[{&quot;title&quot;:&quot;Snippets&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-snippets&quot;},{&quot;title&quot;:&quot;Groups&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-groups&quot;},{&quot;title&quot;:&quot;Projects&quot;,&quot;href&quot;:&quot;/explore/projects&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-projects&quot;}],&quot;terms&quot;:&quot;/-/users/terms&quot;,&quot;sign_in_visible&quot;:&quot;true&quot;,&quot;allow_signup&quot;:&quot;true&quot;,&quot;new_user_registration_path&quot;:&quot;/users/sign_up&quot;,&quot;sign_in_path&quot;:&quot;/users/sign_in?redirect_to_referer=yes&quot;,&quot;trial_registration_path&quot;:&quot;/-/trial_registrations/new&quot;}"></aside>
+
+<div class="panels-container gl-flex gl-gap-3">
+<div class="content-panels gl-flex-1 gl-w-full gl-flex gl-gap-3 gl-relative js-content-panels gl-@container/content-panels">
+<div class="js-static-panel static-panel content-wrapper gl-relative paneled-view gl-flex-1 gl-overflow-y-auto gl-bg-default" id="static-panel-portal">
+<div class="panel-header">
+<div class="broadcast-wrapper">
+
+
+
+</div>
+<div class="top-bar-fixed container-fluid gl-rounded-t-lg gl-sticky gl-top-0 gl-left-0 gl-mx-0 gl-w-full" data-testid="top-bar">
+<div class="top-bar-container gl-flex gl-items-center gl-gap-2">
+<div class="gl-grow gl-basis-0 gl-flex gl-items-center gl-justify-start gl-gap-3">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Open Hardware Repository","item":"https://gitlab.com/ohwr"},{"@type":"ListItem","position":2,"name":"Projects","item":"https://gitlab.com/ohwr/project"},{"@type":"ListItem","position":3,"name":"CERN Open Hardware Licence","item":"https://gitlab.com/ohwr/project/cernohl"},{"@type":"ListItem","position":4,"name":"Wiki","item":"https://gitlab.com/ohwr/project/cernohl/-/wikis/home"},{"@type":"ListItem","position":5,"name":"Documents","item":"https://gitlab.com/ohwr/project/cernohl/-/wikis/Documents"},{"@type":"ListItem","position":6,"name":"CERN OHL version 2","item":"https://gitlab.com/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2"}]}
+
+
+</script>
+<div data-testid="breadcrumb-links" id="js-vue-page-breadcrumbs-wrapper">
+<div data-breadcrumbs-json="[{&quot;text&quot;:&quot;Open Hardware Repository&quot;,&quot;href&quot;:&quot;/ohwr&quot;,&quot;avatarPath&quot;:null},{&quot;text&quot;:&quot;Projects&quot;,&quot;href&quot;:&quot;/ohwr/project&quot;,&quot;avatarPath&quot;:null},{&quot;text&quot;:&quot;CERN Open Hardware Licence&quot;,&quot;href&quot;:&quot;/ohwr/project/cernohl&quot;,&quot;avatarPath&quot;:null},{&quot;text&quot;:&quot;Wiki&quot;,&quot;href&quot;:&quot;/ohwr/project/cernohl/-/wikis/home&quot;,&quot;avatarPath&quot;:null},{&quot;text&quot;:&quot;Documents&quot;,&quot;href&quot;:&quot;/ohwr/project/cernohl/-/wikis/Documents&quot;,&quot;avatarPath&quot;:null},{&quot;text&quot;:&quot;CERN OHL version 2&quot;,&quot;href&quot;:&quot;/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2&quot;,&quot;avatarPath&quot;:null}]" id="js-vue-page-breadcrumbs"></div>
+<div id="js-injected-page-breadcrumbs"></div>
+</div>
+<div id="js-page-breadcrumbs-extra"></div>
+
+
+<div id="js-work-item-feedback"></div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="panel-content">
+<div class="panel-content-inner js-static-panel-inner">
+<div class="alert-wrapper alert-wrapper-top-space gl-flex gl-flex-col gl-gap-3 container-fluid container-limited">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class=" project-highlight-puc">
+<main class="content gl-@container/panel gl-pb-3" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div id="js-drawer-container"></div>
+<div class="flash-container flash-container-page sticky" data-testid="flash-container">
+<div id="js-global-alerts"></div>
+</div>
+
+
+
+
+
+
+
+
+<div class="wiki-overview layout-limited-width">
+<div data-can-create="false" data-edit-sidebar-url="/ohwr/project/cernohl/-/wikis/_sidebar?view=create" data-has-custom-sidebar="false" data-has-wiki-pages data-view-all-pages-path="/ohwr/project/cernohl/-/wikis/pages" id="js-wiki-sidebar"></div>
+
+<div class="wiki-page-details">
+
+<div data-author-url="https://gitlab.com/vasco.guita" data-can-create-new-page="false" data-clone-http-url="https://gitlab.com/ohwr/project/cernohl.wiki.git" data-clone-ssh-url="git@gitlab.com:ohwr/project/cernohl.wiki.git" data-container-id="68861053" data-container-name="CERN Open Hardware Licence" data-container-type="project" data-content-api="/api/v4/projects/68861053/wikis/Documents/CERN-OHL-version-2?version=377d3cf2e2f64c26974225859ad2f7fc0e15c4a7" data-current-user-data="null" data-edit-button-url="/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2/edit" data-format-options="{&quot;Markdown&quot;:&quot;markdown&quot;,&quot;RDoc&quot;:&quot;rdoc&quot;,&quot;AsciiDoc&quot;:&quot;asciidoc&quot;,&quot;Org&quot;:&quot;org&quot;}" data-history-url="/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2/history" data-is-container-archived="false" data-is-page-historical="false" data-is-page-template="false" data-last-version="#&lt;Commit:0x000079767cbb5640&gt;" data-markdown-preview-path="/ohwr/project/cernohl/-/preview_markdown" data-new-url="/ohwr/project/cernohl/-/wikis/new" data-noteable-type="Wiki" data-notes-filters="{&quot;Show all activity&quot;:0,&quot;Show comments only&quot;:1,&quot;Show history only&quot;:2}" data-page-author-email="vasco@guita.org" data-page-heading="CERN OHL version 2" data-page-info="{&quot;last_commit_sha&quot;:&quot;377d3cf2e2f64c26974225859ad2f7fc0e15c4a7&quot;,&quot;persisted&quot;:true,&quot;title&quot;:&quot;CERN OHL version 2&quot;,&quot;content&quot;:&quot;This is the home of the CERN Open Hardware Licence version 2. The licence consists of three variants:\n\n* A strongly-reciprocal variant, CERN-OHL-S ([txt](https://ohwr.org/cern_ohl_s_v2.txt), [pdf](https://ohwr.org/cern_ohl_s_v2.pdf)). User guide ([txt](uploads/b88fd806c337866bff655f2506f23d37/cern_ohl_s_v2_user_guide.txt), [pdf](uploads/cf37727497ca2b5295a7ab83a40fcf5a/cern_ohl_s_v2_user_guide.pdf)).\n* A weakly-reciprocal variant, CERN-OHL-W ([txt](https://ohwr.org/cern_ohl_w_v2.txt), [pdf](https://ohwr.org/cern_ohl_w_v2.pdf)). User guide ([odt](uploads/eb5fac4e02180da7a4d15f99ab48ab7c/cern_ohl_w_v2_howto.odt), [pdf](uploads/c2e5e9d297949b5c2d324a6cbf6adda0/cern_ohl_w_v2_howto.pdf)).\n* A permissive variant, CERN-OHL-P ([txt](https://ohwr.org/cern_ohl_p_v2.txt), [pdf](https://ohwr.org/cern_ohl_p_v2.pdf)). User guide ([odt](uploads/f123aac388675e12b308de0ade1a0278/cern_ohl_p_v2_howto.odt), [pdf](uploads/8a6b5d01f71c207c49493e4d114d61e6/cern_ohl_p_v2_howto.pdf)).\n\nYou may want to read the [rationale](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/0be6f561d2b4a686c5765c74be32daf9/CERN_OHL_rationale.pdf) document, which explains the reasons for some of the drafting decisions, and the list of [Frequently Asked Questions](https://gitlab.com/ohwr/project/cernohl/wikis/faq). If you would like to provide feedback on the licence or ask questions, please use the [forum](https://forums.ohwr.org/c/cernohl) so that everybody can benefit from the discussion. For matters you would not like to bring up publicly, feel free to contact the authors ([Myriam Ayass](https://phonebook.cern.ch/phonebook/#personDetails/?id=610905), [Andrew Katz](https://moorcrofts.com/team/andrew-katz/) and [Javier Serrano](https://phonebook.cern.ch/phonebook/#personDetails/?id=476608)) directly.\n\nYou can find some unofficial translations of the licences, along with guidelines on how to contribute new ones, in the [translations page](translations).\n\n\u003c!---\n[cern_ohl_w_v2.pdf](uploads/a9bec43e93eb7fc88a2a3f6a04e88711/cern_ohl_w_v2.pdf)\n[cern_ohl_s_v2.txt](uploads/b0653d1c1c217444303ff096a7641504/cern_ohl_s_v2.txt)\n[cern_ohl_p_v2.txt](uploads/6d8c1ca7dcfa4aad35f344b9ca29ab14/cern_ohl_p_v2.txt)\n[cern_ohl_w_v2.txt](uploads/c18d238c5464cf7794510a956545871b/cern_ohl_w_v2.txt)\n[cern_ohl_s_v2.pdf](uploads/42a8875c4054633b4c68fadb77cb9948/cern_ohl_s_v2.pdf)[cern_ohl_p_v2.pdf](uploads/f90800d5fcbc987b73440091d9afb184/cern_ohl_p_v2.pdf)\n-\u003e\n\n\n\u003c!---\n[cern_ohl_p_v2.pdf](uploads/98ff9662c7ce4252ec91104118c2af8e/cern_ohl_p_v2.pdf)\n[cern_ohl_p_v2.txt](uploads/3eff4154d05e7a0459f3ddbf0674cae4/cern_ohl_p_v2.txt)\n[cern_ohl_s_v2.pdf](uploads/b236492596cfc91c12def7d50bbf7da0/cern_ohl_s_v2.pdf)\n[cern_ohl_s_v2.txt](uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)\n[cern_ohl_w_v2.pdf](uploads/f773df342791cc55b35ac4f907c78602/cern_ohl_w_v2.pdf)\n[cern_ohl_w_v2.txt](uploads/82b567f43ce515395f7ddbfbad7a8806/cern_ohl_w_v2.txt)\n-\u003e&quot;,&quot;front_matter&quot;:{},&quot;format&quot;:&quot;markdown&quot;,&quot;uploads_path&quot;:&quot;https://gitlab.com/api/v4/projects/68861053/wikis/attachments&quot;,&quot;slug&quot;:&quot;Documents/CERN-OHL-version-2&quot;,&quot;path&quot;:&quot;/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2&quot;,&quot;wiki_path&quot;:&quot;/ohwr/project/cernohl/-/wikis/home&quot;,&quot;help_path&quot;:&quot;/help/user/project/wiki/_index.md&quot;,&quot;markdown_help_path&quot;:&quot;/help/user/markdown.md&quot;,&quot;markdown_preview_path&quot;:&quot;/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2/preview_markdown&quot;,&quot;create_path&quot;:&quot;/ohwr/project/cernohl/-/wikis&quot;}" data-page-persisted="false" data-page-version="{&quot;id&quot;:&quot;377d3cf2e2f64c26974225859ad2f7fc0e15c4a7&quot;,&quot;message&quot;:&quot;Fix CERN OHL links\n&quot;,&quot;parent_ids&quot;:[&quot;fb8dbc2f4eb6303155af5dea69d8e280c44dccb5&quot;],&quot;authored_date&quot;:&quot;2025-04-29T21:01:22.000+02:00&quot;,&quot;author_name&quot;:&quot;Vasco Guita&quot;,&quot;author_email&quot;:&quot;vasco@guita.org&quot;,&quot;committed_date&quot;:&quot;2025-04-29T21:01:22.000+02:00&quot;,&quot;committer_name&quot;:&quot;Vasco Guita&quot;,&quot;committer_email&quot;:&quot;vasco@guita.org&quot;,&quot;trailers&quot;:{},&quot;extended_trailers&quot;:{},&quot;referenced_by&quot;:[]}" data-register-path="/users/sign_up?redirect_to_referer=yes" data-report-abuse-path="/-/abuse_reports/add_category" data-show-edit-button="false" data-show-restore-version-button="false" data-sign-in-path="/users/sign_in?redirect_to_referer=yes" data-templates="[]" data-templates-url="/ohwr/project/cernohl/-/wikis/templates" data-testid="wiki-app" data-wiki-path="cernohl.wiki" data-wiki-url="/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2" id="js-vue-wiki-app"></div>
+
+</div>
+</div>
+
+</main>
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="js-dynamic-panel paneled-view contextual-panel gl-@container/panel !gl-absolute gl-shadow-lg @xl/content-panels:gl-w-1/2 @xl/content-panels:gl-shadow-none @xl/content-panels:!gl-relative" id="contextual-panel-portal"></div>
+</div>
+</div>
+
+
+</div>
+
+
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded');
+    img.dataset.testid = 'js-lazy-loaded-content';
+  });
+}
+
+//]]>
+</script>
+<script nonce="G/72pV+NvxVz9+B7ctJXiQ==">
+//<![CDATA[
+gl = window.gl || {};
+gl.experiments = {};
+
+
+//]]>
+</script>
+
+</body>
+</html>
+

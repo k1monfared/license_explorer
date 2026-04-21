@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "topic": "file-level-reciprocity",
+      "summary": "Ms-RL's distinguishing clause is clause 3(A): 'For any file you distribute that contains code from the software (in source code or binary format), you must provide recipients the source code to that file along with a copy of this license, which license will govern that file. You may license other files that are entirely your own work and do not contain code from the software under any terms you choose.' This makes Ms-RL a file-scoped copyleft, structurally analogous to MPL-1.1/MPL-2.0 rather than GPL: only files that contain Ms-RL-licensed code are infected, and files that are entirely your own work are unaffected. FSF's license list captures this by describing Ms-RL as 'based on the Microsoft Public License, and has an additional clause to make the copyleft just a little bit stronger' while still classifying it as GPL-incompatible. The file-level granularity is what distinguishes Ms-RL from GPL-style 'whole derivative work' copyleft.",
+      "sources": [
+        {
+          "source": "OSI — Microsoft Reciprocal License (Ms-RL)",
+          "url": "https://opensource.org/license/ms-rl-html",
+          "retrieved_at": "2026-04-21T21:20:43.643Z",
+          "archive_sha256": "dbfac4fa5f3670f59625bb3f414368a38432e90b078c40dc4da6072f54e9301a",
+          "archive_path": "licenses/ms-rl/analysis-sources/dbfac4fa5f3670f59625bb3f414368a38432e90b078c40dc4da6072f54e9301a.html",
+          "excerpt": "(A) Reciprocal Grants- For any file you distribute that contains code from the software (in source code or binary format), you must provide recipients the source code to that file along with a copy of this license, which license will govern that file. You may license other files that are entirely your own work and do not contain code from the software under any terms you choose."
+        },
+        {
+          "source": "FSF — Various Licenses and Comments about Them (Ms-RL entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html",
+          "retrieved_at": "2026-04-21T21:20:45.970Z",
+          "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+          "archive_path": "licenses/ms-rl/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html",
+          "excerpt": "Microsoft Reciprocal License (Ms-RL) … This is a free software license. It's based on the Microsoft Public License, and has an additional clause to make the copyleft just a little bit stronger. It's also incompatible with the GNU GPL, and we urge you not to use the Ms-RL for this reason."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "OSI — Microsoft Reciprocal License (Ms-RL)",
+      "url": "https://opensource.org/license/ms-rl-html",
+      "retrieved_at": "2026-04-21T21:20:43.643Z",
+      "archive_sha256": "dbfac4fa5f3670f59625bb3f414368a38432e90b078c40dc4da6072f54e9301a",
+      "archive_path": "licenses/ms-rl/analysis-sources/dbfac4fa5f3670f59625bb3f414368a38432e90b078c40dc4da6072f54e9301a.html"
+    },
+    {
+      "source": "FSF — Various Licenses and Comments about Them (Ms-RL entry)",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T21:20:45.970Z",
+      "archive_sha256": "450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb",
+      "archive_path": "licenses/ms-rl/analysis-sources/450a28ca3a46fbb6ca5c1b971663b48508d7b317022eb0ee54824d1fc0ce18bb.html"
+    }
+  ]
+}

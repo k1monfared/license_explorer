@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "topic": "wikipedia-content-migration",
+      "summary": "In 2009, the Wikimedia Foundation migrated Wikipedia and sister projects from the GFDL to dual-licensing under CC BY-SA 3.0 and GFDL, via the time-limited relicensing path that FSF added in GFDL 1.3 (November 2008) at the WMF Board's December 2007 request. The Wikimedia Licensing_update Meta page records the 2009 community vote and the three-part implementation: GFDL content was additionally available under CC-BY-SA 3.0, new edits were dual-licensed, and GFDL-only content from third parties was no longer accepted. This made CC BY-SA 3.0 the backbone license for the world's largest collaborative text corpus.",
+      "sources": [
+        {
+          "source": "Wikimedia Meta-Wiki — 'Licensing update' (2009 proposal)",
+          "url": "https://meta.wikimedia.org/wiki/Licensing_update",
+          "retrieved_at": "2026-04-21T21:28:42Z",
+          "archive_sha256": "3e403b131f0fead9acc61d65c990806079dea0a18c7949d7fa301b5e3262a613",
+          "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/3e403b131f0fead9acc61d65c990806079dea0a18c7949d7fa301b5e3262a613.html",
+          "excerpt": "The Board of Trustees of the Wikimedia Foundation invited the Wikimedia community in 2009 to vote on this proposal to license Wikimedia material so it is available under the Creative Commons Attribution-ShareAlike license (CC-BY-SA), while retaining dual licensing with the GNU Free Documentation License (GFDL). … the Wikimedia Foundation proposal is to amend site-wide licensing terms and terms of use for all projects as follows: to make all content currently distributed under the GNU Free Documentation License (with 'later version' clause) additionally available under CC-BY-SA 3.0, as explicitly allowed through the latest version of the GFDL; to require continued dual-licensing of new community edits in this manner"
+        },
+        {
+          "source": "Wikimedia Meta-Wiki — Licensing update/Questions and Answers (GFDL 1.3 migration path)",
+          "url": "https://meta.wikimedia.org/wiki/Licensing_update/Questions_and_Answers",
+          "retrieved_at": "2026-04-21T21:35:00Z",
+          "archive_sha256": "df5d647ff74e6fd06f77c57135dece8c4bccdcd55890c6c084e428221e7576ee",
+          "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/df5d647ff74e6fd06f77c57135dece8c4bccdcd55890c6c084e428221e7576ee.html",
+          "excerpt": "to make Wikipedia content easier to use and legally compatible with existing free content projects, the Wikimedia Foundation intends to submit a proposal to the Wikimedia community to make all content currently distributed by the Wikimedia Foundation under the GFDL available under the CC-BY-SA 3.0 license … The GFDL has been recently updated in a fashion to make this re-licensing possible without direct petitioning of each copyright holder … On December 1, 2007, the Wikimedia Foundation Board of Trustees made the important decision to officially request the implementation of a migration path to CC-BY-SA in the GFDL 1.3 license."
+        }
+      ]
+    },
+    {
+      "topic": "stack-exchange-pre-2018",
+      "summary": "Stack Overflow's Help Center documents that Stack Exchange content contributed from 2011-04-08 up to (but not including) 2018-05-02 is licensed under CC BY-SA 3.0. On 2 May 2018, the network switched new contributions to CC BY-SA 4.0, and later updated the terms-of-service footer in September 2019 — a change that was initially controversial when it appeared to be retroactive. By March 2020 Stack Exchange clarified the temporal split, confirming pre-2018 content stays under CC BY-SA 3.0. The resulting pre-2018 Stack Exchange archive is one of the largest public CC BY-SA 3.0 corpuses and the primary reason v3.0 remains operationally relevant despite v4.0's availability.",
+      "sources": [
+        {
+          "source": "Stack Overflow Help Center — Licensing",
+          "url": "https://stackoverflow.com/help/licensing",
+          "retrieved_at": "2026-04-21T21:29:10Z",
+          "archive_sha256": "45732e1f4749ab10559ed0c7c01e8062651075844e90f78589a2f14150e957a7",
+          "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/45732e1f4749ab10559ed0c7c01e8062651075844e90f78589a2f14150e957a7.html",
+          "excerpt": "all publicly accessible user contributions are licensed under Creative Commons Attribution-ShareAlike license as follows: Content contributed before 2011-04-08 (UTC) is distributed under the terms of CC BY-SA 2.5. Content contributed from 2011-04-08 up to but not including 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 3.0. Content contributed on or after 2018-05-02 (UTC) is distributed under the terms of CC BY-SA 4.0."
+        }
+      ]
+    },
+    {
+      "topic": "adapter-requirement-scope",
+      "summary": "CC BY-SA 3.0 §4(b) allows an Adaptation to be distributed only under (i) this License, (ii) a later BY-SA version with the same License Elements, or (iii) a Creative Commons jurisdiction license (this or a later version) with the same License Elements. Notably, unlike v4.0's §1(c) 'BY-SA Compatible License' definition, the v3.0 unported text does not accept externally-declared 'compatible licenses' as an adapter target — the three enumerated tiers in §4(b) are CC-only. This narrower scope is why CC's 2015 one-way GPLv3 compatibility was declared from 4.0, not 3.0, and why the §4(b) mechanism introduced in 3.0 'has yet to be used' per CC's own blog.",
+      "sources": [
+        {
+          "source": "Creative Commons — CC BY-SA 3.0 Unported Legal Code (§4(b))",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+          "retrieved_at": "2026-04-21T21:28:34Z",
+          "archive_sha256": "f182ce6708e0430b5793401d81c0bc912af329b6be78b1046de8788981d4bc26",
+          "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/f182ce6708e0430b5793401d81c0bc912af329b6be78b1046de8788981d4bc26.html",
+          "excerpt": "You may Distribute or Publicly Perform an Adaptation only under: (i) the terms of this License; (ii) a later version of this License with the same License Elements as this License; (iii) a Creative Commons jurisdiction license (either this or a later license version) that contains the same License Elements as this License (e.g., Attribution-ShareAlike 3.0 Unported) ('Applicable License'). You must include a copy of, or the URI, for Applicable License with every copy of each Adaptation You Distribute or Publicly Perform."
+        },
+        {
+          "source": "Creative Commons Wiki — ShareAlike compatibility (per-version tables)",
+          "url": "https://wiki.creativecommons.org/wiki/ShareAlike_compatibility",
+          "retrieved_at": "2026-04-21T21:19:57Z",
+          "archive_sha256": "fbbbc8d5a9ac570d089cc8f0be6d5ca4d5af255620375b5ba5a22a540f816d9a",
+          "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/fbbbc8d5a9ac570d089cc8f0be6d5ca4d5af255620375b5ba5a22a540f816d9a.html",
+          "excerpt": "For BY-SA 3.0, all future versions of BY-SA and all ports of BY-SA 3.0 or later are automatically compatible, as well as licenses explicitly deemed compatible pursuant to the ShareAlike compatibility process. For BY-SA 2.0, all future versions of BY-SA and all ports of BY-SA 2.0 or later are automatically compatible. For BY-SA 1.0, only BY-SA 1.0 is compatible."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source": "Creative Commons — CC BY-SA 3.0 Unported Legal Code",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+      "retrieved_at": "2026-04-21T21:28:34Z",
+      "archive_sha256": "f182ce6708e0430b5793401d81c0bc912af329b6be78b1046de8788981d4bc26",
+      "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/f182ce6708e0430b5793401d81c0bc912af329b6be78b1046de8788981d4bc26.html"
+    },
+    {
+      "source": "Wikimedia Meta-Wiki — Licensing update",
+      "url": "https://meta.wikimedia.org/wiki/Licensing_update",
+      "retrieved_at": "2026-04-21T21:28:42Z",
+      "archive_sha256": "3e403b131f0fead9acc61d65c990806079dea0a18c7949d7fa301b5e3262a613",
+      "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/3e403b131f0fead9acc61d65c990806079dea0a18c7949d7fa301b5e3262a613.html"
+    },
+    {
+      "source": "Wikimedia Meta-Wiki — Licensing update/Questions and Answers",
+      "url": "https://meta.wikimedia.org/wiki/Licensing_update/Questions_and_Answers",
+      "retrieved_at": "2026-04-21T21:35:00Z",
+      "archive_sha256": "df5d647ff74e6fd06f77c57135dece8c4bccdcd55890c6c084e428221e7576ee",
+      "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/df5d647ff74e6fd06f77c57135dece8c4bccdcd55890c6c084e428221e7576ee.html"
+    },
+    {
+      "source": "Stack Overflow Help Center — Licensing",
+      "url": "https://stackoverflow.com/help/licensing",
+      "retrieved_at": "2026-04-21T21:29:10Z",
+      "archive_sha256": "45732e1f4749ab10559ed0c7c01e8062651075844e90f78589a2f14150e957a7",
+      "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/45732e1f4749ab10559ed0c7c01e8062651075844e90f78589a2f14150e957a7.html"
+    },
+    {
+      "source": "Creative Commons Wiki — ShareAlike compatibility",
+      "url": "https://wiki.creativecommons.org/wiki/ShareAlike_compatibility",
+      "retrieved_at": "2026-04-21T21:19:57Z",
+      "archive_sha256": "fbbbc8d5a9ac570d089cc8f0be6d5ca4d5af255620375b5ba5a22a540f816d9a",
+      "archive_path": "licenses/cc-by-sa-3.0/analysis-sources/fbbbc8d5a9ac570d089cc8f0be6d5ca4d5af255620375b5ba5a22a540f816d9a.html"
+    }
+  ]
+}

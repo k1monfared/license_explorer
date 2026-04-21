@@ -1,0 +1,16 @@
+{
+  "url": "https://en.wikipedia.org/wiki/BusyBox",
+  "final_url": "https://en.wikipedia.org/wiki/BusyBox",
+  "retrieved_at": "2026-04-21T21:18:10.511Z",
+  "sha256": "08635d3412d38e2bdab432de147b73a37a307db01ec3836b0a345e5a44c02bdd",
+  "bytes": 194154,
+  "content_type": "text/html; charset=utf-8",
+  "http_status": 200,
+  "history": [
+    {
+      "retrieved_at": "2026-04-21T21:14:19.008Z",
+      "http_status": 200,
+      "final_url": "https://en.wikipedia.org/wiki/BusyBox"
+    }
+  ]
+}
