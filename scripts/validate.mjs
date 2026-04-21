@@ -127,6 +127,26 @@ export async function validateRepo() {
       await fs.access(anaP);
       const anaRes = await validateFile(anaP, 'analysis');
       if (!anaRes.ok) errors.push(`${anaP}: ${anaRes.errors.join(', ')}`);
+      // Provenance check: every archive_sha256 in analysis.json must point
+      // to an existing file in analysis-sources/.
+      const ana = JSON.parse(await fs.readFile(anaP, 'utf8'));
+      const allSrcRefs = [
+        ...(ana.entries || []).flatMap(e => e.sources || []),
+        ...(ana.sources || [])
+      ];
+      for (const s of allSrcRefs) {
+        if (!s.archive_sha256) continue;
+        // Any file with that sha256 (content-addressed; extension varies).
+        const srcDir = `${dir}/analysis-sources`;
+        let found = false;
+        try {
+          const ents = await fs.readdir(srcDir);
+          for (const name of ents) {
+            if (name.startsWith(s.archive_sha256 + '.') && !name.endsWith('.meta.json')) { found = true; break; }
+          }
+        } catch {}
+        if (!found) errors.push(`${anaP}: archive_sha256 ${s.archive_sha256.slice(0,12)}… has no matching file in ${srcDir}/`);
+      }
     } catch {}
 
     const progP = `${dir}/.progress.json`;
