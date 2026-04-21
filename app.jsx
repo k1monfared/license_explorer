@@ -124,24 +124,26 @@ function BrowsePage() {
       <div className="browse-main">
         <input className="search" placeholder="Search licenses, features, keywords..."
                value={q} onChange={e => setQ(e.target.value)}/>
-        <table className="brz">
-          <thead><tr><th></th><th>Name</th><th>Archetype</th><th>Medium</th><th>Approvals</th><th>Tags</th></tr></thead>
-          <tbody>
-            {rows.map(l => (
-              <tr key={l.id}>
-                <td><input type="checkbox" checked={set.includes(l.id)} onChange={() => toggle(l.id)}/></td>
-                <td><a href={`#/license/${l.id}`}>{l.name}</a></td>
-                <td>{l.archetype}</td>
-                <td>{l.medium}</td>
-                <td>
-                  {l.osi_approved && <span className="approval-badge approval-osi" title="OSI approved">OSI</span>}
-                  {l.fsf_libre    && <span className="approval-badge approval-fsf" title="FSF free software">FSF</span>}
-                </td>
-                <td>{l.tags.join(', ')}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <div className="table-scroll">
+          <table className="brz">
+            <thead><tr><th></th><th>Name</th><th>Archetype</th><th>Medium</th><th>Approvals</th><th>Tags</th></tr></thead>
+            <tbody>
+              {rows.map(l => (
+                <tr key={l.id}>
+                  <td><input type="checkbox" checked={set.includes(l.id)} onChange={() => toggle(l.id)}/></td>
+                  <td className="brz-name"><a href={`#/license/${l.id}`}>{l.name}</a></td>
+                  <td className="brz-arch">{l.archetype}</td>
+                  <td className="brz-med">{l.medium}</td>
+                  <td className="brz-approvals">
+                    {l.osi_approved && <span className="approval-badge approval-osi" title="OSI approved">OSI</span>}
+                    {l.fsf_libre    && <span className="approval-badge approval-fsf" title="FSF free software">FSF</span>}
+                  </td>
+                  <td className="brz-tags">{l.tags.join(', ')}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         {set.length > 0 && (
           <div className="cmp-tray">
             <span>Comparing ({set.length}): {set.join(', ')}</span>
@@ -336,6 +338,7 @@ function ComparePage({ ids }) {
     <div>
       <p><a href="#/">&larr; All licenses</a></p>
       <h2>Compare</h2>
+      <div className="cmp-table-scroll">
       <table className="cmp-table">
         <thead>
           <tr>
@@ -367,6 +370,7 @@ function ComparePage({ ids }) {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
