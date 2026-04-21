@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "index.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "medium", "archetype", "blurb", "tags"],
+    "properties": {
+      "id":        { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+      "name":      { "type": "string" },
+      "spdx":      { "type": ["string", "null"] },
+      "medium":    { "enum": ["software", "media", "hardware", "data"] },
+      "archetype": { "enum": ["permissive", "weak-copyleft", "strong-copyleft", "attribution", "share-alike", "public-domain", "proprietary"] },
+      "blurb":     { "type": "string", "maxLength": 280 },
+      "tags":      { "type": "array", "items": { "type": "string" } }
+    },
+    "additionalProperties": false
+  }
+}

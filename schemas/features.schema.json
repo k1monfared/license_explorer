@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "features.schema.json",
+  "$defs": {
+    "externalRef": {
+      "type": "object",
+      "required": ["source", "url", "retrieved_at"],
+      "properties": {
+        "source":       { "type": "string", "minLength": 1 },
+        "url":          { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date-time" },
+        "excerpt":      { "type": "string" },
+        "summary":      { "type": "string" }
+      },
+      "anyOf": [
+        { "required": ["excerpt"] },
+        { "required": ["summary"] }
+      ],
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object",
+      "required": ["sentence_id"],
+      "properties": {
+        "sentence_id": { "type": "string", "pattern": "^s-[0-9]+$" },
+        "note":        { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "entry": {
+      "type": "object",
+      "required": ["key", "value", "citations", "external_references"],
+      "properties": {
+        "key":   { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "value": { "enum": ["permitted", "required", "forbidden", "silent", "grey", "not_assessed"] },
+        "citations":          { "type": "array", "items": { "$ref": "#/$defs/citation" } },
+        "external_references":{ "type": "array", "items": { "$ref": "#/$defs/externalRef" } },
+        "commentary":         { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": ["permissions", "conditions", "limitations", "sources"],
+  "properties": {
+    "permissions": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "conditions":  { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "limitations": { "type": "array", "items": { "$ref": "#/$defs/entry" } },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "url", "role"],
+        "properties": {
+          "source": { "type": "string", "minLength": 1 },
+          "url":    { "type": "string" },
+          "role":   { "type": "string", "minLength": 1 },
+          "retrieved_at": { "type": "string", "format": "date-time" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

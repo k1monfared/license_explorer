@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "progress.schema.json",
+  "$defs": {
+    "stage": {
+      "type": "object",
+      "required": ["status", "updated_at"],
+      "properties": {
+        "status":      { "enum": ["pending", "partial", "complete", "failed"] },
+        "updated_at":  { "type": "string", "format": "date-time" },
+        "completed_keys": { "type": "array", "items": { "type": "string" } },
+        "remaining_keys": { "type": "array", "items": { "type": "string" } },
+        "last_error":  { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": ["lookup_license", "extract_features", "deep_analysis"],
+  "properties": {
+    "lookup_license":   { "$ref": "#/$defs/stage" },
+    "extract_features": { "$ref": "#/$defs/stage" },
+    "deep_analysis":    { "$ref": "#/$defs/stage" }
+  },
+  "additionalProperties": false
+}
