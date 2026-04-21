@@ -84,9 +84,20 @@ Identity plus authoritative references. References drawn primarily from TLDR Leg
     { "source": "OSI",            "url": "https://opensource.org/license/mit",          "retrieved_at": "2026-04-21T14:03:22Z" },
     { "source": "TLDR Legal",     "url": "https://tldrlegal.com/license/mit-license",   "retrieved_at": "2026-04-21T14:03:22Z" },
     { "source": "choosealicense", "url": "https://choosealicense.com/licenses/mit/",    "retrieved_at": "2026-04-21T14:03:22Z" }
+  ],
+  "approvals": [
+    { "body": "OSI", "approved": true,
+      "url": "https://opensource.org/license/mit",
+      "retrieved_at": "2026-04-21T14:03:22Z" },
+    { "body": "FSF", "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#Expat",
+      "retrieved_at": "2026-04-21T14:03:22Z",
+      "note": "Listed as 'Expat License' — GPL-compatible free software." }
   ]
 }
 ```
+
+**Approvals** track the license's status with stewardship bodies — OSI, FSF (Free Software Foundation's license list), and optionally Debian DFSG / Fedora. Each entry is a full citation with URL and `retrieved_at`, so "is this license OSI-approved?" is an authoritative claim backed by the OSI page itself, not a hard-coded boolean. The browse page exposes **OSI approved** and **FSF free software** as filter checkboxes, driven by per-license `osi_approved` / `fsf_libre` booleans in `licenses/index.json` that mirror the meta-level approvals.
 
 **Provenance rule.** `text_provenance.sha256` is the hash of `text.raw.txt` as stored in the repo; CI validates the hash matches. If the canonical source ever drifts, the hash mismatch (run by a scheduled refresh) flags the license for review rather than silently serving stale content.
 
