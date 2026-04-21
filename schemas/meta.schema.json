@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "meta.schema.json",
   "type": "object",
-  "required": ["id", "name", "medium", "archetype", "canonical_url", "text_provenance", "references"],
+  "required": ["id", "name", "medium", "archetype", "canonical_url", "text_provenance", "references", "approvals"],
   "properties": {
     "id":       { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
     "name":     { "type": "string", "minLength": 1 },
@@ -29,6 +29,22 @@
         "required": ["source", "url", "retrieved_at"],
         "properties": {
           "source":       { "type": "string", "minLength": 1 },
+          "url":          { "type": "string", "format": "uri" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "note":         { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "approvals": {
+      "type": "array",
+      "description": "Stewardship-body approval / classification status for this license.",
+      "items": {
+        "type": "object",
+        "required": ["body", "approved", "url", "retrieved_at"],
+        "properties": {
+          "body":         { "enum": ["OSI", "FSF", "Debian DFSG", "Fedora"] },
+          "approved":     { "type": "boolean" },
           "url":          { "type": "string", "format": "uri" },
           "retrieved_at": { "type": "string", "format": "date-time" },
           "note":         { "type": "string" }

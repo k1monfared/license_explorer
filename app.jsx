@@ -52,6 +52,7 @@ function FilterSidebar({ catalog, filters, setFilters }) {
     cur.has(v) ? cur.delete(v) : cur.add(v);
     setFilters({ ...filters, [key]: [...cur] });
   };
+  const toggleBool = (key) => setFilters({ ...filters, [key]: !filters[key] });
   const Group = ({ title, name, values }) => (
     <div className="filter-group">
       <div className="filter-h">{title}</div>
@@ -67,10 +68,23 @@ function FilterSidebar({ catalog, filters, setFilters }) {
       })}
     </div>
   );
+  const osiCount = catalog.filter(l => l.osi_approved).length;
+  const fsfCount = catalog.filter(l => l.fsf_libre).length;
   return (
     <aside className="filter-panel">
       <Group title="Medium"    name="medium"    values={mediums}/>
       <Group title="Archetype" name="archetype" values={archetypes}/>
+      <div className="filter-group">
+        <div className="filter-h">Approval</div>
+        <label className="filter-item">
+          <span><input type="checkbox" checked={!!filters.osi_only} onChange={() => toggleBool('osi_only')}/> OSI approved</span>
+          <span className="count">{osiCount}</span>
+        </label>
+        <label className="filter-item">
+          <span><input type="checkbox" checked={!!filters.fsf_only} onChange={() => toggleBool('fsf_only')}/> FSF free software</span>
+          <span className="count">{fsfCount}</span>
+        </label>
+      </div>
     </aside>
   );
 }
@@ -78,7 +92,7 @@ function FilterSidebar({ catalog, filters, setFilters }) {
 function BrowsePage() {
   const { catalog, err } = useCatalog();
   const [q, setQ] = useState('');
-  const [filters, setFilters] = useState({ medium: [], archetype: [] });
+  const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_only: false });
   const [set, setSet] = useState([]);
   const toggle = (id) => setSet(s => s.includes(id) ? s.filter(x => x !== id) : [...s, id]);
 
@@ -89,6 +103,8 @@ function BrowsePage() {
   const rows = catalog.filter(l => {
     if (filters.medium.length    && !filters.medium.includes(l.medium))       return false;
     if (filters.archetype.length && !filters.archetype.includes(l.archetype)) return false;
+    if (filters.osi_only && !l.osi_approved) return false;
+    if (filters.fsf_only && !l.fsf_libre)    return false;
     if (q) {
       const needle = q.toLowerCase();
       return l.name.toLowerCase().includes(needle)
@@ -105,7 +121,7 @@ function BrowsePage() {
         <input className="search" placeholder="Search licenses, features, keywords..."
                value={q} onChange={e => setQ(e.target.value)}/>
         <table className="brz">
-          <thead><tr><th></th><th>Name</th><th>Archetype</th><th>Medium</th><th>Tags</th></tr></thead>
+          <thead><tr><th></th><th>Name</th><th>Archetype</th><th>Medium</th><th>Approvals</th><th>Tags</th></tr></thead>
           <tbody>
             {rows.map(l => (
               <tr key={l.id}>
@@ -113,6 +129,10 @@ function BrowsePage() {
                 <td><a href={`#/license/${l.id}`}>{l.name}</a></td>
                 <td>{l.archetype}</td>
                 <td>{l.medium}</td>
+                <td>
+                  {l.osi_approved && <span className="approval-badge approval-osi" title="OSI approved">OSI</span>}
+                  {l.fsf_libre    && <span className="approval-badge approval-fsf" title="FSF free software">FSF</span>}
+                </td>
                 <td>{l.tags.join(', ')}</td>
               </tr>
             ))}
@@ -167,11 +187,24 @@ function DetailPage({ id }) {
     </>
   );
 
+  const ApprovalBadges = () => (
+    <div className="approvals-row">
+      {(meta.approvals || []).map((a, i) => (
+        <a key={i} href={a.url} target="_blank" rel="noopener"
+           className={`approval-badge ${a.approved ? `approval-${a.body.toLowerCase()}` : 'approval-denied'}`}
+           title={a.note || (a.approved ? `${a.body} approved` : `${a.body} not approved`)}>
+          {a.approved ? '' : 'not '}{a.body}
+        </a>
+      ))}
+    </div>
+  );
+
   return (
     <div>
       <p><a href="#/">&larr; All licenses</a></p>
       <h2>{meta.name}</h2>
       <p className="meta">{meta.medium} &middot; {meta.archetype}{meta.spdx && ` · SPDX: ${meta.spdx}`}</p>
+      <ApprovalBadges/>
       <p><a href={`#/license/${id}/text`}>View full text &rarr;</a></p>
       <Section title="Permissions" entries={feats.permissions}/>
       <Section title="Conditions"  entries={feats.conditions}/>

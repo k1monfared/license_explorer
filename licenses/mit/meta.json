@@ -28,5 +28,20 @@
       "url": "https://choosealicense.com/licenses/mit/",
       "retrieved_at": "2026-04-21T14:00:00Z"
     }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/mit",
+      "retrieved_at": "2026-04-21T14:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#Expat",
+      "retrieved_at": "2026-04-21T14:00:00Z",
+      "note": "FSF lists MIT as 'Expat License', a GPL-compatible free software license."
+    }
   ]
 }

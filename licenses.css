@@ -16,6 +16,14 @@ main.container { padding-top: 1.5rem; padding-bottom: 2rem; }
 .cmp-tray { position: sticky; bottom: 0; background: var(--surface, #1a1a1a); border-top: 1px solid var(--border, #374151); padding: 0.6rem 1rem; display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; border-radius: 0 0 4px 4px; }
 .cmp-go { background: var(--link, #7dd3fc); color: #0a0a0a; padding: 0.3rem 0.9rem; border-radius: 4px; text-decoration: none; font-weight: 600; }
 
+/* Approval badges */
+.approval-badge { display: inline-block; padding: 0.12rem 0.5rem; margin-right: 0.3rem; border-radius: 10px; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.03em; text-decoration: none; }
+.approval-osi    { background: rgba(125,211,252,.18); color: #7dd3fc; border: 1px solid rgba(125,211,252,.4); }
+.approval-fsf    { background: rgba(74,222,128,.18);  color: #4ade80; border: 1px solid rgba(74,222,128,.4); }
+.approval-denied { background: rgba(248,113,113,.18); color: #f87171; border: 1px solid rgba(248,113,113,.4); }
+.approvals-row { margin: 0.4rem 0 0.8rem; }
+.approvals-row .approval-badge { padding: 0.2rem 0.7rem; font-size: 0.78rem; }
+
 /* Detail */
 .feat-table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
 .feat-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border, #1f2937); font-size: 0.92rem; vertical-align: top; }

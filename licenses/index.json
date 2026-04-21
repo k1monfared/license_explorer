@@ -6,6 +6,8 @@
     "medium": "software",
     "archetype": "permissive",
     "blurb": "Shortest permissive license. Commercial and proprietary use permitted with attribution.",
-    "tags": ["permissive", "attribution"]
+    "tags": ["permissive", "attribution"],
+    "osi_approved": true,
+    "fsf_libre": true
   }
 ]

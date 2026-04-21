@@ -4,15 +4,17 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id", "name", "medium", "archetype", "blurb", "tags"],
+    "required": ["id", "name", "medium", "archetype", "blurb", "tags", "osi_approved", "fsf_libre"],
     "properties": {
-      "id":        { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
-      "name":      { "type": "string" },
-      "spdx":      { "type": ["string", "null"] },
-      "medium":    { "enum": ["software", "media", "hardware", "data"] },
-      "archetype": { "enum": ["permissive", "weak-copyleft", "strong-copyleft", "attribution", "share-alike", "public-domain", "proprietary"] },
-      "blurb":     { "type": "string", "maxLength": 280 },
-      "tags":      { "type": "array", "items": { "type": "string" } }
+      "id":           { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+      "name":         { "type": "string" },
+      "spdx":         { "type": ["string", "null"] },
+      "medium":       { "enum": ["software", "media", "hardware", "data"] },
+      "archetype":    { "enum": ["permissive", "weak-copyleft", "strong-copyleft", "attribution", "share-alike", "public-domain", "proprietary"] },
+      "blurb":        { "type": "string", "maxLength": 280 },
+      "tags":         { "type": "array", "items": { "type": "string" } },
+      "osi_approved": { "type": "boolean", "description": "Listed as OSI-approved at opensource.org/licenses." },
+      "fsf_libre":    { "type": "boolean", "description": "Classified as Free Software by FSF at gnu.org/licenses/license-list.html." }
     },
     "additionalProperties": false
   }
