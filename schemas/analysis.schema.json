@@ -18,11 +18,12 @@
               "type": "object",
               "required": ["source", "url", "retrieved_at"],
               "properties": {
-                "source":       { "type": "string" },
-                "url":          { "type": "string", "format": "uri" },
-                "retrieved_at": { "type": "string", "format": "date-time" },
-                "excerpt":      { "type": "string" },
-                "summary":      { "type": "string" }
+                "source":         { "type": "string" },
+                "url":            { "type": "string", "format": "uri" },
+                "retrieved_at":   { "type": "string", "format": "date-time" },
+                "archive_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+                "excerpt":        { "type": "string" },
+                "summary":        { "type": "string" }
               },
               "anyOf": [
                 { "required": ["excerpt"] },
