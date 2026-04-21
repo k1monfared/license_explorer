@@ -97,3 +97,18 @@ test('glossary table wraps long text — cells are not force-nowrap', async ({ p
   const whiteSpace = await page.locator('table.glossary td.gloss-meaning').first().evaluate(el => getComputedStyle(el).whiteSpace);
   if (whiteSpace !== 'normal') throw new Error(`Expected glossary td white-space: normal, got ${whiteSpace}`);
 });
+
+test('browse: feature filter narrows the row set', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto(BASE + '/');
+  await page.waitForSelector('.feat-section');
+  const before = await page.locator('table.brz tbody tr').count();
+  // Find the "commercial-use" feature section and expand it.
+  const commercial = page.locator('.feat-section', { has: page.getByText('Commercial use', { exact: true }) });
+  await commercial.locator('.feat-section-head').click();
+  // Pick `forbidden` — restricts to the non-commercial licenses.
+  await commercial.locator('.feat-value-row', { hasText: 'forbidden' }).first().click();
+  const after = await page.locator('table.brz tbody tr').count();
+  if (!(after < before)) throw new Error(`Expected fewer rows after filter; got ${after} from ${before}`);
+  if (after === 0) throw new Error('Filter returned zero rows — did any NC license match forbidden commercial-use?');
+});

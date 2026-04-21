@@ -48,6 +48,29 @@ for (const id of dirs) {
 console.log(`aggregated ${sorted.length} licenses into licenses/index.json`);
 for (const e of sorted) console.log(`  ${e.archetype.padEnd(16)} ${e.id}`);
 
+// Build a flat feature index so the browse page can filter by feature value
+// without fetching 45 features.json files at page load. Shape:
+//   { "<id>": { "<feature-key>": "permitted" | "required" | ... } }
+{
+  const featureIndex = {};
+  for (const entry of sorted) {
+    const featPath = `licenses/${entry.id}/features.json`;
+    try {
+      const feat = JSON.parse(await fs.readFile(featPath, 'utf8'));
+      const row = {};
+      for (const group of ['permissions', 'conditions', 'limitations']) {
+        for (const e of feat[group] || []) row[e.key] = e.value;
+      }
+      featureIndex[entry.id] = row;
+    } catch (err) {
+      if (err.code !== 'ENOENT') throw err;
+      featureIndex[entry.id] = {};
+    }
+  }
+  await fs.writeFile('licenses/feature-index.json', JSON.stringify(featureIndex, null, 2) + '\n');
+  console.log(`wrote licenses/feature-index.json (${Object.keys(featureIndex).length} licenses × feature values)`);
+}
+
 // Sync the roadmap: whatever's now in the catalog drops out of planned[].
 try {
   const roadmapPath = 'docs/roadmap.json';

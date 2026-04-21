@@ -79,6 +79,18 @@ function useCatalog() {
   return { catalog, err };
 }
 
+function useFeatureIndex() {
+  const [index, setIndex] = useState(null);
+  const [vocab, setVocab] = useState(null);
+  useEffect(() => {
+    fetch('licenses/feature-index.json', NOCACHE).then(r => r.ok ? r.json() : {}).then(setIndex).catch(() => setIndex({}));
+    fetch('schemas/feature-vocabulary.json', NOCACHE).then(r => r.ok ? r.json() : null).then(setVocab).catch(() => setVocab(null));
+  }, []);
+  return { index, vocab };
+}
+
+const FEATURE_VALUES = ['permitted', 'required', 'forbidden', 'silent', 'grey', 'not_assessed'];
+
 function ValueBadge({ v }) {
   const styles = {
     permitted:    { bg: 'rgba(74,222,128,.15)',  color: '#4ade80', label: 'permitted' },
@@ -92,7 +104,65 @@ function ValueBadge({ v }) {
 }
 
 // ---------- Browse ----------
-function FilterSidebar({ catalog, filters, setFilters }) {
+function FeatureFilterSection({ featureKey, label, vocabDesc, catalog, featureIndex, filters, setFilters }) {
+  const [open, setOpen] = useState(false);
+  const selected = (filters.features && filters.features[featureKey]) || [];
+  const toggle = (v) => {
+    const cur = new Set(selected);
+    cur.has(v) ? cur.delete(v) : cur.add(v);
+    const next = { ...(filters.features || {}) };
+    if (cur.size === 0) delete next[featureKey]; else next[featureKey] = [...cur];
+    setFilters({ ...filters, features: next });
+  };
+  const clear = (e) => {
+    e.stopPropagation();
+    const next = { ...(filters.features || {}) };
+    delete next[featureKey];
+    setFilters({ ...filters, features: next });
+  };
+  const valueCount = (v) => {
+    if (!featureIndex) return 0;
+    let n = 0;
+    for (const l of catalog) {
+      const iv = featureIndex[l.id]?.[featureKey];
+      if (v === 'not_assessed' ? !iv : iv === v) n++;
+    }
+    return n;
+  };
+  const activeCount = selected.length;
+  return (
+    <div className={`feat-section ${activeCount > 0 ? 'active' : ''}`}>
+      <button type="button" className="feat-section-head" onClick={() => setOpen(o => !o)} title={vocabDesc}>
+        <span className="feat-section-label">
+          {label}
+          {activeCount > 0 && <span className="feat-active-badge">{activeCount}</span>}
+        </span>
+        <span className="feat-section-right">
+          {activeCount > 0 && <span className="feat-clear" onClick={clear}>clear</span>}
+          <span className="feat-chevron">{open ? '▾' : '▸'}</span>
+        </span>
+      </button>
+      {open && (
+        <div className="feat-section-body">
+          {FEATURE_VALUES.map(v => {
+            const on = selected.includes(v);
+            const count = valueCount(v);
+            const disabled = count === 0 && !on;
+            return (
+              <label key={v} className={`feat-value-row ${on ? 'on' : ''} ${disabled ? 'disabled' : ''}`}>
+                <input type="checkbox" checked={on} disabled={disabled} onChange={() => !disabled && toggle(v)}/>
+                <ValueBadge v={v}/>
+                <span className="feat-value-count">{count}</span>
+              </label>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function FilterSidebar({ catalog, featureIndex, vocab, filters, setFilters }) {
   const mediums = [...new Set(catalog.map(l => l.medium))];
   const archetypes = [...new Set(catalog.map(l => l.archetype))];
   const toggleSet = (key, v) => {
@@ -118,6 +188,8 @@ function FilterSidebar({ catalog, filters, setFilters }) {
   );
   const osiCount = catalog.filter(l => l.osi_approved).length;
   const fsfCount = catalog.filter(l => l.fsf_libre).length;
+  const totalFeatureFilters = filters.features ? Object.values(filters.features).reduce((n, arr) => n + arr.length, 0) : 0;
+  const clearAllFeatures = () => setFilters({ ...filters, features: {} });
   return (
     <aside className="filter-panel">
       <Group title="Medium"    name="medium"    values={mediums}/>
@@ -133,14 +205,40 @@ function FilterSidebar({ catalog, filters, setFilters }) {
           <span className="count">{fsfCount}</span>
         </label>
       </div>
+      {vocab && featureIndex && (
+        <div className="filter-group feat-filters">
+          <div className="filter-h feat-filters-h">
+            <span>Features{totalFeatureFilters > 0 && <span className="feat-active-badge">{totalFeatureFilters}</span>}</span>
+            {totalFeatureFilters > 0 && <span className="feat-clear" onClick={clearAllFeatures}>clear all</span>}
+          </div>
+          {['permissions', 'conditions', 'limitations'].map(group => (
+            <div key={group} className="feat-group">
+              <div className="feat-group-h">{group}</div>
+              {vocab[group].map(entry => (
+                <FeatureFilterSection
+                  key={entry.key}
+                  featureKey={entry.key}
+                  label={entry.label}
+                  vocabDesc={entry.description}
+                  catalog={catalog}
+                  featureIndex={featureIndex}
+                  filters={filters}
+                  setFilters={setFilters}
+                />
+              ))}
+            </div>
+          ))}
+        </div>
+      )}
     </aside>
   );
 }
 
 function BrowsePage() {
   const { catalog, err } = useCatalog();
+  const { index: featureIndex, vocab } = useFeatureIndex();
   const [q, setQ] = useState('');
-  const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_only: false });
+  const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_only: false, features: {} });
   const [set, setSet] = useState([]);
   const [sidebarOpen, setSidebarOpen] = useState(() => window.matchMedia('(min-width: 860px)').matches);
   const toggle = (id) => setSet(s => s.includes(id) ? s.filter(x => x !== id) : [...s, id]);
@@ -154,6 +252,13 @@ function BrowsePage() {
     if (filters.archetype.length && !filters.archetype.includes(l.archetype)) return false;
     if (filters.osi_only && !l.osi_approved) return false;
     if (filters.fsf_only && !l.fsf_libre)    return false;
+    if (filters.features && featureIndex) {
+      for (const [key, allowed] of Object.entries(filters.features)) {
+        if (!allowed.length) continue;
+        const val = featureIndex[l.id]?.[key] || 'not_assessed';
+        if (!allowed.includes(val)) return false;
+      }
+    }
     if (q) {
       const needle = q.toLowerCase();
       return l.name.toLowerCase().includes(needle)
@@ -165,7 +270,7 @@ function BrowsePage() {
 
   return (
     <div className={`browse ${sidebarOpen ? 'sidebar-open' : 'sidebar-closed'}`}>
-      {sidebarOpen && <FilterSidebar catalog={catalog} filters={filters} setFilters={setFilters}/>}
+      {sidebarOpen && <FilterSidebar catalog={catalog} featureIndex={featureIndex} vocab={vocab} filters={filters} setFilters={setFilters}/>}
       <div className="browse-main">
         <div className="browse-toolbar">
           <button
