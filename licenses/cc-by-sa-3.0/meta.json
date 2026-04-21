@@ -49,8 +49,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "GPL-compatible copyleft for creative works; acceptable for any kind of work. Stack Overflow content before 2018 was licensed CC-BY-SA 3.0."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Older ShareAlike. FSF accepts for non-software works. Legacy Wikipedia license through 2023.",
+      "stance": "non-software"
     }
   ]
 }

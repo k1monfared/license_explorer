@@ -45,6 +45,7 @@
         "properties": {
           "body":         { "enum": ["OSI", "FSF", "Debian DFSG", "Fedora"] },
           "approved":     { "type": "boolean" },
+          "stance":       { "enum": ["endorsed", "accepted", "non-software", "discouraged", "nonfree", "unclassified"] },
           "url":          { "type": "string", "format": "uri" },
           "retrieved_at": { "type": "string", "format": "date-time" },
           "note":         { "type": "string" }

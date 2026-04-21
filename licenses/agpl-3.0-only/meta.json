@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#AGPLv3.0",
-      "retrieved_at": "2026-04-21T14:00:00Z",
-      "note": "Strong copyleft extended to network use; closes the SaaS loophole in plain GPLv3."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "FSF's network-copyleft license. Closes the SaaS loophole in GPLv3. GPL-compatible.",
+      "stance": "endorsed"
     }
   ]
 }

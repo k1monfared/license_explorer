@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "Not separately listed by FSF as of retrieved_at; equivalent in spirit to ISC which FSF classifies as GPL-compatible free software."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free software, GPL-compatible. Public-domain-equivalent; FSF-compatible.",
+      "stance": "endorsed"
     }
   ]
 }

@@ -52,8 +52,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#EPL-2.0",
-      "retrieved_at": "2026-04-21T19:10:00Z",
-      "note": "Free software license, GPL-INCOMPATIBLE (explicit GPL-compatibility is opt-in via the secondary-license clause)."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free; GPL-incompatible by default but optionally GPL-compatible via Exhibit A Secondary License. FSF considers this an improvement over EPL-1.0.",
+      "stance": "accepted"
     }
   ]
 }

@@ -52,8 +52,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#PythonOld",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "GPL-compatible free software license; the license under which CPython is distributed."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Python Software Foundation License 2.0; free, GPL-compatible.",
+      "stance": "endorsed"
     }
   ]
 }

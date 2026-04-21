@@ -47,8 +47,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#ms-rl",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "File-level weak copyleft; GPL-incompatible."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free but GPL-incompatible file-level reciprocal license.",
+      "stance": "accepted"
     }
   ]
 }

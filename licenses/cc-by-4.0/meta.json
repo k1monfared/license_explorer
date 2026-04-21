@@ -42,8 +42,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#ccby",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "Acceptable for artistic and entertainment works and for statements of opinion; listed under 'Licenses for works of practical use besides software and documentation'."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free license for creative works; FSF endorses for works of opinion and artistic works; not for software.",
+      "stance": "non-software"
     }
   ]
 }

@@ -43,8 +43,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "Not classified as free by FSF; nonfree during the commercial-restriction period."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Source-available, NOT free software. FSF does not list BUSL but it falls outside FSF's free-software definition due to the commercial-use restriction until the Change Date.",
+      "stance": "nonfree"
     }
   ]
 }

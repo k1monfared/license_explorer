@@ -43,8 +43,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html#OriginalBSD",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "FSF classifies the original 4-clause BSD as NON-FREE due to the 'advertising clause' (clause 3) that requires acknowledging the copyright holder in all advertising materials. This was a major historical point of GPL-incompatibility."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "The original 4-clause BSD. FSF classifies as NONFREE because the advertising clause (§3) imposes multi-notice burdens that are impractical when many such works are combined.",
+      "stance": "nonfree"
     }
   ]
 }

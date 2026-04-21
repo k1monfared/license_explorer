@@ -47,8 +47,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#ms-pl",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "Free software license, GPL-INCOMPATIBLE. Permissive but with a trademark/name restriction."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free software but GPL-INCOMPATIBLE due to licensing terms. FSF recommends against its use where GPL-compatibility matters.",
+      "stance": "accepted"
     }
   ]
 }

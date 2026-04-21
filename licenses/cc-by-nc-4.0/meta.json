@@ -47,8 +47,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "CC NC licenses restrict commercial use and are classified nonfree by FSF for any works intended for practical use."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "FSF classifies NonCommercial licenses as NONFREE. The commercial-use restriction is considered incompatible with the freedoms FSF requires.",
+      "stance": "nonfree"
     }
   ]
 }

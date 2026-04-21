@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#GNUGPLv3",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "Strong copyleft with explicit patent grant and anti-tivoization; GPL-compatible free software license."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "FSF's current recommended strong-copyleft license. Explicit patent grant, anti-tivoization.",
+      "stance": "endorsed"
     }
   ]
 }

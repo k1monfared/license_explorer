@@ -52,8 +52,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#EUPL-1.2",
-      "retrieved_at": "2026-04-21T19:20:00Z",
-      "note": "Free software license; has a 'Compatibility clause' enabling interoperability with several copyleft licenses (GPL-2.0, GPL-3.0, AGPL-3.0, MPL-2.0, CeCILL-2.1, EPL-1.0, OSL-2.1/3.0, LGPL-2.1/3.0)."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free; GPL-compatible only via the §5 Compatibility Clause / Appendix. FSF lists as a Free Software License with compatibility caveat.",
+      "stance": "accepted"
     }
   ]
 }

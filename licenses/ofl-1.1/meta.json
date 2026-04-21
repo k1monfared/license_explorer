@@ -41,8 +41,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#SILOFL",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "Free license for fonts; GPL-compatible for most purposes."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free license for fonts. FSF endorses for font files; GPL-compatible-ish for embedded use.",
+      "stance": "non-software"
     }
   ]
 }

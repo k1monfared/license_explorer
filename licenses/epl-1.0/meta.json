@@ -52,8 +52,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#EPL",
-      "retrieved_at": "2026-04-21T19:20:00Z",
-      "note": "Weak copyleft free software license; GPL-INCOMPATIBLE (the distinction with EPL-2.0 is that 2.0 added the Secondary License mechanism for opt-in GPL compatibility)."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free but GPL-INCOMPATIBLE due to choice-of-venue and indemnification. FSF recommends GPL-compatible alternatives.",
+      "stance": "accepted"
     }
   ]
 }

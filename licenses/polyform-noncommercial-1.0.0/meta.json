@@ -37,8 +37,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T19:30:00Z",
-      "note": "Not classified as free by FSF; NC clauses are considered nonfree."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Source-available with noncommercial restriction. NOT free software. FSF does not list Polyform.",
+      "stance": "nonfree"
     }
   ]
 }

@@ -42,8 +42,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "GPL-compatible copyleft for creative works; acceptable for any kind of work."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free copyleft for creative works. FSF endorses for non-software works. One-way compatible with GPLv3 for software-plus-media cases.",
+      "stance": "non-software"
     }
   ]
 }

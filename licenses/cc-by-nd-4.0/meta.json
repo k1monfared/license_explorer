@@ -42,8 +42,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "CC-BY-ND is considered nonfree by FSF for works of practical use because it forbids modification; acceptable only for opinion/art works."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "FSF classifies CC-BY-ND as NONFREE for works of practical use because no-derivatives restricts modification. Acceptable only for opinion/statement works.",
+      "stance": "nonfree"
     }
   ]
 }

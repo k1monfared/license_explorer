@@ -40,8 +40,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#Expat",
-      "retrieved_at": "2026-04-21T14:00:00Z",
-      "note": "FSF lists MIT as 'Expat License', a GPL-compatible free software license."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Simple permissive free software license; GPL-compatible. FSF lists as \"Expat License\".",
+      "stance": "endorsed"
     }
   ]
 }

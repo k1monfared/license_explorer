@@ -47,8 +47,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#CDDL",
-      "retrieved_at": "2026-04-21T19:20:00Z",
-      "note": "File-level weak copyleft free software license; GPL-INCOMPATIBLE (Sun intended it that way, which is why ZFS cannot be upstreamed to the Linux kernel)."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free but GPL-INCOMPATIBLE. FSF notes this is why ZFS cannot be merged into the Linux kernel.",
+      "stance": "accepted"
     }
   ]
 }

@@ -135,6 +135,35 @@ test('about: cost estimate section renders with a dollar figure', async ({ page 
   if (!/\$\d/.test(text)) throw new Error('Expected a dollar figure in the cost estimate section');
 });
 
+test('footer disclaimer is present and mentions TLDR/OSI/FSF', async ({ page }) => {
+  await page.goto(BASE + '/');
+  const dis = page.locator('.site-disclaimer');
+  await expect(dis).toBeVisible();
+  const text = await dis.textContent();
+  for (const needle of ['TLDR Legal', 'OSI', 'FSF', 'auto-generated']) {
+    if (!text.includes(needle)) throw new Error(`Disclaimer missing mention of: ${needle}`);
+  }
+});
+
+test('detail: FSF stance badge renders with the correct class', async ({ page }) => {
+  await page.goto(BASE + '/#/license/mit');
+  // MIT is endorsed → the approvals row contains .approval-fsf-endorsed.
+  await expect(page.locator('.approvals-row .approval-fsf-endorsed')).toBeVisible();
+});
+
+test('browse: FSF stance filter restricts to nonfree licenses', async ({ page }) => {
+  await page.setViewportSize({ width: 1400, height: 900 });
+  await page.goto(BASE + '/');
+  // Wait for the full catalog to render.
+  await expect(page.locator('table.brz tbody tr')).toHaveCount(45);
+  const before = await page.locator('table.brz tbody tr').count();
+  const nonfreeCheckbox = page.locator('label.filter-item', { hasText: 'nonfree' }).locator('input[type="checkbox"]');
+  await nonfreeCheckbox.check();
+  const after = await page.locator('table.brz tbody tr').count();
+  if (!(after < before)) throw new Error(`Expected fewer rows after FSF=nonfree filter; got ${after} from ${before}`);
+  if (after === 0) throw new Error('Expected BSD-4-Clause or CC-NC variants in nonfree; got zero');
+});
+
 test('browse: feature filter narrows the row set', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto(BASE + '/');

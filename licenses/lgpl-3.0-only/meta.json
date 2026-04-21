@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#LGPLv3",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "Weak copyleft for libraries; adds GPLv3-era patent grant; GPL-compatible free software license."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Updated LGPL, layered over GPLv3; GPL-compatible with patent grant.",
+      "stance": "endorsed"
     }
   ]
 }

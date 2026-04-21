@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#apache2",
-      "retrieved_at": "2026-04-21T18:50:00Z",
-      "note": "GPL-compatible free software license. FSF notes Apache 2.0 is compatible with GPLv3 but not GPLv2."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free + GPL-compatible (GPLv3 only). Explicit patent grant. FSF recommends for projects that want a permissive license with patent protection.",
+      "stance": "endorsed"
     }
   ]
 }

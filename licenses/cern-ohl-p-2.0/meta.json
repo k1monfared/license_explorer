@@ -47,8 +47,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T19:30:00Z",
-      "note": "CERN-OHL is a hardware license; FSF's license list does not classify hardware-specific licenses as free or nonfree software. FSF has published guidance viewing CERN-OHL-P as acceptable for hardware designs."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Open-hardware license; FSF's license page focuses on software, does not classify hardware licenses. OSI-approved as open-source-equivalent for hardware.",
+      "stance": "unclassified"
     }
   ]
 }

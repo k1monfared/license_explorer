@@ -51,8 +51,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#MPL-2.0",
-      "retrieved_at": "2026-04-21T19:05:00Z",
-      "note": "GPL-compatible free software license (file-level weak copyleft)."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Free + GPL-compatible via Secondary Licenses mechanism (§3.3). File-level weak copyleft.",
+      "stance": "endorsed"
     }
   ]
 }

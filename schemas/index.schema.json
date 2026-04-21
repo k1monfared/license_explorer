@@ -14,7 +14,8 @@
       "blurb":        { "type": "string", "maxLength": 400 },
       "tags":         { "type": "array", "items": { "type": "string" } },
       "osi_approved": { "type": "boolean", "description": "Listed as OSI-approved at opensource.org/licenses." },
-      "fsf_libre":    { "type": "boolean", "description": "Classified as Free Software by FSF at gnu.org/licenses/license-list.html." }
+      "fsf_libre":    { "type": "boolean", "description": "Classified as Free Software by FSF at gnu.org/licenses/license-list.html." },
+      "fsf_stance":   { "enum": ["endorsed", "accepted", "non-software", "discouraged", "nonfree", "unclassified"], "description": "More granular FSF stance than the libre boolean: endorsed=free+GPL-compatible, accepted=free+GPL-incompatible (or free-with-reservations), non-software=free for media/docs only, discouraged=FSF warns against despite being free, nonfree=not a free-software license, unclassified=not on FSF list." }
     },
     "additionalProperties": false
   }

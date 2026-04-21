@@ -42,8 +42,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#FDL",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "FSF's copyleft license for documentation; the license Wikipedia historically used (now dual-licensed with CC-BY-SA 3.0)."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "FSF's documentation license. Free for documentation; not for software. FSF endorses for its intended scope.",
+      "stance": "non-software"
     }
   ]
 }

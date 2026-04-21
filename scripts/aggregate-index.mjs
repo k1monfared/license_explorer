@@ -30,6 +30,17 @@ for (const id of dirs) {
   }
 }
 
+// Propagate FSF stance from each license's meta.json into the catalog entry.
+for (const [id, entry] of Object.entries(byId)) {
+  try {
+    const meta = await readJson(`licenses/${id}/meta.json`);
+    const fsf = (meta.approvals || []).find(a => a.body === 'FSF');
+    if (fsf && fsf.stance) entry.fsf_stance = fsf.stance;
+  } catch (err) {
+    if (err.code !== 'ENOENT') throw err;
+  }
+}
+
 const sorted = Object.values(byId).sort((a, b) => {
   const ai = ARCHETYPE_ORDER.indexOf(a.archetype);
   const bi = ARCHETYPE_ORDER.indexOf(b.archetype);

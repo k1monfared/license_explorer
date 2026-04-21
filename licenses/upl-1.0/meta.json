@@ -40,8 +40,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#UPL",
-      "retrieved_at": "2026-04-21T19:10:00Z",
-      "note": "Permissive with explicit patent grant; GPL-compatible. Oracle's preferred permissive license."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Universal Permissive License; free, with explicit patent grant; GPL-compatible.",
+      "stance": "endorsed"
     }
   ]
 }

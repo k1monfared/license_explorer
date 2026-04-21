@@ -37,8 +37,9 @@
       "body": "FSF",
       "approved": false,
       "url": "https://www.gnu.org/licenses/license-list.html",
-      "retrieved_at": "2026-04-21T19:45:00Z",
-      "note": "Hardware license; FSF software-list classification does not directly apply."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Open-hardware license (2007); not on FSF's list. Predates OSI's open-hardware endorsement process.",
+      "stance": "unclassified"
     }
   ]
 }

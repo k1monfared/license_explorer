@@ -68,6 +68,23 @@ function useRoute() {
 
 const NOCACHE = { cache: 'no-cache' };
 
+const FSF_STANCE_LABEL = {
+  'endorsed':     'Endorsed (free, GPL-compatible)',
+  'accepted':     'Accepted (free, GPL-incompatible or with reservations)',
+  'non-software': 'Approved for non-software works (media, docs, fonts)',
+  'discouraged':  'Free but FSF recommends against',
+  'nonfree':      'Not a free-software license per FSF',
+  'unclassified': 'Not listed on FSF\'s license page'
+};
+const FSF_STANCE_SHORT = {
+  'endorsed':     '✓',
+  'accepted':     '~',
+  'non-software': 'media',
+  'discouraged':  '!',
+  'nonfree':      '✗',
+  'unclassified': '?'
+};
+
 function useCatalog() {
   const [catalog, setCatalog] = useState(null);
   const [err, setErr] = useState(null);
@@ -189,7 +206,8 @@ function FilterSidebar({ catalog, featureIndex, vocab, filters, setFilters }) {
     </div>
   );
   const osiCount = catalog.filter(l => l.osi_approved).length;
-  const fsfCount = catalog.filter(l => l.fsf_libre).length;
+  const fsfStanceCounts = {};
+  for (const l of catalog) if (l.fsf_stance) fsfStanceCounts[l.fsf_stance] = (fsfStanceCounts[l.fsf_stance] || 0) + 1;
   const totalFeatureFilters = filters.features ? Object.values(filters.features).reduce((n, arr) => n + arr.length, 0) : 0;
   const clearAllFeatures = () => setFilters({ ...filters, features: {} });
   return (
@@ -197,15 +215,25 @@ function FilterSidebar({ catalog, featureIndex, vocab, filters, setFilters }) {
       <Group title="Medium"    name="medium"    values={mediums}/>
       <Group title="Archetype" name="archetype" values={archetypes}/>
       <div className="filter-group">
-        <div className="filter-h">Approval</div>
+        <div className="filter-h">OSI</div>
         <label className="filter-item">
           <span><input type="checkbox" checked={!!filters.osi_only} onChange={() => toggleBool('osi_only')}/> OSI approved</span>
           <span className="count">{osiCount}</span>
         </label>
-        <label className="filter-item">
-          <span><input type="checkbox" checked={!!filters.fsf_only} onChange={() => toggleBool('fsf_only')}/> FSF free software</span>
-          <span className="count">{fsfCount}</span>
-        </label>
+      </div>
+      <div className="filter-group">
+        <div className="filter-h">FSF stance</div>
+        {Object.keys(FSF_STANCE_LABEL).map(s => {
+          const count = fsfStanceCounts[s] || 0;
+          if (count === 0) return null;
+          const on = (filters.fsf_stance || []).includes(s);
+          return (
+            <label key={s} className="filter-item" title={FSF_STANCE_LABEL[s]}>
+              <span><input type="checkbox" checked={on} onChange={() => toggleSet('fsf_stance', s)}/> {s.replace('-', ' ')}</span>
+              <span className="count">{count}</span>
+            </label>
+          );
+        })}
       </div>
       {vocab && featureIndex && (
         <div className="filter-group feat-filters">
@@ -240,7 +268,7 @@ function BrowsePage() {
   const { catalog, err } = useCatalog();
   const { index: featureIndex, vocab, analysisIndex } = useFeatureIndex();
   const [q, setQ] = useState('');
-  const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_only: false, features: {} });
+  const [filters, setFilters] = useState({ medium: [], archetype: [], osi_only: false, fsf_stance: [], features: {} });
   const [set, setSet] = useState([]);
   const [sidebarOpen, setSidebarOpen] = useState(() => window.matchMedia('(min-width: 860px)').matches);
   const toggle = (id) => setSet(s => s.includes(id) ? s.filter(x => x !== id) : [...s, id]);
@@ -253,7 +281,7 @@ function BrowsePage() {
     if (filters.medium.length    && !filters.medium.includes(l.medium))       return false;
     if (filters.archetype.length && !filters.archetype.includes(l.archetype)) return false;
     if (filters.osi_only && !l.osi_approved) return false;
-    if (filters.fsf_only && !l.fsf_libre)    return false;
+    if (filters.fsf_stance && filters.fsf_stance.length > 0 && !filters.fsf_stance.includes(l.fsf_stance)) return false;
     if (filters.features && featureIndex) {
       for (const [key, allowed] of Object.entries(filters.features)) {
         if (!allowed.length) continue;
@@ -395,13 +423,23 @@ function DetailPage({ id }) {
 
   const ApprovalBadges = () => (
     <div className="approvals-row">
-      {(meta.approvals || []).map((a, i) => (
-        <a key={i} href={a.url} target="_blank" rel="noopener"
-           className={`approval-badge ${a.approved ? `approval-${a.body.toLowerCase()}` : 'approval-denied'}`}
-           title={a.note || (a.approved ? `${a.body} approved` : `${a.body} not approved`)}>
-          {a.approved ? '' : 'not '}{a.body}
-        </a>
-      ))}
+      {(meta.approvals || []).map((a, i) => {
+        const isFsf = a.body === 'FSF';
+        const cls = isFsf && a.stance
+          ? `approval-badge approval-fsf-${a.stance}`
+          : `approval-badge ${a.approved ? `approval-${a.body.toLowerCase()}` : 'approval-denied'}`;
+        const label = isFsf && a.stance
+          ? `FSF: ${a.stance.replace('-', ' ')}`
+          : `${a.approved ? '' : 'not '}${a.body}`;
+        const tooltip = isFsf && a.stance
+          ? `${FSF_STANCE_LABEL[a.stance]}${a.note ? ' — ' + a.note : ''}`
+          : (a.note || (a.approved ? `${a.body} approved` : `${a.body} not approved`));
+        return (
+          <a key={i} href={a.url} target="_blank" rel="noopener" className={cls} title={tooltip}>
+            {label}
+          </a>
+        );
+      })}
     </div>
   );
 
@@ -954,7 +992,23 @@ function AboutPage() {
       <p>Clicking any citation link in the comparison table opens the full license text in a new tab, scrolled to the cited sentence with a yellow highlight. The highlight is a CSS <code>:target</code> rule, so links are shareable: paste <code>#s-12</code> into any license's text URL and the sentence is foregrounded.</p>
 
       <h3>OSI and FSF approval</h3>
-      <p>Each license's meta data records its status with two stewardship bodies: the <a href="https://opensource.org/licenses/" target="_blank" rel="noopener">Open Source Initiative</a> and the <a href="https://www.gnu.org/licenses/license-list.html" target="_blank" rel="noopener">Free Software Foundation</a>. OSI approval indicates the license is a recognized open-source license. FSF classifies licenses as "Free Software" (GPL-compatible or GPL-incompatible) or nonfree according to criteria that are generally stricter than OSI's. The two bodies can disagree: OSI has approved licenses the FSF considers nonfree, and vice versa. Both approvals appear as filterable badges on the browse page and as clickable citations on each detail page.</p>
+      <p>Each license's meta data records its status with two stewardship bodies: the <a href="https://opensource.org/licenses/" target="_blank" rel="noopener">Open Source Initiative</a> and the <a href="https://www.gnu.org/licenses/license-list.html" target="_blank" rel="noopener">Free Software Foundation</a>. OSI approval is a single boolean: either a license is listed on OSI's approved-licenses page, or it isn't.</p>
+
+      <p>FSF's stance is not a boolean. Their license page distinguishes several categories and, even within "free software", often warns or recommends against specific licenses. Merely appearing on FSF's list is not an endorsement. This catalog captures that nuance with a <code>stance</code> field on every FSF approval, taking one of six values:</p>
+
+      <table className="glossary">
+        <thead><tr><th>Stance</th><th>Meaning</th></tr></thead>
+        <tbody>
+          <tr><td className="gloss-key"><code>endorsed</code></td><td className="gloss-meaning">Free software license that FSF endorses, GPL-compatible. FSF's default "yes, use this" — the GPL family itself, Apache 2.0, MIT (Expat), BSD-2/3, MPL-2.0 with secondary-license mechanism, etc.</td></tr>
+          <tr><td className="gloss-key"><code>accepted</code></td><td className="gloss-meaning">Free software, but either GPL-INCOMPATIBLE (FSF notes you should probably pick something else for interop) or accepted-with-reservations (e.g. CC0 because of its explicit patent non-grant). EPL-1.0, CDDL, Ms-PL, Ms-RL, EUPL-1.2 live here.</td></tr>
+          <tr><td className="gloss-key"><code>non-software</code></td><td className="gloss-meaning">Free license that FSF endorses for non-software works (documentation, fonts, creative media) but NOT for software. GFDL, OFL, CC-BY-4.0, CC-BY-SA-4.0 belong here.</td></tr>
+          <tr><td className="gloss-key"><code>discouraged</code></td><td className="gloss-meaning">Technically free, but FSF explicitly recommends AGAINST using it. WTFPL is the canonical example — FSF notes its lack of a warranty disclaimer makes it legally risky for licensors. Appearing on FSF's list is not an endorsement here.</td></tr>
+          <tr><td className="gloss-key"><code>nonfree</code></td><td className="gloss-meaning">FSF does not consider this a free-software license. The original 4-clause BSD (advertising clause), every CC-BY-NC or CC-BY-ND variant for practical-use works, and the source-available licenses like BUSL, Elastic-2.0, SSPL, PolyForm-NC fall here.</td></tr>
+          <tr><td className="gloss-key"><code>unclassified</code></td><td className="gloss-meaning">Not listed on FSF's license page. Hardware licenses (CERN-OHL variants, TAPR-OHL) and some newer licenses FSF hasn't taken a position on.</td></tr>
+        </tbody>
+      </table>
+
+      <p>Each license's Detail page links directly to the FSF list entry used to derive the stance, with the exact wording from FSF as the <code>note</code> field so readers can see how we interpreted FSF's text. The browse page lets you filter by stance — if you specifically need "endorsed software licenses", that's one checkbox.</p>
 
       <h3>Court and legal analysis</h3>
       <p>Where public material exists, the <code>deep-analysis</code> skill collects court cases, enforcement history, and legal commentary and records them in <code>analysis.json</code>. Sources are restricted to publicly-accessible documents, including CourtListener / RECAP filings, publicly-archived legal mailing lists (FSF legal-discuss, Apache legal-discuss), open-access academic writing, and respected commentary like Luis Villa's blog. No paid databases, no private documents. Each analysis entry includes at least one source with a <code>retrieved_at</code> timestamp and either a verbatim excerpt or a paraphrased summary of what the source says.</p>

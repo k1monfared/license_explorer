@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#boost",
-      "retrieved_at": "2026-04-21T19:10:00Z",
-      "note": "Simple permissive license; GPL-compatible."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Boost Software License; free software, GPL-compatible.",
+      "stance": "endorsed"
     }
   ]
 }

@@ -49,8 +49,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#ccby",
-      "retrieved_at": "2026-04-21T20:00:00Z",
-      "note": "GPL-compatible only for works of practical use other than software and documentation; FSF lists CC-BY under 'Licenses for Works of Opinion and Judgment' as acceptable for any work."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "Older version of CC-BY. FSF accepts for non-software works.",
+      "stance": "non-software"
     }
   ]
 }

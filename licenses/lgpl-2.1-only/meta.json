@@ -46,8 +46,9 @@
       "body": "FSF",
       "approved": true,
       "url": "https://www.gnu.org/licenses/license-list.html#LGPLv2.1",
-      "retrieved_at": "2026-04-21T19:00:00Z",
-      "note": "Weak copyleft for libraries; GPL-compatible free software license."
+      "retrieved_at": "2026-04-21T21:36:42.353Z",
+      "note": "FSF's weak-copyleft license for libraries; GPL-compatible.",
+      "stance": "endorsed"
     }
   ]
 }
