@@ -4,10 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>License Explorer</title>
-  <style>body { font-family: system-ui, sans-serif; margin: 2rem; }</style>
+  <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/base.css">
+  <link rel="stylesheet" href="https://k1monfared.github.io/site_kit/css/nav.css">
+  <link rel="stylesheet" href="./licenses.css">
+  <script src="https://k1monfared.github.io/site_kit/js/theme.js"></script>
 </head>
 <body>
-  <h1>License Explorer</h1>
-  <p>Coming soon, an interactive explorer for software and media licenses.</p>
+  <header>
+    <div class="container">
+      <h1 style="display:inline-block">License Explorer</h1>
+      <button id="theme-toggle" style="float:right"><span class="theme-icon"></span></button>
+    </div>
+  </header>
+  <main class="container">
+    <div id="root"></div>
+  </main>
+  <footer>
+    <div class="container"><small>Open-source license explorer. <a href="https://github.com/k1monfared/license_explorer">source</a></small></div>
+  </footer>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script>
+    fetch("app.jsx").then(r => r.text()).then(jsx => {
+      const patched = jsx
+        .replace(/^\s*import\s+\{([^}]+)\}\s+from\s+["']react["'];?\s*$/m,
+                 (_, n) => `const { ${n.trim()} } = React;`)
+        .replace(/^\s*import\s+\S.*$/mg, "")
+        .replace(/^\s*export\s+default\s+/m, "window.__App = ");
+      const { code } = Babel.transform(patched, { presets: ["react"] });
+      const s = document.createElement("script");
+      s.textContent = code;
+      document.head.appendChild(s);
+      ReactDOM.createRoot(document.getElementById("root"))
+              .render(React.createElement(window.__App));
+    }).catch(e => {
+      document.getElementById("root").textContent = "Error loading app: " + e;
+    });
+  </script>
 </body>
 </html>
