@@ -403,12 +403,19 @@ function DetailPage({ id }) {
 }
 
 // ---------- Text viewer ----------
+// Fixed per-note height; used for collision-avoidance layout. Keep in sync
+// with .margin-note / .margin-group CSS.
+const MARGIN_NOTE_HEIGHT = 30;
+const MARGIN_GROUP_GAP = 6;
+const MARGIN_NOTE_GAP = 4;
+
 function TextPage({ id }) {
   const [html, setHtml]   = useState(null);
   const [feats, setFeats] = useState(null);
   const [err, setErr]     = useState(null);
   const [placements, setPlacements] = useState([]);
   const [activeSentId, setActiveSentId] = useState(null);
+  const spacerElsRef = { current: null };
 
   useEffect(() => {
     fetch(`licenses/${id}/text.html`, NOCACHE)
@@ -418,8 +425,8 @@ function TextPage({ id }) {
       .then(r => r.ok ? r.json() : null).then(setFeats).catch(() => setFeats(null));
   }, [id]);
 
-  // Track the ?s=s-N anchor in the URL hash so arriving via a citation
-  // link highlights both the sentence and its margin note.
+  // Track the ?s=s-N anchor in the URL hash so clicking a citation or a
+  // margin note highlights both the sentence and its margin note.
   useEffect(() => {
     const update = () => {
       const m = location.hash.match(/[?&]s=(s-\d+)/);
@@ -435,56 +442,96 @@ function TextPage({ id }) {
     if (!html || !activeSentId) return;
     const t = setTimeout(() => {
       const el = document.getElementById(activeSentId);
-      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('pulse'); }
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Restart the pulse animation by removing and re-adding the class.
+        el.classList.remove('pulse');
+        void el.offsetWidth;
+        el.classList.add('pulse');
+      }
     }, 60);
     return () => clearTimeout(t);
   }, [html, activeSentId]);
 
-  // Build sentence-id → [{featureKey, value, group, note}, ...] from features.json
+  // Build sentence-id → [{featureKey, value, group}, ...] from features.json
   const annotations = (() => {
     if (!feats) return {};
     const map = {};
     for (const group of ['permissions', 'conditions', 'limitations']) {
       for (const entry of feats[group] || []) {
         for (const cite of entry.citations || []) {
-          (map[cite.sentence_id] ||= []).push({ featureKey: entry.key, value: entry.value, group, note: cite.note });
+          (map[cite.sentence_id] ||= []).push({ featureKey: entry.key, value: entry.value, group });
         }
       }
     }
     return map;
   })();
 
-  // Measure sentence positions after render; recompute on resize.
+  // After render: measure sentence positions; if stacking the margin groups
+  // one-after-another would overlap neighbors, push the later sentence down
+  // by inserting a spacer element before it in the DOM.
   useEffect(() => {
     if (!html || !feats) return;
     const measure = () => {
       const container = document.querySelector('.text-viewer');
       if (!container) return;
+
+      // Clean up any previously-inserted spacers so a resize/re-layout
+      // starts from the natural text positions, not a cascaded offset.
+      container.querySelectorAll('.text-spacer').forEach(s => s.remove());
+
       const contTop = container.getBoundingClientRect().top;
-      const out = [];
+      const groups = [];
       for (const [sentId, anns] of Object.entries(annotations)) {
         const el = document.getElementById(sentId);
         if (!el) continue;
-        out.push({ sentId, top: el.getBoundingClientRect().top - contTop, annotations: anns });
+        groups.push({ sentId, el, top: el.getBoundingClientRect().top - contTop, annotations: anns });
       }
-      out.sort((a, b) => a.top - b.top);
-      // Simple collision avoidance: estimate each group at ~56px and bump
-      // overlapping groups down. Close notes still cluster but won't fully overlap.
-      const estH = (g) => 32 + g.annotations.length * 44;
-      for (let i = 1; i < out.length; i++) {
-        const prev = out[i - 1];
-        const prevBot = prev.top + estH(prev);
-        if (out[i].top < prevBot + 4) out[i].top = prevBot + 4;
+      groups.sort((a, b) => a.top - b.top);
+
+      const groupHeight = (g) => g.annotations.length * MARGIN_NOTE_HEIGHT + (g.annotations.length - 1) * MARGIN_NOTE_GAP;
+
+      // Walk groups in order; if the next group's natural top is above
+      // (previous.top + previous.height + gap), push it down by inserting
+      // a block-level spacer in the text before that sentence. All later
+      // sentences pick up the cumulative offset automatically via the
+      // natural reflow.
+      let offset = 0;
+      for (const g of groups) {
+        const natural = g.top + offset;
+        const lowerBound = groups.indexOf(g) === 0 ? natural : (groups[groups.indexOf(g) - 1].top + groupHeight(groups[groups.indexOf(g) - 1]) + MARGIN_GROUP_GAP);
+        const required = Math.max(natural, lowerBound);
+        const extra = required - natural;
+        if (extra > 0 && g.el && g.el.parentNode) {
+          const spacer = document.createElement('span');
+          spacer.className = 'text-spacer';
+          spacer.style.display = 'block';
+          spacer.style.height = extra + 'px';
+          g.el.parentNode.insertBefore(spacer, g.el);
+          offset += extra;
+        }
+        g.top = required;
       }
-      setPlacements(out);
+
+      setPlacements(groups.map(({ sentId, top, annotations }) => ({ sentId, top, annotations })));
     };
-    measure();
-    const ro = new ResizeObserver(measure);
+    // Run in a microtask so the newly-rendered <article> is in the DOM.
+    const t = setTimeout(measure, 0);
+    const ro = new ResizeObserver(() => { setTimeout(measure, 0); });
     const container = document.querySelector('.text-viewer');
     if (container) ro.observe(container);
-    window.addEventListener('resize', measure);
-    return () => { ro.disconnect(); window.removeEventListener('resize', measure); };
+    window.addEventListener('resize', () => { setTimeout(measure, 0); });
+    return () => {
+      clearTimeout(t);
+      ro.disconnect();
+      // Clean up spacers on unmount so SPA route changes don't leave them behind.
+      if (container) container.querySelectorAll('.text-spacer').forEach(s => s.remove());
+    };
   }, [html, feats]);
+
+  const highlightSentence = (sentId) => {
+    location.hash = `#/license/${id}/text?s=${sentId}`;
+  };
 
   if (err) return <p style={{color:'#f87171'}}>Error: {err}</p>;
   if (!html) return <p>Loading...</p>;
@@ -499,16 +546,16 @@ function TextPage({ id }) {
             {placements.map(p => (
               <div key={p.sentId} className={`margin-group ${activeSentId === p.sentId ? 'active' : ''}`} style={{top: `${p.top}px`}}>
                 {p.annotations.map((ann, i) => (
-                  <a key={i}
-                     href={`#/license/${id}`}
-                     className={`margin-note margin-note-${ann.value}`}
-                     title={ann.note || `${ann.featureKey}: ${ann.value}`}>
-                    <div className="margin-note-head">
-                      <span className="margin-note-key">{ann.featureKey}</span>
-                      <ValueBadge v={ann.value}/>
-                    </div>
-                    {ann.note && <div className="margin-note-note">{ann.note}</div>}
-                  </a>
+                  <button
+                    key={i}
+                    type="button"
+                    className={`margin-note margin-note-${ann.value}`}
+                    onClick={() => highlightSentence(p.sentId)}
+                    title={`${ann.featureKey}: ${ann.value} — click to highlight the sentence`}
+                  >
+                    <span className="margin-note-key">{ann.featureKey}</span>
+                    <ValueBadge v={ann.value}/>
+                  </button>
                 ))}
               </div>
             ))}
