@@ -1,0 +1,31 @@
+{
+  "permissions": [
+    { "key": "commercial-use", "value": "permitted", "citations": [{ "sentence_id": "s-5", "note": "You just DO WHAT THE FUCK YOU WANT TO." }], "external_references": [] },
+    { "key": "modification",   "value": "permitted", "citations": [{ "sentence_id": "s-5", "note": "You just DO WHAT THE FUCK YOU WANT TO. (covers modification)" }], "external_references": [] },
+    { "key": "distribution",   "value": "permitted", "citations": [{ "sentence_id": "s-5", "note": "You just DO WHAT THE FUCK YOU WANT TO. (covers distribution)" }], "external_references": [] },
+    { "key": "private-use",    "value": "permitted", "citations": [{ "sentence_id": "s-5", "note": "You just DO WHAT THE FUCK YOU WANT TO. (covers private use)" }], "external_references": [] },
+    { "key": "patent-use",     "value": "silent",    "citations": [], "external_references": [] }
+  ],
+  "conditions": [
+    { "key": "include-copyright",    "value": "silent", "citations": [], "external_references": [] },
+    { "key": "document-changes",     "value": "silent", "citations": [], "external_references": [] },
+    { "key": "disclose-source",      "value": "silent", "citations": [], "external_references": [] },
+    { "key": "network-use-disclose", "value": "silent", "citations": [], "external_references": [] },
+    { "key": "same-license",         "value": "silent", "citations": [], "external_references": [] },
+    { "key": "attribution",          "value": "silent", "citations": [], "external_references": [] }
+  ],
+  "limitations": [
+    { "key": "liability", "value": "grey", "citations": [], "external_references": [
+      { "source": "FSF license list (WTFPL-2)", "url": "https://www.gnu.org/licenses/license-list.html#WTFPL-2", "retrieved_at": "2026-04-21T20:00:00Z", "summary": "FSF classifies WTFPL v2 as a very lax permissive free software license but discourages its use and recommends CC0 instead, partly because WTFPL provides no warranty disclaimer or liability limitation, which leaves licensors exposed to potential implied warranty claims under U.S. law." },
+      { "source": "OSI FAQ", "url": "https://opensource.org/faq", "retrieved_at": "2026-04-21T20:00:00Z", "summary": "OSI has declined to approve WTFPL; the FAQ notes joke licenses and licenses that do not include the standard disclaimers are problematic." }
+    ], "commentary": "WTFPL text contains no liability-limitation clause. Whether a licensor is shielded from damages depends on jurisdiction and the implied terms of the permission granted. FSF and OSI both flag this absence of standard disclaimers as a reason to prefer alternatives such as CC0." },
+    { "key": "warranty",  "value": "grey", "citations": [], "external_references": [
+      { "source": "FSF license list (WTFPL-2)", "url": "https://www.gnu.org/licenses/license-list.html#WTFPL-2", "retrieved_at": "2026-04-21T20:00:00Z", "summary": "FSF notes WTFPL lacks the standard warranty disclaimer found in most free software licenses; for robust legal protection FSF recommends CC0." },
+      { "source": "OSI FAQ", "url": "https://opensource.org/faq", "retrieved_at": "2026-04-21T20:00:00Z", "summary": "OSI's FAQ explains that licenses missing standard protective disclaimers are considered inadequate; this is among the reasons WTFPL is not OSI-approved." }
+    ], "commentary": "WTFPL has no 'AS IS' clause and no disclaimer of implied warranties. In practice many users pair WTFPL with a separate no-warranty notice; the license text alone does not disclaim warranty." },
+    { "key": "trademark", "value": "silent", "citations": [], "external_references": [] }
+  ],
+  "sources": [
+    { "source": "WTFPL text", "url": "licenses/wtfpl/text.html", "role": "primary evidence" }
+  ]
+}

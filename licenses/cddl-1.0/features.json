@@ -1,0 +1,136 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-41", "note": "Initial Developer hereby grants You a world-wide, royalty-free, non-exclusive license" },
+        { "sentence_id": "s-42", "note": "(a) under intellectual property rights ... to use, reproduce, modify, display, perform, sublicense and distribute the Original Software" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-42", "note": "to use, reproduce, modify, display, perform, sublicense and distribute the Original Software (or portions thereof), with or without Modifications" },
+        { "sentence_id": "s-49", "note": "each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license ... to use, reproduce, modify ... the Modifications" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-42", "note": "to ... sublicense and distribute the Original Software" }],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-42", "note": "broad IP grant covers private use" }],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-43", "note": "Initial Developer §2.1(b): under Patent Claims infringed by the making, using or selling of Original Software, to make, have made, use, practice, sell, and offer for sale" },
+        { "sentence_id": "s-50", "note": "Contributor §2.2(b): under Patent Claims infringed by the making, using, or selling of Modifications, to make, use, sell, offer for sale, have made, and/or otherwise dispose of Modifications" },
+        { "sentence_id": "s-111", "note": "Patent retaliation §6.2: asserting a patent infringement claim against Initial Developer or a Contributor terminates rights under §§2.1 and 2.2 after a 60-day notice period" }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-58", "note": "You must include a copy of this License with every copy of the Source Code form of the Covered Software You distribute" },
+        { "sentence_id": "s-67", "note": "You may not remove or alter any copyright, patent or trademark notices contained within the Covered Software, or any notices of licensing or any descriptive text giving attribution" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-22", "note": "Modifications defined as any file that results from an addition to, deletion from or modification of the contents of a file containing Original Software or previous Modifications" },
+        { "sentence_id": "s-66", "note": "§3.3 Required Notices: You must include a notice in each of Your Modifications that identifies You as the Contributor of the Modification" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-57", "note": "§3.1: Any Covered Software that You distribute or otherwise make available in Executable form must also be made available in Source Code form and that Source Code form must be distributed only under the terms of this License" },
+        { "sentence_id": "s-59", "note": "You must inform recipients of any such Covered Software in Executable form as to how they can obtain such Covered Software in Source Code form" }
+      ],
+      "external_references": [],
+      "commentary": "File-level weak copyleft: source-disclosure obligation attaches to each file of Covered Software, not to a Larger Work. This is the MPL-style trigger that CDDL inherits from its MPL 1.1 lineage."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-57", "note": "§3.1: Source Code form must be distributed only under the terms of this License" },
+        { "sentence_id": "s-62", "note": "§3.2: The Modifications that You create or to which You contribute are governed by the terms of this License" },
+        { "sentence_id": "s-81", "note": "§3.6 Larger Works: You may create a Larger Work by combining Covered Software with other code not governed by the terms of this License" }
+      ],
+      "external_references": [],
+      "commentary": "File-level copyleft. Each file of Covered Software stays under CDDL, including Modifications. A Larger Work that combines CDDL files with non-CDDL files may be distributed as a single product under other terms, provided the CDDL requirements are satisfied for each covered file."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-66", "note": "§3.3: You must include a notice in each of Your Modifications that identifies You as the Contributor of the Modification" },
+        { "sentence_id": "s-67", "note": "You may not remove or alter any ... notices of licensing or any descriptive text giving attribution to any Contributor or the Initial Developer" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-115", "note": "§7 LIMITATION OF LIABILITY" },
+        { "sentence_id": "s-116", "note": "UNDER NO CIRCUMSTANCES ... SHALL YOU, THE INITIAL DEVELOPER, ANY OTHER CONTRIBUTOR ... BE LIABLE TO ANY PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES" },
+        { "sentence_id": "s-117", "note": "This limitation of liability shall not apply to liability for death or personal injury resulting from such party's negligence" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-99", "note": "§5 DISCLAIMER OF WARRANTY" },
+        { "sentence_id": "s-100", "note": "COVERED SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN AS IS BASIS, WITHOUT WARRANTY OF ANY KIND" },
+        { "sentence_id": "s-103", "note": "THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-42", "note": "§2.1(a) grants rights under intellectual property rights other than patent or trademark" },
+        { "sentence_id": "s-49", "note": "§2.2(a) grants rights under intellectual property rights other than patent or trademark" },
+        { "sentence_id": "s-67", "note": "You may not remove or alter any copyright, patent or trademark notices contained within the Covered Software" }
+      ],
+      "external_references": [],
+      "commentary": "Trademarks are expressly excluded from the grants in §§2.1(a) and 2.2(a), and existing trademark notices must be preserved under §3.3."
+    }
+  ],
+  "sources": [
+    { "source": "Common Development and Distribution License 1.0 text", "url": "licenses/cddl-1.0/text.html", "role": "primary evidence" }
+  ]
+}

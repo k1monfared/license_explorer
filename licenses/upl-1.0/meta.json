@@ -1,0 +1,47 @@
+{
+  "id": "upl-1.0",
+  "name": "Universal Permissive License 1.0",
+  "spdx": "UPL-1.0",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": "1.0",
+  "year": 2014,
+  "canonical_url": "https://opensource.org/license/upl",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/UPL-1.0.txt",
+    "retrieved_at": "2026-04-21T19:10:00Z",
+    "sha256": "2f81e75033a0c872ab9725b36081e363f0c9e6c45585c35930edb66043fdc576"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/UPL-1.0.html",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/upl",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "FSF",
+      "url": "https://www.gnu.org/licenses/license-list.html#UPL",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/upl",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#UPL",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Permissive with explicit patent grant; GPL-compatible. Oracle's preferred permissive license."
+    }
+  ]
+}

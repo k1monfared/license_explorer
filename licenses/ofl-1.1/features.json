@@ -1,0 +1,126 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-16", "note": "Permission is hereby granted ... to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies" },
+        { "sentence_id": "s-18", "note": "Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software" },
+        { "sentence_id": "s-17", "note": "The font may not be sold by itself, but it may be sold when bundled with other software" }
+      ],
+      "external_references": [],
+      "commentary": "Fonts may be sold, but only when bundled with other software (clause 1). They cannot be sold as a standalone font file."
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-16", "note": "Permission is hereby granted ... to ... modify ... copies of the Font Software" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-16", "note": "Permission is hereby granted ... to ... redistribute ... copies of the Font Software" },
+        { "sentence_id": "s-18", "note": "Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-16", "note": "Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-18", "note": "Clause 2: each copy contains the above copyright notice and this license" },
+        { "sentence_id": "s-19", "note": "These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-23", "note": "Clause 5: The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license" },
+        { "sentence_id": "s-6", "note": "The fonts and derivatives, however, cannot be released under any other type of license" },
+        { "sentence_id": "s-24", "note": "The requirement for fonts to remain under this license does not apply to any document created using the Font Software" }
+      ],
+      "external_references": [],
+      "commentary": "Clause 5 imposes a copyleft-style requirement on the font itself and its derivatives, but explicitly does not extend to documents created using the font."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-18", "note": "Clause 2 requires the copyright notice to accompany every copy, which functions as attribution" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-29", "note": "IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-28", "note": "THE FONT SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-20", "note": "Clause 3: No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted" },
+        { "sentence_id": "s-22", "note": "Clause 4: The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version" },
+        { "sentence_id": "s-28", "note": "Disclaimer excludes warranties of NONINFRINGEMENT OF ... TRADEMARK" }
+      ],
+      "external_references": [],
+      "commentary": "The OFL contains an unusually strong trademark-adjacent protection: Reserved Font Names (clause 3) cannot be used by modified versions, forcing derivative fonts to rename. Clause 4 also forbids use of the copyright holder's or author's name for endorsement."
+    }
+  ],
+  "sources": [
+    { "source": "SIL Open Font License 1.1 text", "url": "licenses/ofl-1.1/text.html", "role": "primary evidence" }
+  ]
+}

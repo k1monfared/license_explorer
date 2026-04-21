@@ -1,0 +1,150 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-36", "note": "1.1 This Agreement governs how you may use, copy, modify, and distribute Documentation, and how you may make, have made, and distribute Products based on that Documentation (no non-commercial restriction)" },
+        { "sentence_id": "s-17", "note": "Preamble summary: You may use products for any legal purpose without limitation" },
+        { "sentence_id": "s-65", "note": "5.2 You may distribute Products you make or have made" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-56", "note": "Section 3: You may modify the Documentation, and those modifications will become part of the Documentation" },
+        { "sentence_id": "s-62", "note": "4.2 You may distribute modified copies of the Documentation" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-61", "note": "4.1 You may distribute unmodified copies of the Documentation in its entirety in any medium" },
+        { "sentence_id": "s-62", "note": "4.2 You may distribute modified copies of the Documentation" },
+        { "sentence_id": "s-65", "note": "5.2 You may distribute Products you make or have made (distribution of physical Products)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-17", "note": "Preamble summary: You may use products for any legal purpose without limitation" },
+        { "sentence_id": "s-36", "note": "1.1 governs use, copy, modify, distribute Documentation (broad grant encompasses private use)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-48", "note": "2.1 Each Licensor grants you ... a perpetual, worldwide, and royalty-free immunity from suit under any patent, patent application, or other intellectual property right which he or she controls, to the extent necessary to make, have made, possess, use, and distribute Products" },
+        { "sentence_id": "s-50", "note": "2.2 Reciprocal patent immunity: distributors grant Licensors and other Licensees the same immunity from suit for their controlled patents" },
+        { "sentence_id": "s-11", "note": "Preamble: those who benefit from an OHL design may not bring lawsuits claiming that design infringes their patents or other intellectual property" }
+      ],
+      "external_references": [
+        {
+          "source": "TAPR Open Hardware License (TAPR)",
+          "url": "https://tapr.org/the-tapr-open-hardware-license/",
+          "retrieved_at": "2026-04-21T19:45:00Z",
+          "summary": "TAPR OHL §2 is framed as a mutual covenant-not-to-sue (\"immunity from suit\") rather than an affirmative patent license in the form of Apache 2.0 or CERN-OHL. Legally the effect on the Licensee is similar (freedom to make, have made, possess, use, and distribute Products), but the non-assertion structure is distinct from an express license grant."
+        }
+      ],
+      "commentary": "Grey: TAPR OHL does NOT contain an explicit affirmative patent LICENSE in the style of Apache 2.0 or CERN-OHL. Instead §2.1 grants a perpetual, worldwide, royalty-free IMMUNITY FROM SUIT (covenant-not-to-sue) under patents controlled by the Licensor to the extent necessary to make, have made, possess, use, and distribute Products. §2.2 imposes a reciprocal grant by distributors. This achieves a similar practical effect to a patent license for downstream users but is structurally different and excludes patents on 'modifications subsequently made by others.'"
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-61", "note": "4.1 provided that you retain all copyright and other notices (including references to this Agreement) included by each Licensor, and include an unaltered copy of this Agreement" },
+        { "sentence_id": "s-64", "note": "5.1 each Product retains any notices included by the Licensor (including, but not limited to, copyright notices on circuit boards)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-62", "note": "4.2(a) include a prominent notice in an ASCII or other open format file identifying those elements of the Documentation that you changed, and stating that the modifications are licensed under the terms of this Agreement; (b) include all new documentation files that you create, as well as both the original and modified versions of each file you change" },
+        { "sentence_id": "s-58", "note": "Section 3: If you distribute the modified Documentation ... you must email the modified Documentation ... to each Licensor who has provided an email address" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-65", "note": "5.2 You may distribute Products you make or have made, provided that you include with each unit a copy of the Documentation in a form consistent with Section 4" },
+        { "sentence_id": "s-66", "note": "5.2 Alternatively, you may include either (i) an offer valid for at least three years to provide that Documentation ... or (ii) a URL where that Documentation may be downloaded, available for at least three years" },
+        { "sentence_id": "s-62", "note": "4.2(d) if you make or have Products made, include in the Documentation all elements reasonably required to permit others to make Products, including Gerber, CAD/CAM and other files used for manufacture" }
+      ],
+      "external_references": [],
+      "commentary": "For hardware licenses, 'source' means the Documentation: schematic diagrams, circuit/board layouts (Gerber), mechanical drawings (CAD/CAM), flow charts, and descriptive text. Distributors of Products must either bundle the Documentation with each unit or make it available for at least three years by offer or URL."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "Network/remote-use disclosure is not a natural concept for physical hardware products and is not addressed by TAPR OHL."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-20", "note": "Preamble summary: You may distribute modified documentation or products based on it, if you License your modifications under the OHL" },
+        { "sentence_id": "s-41", "note": "1.4 This Agreement applies to any Documentation which contains a notice stating it is subject to the TAPR Open Hardware License, and to all Products based in whole or in part on that Documentation" },
+        { "sentence_id": "s-57", "note": "Section 3: modifications ... are subject to this Agreement, as are Products based in whole or in part on them" },
+        { "sentence_id": "s-62", "note": "4.2(a) stating that the modifications are licensed under the terms of this Agreement; (c) do not change the terms of this Agreement with respect to subsequent licensees" }
+      ],
+      "external_references": [],
+      "commentary": "Share-alike at the design level: modifications and Products based in whole or part on the Documentation are subject to the same Agreement. Unlike CERN-OHL-W, there is no External-Material/documented-interface carve-out."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-61", "note": "4.1 you retain all copyright and other notices (including references to this Agreement) included by each Licensor" },
+        { "sentence_id": "s-64", "note": "5.1 each Product retains any notices included by the Licensor (including, but not limited to, copyright notices on circuit boards)" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-75", "note": "7.2 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW WILL ANY LICENSOR BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES" },
+        { "sentence_id": "s-77", "note": "7.4 You agree to defend, indemnify, and hold each Licensor harmless from any claim brought by a third party alleging any defect" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-73", "note": "7.1 THE DOCUMENTATION IS PROVIDED ON AN 'AS-IS' BASIS WITHOUT WARRANTY OF ANY KIND, TO THE EXTENT PERMITTED BY APPLICABLE LAW" },
+        { "sentence_id": "s-74", "note": "7.1 ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND TITLE, ARE HEREBY EXPRESSLY DISCLAIMED" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "TAPR OHL does not address trademarks affirmatively or negatively; no explicit grant and no explicit denial of trademark rights."
+    }
+  ],
+  "sources": [
+    { "source": "TAPR Open Hardware License 1.0 text", "url": "licenses/tapr-ohl-1.0/text.html", "role": "primary evidence" },
+    { "source": "TAPR Open Hardware License (TAPR)", "url": "https://tapr.org/the-tapr-open-hardware-license/", "role": "canonical source" }
+  ]
+}

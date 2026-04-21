@@ -1,0 +1,61 @@
+{
+  "id": "wtfpl",
+  "name": "Do What The F*ck You Want To Public License",
+  "spdx": "WTFPL",
+  "medium": "software",
+  "archetype": "public-domain",
+  "version": "2.0",
+  "year": 2004,
+  "canonical_url": "http://www.wtfpl.net/about/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/WTFPL.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "13d8825a59e5e546d41e8711405d0f335a9934362a47c04a3b4280fa7932dc4a"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/WTFPL.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "WTFPL",
+      "url": "http://www.wtfpl.net/about/",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI FAQ",
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "OSI FAQ discourages joke licenses; WTFPL is not OSI-approved."
+    },
+    {
+      "source": "FSF",
+      "url": "https://www.gnu.org/licenses/license-list.html#WTFPL-2",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF lists WTFPL v2 as a very lax permissive license, GPL-compatible."
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/WTFPL.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "WTFPL is not OSI-approved; the OSI FAQ discourages joke licenses. It is however widely considered a valid public-domain-equivalent license in practice."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#WTFPL-2",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF considers WTFPL a very lax permissive license; GPL-compatible but discouraged (FSF recommends CC0 instead for stronger legal footing)."
+    }
+  ]
+}

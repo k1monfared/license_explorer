@@ -1,0 +1,146 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-16", "note": "§2: The Licensor hereby grants You a worldwide, royalty-free, non-exclusive, sublicensable licence to ... use the Work in any circumstance and for all usage ... reproduce the Work ... modify ... distribute ... sublicense" }],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-16", "note": "§2: modify the Work, and make Derivative Works based upon the Work" }],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-16", "note": "§2: distribute the Work or copies thereof, lend and rent the Work or copies thereof, sublicense rights in the Work or copies thereof" }],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-16", "note": "§2 grants the right to use the Work in any circumstance and for all usage" }],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-19", "note": "§2: The Licensor grants to the Licensee royalty-free, non-exclusive usage rights to any patents held by the Licensor, to the extent necessary to make use of the rights granted on the Work under this Licence" }],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-25", "note": "§5 Attribution right: The Licensee shall keep intact all copyright, patent or trademarks notices and all notices that refer to the Licence and to the disclaimer of warranties" },
+        { "sentence_id": "s-26", "note": "The Licensee must include a copy of such notices and a copy of the Licence with every copy of the Work he/she distributes or communicates" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [{ "sentence_id": "s-27", "note": "§5: The Licensee must cause any Derivative Work to carry prominent notices stating that the Work has been modified and the date of modification" }],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-21", "note": "§3: If the Work is provided as Executable Code, the Licensor provides in addition a machine-readable copy of the Source Code of the Work ... or indicates ... a repository where the Source Code is easily and freely accessible" },
+        { "sentence_id": "s-34", "note": "§5 Provision of Source Code: When distributing or communicating copies of the Work, the Licensee will provide a machine-readable copy of the Source Code or indicate a repository where this Source will be easily and freely available" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-15", "note": "§1 Definitions: 'Distribution' or 'Communication' means any act of selling, giving, lending, renting, distributing, communicating, transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential functionalities at the disposal of any other natural or legal person" },
+        { "sentence_id": "s-34", "note": "§5 triggers Source Code availability on any Distribution OR Communication of the Work — and Communication is defined to include online making-available, so network deployment of modified EUPL code triggers the source obligation" }
+      ],
+      "external_references": [
+        {
+          "source": "FSF License List",
+          "url": "https://www.gnu.org/licenses/license-list.html#EUPL-1.2",
+          "retrieved_at": "2026-04-21T19:20:00Z",
+          "summary": "FSF treats EUPL 1.2 as copyleft with a broad 'Communication' trigger that captures network deployment similarly in spirit to (though not textually identical to) AGPL §13."
+        },
+        {
+          "source": "European Commission (Joinup) EUPL Guidelines",
+          "url": "https://joinup.ec.europa.eu/collection/eupl/matrix-eupl-compatible-open-source-licences",
+          "retrieved_at": "2026-04-21T19:20:00Z",
+          "summary": "The EUPL steward explains that the definition of 'Communication' covers making the Work available online (including SaaS-style deployments), which is why EUPL is included in compatibility matrices alongside AGPL for network-triggered copyleft."
+        }
+      ],
+      "commentary": "EUPL's source-disclosure obligation is triggered by both Distribution AND Communication, and §1 defines Communication broadly to include 'otherwise making available, online or offline' and 'providing access to its essential functionalities'. This functions as a network-use disclosure trigger, making EUPL one of the few EU-drafted licenses with AGPL-style coverage of SaaS scenarios, though the textual mechanism differs from AGPL §13."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-28", "note": "§5 Copyleft clause: If the Licensee distributes or communicates copies of the Original Works or Derivative Works, this Distribution or Communication will be done under the terms of this Licence or of a later version of this Licence" },
+        { "sentence_id": "s-30", "note": "§5: The Licensee (becoming Licensor) cannot offer or impose any additional terms or conditions on the Work or Derivative Work that alter or restrict the terms of the Licence" },
+        { "sentence_id": "s-31", "note": "§5 Compatibility clause: If the Licensee Distributes or Communicates Derivative Works ... based upon both the Work and another work licensed under a Compatible Licence, this Distribution or Communication can be done under the terms of this Compatible Licence" },
+        { "sentence_id": "s-33", "note": "§5: Should the Licensee's obligations under the Compatible Licence conflict with his/her obligations under this Licence, the obligations of the Compatible Licence shall prevail" }
+      ],
+      "external_references": [
+        {
+          "source": "European Commission (Joinup) Compatibility Matrix",
+          "url": "https://joinup.ec.europa.eu/collection/eupl/matrix-eupl-compatible-open-source-licences",
+          "retrieved_at": "2026-04-21T19:20:00Z",
+          "summary": "Official EUPL compatibility matrix enumerates the Appendix licenses (GPL-2.0, GPL-3.0, AGPL-3.0, MPL-2.0, EPL-1.0, OSL-2.1/3.0, CeCILL-2.0/2.1, LGPL-2.1/3.0, CC-BY-SA-3.0, LiLiQ-R/R+) and explains that a Derivative Work combining EUPL code with a Compatible-Licensed work may be relicensed under that Compatible Licence."
+        },
+        {
+          "source": "FSF License List",
+          "url": "https://www.gnu.org/licenses/license-list.html#EUPL-1.2",
+          "retrieved_at": "2026-04-21T19:20:00Z",
+          "summary": "FSF confirms that the Compatibility clause enables interoperability with the listed copyleft families, resolving what would otherwise be a pairwise copyleft conflict."
+        }
+      ],
+      "commentary": "Default rule is EUPL-or-later copyleft on Derivative Works. The distinctive feature is the Compatibility clause (§5 + Appendix): when a Derivative Work is based on both EUPL code and a work under a listed Compatible Licence (GPL-2.0/3.0, AGPL-3.0, MPL-2.0, EPL-1.0, OSL-2.1/3.0, CeCILL-2.0/2.1, LGPL-2.1/3.0, CC-BY-SA-3.0, LiLiQ-R/R+, EUPL-1.1/1.2), the combined work may be distributed under that Compatible Licence instead of the EUPL, and the Compatible Licence's obligations prevail on conflict. This is an unusual one-way relicensing mechanism: EUPL code can flow INTO projects under those licenses, but not vice-versa."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-25", "note": "§5 Attribution right: The Licensee shall keep intact all copyright, patent or trademarks notices and all notices that refer to the Licence and to the disclaimer of warranties" },
+        { "sentence_id": "s-26", "note": "The Licensee must include a copy of such notices and a copy of the Licence with every copy of the Work he/she distributes or communicates" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-43", "note": "§8 Disclaimer of Liability: Except in the cases of wilful misconduct or damages directly caused to natural persons, the Licensor will in no event be liable for any direct or indirect, material or moral, damages of any kind" },
+        { "sentence_id": "s-44", "note": "However, the Licensor will be liable under statutory product liability laws as far such laws apply to the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-41", "note": "§7 Disclaimer of Warranty: the Work is provided under the Licence on an 'as is' basis and without warranties of any kind concerning the Work" },
+        { "sentence_id": "s-42", "note": "This disclaimer of warranty is an essential part of the Licence and a condition for the grant of any rights to the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-35", "note": "§5 Legal Protection: This Licence does not grant permission to use the trade names, trademarks, service marks, or names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the copyright notice" }],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "European Union Public License 1.2 text", "url": "licenses/eupl-1.2/text.html", "role": "primary evidence" }
+  ]
+}

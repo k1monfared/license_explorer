@@ -61,6 +61,56 @@
     "fsf_libre": true
   },
   {
+    "id": "bsd-4-clause",
+    "name": "BSD 4-Clause \"Original\" or \"Old\" License",
+    "spdx": "BSD-4-Clause",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Historical 'original' BSD license. Adds the notorious advertising clause (clause 3): every advertising material mentioning features or use of the software must carry an acknowledgement of the developer. Not OSI-approved; FSF classifies it as non-free and GPL-incompatible. Superseded by the 3-clause BSD, which dropped the advertising clause.",
+    "tags": [
+      "permissive",
+      "attribution",
+      "advertising-clause",
+      "bsd-family",
+      "historical",
+      "gpl-incompatible",
+      "non-free"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "bsl-1.0",
+    "name": "Boost Software License 1.0",
+    "spdx": "BSL-1.0",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Short permissive license used by the Boost C++ libraries. Like MIT but with a notable carve-out: copyright and license notices only need to accompany source-form redistributions, not machine-executable object code. GPL-compatible.",
+    "tags": [
+      "permissive",
+      "attribution",
+      "binary-carve-out",
+      "gpl-compatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "cern-ohl-p-2.0",
+    "name": "CERN Open Hardware Licence Version 2 - Permissive",
+    "spdx": "CERN-OHL-P-2.0",
+    "medium": "hardware",
+    "archetype": "permissive",
+    "blurb": "Permissive variant of the CERN Open Hardware Licence v2. Design files and products may be redistributed, modified, and Conveyed under different licence terms, with Notices retained and an explicit patent grant. No source-disclosure or share-alike obligation, unlike the -W and -S variants.",
+    "tags": [
+      "permissive",
+      "hardware",
+      "patent-grant"
+    ],
+    "osi_approved": true,
+    "fsf_libre": false
+  },
+  {
     "id": "isc",
     "name": "ISC License",
     "spdx": "ISC",
@@ -90,6 +140,138 @@
     "fsf_libre": true
   },
   {
+    "id": "ms-pl",
+    "name": "Microsoft Public License",
+    "spdx": "MS-PL",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Microsoft's short permissive license with an explicit patent grant, a patent-retaliation clause, a 'no trademark license' clause, and a notice-retention requirement. Free software per FSF but GPL-incompatible.",
+    "tags": [
+      "permissive",
+      "patent-grant",
+      "patent-retaliation",
+      "attribution",
+      "gpl-incompatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "psf-2.0",
+    "name": "Python Software Foundation License 2.0",
+    "spdx": "PSF-2.0",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Permissive license under which CPython is distributed. Requires retaining the PSF copyright notice and documenting modifications with a brief summary of changes. No explicit patent grant. GPL-compatible per FSF.",
+    "tags": [
+      "permissive",
+      "attribution",
+      "document-changes",
+      "python",
+      "gpl-compatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "upl-1.0",
+    "name": "Universal Permissive License 1.0",
+    "spdx": "UPL-1.0",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Oracle's preferred permissive license. MIT-style simplicity plus a broad explicit patent grant covering both the unmodified Software and any 'Larger Work' the licensor contributes it to. GPL-compatible.",
+    "tags": [
+      "permissive",
+      "patent-grant",
+      "attribution",
+      "gpl-compatible",
+      "oracle"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "zlib",
+    "name": "zlib License",
+    "spdx": "Zlib",
+    "medium": "software",
+    "archetype": "permissive",
+    "blurb": "Very short permissive license. Permits any use including commercial, with three source-distribution constraints: do not misrepresent the origin, plainly mark altered versions, and keep the notice in source. No obligations on binary redistribution.",
+    "tags": [
+      "permissive",
+      "no-endorsement",
+      "minimal",
+      "gpl-compatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "artistic-2.0",
+    "name": "Artistic License 2.0",
+    "spdx": "Artistic-2.0",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "Perl's preferred license. Weak copyleft with menu-style compliance: distributors of Modified Versions choose among contributing upstream, renaming and not clobbering the Standard Version, or granting downstream source redistribution rights. Includes an explicit patent grant and retaliation clause.",
+    "tags": [
+      "weak-copyleft",
+      "patent-grant",
+      "attribution",
+      "perl",
+      "gpl-compatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "cddl-1.0",
+    "name": "Common Development and Distribution License 1.0",
+    "spdx": "CDDL-1.0",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "File-level weak copyleft derived from MPL 1.1. Each CDDL file stays under CDDL, but a Larger Work can combine CDDL and non-CDDL files under other terms. Deliberately GPL-incompatible; the reason ZFS cannot be upstreamed into Linux.",
+    "tags": [
+      "weak-copyleft",
+      "patent-grant",
+      "file-level",
+      "gpl-incompatible",
+      "mpl-lineage"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "cern-ohl-w-2.0",
+    "name": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal",
+    "spdx": "CERN-OHL-W-2.0",
+    "medium": "hardware",
+    "archetype": "weak-copyleft",
+    "blurb": "Weakly reciprocal variant of the CERN Open Hardware Licence v2. Modified Covered Source must be released under CERN-OHL-W, but Available Components and External Material interfaced via a documented interface may remain under their own licences, and Products themselves may be licensed under terms of Your choice.",
+    "tags": [
+      "weak-copyleft",
+      "hardware",
+      "patent-grant"
+    ],
+    "osi_approved": true,
+    "fsf_libre": false
+  },
+  {
+    "id": "epl-1.0",
+    "name": "Eclipse Public License 1.0",
+    "spdx": "EPL-1.0",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "Module-level weak copyleft with patent grant and retaliation. Predecessor to EPL-2.0; lacks the Secondary License mechanism, so it is GPL-incompatible by design.",
+    "tags": [
+      "weak-copyleft",
+      "patent-grant",
+      "module-level",
+      "gpl-incompatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
     "id": "epl-2.0",
     "name": "Eclipse Public License 2.0",
     "spdx": "EPL-2.0",
@@ -101,6 +283,24 @@
       "patent-grant",
       "module-level",
       "gpl-incompatible-by-default"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "eupl-1.2",
+    "name": "European Union Public License 1.2",
+    "spdx": "EUPL-1.2",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "EU-drafted copyleft license with two distinctive features: a Compatibility clause (§5 + Appendix) that lets EUPL code flow into projects under GPL-2.0/3.0, AGPL-3.0, MPL-2.0, EPL-1.0 and others; and a broad 'Communication' definition that triggers source disclosure on network deployment, similar in effect to AGPL §13.",
+    "tags": [
+      "weak-copyleft",
+      "patent-grant",
+      "network-copyleft",
+      "compatibility-clause",
+      "eu-law",
+      "multilingual"
     ],
     "osi_approved": true,
     "fsf_libre": true
@@ -155,6 +355,24 @@
     "fsf_libre": true
   },
   {
+    "id": "ms-rl",
+    "name": "Microsoft Reciprocal License",
+    "spdx": "MS-RL",
+    "medium": "software",
+    "archetype": "weak-copyleft",
+    "blurb": "File-level weak copyleft from Microsoft. Any file that contains Ms-RL code must ship its source under Ms-RL, but files entirely your own may carry any terms. Explicit patent grant with retaliation; no trademark license. GPL-incompatible.",
+    "tags": [
+      "weak-copyleft",
+      "file-level",
+      "patent-grant",
+      "patent-retaliation",
+      "source-disclosure",
+      "gpl-incompatible"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
     "id": "agpl-3.0-only",
     "name": "GNU Affero General Public License v3.0 only",
     "spdx": "AGPL-3.0-only",
@@ -171,6 +389,21 @@
     ],
     "osi_approved": true,
     "fsf_libre": true
+  },
+  {
+    "id": "cern-ohl-s-2.0",
+    "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
+    "spdx": "CERN-OHL-S-2.0",
+    "medium": "hardware",
+    "archetype": "strong-copyleft",
+    "blurb": "Strongly reciprocal variant of the CERN Open Hardware Licence v2. Including Covered Source in a larger work makes the whole design modified Covered Source: the entire Complete Source of any Product must be released under CERN-OHL-S, with only Available Components excluded.",
+    "tags": [
+      "strong-copyleft",
+      "hardware",
+      "patent-grant"
+    ],
+    "osi_approved": true,
+    "fsf_libre": false
   },
   {
     "id": "gpl-2.0-only",
@@ -204,6 +437,22 @@
       "attribution"
     ],
     "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
+    "id": "cc-by-3.0",
+    "name": "Creative Commons Attribution 3.0 Unported",
+    "spdx": "CC-BY-3.0",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Predecessor of CC-BY-4.0. Permits commercial use, modification, and distribution if you credit the author, keep licence notices, and label any changes. Silent on patents and the licensor's own trademarks, which 4.0 later made explicit. Widely used for media and content across the 2007-2013 era.",
+    "tags": [
+      "attribution",
+      "creative-commons",
+      "media",
+      "predecessor-of-4.0"
+    ],
+    "osi_approved": false,
     "fsf_libre": true
   },
   {
@@ -272,6 +521,23 @@
     "fsf_libre": false
   },
   {
+    "id": "ofl-1.1",
+    "name": "SIL Open Font License 1.1",
+    "spdx": "OFL-1.1",
+    "medium": "media",
+    "archetype": "attribution",
+    "blurb": "Copyleft-style license for fonts. Fonts may be used, modified, embedded, and sold bundled with software, but not sold on their own. Modified versions must use a different name from the original and must be released under the OFL.",
+    "tags": [
+      "fonts",
+      "media",
+      "attribution",
+      "share-alike",
+      "reserved-font-names"
+    ],
+    "osi_approved": true,
+    "fsf_libre": true
+  },
+  {
     "id": "cc-by-nc-sa-4.0",
     "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
     "spdx": "CC-BY-NC-SA-4.0",
@@ -290,6 +556,24 @@
     "fsf_libre": false
   },
   {
+    "id": "cc-by-sa-3.0",
+    "name": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+    "spdx": "CC-BY-SA-3.0",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "Copyleft for creative works. Adds ShareAlike to CC-BY-3.0: adaptations must be distributed under this License, a later version with the same License Elements, a CC jurisdiction license, or a Creative Commons Compatible License. Used by Wikipedia until 2023 and by Stack Overflow content from 2009 to 2018.",
+    "tags": [
+      "share-alike",
+      "copyleft",
+      "attribution",
+      "creative-commons",
+      "media",
+      "predecessor-of-4.0"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true
+  },
+  {
     "id": "cc-by-sa-4.0",
     "name": "Creative Commons Attribution-ShareAlike 4.0 International",
     "spdx": "CC-BY-SA-4.0",
@@ -305,6 +589,38 @@
     ],
     "osi_approved": false,
     "fsf_libre": true
+  },
+  {
+    "id": "gfdl-1.3-only",
+    "name": "GNU Free Documentation License v1.3 only",
+    "spdx": "GFDL-1.3-only",
+    "medium": "media",
+    "archetype": "share-alike",
+    "blurb": "FSF's copyleft license for documentation. Modified versions must be released under GFDL with preserved History, copyright notices, and any Invariant Sections. Section 3 requires Transparent (editable) copies alongside Opaque distributions above 100 units.",
+    "tags": [
+      "copyleft",
+      "documentation",
+      "share-alike",
+      "gnu",
+      "invariant-sections",
+      "media"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true
+  },
+  {
+    "id": "tapr-ohl-1.0",
+    "name": "TAPR Open Hardware License 1.0",
+    "spdx": "TAPR-OHL-1.0",
+    "medium": "hardware",
+    "archetype": "share-alike",
+    "blurb": "Share-alike hardware license from TAPR (2007). Distributors of Products must ship the Documentation (schematics, Gerber, CAD/CAM) or make it available for three years, and modifications must be licensed under the OHL. Uses a mutual covenant-not-to-sue on patents rather than an affirmative patent grant.",
+    "tags": [
+      "share-alike",
+      "hardware"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
   },
   {
     "id": "cc0-1.0",
@@ -336,5 +652,91 @@
     ],
     "osi_approved": true,
     "fsf_libre": true
+  },
+  {
+    "id": "wtfpl",
+    "name": "Do What The F*ck You Want To Public License",
+    "spdx": "WTFPL",
+    "medium": "software",
+    "archetype": "public-domain",
+    "blurb": "Minimal public-domain-equivalent license, one operative sentence long. No attribution, no conditions, and notably no warranty disclaimer. FSF-approved as very lax permissive but discouraged in favor of CC0; not OSI-approved.",
+    "tags": [
+      "public-domain",
+      "no-attribution",
+      "no-warranty-disclaimer",
+      "joke-license"
+    ],
+    "osi_approved": false,
+    "fsf_libre": true
+  },
+  {
+    "id": "busl-1.1",
+    "name": "Business Source License 1.1",
+    "spdx": "BUSL-1.1",
+    "medium": "software",
+    "archetype": "proprietary",
+    "blurb": "Source-available license with a built-in time delay: non-production use is permitted immediately, and on the Change Date (no later than four years after first release) the work converts to a specified Change License (typically GPLv2-or-later-compatible). Used by MariaDB, Sentry, CockroachDB, and others.",
+    "tags": [
+      "source-available",
+      "time-delay-copyleft",
+      "non-production-only",
+      "change-license",
+      "commercial-restriction"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "elastic-2.0",
+    "name": "Elastic License 2.0",
+    "spdx": "Elastic-2.0",
+    "medium": "software",
+    "archetype": "proprietary",
+    "blurb": "Source-available license used by Elastic, Kibana, and others. Grants broad rights to use, modify, and distribute the software but forbids offering it as a hosted or managed service and forbids circumventing commercial license keys. Includes an express patent grant with defensive termination.",
+    "tags": [
+      "source-available",
+      "anti-cloud",
+      "managed-service-restriction",
+      "license-key-protection",
+      "patent-grant",
+      "commercial-restriction"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "polyform-noncommercial-1.0.0",
+    "name": "PolyForm Noncommercial License 1.0.0",
+    "spdx": "PolyForm-Noncommercial-1.0.0",
+    "medium": "software",
+    "archetype": "proprietary",
+    "blurb": "Source-available license from the PolyForm Project. Permits use, modification, distribution, and patent rights only for noncommercial purposes: personal, charitable, educational, public research, public safety, environmental, or government use. Commercial use requires a separate license.",
+    "tags": [
+      "source-available",
+      "non-commercial",
+      "patent-grant",
+      "polyform-family",
+      "commercial-restriction"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
+  },
+  {
+    "id": "sspl-1.0",
+    "name": "Server Side Public License 1.0",
+    "spdx": "SSPL-1.0",
+    "medium": "software",
+    "archetype": "proprietary",
+    "blurb": "MongoDB's AGPL-derived license. Fork of AGPL-3.0 with §13 rewritten: offering the software as a service requires releasing the ENTIRE service-stack source (management, UI, API, automation, monitoring, backup, storage, hosting). Rejected by OSI as non-open-source.",
+    "tags": [
+      "source-available",
+      "network-copyleft",
+      "anti-cloud",
+      "agpl-derivative",
+      "service-source-code",
+      "patent-grant"
+    ],
+    "osi_approved": false,
+    "fsf_libre": false
   }
 ]

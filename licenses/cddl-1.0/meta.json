@@ -1,0 +1,54 @@
+{
+  "id": "cddl-1.0",
+  "name": "Common Development and Distribution License 1.0",
+  "spdx": "CDDL-1.0",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "1.0",
+  "year": 2004,
+  "canonical_url": "https://opensource.org/license/cddl-1-0",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CDDL-1.0.txt",
+    "retrieved_at": "2026-04-21T19:20:00Z",
+    "sha256": "fde9ef48461569987d09cac803379245dfda04e7751075f39b578a0ce927d470"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CDDL-1.0.html",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/cddl-1-0",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Canonical publication source; OSI hosts the authoritative CDDL-1.0 text."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/common-development-and-distribution-license-(cddl-1.0)-explained",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "FSF License List",
+      "url": "https://www.gnu.org/licenses/license-list.html#CDDL",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "FSF classifies CDDL as a file-level weak copyleft free software license that is GPL-incompatible."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/cddl-1-0",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#CDDL",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "File-level weak copyleft free software license; GPL-INCOMPATIBLE (Sun intended it that way, which is why ZFS cannot be upstreamed to the Linux kernel)."
+    }
+  ]
+}

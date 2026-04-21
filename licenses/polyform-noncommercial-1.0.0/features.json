@@ -1,0 +1,138 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-5", "note": "Copyright License: 'The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose.'" },
+        { "sentence_id": "s-19", "note": "Noncommercial Purposes: 'Any noncommercial purpose is a permitted purpose.' (defines the outer boundary of the copyright grant)" },
+        { "sentence_id": "s-21", "note": "Personal Uses: non-commercial personal use (research, study, hobby, amateur pursuits, religious observance) is a permitted purpose." },
+        { "sentence_id": "s-23", "note": "Noncommercial Organizations: charitable, educational, public research, public safety/health, environmental, or government use is a permitted purpose." }
+      ],
+      "external_references": [
+        {
+          "source": "PolyForm Noncommercial canonical page",
+          "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+          "retrieved_at": "2026-04-21T19:30:00Z",
+          "summary": "PolyForm Noncommercial limits all granted licenses to noncommercial permitted purposes. Commercial use requires a separately negotiated license from the licensor."
+        }
+      ],
+      "commentary": "Commercial use is the defining restriction. The copyright, distribution, changes, and patent licenses are all qualified 'for any permitted purpose,' and the only permitted purposes enumerated are noncommercial (individual noncommercial, personal, and noncommercial-organization uses). Commercial use requires a separate license."
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-15", "note": "Changes and New Works License: 'The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.'" }
+      ],
+      "external_references": [],
+      "commentary": "Modification is permitted only for noncommercial permitted purposes."
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-8", "note": "Distribution License: 'The licensor grants you an additional copyright license to distribute copies of the software.'" },
+        { "sentence_id": "s-9", "note": "Distribution covers distributing with changes and new works permitted by the Changes and New Works License." }
+      ],
+      "external_references": [],
+      "commentary": "Distribution is permitted only for noncommercial permitted purposes (see Notices requirement)."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-21", "note": "Personal Uses: personal study, private entertainment, hobby projects, amateur pursuits, religious observance all qualify as permitted purposes." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-17", "note": "Patent License: 'The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.'" },
+        { "sentence_id": "s-31", "note": "Patent Defense: patent license terminates if you claim the software infringes any patent (defensive termination)." },
+        { "sentence_id": "s-32", "note": "Patent Defense: if 'your company' makes such a claim, the patent license ends for work on behalf of your company." }
+      ],
+      "external_references": [],
+      "commentary": "Express patent grant with defensive termination. Like the copyright grants, the patent license is implicitly bounded by 'permitted purposes.'"
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-11", "note": "Notices: 'You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with the software.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "PolyForm-NC is source-available by convention (source must be offered to use PolyForm terms) but the license text itself imposes no source-disclosure obligation on licensees."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "PolyForm-NC imposes no ShareAlike obligation. Recipients of a distributed copy receive the same PolyForm-NC terms (s-11) but there is no 'derivatives under this license' requirement of the GPL kind."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-11", "note": "Notices: must pass along the terms (or the canonical URL) AND any 'Required Notice:' lines supplied by the licensor." },
+        { "sentence_id": "s-13", "note": "Notices example: 'Required Notice: Copyright Yoyodyne, Inc. (http://example.com)' — this is the attribution mechanism." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-37", "note": "No Liability: 'As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the software, under any kind of legal claim.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-37", "note": "Same combined No Liability / AS IS clause disclaims any warranty or condition." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-29", "note": "No Other Rights: 'These terms do not imply any other licenses.' — no trademark grant is implied." },
+        { "sentence_id": "s-28", "note": "No Other Rights: terms do not allow sublicensing or transfer; licensor remains free to grant licenses to anyone else." }
+      ],
+      "external_references": [],
+      "commentary": "The license grants no trademark rights. 'No Other Rights' (s-29) forecloses any implied trademark license."
+    }
+  ],
+  "sources": [
+    { "source": "PolyForm Noncommercial License 1.0.0 text", "url": "licenses/polyform-noncommercial-1.0.0/text.html", "role": "primary evidence" },
+    { "source": "PolyForm Noncommercial canonical page", "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/", "role": "canonical publisher" }
+  ]
+}

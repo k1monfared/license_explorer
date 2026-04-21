@@ -1,0 +1,56 @@
+{
+  "id": "cc-by-3.0",
+  "name": "Creative Commons Attribution 3.0 Unported",
+  "spdx": "CC-BY-3.0",
+  "medium": "media",
+  "archetype": "attribution",
+  "version": "3.0",
+  "year": 2007,
+  "canonical_url": "https://creativecommons.org/licenses/by/3.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-3.0.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-3.0.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by/3.0/",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "Canonical CC human-readable deed and legalcode."
+    },
+    {
+      "source": "FSF License List (CC BY)",
+      "url": "https://www.gnu.org/licenses/license-list.html#ccby",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF entry classifying CC-BY as acceptable for works of opinion and judgement."
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-3.0.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "CC licenses are designed for creative works, not software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ccby",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "GPL-compatible only for works of practical use other than software and documentation; FSF lists CC-BY under 'Licenses for Works of Opinion and Judgment' as acceptable for any work."
+    }
+  ]
+}

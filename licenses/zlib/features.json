@@ -1,0 +1,117 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "Permission is granted to anyone to use this software for any purpose, including commercial applications" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "to alter it and redistribute it freely" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "Permission is granted to anyone ... to alter it and redistribute it freely" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-3", "note": "Permission is granted to anyone to use this software for any purpose" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-10", "note": "Clause 3: This notice may not be removed or altered from any source distribution" }
+      ],
+      "external_references": [],
+      "commentary": "The retention obligation is scoped to source distributions only; binary distributions are not required to include the notice."
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-8", "note": "Clause 2: Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "Clause 1 says an acknowledgment in product documentation 'would be appreciated but is not required' (s-6), and clause 3 only requires the notice to be preserved in source distributions (s-10). Binary redistribution carries no attribution obligation."
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-2", "note": "In no event will the authors be held liable for any damages arising from the use of this software" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-1", "note": "This software is provided as-is, without any express or implied warranty" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-5", "note": "Clause 1: The origin of this software must not be misrepresented; you must not claim that you wrote the original software" },
+        { "sentence_id": "s-8", "note": "Clause 2: Altered source versions ... must not be misrepresented as being the original software" }
+      ],
+      "external_references": [],
+      "commentary": "No express trademark grant. Clauses 1 and 2 create an anti-misrepresentation rule functionally similar to the BSD-3 'no endorsement' clause: you may neither claim authorship of the original nor pass off a modified version as the original."
+    }
+  ],
+  "sources": [
+    { "source": "zlib License text", "url": "licenses/zlib/text.html", "role": "primary evidence" }
+  ]
+}

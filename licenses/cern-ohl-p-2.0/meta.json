@@ -1,0 +1,54 @@
+{
+  "id": "cern-ohl-p-2.0",
+  "name": "CERN Open Hardware Licence Version 2 - Permissive",
+  "spdx": "CERN-OHL-P-2.0",
+  "medium": "hardware",
+  "archetype": "permissive",
+  "version": "2.0",
+  "year": 2020,
+  "canonical_url": "https://cern-ohl.web.cern.ch/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CERN-OHL-P-2.0.txt",
+    "retrieved_at": "2026-04-21T19:30:00Z",
+    "sha256": "eeecc593866fa1c3b80189c7e3dc0ceb77740557fa92f81771f891cc54c579cb"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CERN-OHL-P-2.0.html",
+      "retrieved_at": "2026-04-21T19:30:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/cern-ohl-p-2-0",
+      "retrieved_at": "2026-04-21T19:30:00Z"
+    },
+    {
+      "source": "CERN Open Hardware Licence",
+      "url": "https://cern-ohl.web.cern.ch/",
+      "retrieved_at": "2026-04-21T19:30:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "OSHWA guidance on CERN-OHL",
+      "url": "https://www.oshwa.org/",
+      "retrieved_at": "2026-04-21T19:30:00Z",
+      "note": "Community-level guidance treating CERN-OHL-P as a permissive open-hardware option."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/cern-ohl-p-2-0",
+      "retrieved_at": "2026-04-21T19:30:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:30:00Z",
+      "note": "CERN-OHL is a hardware license; FSF's license list does not classify hardware-specific licenses as free or nonfree software. FSF has published guidance viewing CERN-OHL-P as acceptable for hardware designs."
+    }
+  ]
+}

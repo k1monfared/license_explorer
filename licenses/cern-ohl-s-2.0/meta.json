@@ -1,0 +1,48 @@
+{
+  "id": "cern-ohl-s-2.0",
+  "name": "CERN Open Hardware Licence Version 2 - Strongly Reciprocal",
+  "spdx": "CERN-OHL-S-2.0",
+  "medium": "hardware",
+  "archetype": "strong-copyleft",
+  "version": "2.0",
+  "year": 2020,
+  "canonical_url": "https://cern-ohl.web.cern.ch/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CERN-OHL-S-2.0.txt",
+    "retrieved_at": "2026-04-21T19:40:00Z",
+    "sha256": "d6475a84171f0cf7ff52667dea714df268fc65cea42f0bf328b0b70d4cd0ebab"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CERN-OHL-S-2.0.html",
+      "retrieved_at": "2026-04-21T19:40:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/cern-ohl-s-2-0",
+      "retrieved_at": "2026-04-21T19:40:00Z"
+    },
+    {
+      "source": "CERN Open Hardware Licence",
+      "url": "https://cern-ohl.web.cern.ch/",
+      "retrieved_at": "2026-04-21T19:40:00Z",
+      "note": "Canonical publication source."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/cern-ohl-s-2-0",
+      "retrieved_at": "2026-04-21T19:40:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:40:00Z",
+      "note": "Hardware license; FSF software-list classification does not directly apply."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-23", "note": "(1) You are permitted to use the Standard Version and create and use Modified Versions for any purpose without restriction" },
+        { "sentence_id": "s-25", "note": "(2) You may Distribute verbatim copies of the Source form ... either gratis or for a Distributor Fee" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-23", "note": "You are permitted to use the Standard Version and create and use Modified Versions for any purpose without restriction" },
+        { "sentence_id": "s-30", "note": "(4) You may Distribute your Modified Version as Source" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-25", "note": "(2) You may Distribute verbatim copies of the Source form of the Standard Version ... in any medium without restriction" },
+        { "sentence_id": "s-30", "note": "(4) You may Distribute your Modified Version as Source" },
+        { "sentence_id": "s-37", "note": "(5) You may Distribute Compiled forms of the Standard Version without the Source" },
+        { "sentence_id": "s-41", "note": "(6) You may Distribute a Modified Version in Compiled form without the Source" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-23", "note": "You are permitted to use the Standard Version and create and use Modified Versions for any purpose without restriction, provided that you do not Distribute the Modified Version" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-56", "note": "(13) This license includes the non-exclusive, worldwide, free-of-charge patent license to make, have made, use, offer to sell, sell, import and otherwise transfer the Package" },
+        { "sentence_id": "s-57", "note": "Patent retaliation: license terminates on the date patent litigation alleging the Package infringes is filed" }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-25", "note": "(2) You may Distribute verbatim copies ... provided that you duplicate all of the original copyright notices and associated disclaimers" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-30", "note": "(4) ... provided that you clearly document how it differs from the Standard Version, including ... non-standard features, executables, or modules" },
+        { "sentence_id": "s-33", "note": "the Modified Version must bear a name that is different from the name of the Standard Version" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-30", "note": "(4) You may Distribute your Modified Version as Source ... provided that you do at least ONE of the following:" },
+        { "sentence_id": "s-31", "note": "(a) make the Modified Version available to the Copyright Holder of the Standard Version, under the Original License" },
+        { "sentence_id": "s-32", "note": "(b) ensure that installation of your Modified Version does not prevent the user installing or running the Standard Version" },
+        { "sentence_id": "s-34", "note": "(c) allow anyone who receives a copy of the Modified Version to make the Source form ... available to others" },
+        { "sentence_id": "s-37", "note": "(5) You may Distribute Compiled forms of the Standard Version without the Source, provided that you include complete instructions on how to get the Source of the Standard Version" },
+        { "sentence_id": "s-41", "note": "(6) You may Distribute a Modified Version in Compiled form without the Source, provided that you comply with Section 4 with respect to the Source of the Modified Version" }
+      ],
+      "external_references": [
+        {
+          "source": "FSF license list (Artistic 2.0 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html#ArtisticLicense2",
+          "retrieved_at": "2026-04-21T19:10:00Z",
+          "summary": "FSF classes Artistic 2.0 as a free software license with conditional source availability rather than strict copyleft; source disclosure is one of several alternative compliance paths under sections 4-5."
+        }
+      ],
+      "commentary": "Source disclosure is conditional. Section 4 gives three alternatives for source distributions (contribute upstream, install-side-by-side with renaming, or grant downstream source redistribution rights). Section 5 requires instructions to obtain the source when distributing compiled-only Standard Versions. So source availability is required in some distribution paths but optional overall, which is why this is grey rather than required."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-31", "note": "(4)(a) make the Modified Version available to the Copyright Holder ... under the Original License" },
+        { "sentence_id": "s-34", "note": "(4)(c) allow anyone who receives a copy of the Modified Version to make the Source form ... available to others under" },
+        { "sentence_id": "s-35", "note": "(i) the Original License or (ii) a license that permits the licensee to freely copy, modify and redistribute ... using the same licensing terms" },
+        { "sentence_id": "s-41", "note": "(6) You may Distribute a Modified Version in Compiled form without the Source, provided that you comply with Section 4 with respect to the Source of the Modified Version" }
+      ],
+      "external_references": [
+        {
+          "source": "FSF license list (Artistic 2.0 entry)",
+          "url": "https://www.gnu.org/licenses/license-list.html#ArtisticLicense2",
+          "retrieved_at": "2026-04-21T19:10:00Z",
+          "summary": "FSF describes Artistic 2.0 as a free software license whose GPL compatibility depends on the chosen compliance path. The license allows relicensing Modified Versions under compatible terms or keeping the Original License."
+        }
+      ],
+      "commentary": "Split-license flexibility. Under section 4 the distributor may choose to keep the Original License, contribute the modifications back so they live under the Original License, rename the Modified Version, or relicense under any license that preserves the same downstream copy/modify/redistribute rights. Because relicensing to a compatible alternative is explicitly permitted, this is grey rather than a strict same-license share-alike."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-25", "note": "(2) ... provided that you duplicate all of the original copyright notices and associated disclaimers" },
+        { "sentence_id": "s-33", "note": "the Modified Version must bear a name that is different from the name of the Standard Version" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-60", "note": "UNLESS REQUIRED BY LAW, NO COPYRIGHT HOLDER OR CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-58", "note": "(14) Disclaimer of Warranty: THE PACKAGE IS PROVIDED ... AS IS AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES" },
+        { "sentence_id": "s-59", "note": "THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT ARE DISCLAIMED" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-55", "note": "(12) This license does not grant you the right to use any trademark, service mark, tradename, or logo of the Copyright Holder" }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "Artistic License 2.0 text", "url": "licenses/artistic-2.0/text.html", "role": "primary evidence" }
+  ]
+}

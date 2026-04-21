@@ -1,0 +1,53 @@
+{
+  "id": "artistic-2.0",
+  "name": "Artistic License 2.0",
+  "spdx": "Artistic-2.0",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "2.0",
+  "year": 2006,
+  "canonical_url": "https://www.perlfoundation.org/artistic-license-20.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Artistic-2.0.txt",
+    "retrieved_at": "2026-04-21T19:10:00Z",
+    "sha256": "bae466ac8d7100c304fe76632ccc627203a3897d3f7166f3cce00fb9df8c2074"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/Artistic-2.0.html",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/artistic-2-0",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "The Perl Foundation",
+      "url": "https://www.perlfoundation.org/artistic-license-20.html",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "FSF",
+      "url": "https://www.gnu.org/licenses/license-list.html#ArtisticLicense2",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/artistic-2-0",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ArtisticLicense2",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "GPL-compatible free software license. Perl's preferred license."
+    }
+  ]
+}

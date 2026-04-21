@@ -1,0 +1,159 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-43", "note": "Licensor hereby grants You a worldwide, royalty-free, non-exclusive, perpetual ... license to exercise the rights in the Work as stated below; no restriction on commercial use" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-46", "note": "to create and Reproduce Adaptations provided that any such Adaptation ... takes reasonable steps to clearly label, demarcate or otherwise identify that changes were made to the original Work" },
+        { "sentence_id": "s-49", "note": "to Distribute and Publicly Perform Adaptations" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-23", "note": "'Distribute' means to make available to the public the original and copies of the Work or Adaptation ... through sale or other transfer of ownership" },
+        { "sentence_id": "s-48", "note": "to Distribute and Publicly Perform the Work including as incorporated in Collections" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-43", "note": "broad license grant to exercise the rights in the Work; no restriction on private use" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-61", "note": "Subject to Section 8(f), all rights not expressly granted by Licensor are hereby reserved." }
+      ],
+      "external_references": [
+        {
+          "source": "Creative Commons 'What's new in 4.0' (patents and trademarks)",
+          "url": "https://creativecommons.org/version4/patents-trademarks/",
+          "retrieved_at": "2026-04-21T20:00:00Z",
+          "summary": "Creative Commons explicitly notes that CC 3.0 and earlier were silent on whether patent and trademark rights were being licensed. CC 4.0 added Section 2(b)(2) to make the non-license of patent and trademark rights explicit; CC 3.0 left the question ambiguous. Most CC experts assumed no implicit patent grant, but no clause in CC-BY-SA-3.0 says so."
+        }
+      ],
+      "commentary": "CC-BY-SA-3.0 is silent on patent rights in a way that differs from CC-BY-SA-4.0. The 3.0 text has no provision equivalent to 4.0 Section 2(b)(2) ('Patent and trademark rights are not licensed under this Public License'). The only hook is Section 8(f) (s-61), which reserves 'all rights not expressly granted.' Marked grey because the license does not affirmatively grant or affirmatively exclude patent rights."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-67", "note": "You must include a copy of, or the Uniform Resource Identifier (URI) for, this License with every copy of the Work You Distribute or Publicly Perform" },
+        { "sentence_id": "s-70", "note": "You must keep intact all notices that refer to this License and to the disclaimer of warranties with every copy of the Work You Distribute or Publicly Perform" },
+        { "sentence_id": "s-81", "note": "If You Distribute, or Publicly Perform the Work or any Adaptations or Collections, You must ... keep intact all copyright notices for the Work" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-46", "note": "Adaptations must take reasonable steps to clearly label, demarcate or otherwise identify that changes were made to the original Work" },
+        { "sentence_id": "s-47", "note": "Example language: 'The original work has been modified.'" },
+        { "sentence_id": "s-81", "note": "§4(c)(iv): in the case of an Adaptation, a credit identifying the use of the Work in the Adaptation (e.g., 'French translation of the Work by Original Author')" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-76", "note": "§4(b): You may Distribute or Publicly Perform an Adaptation only under the terms of: (i) this License; (ii) a later version of this License with the same License Elements as this License; (iii) a Creative Commons jurisdiction license (either this or a later license version) that contains the same License Elements as this License (e.g., Attribution-ShareAlike 3.0 US); (iv) a Creative Commons Compatible License." },
+        { "sentence_id": "s-77", "note": "If you license the Adaptation under one of the licenses mentioned in (iv), you must comply with the terms of that license." },
+        { "sentence_id": "s-21", "note": "Definition of 'Creative Commons Compatible License': a license approved by Creative Commons as essentially equivalent, including explicit permission to relicense adaptations under this License or a CC jurisdiction license with the same License Elements." }
+      ],
+      "external_references": [
+        {
+          "source": "Creative Commons 'ShareAlike compatibility' page",
+          "url": "https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/",
+          "retrieved_at": "2026-04-21T20:00:00Z",
+          "summary": "Creative Commons maintains a list of 'Compatible Licenses' under §4(b)(iv). The only license CC formally added to the BY-SA 3.0 compatibility list was the Free Art License 1.3, and later one-way compatibility was declared from BY-SA 3.0 to BY-SA 4.0. The 3.0 ShareAlike mechanism is therefore strictly tighter than 4.0's: adapters could not relicense freely across ShareAlike families."
+        },
+        {
+          "source": "FSF License List (CC BY-SA)",
+          "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
+          "retrieved_at": "2026-04-21T20:00:00Z",
+          "summary": "FSF notes that CC-BY-SA is a copyleft license for works of art and opinion. Prior to the 4.0 upgrade, CC-BY-SA was GPL-incompatible in both directions; compatibility with GPLv3 was only achieved by a unilateral CC declaration allowing one-way relicensing from CC-BY-SA 4.0 to GPLv3 (not from 3.0)."
+        }
+      ],
+      "commentary": "The ShareAlike core of CC-BY-SA-3.0 is in §4(b) (s-76 to s-78). Adaptations must be distributed under the same License, a later version with the same License Elements, a CC jurisdiction license with the same License Elements, or a Creative Commons Compatible License approved by CC. This four-part menu is narrower than §4(b) in CC-BY-SA-4.0 and creates real compatibility gaps: BY-SA 3.0 Adaptations could not freely migrate to GPLv3 or to BY-SA 4.0 without Creative Commons' intervention."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-81", "note": "§4(c): If You Distribute, or Publicly Perform the Work or any Adaptations or Collections, You must ... provide ... (i) the name of the Original Author ... (ii) the title of the Work ... (iii) ... the URI ... (iv) ... in the case of an Adaptation, a credit identifying the use of the Work in the Adaptation" },
+        { "sentence_id": "s-82", "note": "The credit required by this Section 4(c) may be implemented in any reasonable manner; in the case of an Adaptation or Collection, at a minimum such credit will appear ... in a manner at least as prominent as the credits for the other contributing authors" },
+        { "sentence_id": "s-83", "note": "You may only use the credit required by this Section for the purpose of attribution ... and ... may not implicitly or explicitly assert or imply any connection with, sponsorship or endorsement by the Original Author" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-94", "note": "IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-90", "note": "LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED, STATUTORY OR OTHERWISE" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-129", "note": "CC 'Creative Commons Notice' states that the restriction on use of the 'Creative Commons' trademark does not form part of the License" }
+      ],
+      "external_references": [
+        {
+          "source": "Creative Commons 'What's new in 4.0' (patents and trademarks)",
+          "url": "https://creativecommons.org/version4/patents-trademarks/",
+          "retrieved_at": "2026-04-21T20:00:00Z",
+          "summary": "Creative Commons documents that CC 3.0 (including BY-SA 3.0) is silent on the licensor's own trademark rights. The only trademark language in CC-BY-SA-3.0 concerns the 'Creative Commons' trademark itself and is carved out as not part of the License. CC 4.0 made the non-license of the licensor's trademark rights explicit (Section 2(b)(2))."
+        }
+      ],
+      "commentary": "CC-BY-SA-3.0 is silent on the licensor's trademark rights. It contains a 'no implied endorsement' rule inside the attribution clause (s-83), which functions as a narrow name-use limit, but it does not affirmatively say 'trademark rights are not licensed.' The only explicit trademark language concerns Creative Commons' own marks (s-127 to s-129) and is carved out as not part of the License."
+    }
+  ],
+  "sources": [
+    { "source": "CC-BY-SA-3.0 text", "url": "licenses/cc-by-sa-3.0/text.html", "role": "primary evidence" }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "cc-by-sa-3.0",
+  "name": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+  "spdx": "CC-BY-SA-3.0",
+  "medium": "media",
+  "archetype": "share-alike",
+  "version": "3.0",
+  "year": 2007,
+  "canonical_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-SA-3.0.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "3f941b3b89cf7b8370ceb83cc76d2120d471b58735d8ca60238a751a48d7f72f"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/CC-BY-SA-3.0.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "Creative Commons",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "Canonical CC human-readable deed and legalcode."
+    },
+    {
+      "source": "FSF License List (CC BY-SA)",
+      "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF entry classifying CC-BY-SA as a copyleft free license for creative works."
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CC-BY-SA-3.0.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "CC licenses are designed for creative works, not software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ccbysa",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "GPL-compatible copyleft for creative works; acceptable for any kind of work. Stack Overflow content before 2018 was licensed CC-BY-SA 3.0."
+    }
+  ]
+}

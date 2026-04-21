@@ -1,0 +1,50 @@
+{
+  "id": "bsd-4-clause",
+  "name": "BSD 4-Clause \"Original\" or \"Old\" License",
+  "spdx": "BSD-4-Clause",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 1988,
+  "canonical_url": "https://spdx.org/licenses/BSD-4-Clause.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-4-Clause.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "c80d927f03db7212ba43a869a383e249c19b40859ff0d9e2e2f968e4fdcf005f"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/BSD-4-Clause.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "FSF License List (Original BSD)",
+      "url": "https://www.gnu.org/licenses/license-list.html#OriginalBSD",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF entry classifying the original 4-clause BSD as a non-free license because of the advertising clause."
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSD-4-Clause.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "The original 4-clause BSD is not OSI-approved because the advertising clause (clause 3) makes the license less permissive in practice. The modified 3-clause BSD removed that clause and is OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html#OriginalBSD",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF classifies the original 4-clause BSD as NON-FREE due to the 'advertising clause' (clause 3) that requires acknowledging the copyright holder in all advertising materials. This was a major historical point of GPL-incompatibility."
+    }
+  ]
+}

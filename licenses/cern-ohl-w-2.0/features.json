@@ -1,0 +1,142 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-35", "note": "2.1 This Licence governs the use, copying, modification, Conveying of Covered Source and Products, and the Making of Products (no non-commercial restriction)" },
+        { "sentence_id": "s-52", "note": "4.1 You may Make Products, and/or Convey them" },
+        { "sentence_id": "s-56", "note": "4.3 You may license Products under terms of Your choice" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-42", "note": "3.2 You may modify Covered Source, other than Notices, provided that You ... make that modified Covered Source available from a Source Location should You Convey a Product" },
+        { "sentence_id": "s-45", "note": "3.3 You may Convey modified Covered Source" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-33", "note": "Convey means to communicate to the public or distribute" },
+        { "sentence_id": "s-41", "note": "3.1 You may copy and Convey verbatim copies of Covered Source, in any medium, provided You retain all Notices" },
+        { "sentence_id": "s-52", "note": "4.1 You may Make Products, and/or Convey them (distribution of physical Products)" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-35", "note": "2.1 governs use, copying, modification ... (broad grant encompasses private use)" },
+        { "sentence_id": "s-39", "note": "2.4 This Licence is not intended to restrict fair use, fair dealing, or any other similar right" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-67", "note": "7.1 each Licensor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable ... patent license to Make, have Made, use, offer to sell, sell, import, and otherwise transfer the Covered Source and Products" },
+        { "sentence_id": "s-68", "note": "7.2 patent retaliation: rights terminate on patent litigation" }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-29", "note": "Notice includes copyright, acknowledgement and trademark notices" },
+        { "sentence_id": "s-41", "note": "3.1 provided You retain all Notices" },
+        { "sentence_id": "s-46", "note": "3.3(a) retain Notices as required in subsection 3.2" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-47", "note": "3.3(b) add a Notice to the modified Covered Source stating that You have modified it, with the date and brief description of how You have modified it" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-42", "note": "3.2 You irrevocably undertake to make that modified Covered Source available from a Source Location should You Convey a Product" },
+        { "sentence_id": "s-48", "note": "3.3(c) add a Source Location Notice for the modified Covered Source if You Convey in circumstances where the recipient does not otherwise receive a copy" },
+        { "sentence_id": "s-52", "note": "4.1 You may Make Products, and/or Convey them, provided that You either provide each recipient with a copy of the Complete Source or ensure that each recipient is notified of the Source Location of the Complete Source" },
+        { "sentence_id": "s-53", "note": "That Complete Source includes Covered Source" }
+      ],
+      "external_references": [],
+      "commentary": "Weakly reciprocal: the reciprocal obligation attaches to the Covered Source (and modifications thereof), not to External Material interfaced with via a documented interface (see §1.8, §4.2). Available Components referenced by the design are excluded from Complete Source except for sufficient sourcing information."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "Network/remote-use disclosure is not a natural concept for physical hardware products and is not addressed by CERN-OHL-W."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-49", "note": "3.3(d) license the modified Covered Source under the terms and conditions of this Licence" },
+        { "sentence_id": "s-50", "note": "Such modified Covered Source must be licensed as a whole, but excluding Available Components contained in it or External Material to which it is interfaced, which remain licensed under their own applicable licences" },
+        { "sentence_id": "s-56", "note": "4.3 You may license Products under terms of Your choice, provided that such terms do not restrict ... rights under this Licence to the Covered Source" }
+      ],
+      "external_references": [],
+      "commentary": "Weak (file/source-level) reciprocity: only the MODIFIED Covered Source must be licensed under CERN-OHL-W 2.0 as a whole. Available Components and External Material that interfaces via a documented interface remain under their own licences. A Product incorporating Covered Source may itself be licensed under terms of Your choice under §4.3. Contrast with CERN-OHL-S, which applies reciprocity at the whole-design level."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-29", "note": "Notice includes copyright, acknowledgement and trademark notices and all notices that refer to this Licence" },
+        { "sentence_id": "s-41", "note": "3.1 provided You retain all Notices" },
+        { "sentence_id": "s-54", "note": "If specified in a Notice, the Product must visibly and securely display the Source Location on it or its packaging or documentation" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-65", "note": "6.2 EXCLUSION AND LIMITATION OF LIABILITY -- The Licensor shall, to the maximum extent permitted by law, have no liability for direct, indirect, special, incidental, consequential, exemplary, punitive or other damages" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-61", "note": "6.1 DISCLAIMER OF WARRANTY -- The Covered Source and any Products are provided 'as is' and any express or implied warranties ... are disclaimed" },
+        { "sentence_id": "s-64", "note": "This disclaimer of warranty is an essential part of this Licence" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [
+        { "sentence_id": "s-71", "note": "8.2 You shall not use any of the name ... image, or logo by which the Licensor or CERN is known, except where needed to comply with section 3" }
+      ],
+      "external_references": [],
+      "commentary": "No affirmative trademark grant; §8.2 imposes a narrow endorsement/name-use restriction rather than a general denial of trademark rights."
+    }
+  ],
+  "sources": [
+    { "source": "CERN Open Hardware Licence Version 2 - Weakly Reciprocal text", "url": "licenses/cern-ohl-w-2.0/text.html", "role": "primary evidence" }
+  ]
+}

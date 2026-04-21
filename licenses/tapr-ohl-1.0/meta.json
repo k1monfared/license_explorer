@@ -1,0 +1,44 @@
+{
+  "id": "tapr-ohl-1.0",
+  "name": "TAPR Open Hardware License 1.0",
+  "spdx": "TAPR-OHL-1.0",
+  "medium": "hardware",
+  "archetype": "share-alike",
+  "version": "1.0",
+  "year": 2007,
+  "canonical_url": "https://tapr.org/the-tapr-open-hardware-license/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/TAPR-OHL-1.0.txt",
+    "retrieved_at": "2026-04-21T19:45:00Z",
+    "sha256": "b388f10f05822629ebd5c9b0779d3043d1a94e7e88ce7bb6b2cf6a098dc012ba"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/TAPR-OHL-1.0.html",
+      "retrieved_at": "2026-04-21T19:45:00Z"
+    },
+    {
+      "source": "TAPR",
+      "url": "https://tapr.org/the-tapr-open-hardware-license/",
+      "retrieved_at": "2026-04-21T19:45:00Z",
+      "note": "Canonical publication source."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/licenses",
+      "retrieved_at": "2026-04-21T19:45:00Z",
+      "note": "TAPR OHL predates OSI's hardware-license endorsements and was not submitted for OSI approval."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:45:00Z",
+      "note": "Hardware license; FSF software-list classification does not directly apply."
+    }
+  ]
+}

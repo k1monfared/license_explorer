@@ -11,7 +11,7 @@
       "spdx":         { "type": ["string", "null"] },
       "medium":       { "enum": ["software", "media", "hardware", "data"] },
       "archetype":    { "enum": ["permissive", "weak-copyleft", "strong-copyleft", "attribution", "share-alike", "public-domain", "proprietary"] },
-      "blurb":        { "type": "string", "maxLength": 280 },
+      "blurb":        { "type": "string", "maxLength": 400 },
       "tags":         { "type": "array", "items": { "type": "string" } },
       "osi_approved": { "type": "boolean", "description": "Listed as OSI-approved at opensource.org/licenses." },
       "fsf_libre":    { "type": "boolean", "description": "Classified as Free Software by FSF at gnu.org/licenses/license-list.html." }

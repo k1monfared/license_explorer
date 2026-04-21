@@ -1,0 +1,48 @@
+{
+  "id": "zlib",
+  "name": "zlib License",
+  "spdx": "Zlib",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 1995,
+  "canonical_url": "https://opensource.org/license/zlib",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Zlib.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "bfb1112d49db5b1daecdfef24bd7e2f3ea0bafb33aa67aa0ab51e2bf8407c03d"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/Zlib.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/zlib",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "zlib home page",
+      "url": "https://www.zlib.net/zlib_license.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical location of the zlib license as shipped with the zlib compression library."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/zlib",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ZLib",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Simple permissive license; GPL-compatible. Widely used in embedded and gaming."
+    }
+  ]
+}

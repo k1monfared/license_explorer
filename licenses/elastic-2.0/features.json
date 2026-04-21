@@ -1,0 +1,138 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-5", "note": "Broad copyright grant: 'non-exclusive, royalty-free, worldwide, non-sublicensable, non-transferable license to use, copy, distribute, make available, and prepare derivative works of the software.'" },
+        { "sentence_id": "s-7", "note": "§3 Limitation (a): 'You may not provide the software to third parties as a hosted or managed service, where the service provides users with access to any substantial set of the features or functionality of the software.'" },
+        { "sentence_id": "s-8", "note": "§3 Limitation (b): 'You may not move, change, disable, or circumvent the license key functionality in the software, and you may not remove or obscure any functionality in the software that is protected by the license key.'" }
+      ],
+      "external_references": [
+        {
+          "source": "Elastic licensing FAQ",
+          "url": "https://www.elastic.co/licensing/elastic-license/faq",
+          "retrieved_at": "2026-04-21T19:10:00Z",
+          "summary": "Elastic explains that ELv2 permits most uses, including commercial ones, but is specifically designed to prevent hosted SaaS offerings of the software itself and the circumvention of paid/commercial license keys."
+        }
+      ],
+      "commentary": "Most commercial use is permitted, but two narrow categories are carved out: (a) offering the software as a hosted/managed service (s-7), and (b) disabling or circumventing commercial license-key gating (s-8). Companies that would use ELv2 software internally for commercial purposes are fine; companies that would re-sell it as a SaaS are not."
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-5", "note": "Grant to 'prepare derivative works of the software'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-5", "note": "Grant to 'distribute, make available' the software." },
+        { "sentence_id": "s-17", "note": "Notices clause requires recipients also to receive a copy of these terms, confirming distribution is contemplated." }
+      ],
+      "external_references": [],
+      "commentary": "Distribution as software is permitted; distribution as a hosted SaaS offering is not (see commercial-use)."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-5", "note": "'use, copy ... the software' is granted broadly; internal/private use is within this grant." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-12", "note": "'The licensor grants you a license, under any patent claims the licensor can license, or becomes able to license, to make, have made, use, sell, offer for sale, import and have imported the software.'" },
+        { "sentence_id": "s-14", "note": "Defensive termination: 'If you or your company make any written claim that the software infringes or contributes to infringement of any patent, your patent license for the software granted under these terms ends immediately.'" }
+      ],
+      "external_references": [],
+      "commentary": "Express patent grant with a defensive termination clause (s-14, s-15) narrower than Apache-2.0 because it ends only the patent license, not the whole license."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-9", "note": "'You may not alter, remove, or obscure any licensing, copyright, or other notices of the licensor in the software.'" },
+        { "sentence_id": "s-17", "note": "'You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-18", "note": "'If you modify the software, you must include in any modified copies of the software prominent notices stating that you have modified the software.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "ELv2 does not impose AGPL-style network copyleft. Instead it simply forbids managed-service redistribution entirely (see commercial-use)."
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-9", "note": "Must not remove or obscure licensing, copyright, or other notices." },
+        { "sentence_id": "s-17", "note": "Must pass along a copy of these terms to downstream recipients." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-26", "note": "'As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the software, under any kind of legal claim.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-26", "note": "Same §6 clause: the software comes as is, without any warranty or condition." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-10", "note": "'Any use of the licensor's trademarks is subject to applicable law.' (no trademark grant is offered)" },
+        { "sentence_id": "s-20", "note": "'These terms do not imply any licenses other than those expressly granted in these terms.'" }
+      ],
+      "external_references": [],
+      "commentary": "No trademark rights are granted by the license; use of Elastic's marks is constrained only by background trademark law. Consistent with §5 'No Other Rights' (s-20) nothing else is implied."
+    }
+  ],
+  "sources": [
+    { "source": "Elastic License 2.0 text", "url": "licenses/elastic-2.0/text.html", "role": "primary evidence" },
+    { "source": "Elastic licensing FAQ", "url": "https://www.elastic.co/licensing/elastic-license/faq", "role": "publisher interpretation" },
+    { "source": "OSI blog: The SSPL is not an open source license", "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license", "role": "OSI classification commentary" }
+  ]
+}

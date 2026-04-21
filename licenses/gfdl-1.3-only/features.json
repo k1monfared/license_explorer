@@ -1,0 +1,141 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-44", "note": "You may copy and distribute the Document in any medium, either commercially or noncommercially" },
+        { "sentence_id": "s-46", "note": "you may accept compensation in exchange for copies" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-62", "note": "You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-44", "note": "You may copy and distribute the Document in any medium" },
+        { "sentence_id": "s-14", "note": "This License applies to any manual or other work, in any medium, that contains a notice" }
+      ],
+      "external_references": [],
+      "commentary": "Distribution has extensive requirements including Cover Texts, Invariant Sections, Transparent copies (§3), and History/authorship preservation (§4)."
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-15", "note": "Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein" },
+        { "sentence_id": "s-18", "note": "You accept the license if you copy, modify or distribute the work in a way requiring permission under copyright law" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-44", "note": "the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies" },
+        { "sentence_id": "s-72", "note": "§4.D: Preserve all the copyright notices of the Document" },
+        { "sentence_id": "s-74", "note": "§4.E: Add an appropriate copyright notice for your modifications adjacent to the other copyright notices" },
+        { "sentence_id": "s-76", "note": "§4.F: Include a license notice giving the public permission to use the Modified Version under the terms of this License" },
+        { "sentence_id": "s-80", "note": "§4.H: Include an unaltered copy of this License" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-65", "note": "§4.A: Use in the Title Page a title distinct from that of the Document, and from those of previous versions" },
+        { "sentence_id": "s-68", "note": "§4.B: List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications" },
+        { "sentence_id": "s-82", "note": "§4.I: Preserve the section Entitled History ... add an item stating at least the title, year, new authors, and publisher of the Modified Version" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-57", "note": "§3: If you publish or distribute Opaque copies ... numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state ... a computer-network location from which the general network-using public has access to download ... a complete Transparent copy" }
+      ],
+      "external_references": [],
+      "commentary": "The Transparent-copy requirement (§3) is the documentation analogue of source disclosure: editable machine-readable copies must be provided when distributing Opaque copies in quantity (more than 100)."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-62", "note": "§4: you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document" },
+        { "sentence_id": "s-7", "note": "This License is a kind of copyleft, which means that derivative works of the document must themselves be free in the same sense" },
+        { "sentence_id": "s-110", "note": "§5: You may combine the Document with other documents released under this License, under the terms defined in section 4 above for modified versions" }
+      ],
+      "external_references": [],
+      "commentary": "Strong copyleft for documentation. Unusually, the GFDL permits Invariant Sections and Cover Texts, immutable passages that must be preserved verbatim in all derivatives, which creates friction with many free-content projects (notably Wikipedia, which relicensed to CC-BY-SA under §11)."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-68", "note": "§4.B: List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications ... together with at least five of the principal authors of the Document" },
+        { "sentence_id": "s-72", "note": "§4.D: Preserve all the copyright notices of the Document" },
+        { "sentence_id": "s-82", "note": "§4.I: History section preserving title, year, authors, and publisher" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-40", "note": "The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document" },
+        { "sentence_id": "s-41", "note": "These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties" },
+        { "sentence_id": "s-99", "note": "§4.O: Preserve any Warranty Disclaimers" }
+      ],
+      "external_references": [],
+      "commentary": "The GFDL itself contains no general liability disclaimer. Instead, §1 incorporates by reference any Warranty Disclaimers the Document author chose to include (and §4.O requires preserving them in Modified Versions). Liability protection is therefore dependent on the Document's own notice and is not guaranteed by the license."
+    },
+    {
+      "key": "warranty",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-40", "note": "The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document" },
+        { "sentence_id": "s-41", "note": "These Warranty Disclaimers are considered to be included by reference in this License" },
+        { "sentence_id": "s-99", "note": "§4.O: Preserve any Warranty Disclaimers" }
+      ],
+      "external_references": [],
+      "commentary": "Unlike most open licenses, the GFDL does not supply a warranty disclaimer of its own; it only creates a mechanism (§1) for the Document author to attach one and preserve it through modifications (§4.O)."
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-107", "note": "The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version" }
+      ],
+      "external_references": []
+    }
+  ],
+  "sources": [
+    { "source": "GNU Free Documentation License v1.3 text", "url": "licenses/gfdl-1.3-only/text.html", "role": "primary evidence" }
+  ]
+}

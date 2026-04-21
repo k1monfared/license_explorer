@@ -1,0 +1,54 @@
+{
+  "id": "ms-pl",
+  "name": "Microsoft Public License",
+  "spdx": "MS-PL",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": 2007,
+  "canonical_url": "https://opensource.org/license/ms-pl-html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MS-PL.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "7a162b1da10f1c22db4c68f07bec4a8355259f8d4aab5b00a2b2bbd423d833dd"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/MS-PL.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/ms-pl-html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "FSF",
+      "url": "https://www.gnu.org/licenses/license-list.html#ms-pl",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF entry for the Microsoft Public License."
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MS-PL.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/ms-pl-html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ms-pl",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "Free software license, GPL-INCOMPATIBLE. Permissive but with a trademark/name restriction."
+    }
+  ]
+}

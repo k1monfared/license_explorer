@@ -1,0 +1,54 @@
+{
+  "id": "ms-rl",
+  "name": "Microsoft Reciprocal License",
+  "spdx": "MS-RL",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": null,
+  "year": 2007,
+  "canonical_url": "https://opensource.org/license/ms-rl-html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MS-RL.txt",
+    "retrieved_at": "2026-04-21T20:00:00Z",
+    "sha256": "7c69e20ff8633d1b5135126aa9921a2156f6a52b355e92812a084211afdd5d38"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/MS-RL.html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/ms-rl-html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "source": "FSF",
+      "url": "https://www.gnu.org/licenses/license-list.html#ms-rl",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "FSF entry for the Microsoft Reciprocal License."
+    },
+    {
+      "source": "canonical source",
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MS-RL.txt",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "SPDX license-list-data canonical text file."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/ms-rl-html",
+      "retrieved_at": "2026-04-21T20:00:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#ms-rl",
+      "retrieved_at": "2026-04-21T20:00:00Z",
+      "note": "File-level weak copyleft; GPL-incompatible."
+    }
+  ]
+}

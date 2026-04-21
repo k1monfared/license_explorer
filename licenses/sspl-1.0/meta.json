@@ -1,0 +1,55 @@
+{
+  "id": "sspl-1.0",
+  "name": "Server Side Public License 1.0",
+  "spdx": "SSPL-1.0",
+  "medium": "software",
+  "archetype": "proprietary",
+  "version": "1.0",
+  "year": 2018,
+  "canonical_url": "https://www.mongodb.com/licensing/server-side-public-license",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/SSPL-1.0.txt",
+    "retrieved_at": "2026-04-21T19:20:00Z",
+    "sha256": "3fac2f3a7404f72330ae38e3a1d2632ede9ad3fbdb0d471d04c33f2c1d0e94ca"
+  },
+  "references": [
+    {
+      "source": "MongoDB (canonical publisher)",
+      "url": "https://www.mongodb.com/licensing/server-side-public-license",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Canonical publication source for the Server Side Public License."
+    },
+    {
+      "source": "SPDX License List",
+      "url": "https://spdx.org/licenses/SSPL-1.0.html",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "OSI blog: The SSPL is not an open source license",
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "OSI's published rationale for rejecting SSPL."
+    },
+    {
+      "source": "FSF license list",
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "OSI explicitly rejected SSPL as not meeting the Open Source Definition. SSPL is a fork of AGPL-3.0 with §13 rewritten to require releasing the ENTIRE service stack (management code, UI, CI/CD, orchestration, etc.), which OSI concluded discriminates against fields of endeavor."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Not classified as free by FSF because the §13 requirements are considered too onerous to be free software."
+    }
+  ]
+}

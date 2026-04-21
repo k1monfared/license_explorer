@@ -1,0 +1,50 @@
+{
+  "id": "elastic-2.0",
+  "name": "Elastic License 2.0",
+  "spdx": "Elastic-2.0",
+  "medium": "software",
+  "archetype": "proprietary",
+  "version": "2.0",
+  "year": 2021,
+  "canonical_url": "https://www.elastic.co/licensing/elastic-license",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/Elastic-2.0.txt",
+    "retrieved_at": "2026-04-21T19:10:00Z",
+    "sha256": "6448026f2e06ab3da9ed8ddda686694bba37179e88db92dea6d4aab516c957ea"
+  },
+  "references": [
+    {
+      "source": "Elastic (canonical publisher)",
+      "url": "https://www.elastic.co/licensing/elastic-license",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Canonical publication source for the Elastic License 2.0."
+    },
+    {
+      "source": "SPDX License List",
+      "url": "https://spdx.org/licenses/Elastic-2.0.html",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "OSI blog",
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "OSI commentary on anti-cloud licensing; Elastic adopted ELv2 / SSPL simultaneously and describes ELv2 as source-available."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Source-available, not OSI-approved. Elastic explicitly positions it as non-OSS. Prohibits providing the software as a managed service and prohibits circumventing license keys."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Not classified as free by FSF."
+    }
+  ]
+}

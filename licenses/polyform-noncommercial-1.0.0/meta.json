@@ -1,0 +1,44 @@
+{
+  "id": "polyform-noncommercial-1.0.0",
+  "name": "PolyForm Noncommercial License 1.0.0",
+  "spdx": "PolyForm-Noncommercial-1.0.0",
+  "medium": "software",
+  "archetype": "proprietary",
+  "version": "1.0.0",
+  "year": 2020,
+  "canonical_url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/PolyForm-Noncommercial-1.0.0.txt",
+    "retrieved_at": "2026-04-21T19:30:00Z",
+    "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
+  },
+  "references": [
+    {
+      "source": "PolyForm Project (canonical publisher)",
+      "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+      "retrieved_at": "2026-04-21T19:30:00Z",
+      "note": "Canonical publication source for the PolyForm Noncommercial License 1.0.0."
+    },
+    {
+      "source": "SPDX License List",
+      "url": "https://spdx.org/licenses/PolyForm-Noncommercial-1.0.0.html",
+      "retrieved_at": "2026-04-21T19:30:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://polyformproject.org/licenses/noncommercial/1.0.0/",
+      "retrieved_at": "2026-04-21T19:30:00Z",
+      "note": "Polyform is a family of source-available licenses, NOT OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:30:00Z",
+      "note": "Not classified as free by FSF; NC clauses are considered nonfree."
+    }
+  ]
+}

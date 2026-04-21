@@ -1,0 +1,49 @@
+{
+  "id": "gfdl-1.3-only",
+  "name": "GNU Free Documentation License v1.3 only",
+  "spdx": "GFDL-1.3-only",
+  "medium": "media",
+  "archetype": "share-alike",
+  "version": "1.3",
+  "year": 2008,
+  "canonical_url": "https://www.gnu.org/licenses/fdl-1.3.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GFDL-1.3-only.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "d024962f1f4966c102b40d9fd9cc834a3f0b3c1397b41444b7cd7925640dc929"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/GFDL-1.3-only.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "GNU",
+      "url": "https://www.gnu.org/licenses/fdl-1.3.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical text from the Free Software Foundation."
+    },
+    {
+      "source": "FSF license list",
+      "url": "https://www.gnu.org/licenses/license-list.html#FDL",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/faq",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "GFDL is a documentation license, not designed for software; not OSI-approved."
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#FDL",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "FSF's copyleft license for documentation; the license Wikipedia historically used (now dual-licensed with CC-BY-SA 3.0)."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "grey",
+      "citations": [
+        { "sentence_id": "s-35", "note": "§2: 'This License explicitly affirms your unlimited permission to run the unmodified Program, subject to section 13.'" },
+        { "sentence_id": "s-50", "note": "§4: 'You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.'" },
+        { "sentence_id": "s-151", "note": "§13: 'If you make the functionality of the Program or a modified version available to third parties as a service, you must make the Service Source Code available via network download to everyone at no charge, under the terms of this License.'" },
+        { "sentence_id": "s-152", "note": "§13 continued: making the functionality available as a service 'includes, without limitation, enabling third parties to interact with the functionality of the Program or modified version remotely through a computer network, offering a service the value of which entirely or primarily derives from the value of the Program or modified version, or offering a service that accomplishes for users the primary purpose of the Program or modified version.'" },
+        { "sentence_id": "s-153", "note": "§13 defines 'Service Source Code' to include the Corresponding Source for the Program AND for 'all programs that you use to make the Program or modified version available as a service, including, without limitation, management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software.'" }
+      ],
+      "external_references": [
+        {
+          "source": "OSI blog: The SSPL is not an open source license",
+          "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+          "retrieved_at": "2026-04-21T19:20:00Z",
+          "summary": "OSI rejected SSPL because §13 requires releasing the entire service-stack source (management, UI, API, automation, monitoring, backup, storage, hosting) when the software is offered as a service. OSI concluded this constitutes discrimination against a field of endeavor and makes SSPL non-open-source."
+        }
+      ],
+      "commentary": "Private and on-premises commercial use are fully permitted. Redistribution for a fee is permitted. The controversial restriction is §13: offering the program as a service triggers an obligation to publish the source code for the entire stack used to operate the service, which OSI considered too onerous to be open source."
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-53", "note": "§5: 'You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions'." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-49", "note": "§4: 'You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice.'" },
+        { "sentence_id": "s-65", "note": "§6: may convey object-code form provided Corresponding Source is also conveyed." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-35", "note": "§2: 'unlimited permission to run the unmodified Program, subject to section 13.'" },
+        { "sentence_id": "s-38", "note": "§2: 'you may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-135", "note": "§11: 'Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.'" },
+        { "sentence_id": "s-128", "note": "§10: you may not initiate patent litigation alleging that any patent claim is infringed by making, using, selling, etc. the Program (defensive termination)." }
+      ],
+      "external_references": [],
+      "commentary": "SSPL inherits the GPLv3 §11 express patent grant and defensive-termination structure verbatim."
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-49", "note": "§4: must publish 'an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms ... apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License.'" },
+        { "sentence_id": "s-55", "note": "§5(b): modified works must carry prominent notice that they are released under this License." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-54", "note": "§5(a): 'The work must carry prominent notices stating that you modified it, and giving a relevant date.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-53", "note": "§5: modified source conveyed as source code under the terms of §4, subject to stated conditions." },
+        { "sentence_id": "s-65", "note": "§6: convey object-code form only if the machine-readable Corresponding Source is also conveyed." },
+        { "sentence_id": "s-57", "note": "§5(c): 'You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-151", "note": "§13: 'If you make the functionality of the Program or a modified version available to third parties as a service, you must make the Service Source Code available via network download to everyone at no charge, under the terms of this License.'" },
+        { "sentence_id": "s-152", "note": "§13: 'service' is defined broadly to include any remote interaction, any service deriving its value primarily from the Program, or any service accomplishing the Program's primary purpose." },
+        { "sentence_id": "s-153", "note": "§13: 'Service Source Code' expressly reaches 'management software, user interfaces, application program interfaces, automation software, monitoring software, backup software, storage software and hosting software, all such that a user could run an instance of the service using the Service Source Code you make available.'" }
+      ],
+      "external_references": [
+        {
+          "source": "OSI blog: The SSPL is not an open source license",
+          "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license",
+          "retrieved_at": "2026-04-21T19:20:00Z",
+          "summary": "OSI notes SSPL's §13 reaches substantially farther than AGPL §13: where AGPL requires the source of the program itself when offered over a network, SSPL requires the source of the entire operational stack surrounding the program."
+        }
+      ],
+      "commentary": "SSPL is the strongest network-copyleft in common use. Scope reaches the Program, modified versions, AND all surrounding service-operation software (management, UI, API, automation, monitoring, backup, storage, hosting). Dramatically broader than AGPL-3.0."
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-57", "note": "§5(c): 'You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy.'" },
+        { "sentence_id": "s-58", "note": "§5(c) continued: 'This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged.'" },
+        { "sentence_id": "s-151", "note": "§13: Service Source Code must itself be released 'under the terms of this License' — the same-license obligation extends to the service stack." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-49", "note": "§4: conspicuously publish an appropriate copyright notice on each copy." },
+        { "sentence_id": "s-18", "note": "§0: definition of 'Appropriate Legal Notices' — interactive UIs must display copyright/warranty/license information prominently." }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-171", "note": "§16: 'IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER ... BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES.'" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-165", "note": "§15: 'THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.'" },
+        { "sentence_id": "s-166", "note": "§15: provides the Program 'AS IS' WITHOUT WARRANTY OF ANY KIND, including merchantability and fitness for a particular purpose." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "silent",
+      "citations": [],
+      "external_references": [],
+      "commentary": "Unlike GPLv3 §7 / Apache 2.0 §6, SSPL itself does not include a dedicated trademark clause; it only permits §7-style additional terms that may decline to grant trademark rights."
+    }
+  ],
+  "sources": [
+    { "source": "Server Side Public License 1.0 text", "url": "licenses/sspl-1.0/text.html", "role": "primary evidence" },
+    { "source": "OSI blog: The SSPL is not an open source license", "url": "https://opensource.org/blog/the-sspl-is-not-an-open-source-license", "role": "OSI classification commentary" },
+    { "source": "MongoDB SSPL canonical page", "url": "https://www.mongodb.com/licensing/server-side-public-license", "role": "canonical publisher" }
+  ]
+}

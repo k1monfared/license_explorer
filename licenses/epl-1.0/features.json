@@ -1,0 +1,123 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-15", "note": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution" },
+        { "sentence_id": "s-36", "note": "this license is intended to facilitate the commercial use of the Program" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-15", "note": "prepare derivative works of ... the Contribution ... in source code and object code form" }],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-15", "note": "publicly display, publicly perform, distribute and sublicense the Contribution" }],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [{ "sentence_id": "s-15", "note": "broad copyright grant covers private use" }],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-16", "note": "each Contributor hereby grants Recipient a non-exclusive, worldwide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution" },
+        { "sentence_id": "s-53", "note": "Patent retaliation: if Recipient institutes patent litigation alleging the Program itself infringes, rights granted under Section 2(b) terminate" }
+      ],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-31", "note": "a copy of this Agreement must be included with each copy of the Program" },
+        { "sentence_id": "s-32", "note": "Contributors may not remove or alter any copyright notices contained within the Program" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-5", "note": "Contribution includes changes to the Program and additions to the Program" },
+        { "sentence_id": "s-33", "note": "Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution" }
+      ],
+      "external_references": [],
+      "commentary": "EPL-1.0 does not use the phrase 'document changes' but §3 requires each Contributor to identify itself as the originator of its Contribution, which effectively tags modifications."
+    },
+    {
+      "key": "disclose-source",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-28", "note": "a Contributor distributing in object code form under its own license must state that source code for the Program is available from such Contributor and inform licensees how to obtain it" },
+        { "sentence_id": "s-30", "note": "When the Program is made available in source code form, it must be made available under this Agreement" }
+      ],
+      "external_references": [],
+      "commentary": "Weak copyleft at module scope. §3 requires source-code availability whenever the Program is distributed (object code distributions must state where source is obtainable; source distributions must be under EPL)."
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-30", "note": "When the Program is made available in source code form: it must be made available under this Agreement" },
+        { "sentence_id": "s-8", "note": "Contributions do not include additions that are separate modules distributed under their own license agreement and are not derivative works of the Program (module boundary of the copyleft)" }
+      ],
+      "external_references": [],
+      "commentary": "Module-level weak copyleft: EPL-licensed Program files (including modifications) must remain under EPL. Separate modules distributed alongside under their own terms are carved out by the Contribution definition."
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-32", "note": "Contributors may not remove or alter any copyright notices contained within the Program" },
+        { "sentence_id": "s-33", "note": "Each Contributor must identify itself as the originator of its Contribution" }
+      ],
+      "external_references": []
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-49", "note": "DISCLAIMER OF LIABILITY ... NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES" }],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [{ "sentence_id": "s-46", "note": "NO WARRANTY ... THE PROGRAM IS PROVIDED ON AN AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND" }],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-65", "note": "Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise" },
+        { "sentence_id": "s-66", "note": "All rights in the Program not expressly granted under this Agreement are reserved" }
+      ],
+      "external_references": [],
+      "commentary": "EPL-1.0 grants only the copyright and patent licenses in Section 2; §7 confirms no other IP (including trademark) rights are granted."
+    }
+  ],
+  "sources": [
+    { "source": "Eclipse Public License 1.0 text", "url": "licenses/epl-1.0/text.html", "role": "primary evidence" }
+  ]
+}

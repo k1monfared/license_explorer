@@ -1,0 +1,59 @@
+{
+  "id": "eupl-1.2",
+  "name": "European Union Public License 1.2",
+  "spdx": "EUPL-1.2",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "1.2",
+  "year": 2017,
+  "canonical_url": "https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/EUPL-1.2.txt",
+    "retrieved_at": "2026-04-21T19:20:00Z",
+    "sha256": "57fb42fbcd0b037ce528ed8f72f1ec095d67bc6825ecf1448ff39be1fe68a4b4"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/EUPL-1.2.html",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/eupl-1-2",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "European Commission (Joinup)",
+      "url": "https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Canonical publication source. Joinup hosts the authoritative EUPL 1.2 text in all 23 EU languages."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/european-union-public-licence",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "FSF License List",
+      "url": "https://www.gnu.org/licenses/license-list.html#EUPL-1.2",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "FSF classifies EUPL 1.2 as a free software license with a compatibility clause enabling interoperability with several copyleft licenses."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/eupl-1-2",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#EUPL-1.2",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Free software license; has a 'Compatibility clause' enabling interoperability with several copyleft licenses (GPL-2.0, GPL-3.0, AGPL-3.0, MPL-2.0, CeCILL-2.1, EPL-1.0, OSL-2.1/3.0, LGPL-2.1/3.0)."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "permissions": [
+    {
+      "key": "commercial-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-2", "note": "Redistribution and use in source and binary forms, with or without modification, are permitted" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "modification",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-2", "note": "Redistribution and use ... with or without modification, are permitted" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "distribution",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-2", "note": "Redistribution and use in source and binary forms ... are permitted provided that the following conditions are met" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "private-use",
+      "value": "permitted",
+      "citations": [
+        { "sentence_id": "s-2", "note": "Broad permission for any use; no restriction on private use." }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "patent-use",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    }
+  ],
+  "conditions": [
+    {
+      "key": "include-copyright",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-4", "note": "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer" },
+        { "sentence_id": "s-6", "note": "Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "document-changes",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "disclose-source",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "network-use-disclose",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "same-license",
+      "value": "silent",
+      "citations": [],
+      "external_references": []
+    },
+    {
+      "key": "attribution",
+      "value": "required",
+      "citations": [
+        { "sentence_id": "s-4", "note": "Source redistributions must retain the above copyright notice" },
+        { "sentence_id": "s-6", "note": "Binary redistributions must reproduce the above copyright notice in the documentation" },
+        { "sentence_id": "s-8", "note": "The 'advertising clause': All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the organization." }
+      ],
+      "external_references": [
+        {
+          "source": "FSF License List (Original BSD)",
+          "url": "https://www.gnu.org/licenses/license-list.html#OriginalBSD",
+          "retrieved_at": "2026-04-21T20:00:00Z",
+          "summary": "FSF notes that the 'obnoxious BSD advertising clause' creates a practical problem: linking many independently BSD-4-licensed components multiplies the number of required acknowledgements, producing impractically long notices. This is why the FSF and the Berkeley team itself eventually moved away from the 4-clause form."
+        }
+      ],
+      "commentary": "The signature and controversial feature of BSD 4-Clause: clause 3 (s-8) strengthens attribution beyond what a copyright notice normally requires. Every piece of advertising material that mentions features or use of the software must carry an acknowledgement of the organization that developed it. When many 4-clause-licensed components are combined, the required acknowledgements accumulate, which is why this form was abandoned in favor of the 3-clause 'modified' BSD and why the FSF classifies it as non-free."
+    }
+  ],
+  "limitations": [
+    {
+      "key": "liability",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-12", "note": "IN NO EVENT SHALL COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "warranty",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-11", "note": "THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDER \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES ... ARE DISCLAIMED" }
+      ],
+      "external_references": []
+    },
+    {
+      "key": "trademark",
+      "value": "forbidden",
+      "citations": [
+        { "sentence_id": "s-10", "note": "Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission" }
+      ],
+      "external_references": [],
+      "commentary": "Clause 4 (the 'no-endorsement' clause) bars use of the names of the copyright holder or contributors to endorse or promote derivative products without written permission. This is the narrow trademark/name-use restriction also present in BSD 3-Clause."
+    }
+  ],
+  "sources": [
+    { "source": "BSD 4-Clause License text", "url": "licenses/bsd-4-clause/text.html", "role": "primary evidence" }
+  ]
+}

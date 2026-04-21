@@ -1,0 +1,50 @@
+{
+  "id": "busl-1.1",
+  "name": "Business Source License 1.1",
+  "spdx": "BUSL-1.1",
+  "medium": "software",
+  "archetype": "proprietary",
+  "version": "1.1",
+  "year": 2017,
+  "canonical_url": "https://mariadb.com/bsl11/",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BUSL-1.1.txt",
+    "retrieved_at": "2026-04-21T19:00:00Z",
+    "sha256": "d90560217049db1d6020ec7cf482da4198bfa372dffd22270ba08fd8088cd93b"
+  },
+  "references": [
+    {
+      "source": "MariaDB (canonical publisher)",
+      "url": "https://mariadb.com/bsl11/",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Canonical publication source for the Business Source License 1.1."
+    },
+    {
+      "source": "SPDX License List",
+      "url": "https://spdx.org/licenses/BUSL-1.1.html",
+      "retrieved_at": "2026-04-21T19:00:00Z"
+    },
+    {
+      "source": "OSI blog",
+      "url": "https://opensource.org/blog/business-source-license",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "OSI commentary explaining that BUSL is source-available and not OSI-approved."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": false,
+      "url": "https://opensource.org/blog/business-source-license",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Source-available, not OSI-approved. Transitions to a specified Change License (typically GPL or similar) after a Change Date (typically 4 years)."
+    },
+    {
+      "body": "FSF",
+      "approved": false,
+      "url": "https://www.gnu.org/licenses/license-list.html",
+      "retrieved_at": "2026-04-21T19:00:00Z",
+      "note": "Not classified as free by FSF; nonfree during the commercial-restriction period."
+    }
+  ]
+}

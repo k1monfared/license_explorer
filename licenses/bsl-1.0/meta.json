@@ -1,0 +1,53 @@
+{
+  "id": "bsl-1.0",
+  "name": "Boost Software License 1.0",
+  "spdx": "BSL-1.0",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": "1.0",
+  "year": 2003,
+  "canonical_url": "https://www.boost.org/LICENSE_1_0.txt",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/BSL-1.0.txt",
+    "retrieved_at": "2026-04-21T19:10:00Z",
+    "sha256": "84c6ef3ea9e3254a54d0acf5d3e0c61ae011b8fef7dd6940591cf060e6380a8f"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/BSL-1.0.html",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/bsl-1-0",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "source": "Boost",
+      "url": "https://www.boost.org/LICENSE_1_0.txt",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "FSF",
+      "url": "https://www.gnu.org/licenses/license-list.html#boost",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/bsl-1-0",
+      "retrieved_at": "2026-04-21T19:10:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#boost",
+      "retrieved_at": "2026-04-21T19:10:00Z",
+      "note": "Simple permissive license; GPL-compatible."
+    }
+  ]
+}

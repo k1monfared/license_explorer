@@ -1,0 +1,59 @@
+{
+  "id": "epl-1.0",
+  "name": "Eclipse Public License 1.0",
+  "spdx": "EPL-1.0",
+  "medium": "software",
+  "archetype": "weak-copyleft",
+  "version": "1.0",
+  "year": 2005,
+  "canonical_url": "https://www.eclipse.org/legal/epl-v10.html",
+  "text_provenance": {
+    "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/EPL-1.0.txt",
+    "retrieved_at": "2026-04-21T19:20:00Z",
+    "sha256": "f3d8dc494be2e7ea9cd31ac2fb902e35dce7ff8181b9b30d05861b47c339cb25"
+  },
+  "references": [
+    {
+      "source": "SPDX",
+      "url": "https://spdx.org/licenses/EPL-1.0.html",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "OSI",
+      "url": "https://opensource.org/license/epl-1-0",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "Eclipse Foundation",
+      "url": "https://www.eclipse.org/legal/epl-v10.html",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Canonical publication source."
+    },
+    {
+      "source": "TLDR Legal",
+      "url": "https://tldrlegal.com/license/eclipse-public-license-1.0-(epl-1.0)",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "source": "FSF License List",
+      "url": "https://www.gnu.org/licenses/license-list.html#EPL",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "FSF classifies EPL-1.0 as a weak copyleft free software license that is GPL-incompatible."
+    }
+  ],
+  "approvals": [
+    {
+      "body": "OSI",
+      "approved": true,
+      "url": "https://opensource.org/license/epl-1-0",
+      "retrieved_at": "2026-04-21T19:20:00Z"
+    },
+    {
+      "body": "FSF",
+      "approved": true,
+      "url": "https://www.gnu.org/licenses/license-list.html#EPL",
+      "retrieved_at": "2026-04-21T19:20:00Z",
+      "note": "Weak copyleft free software license; GPL-INCOMPATIBLE (the distinction with EPL-2.0 is that 2.0 added the Secondary License mechanism for opt-in GPL compatibility)."
+    }
+  ]
+}
