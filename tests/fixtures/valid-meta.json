@@ -1,0 +1,18 @@
+{
+  "id": "mit",
+  "name": "MIT License",
+  "spdx": "MIT",
+  "medium": "software",
+  "archetype": "permissive",
+  "version": null,
+  "year": null,
+  "canonical_url": "https://opensource.org/license/mit",
+  "text_provenance": {
+    "source_url": "https://opensource.org/license/mit",
+    "retrieved_at": "2026-04-21T14:03:22Z",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "references": [
+    { "source": "OSI", "url": "https://opensource.org/license/mit", "retrieved_at": "2026-04-21T14:03:22Z" }
+  ]
+}
