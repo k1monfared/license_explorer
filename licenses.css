@@ -148,11 +148,37 @@ main table th, main table td { white-space: normal; }
 .analysis-entry blockquote { margin: 0.3rem 0; padding-left: 0.6rem; border-left: 2px solid var(--muted, #6b7280); color: var(--muted, #cbd5e1); font-style: italic; font-size: 0.88rem; }
 
 /* Text viewer */
-.license-text { font-family: Georgia, serif; line-height: 1.7; font-size: 1.02rem; white-space: pre-wrap; }
+.text-viewer { position: relative; display: block; }
+.text-viewer.has-margins { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.5rem; align-items: stretch; }
+.license-text { font-family: Georgia, serif; line-height: 1.7; font-size: 1.02rem; white-space: pre-wrap; min-width: 0; }
 .license-text .sentence { padding: 0 1px; border-radius: 2px; }
 .license-text .sentence:target,
 .license-text .sentence.pulse { background: #facc1555; outline: 1px solid #facc15; animation: pulse 1.5s ease-out; }
 @keyframes pulse { 0% { background: #facc15bb; } 100% { background: #facc1533; } }
+
+/* Margin annotations — each cited sentence's features as right-side notes */
+.text-margin { position: relative; }
+.margin-group { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; gap: 0.25rem; transition: top 0.2s ease-out; }
+.margin-group.active { z-index: 2; }
+.margin-note { display: block; background: var(--code-bg, #0d1520); padding: 0.35rem 0.55rem; border-left: 3px solid var(--muted, #6b7280); border-radius: 0 4px 4px 0; font-size: 0.78rem; text-decoration: none; color: var(--text, #cbd5e1); transition: border-color 0.15s, background 0.15s, box-shadow 0.2s; }
+.margin-note:hover { border-left-color: var(--link, #7dd3fc); background: rgba(125,211,252,.05); text-decoration: none; }
+.margin-group.active .margin-note { box-shadow: 0 0 0 1px rgba(250,204,21,.5); background: rgba(250,204,21,.06); border-left-color: var(--warning, #facc15); }
+/* Value-tinted left border so the margin is skimmable */
+.margin-note-permitted { border-left-color: #4ade80; }
+.margin-note-required { border-left-color: #facc15; }
+.margin-note-forbidden { border-left-color: #f87171; }
+.margin-note-silent { border-left-color: #6b7280; }
+.margin-note-grey { border-left-color: #9ca3af; }
+.margin-note-not_assessed { border-left-color: #4b5563; }
+.margin-note-head { display: flex; justify-content: space-between; align-items: center; gap: 0.4rem; margin-bottom: 0.2rem; }
+.margin-note-key { font-family: monospace; font-size: 0.72rem; color: var(--muted, #9ca3af); overflow-wrap: anywhere; }
+.margin-note-note { color: var(--muted, #9ca3af); font-size: 0.74rem; line-height: 1.4; font-style: italic; overflow-wrap: anywhere; }
+
+/* Mobile: hide the margin. Future: render annotations inline under each sentence. */
+@media (max-width: 860px) {
+  .text-viewer.has-margins { display: block; }
+  .text-margin { display: none; }
+}
 
 /* Compare */
 .cmp-table-scroll { width: 100%; overflow-x: auto; }

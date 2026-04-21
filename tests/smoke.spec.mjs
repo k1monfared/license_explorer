@@ -98,6 +98,18 @@ test('glossary table wraps long text — cells are not force-nowrap', async ({ p
   if (whiteSpace !== 'normal') throw new Error(`Expected glossary td white-space: normal, got ${whiteSpace}`);
 });
 
+test('text viewer: margin notes render + the active citation is emphasized', async ({ page }) => {
+  await page.setViewportSize({ width: 1400, height: 900 });
+  await page.goto(BASE + '/#/license/mit/text?s=s-3');
+  await page.waitForSelector('.text-margin');
+  // At least one margin note appears for MIT (features.json cites several sentences)
+  await expect(page.locator('.margin-note').first()).toBeVisible();
+  // The group whose sentId matches ?s=s-3 gets the `.active` class.
+  await page.waitForTimeout(300);
+  const anyActive = await page.locator('.margin-group.active').count();
+  if (anyActive === 0) throw new Error('Expected at least one margin-group.active when arriving via ?s=s-3');
+});
+
 test('browse: feature filter narrows the row set', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto(BASE + '/');

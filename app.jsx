@@ -404,25 +404,87 @@ function DetailPage({ id }) {
 
 // ---------- Text viewer ----------
 function TextPage({ id }) {
-  const [html, setHtml] = useState(null);
-  const [err, setErr]   = useState(null);
+  const [html, setHtml]   = useState(null);
+  const [feats, setFeats] = useState(null);
+  const [err, setErr]     = useState(null);
+  const [placements, setPlacements] = useState([]);
+  const [activeSentId, setActiveSentId] = useState(null);
 
   useEffect(() => {
     fetch(`licenses/${id}/text.html`, NOCACHE)
       .then(r => r.ok ? r.text() : Promise.reject(`HTTP ${r.status}`))
       .then(setHtml).catch(e => setErr(String(e)));
+    fetch(`licenses/${id}/features.json`, NOCACHE)
+      .then(r => r.ok ? r.json() : null).then(setFeats).catch(() => setFeats(null));
   }, [id]);
 
+  // Track the ?s=s-N anchor in the URL hash so arriving via a citation
+  // link highlights both the sentence and its margin note.
   useEffect(() => {
-    if (!html) return;
-    const m = location.hash.match(/[?&]s=(s-\d+)/);
-    if (m) {
-      setTimeout(() => {
-        const el = document.getElementById(m[1]);
-        if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('pulse'); }
-      }, 50);
+    const update = () => {
+      const m = location.hash.match(/[?&]s=(s-\d+)/);
+      setActiveSentId(m ? m[1] : null);
+    };
+    update();
+    window.addEventListener('hashchange', update);
+    return () => window.removeEventListener('hashchange', update);
+  }, []);
+
+  // Scroll to the active sentence + pulse it
+  useEffect(() => {
+    if (!html || !activeSentId) return;
+    const t = setTimeout(() => {
+      const el = document.getElementById(activeSentId);
+      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('pulse'); }
+    }, 60);
+    return () => clearTimeout(t);
+  }, [html, activeSentId]);
+
+  // Build sentence-id → [{featureKey, value, group, note}, ...] from features.json
+  const annotations = (() => {
+    if (!feats) return {};
+    const map = {};
+    for (const group of ['permissions', 'conditions', 'limitations']) {
+      for (const entry of feats[group] || []) {
+        for (const cite of entry.citations || []) {
+          (map[cite.sentence_id] ||= []).push({ featureKey: entry.key, value: entry.value, group, note: cite.note });
+        }
+      }
     }
-  }, [html]);
+    return map;
+  })();
+
+  // Measure sentence positions after render; recompute on resize.
+  useEffect(() => {
+    if (!html || !feats) return;
+    const measure = () => {
+      const container = document.querySelector('.text-viewer');
+      if (!container) return;
+      const contTop = container.getBoundingClientRect().top;
+      const out = [];
+      for (const [sentId, anns] of Object.entries(annotations)) {
+        const el = document.getElementById(sentId);
+        if (!el) continue;
+        out.push({ sentId, top: el.getBoundingClientRect().top - contTop, annotations: anns });
+      }
+      out.sort((a, b) => a.top - b.top);
+      // Simple collision avoidance: estimate each group at ~56px and bump
+      // overlapping groups down. Close notes still cluster but won't fully overlap.
+      const estH = (g) => 32 + g.annotations.length * 44;
+      for (let i = 1; i < out.length; i++) {
+        const prev = out[i - 1];
+        const prevBot = prev.top + estH(prev);
+        if (out[i].top < prevBot + 4) out[i].top = prevBot + 4;
+      }
+      setPlacements(out);
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    const container = document.querySelector('.text-viewer');
+    if (container) ro.observe(container);
+    window.addEventListener('resize', measure);
+    return () => { ro.disconnect(); window.removeEventListener('resize', measure); };
+  }, [html, feats]);
 
   if (err) return <p style={{color:'#f87171'}}>Error: {err}</p>;
   if (!html) return <p>Loading...</p>;
@@ -430,7 +492,29 @@ function TextPage({ id }) {
   return (
     <div>
       <p><a href={`#/license/${id}`}>&larr; Back to {id}</a></p>
-      <article className="license-text" dangerouslySetInnerHTML={{ __html: html }}/>
+      <div className={`text-viewer ${feats ? 'has-margins' : ''}`}>
+        <article className="license-text" dangerouslySetInnerHTML={{ __html: html }}/>
+        {feats && (
+          <aside className="text-margin">
+            {placements.map(p => (
+              <div key={p.sentId} className={`margin-group ${activeSentId === p.sentId ? 'active' : ''}`} style={{top: `${p.top}px`}}>
+                {p.annotations.map((ann, i) => (
+                  <a key={i}
+                     href={`#/license/${id}`}
+                     className={`margin-note margin-note-${ann.value}`}
+                     title={ann.note || `${ann.featureKey}: ${ann.value}`}>
+                    <div className="margin-note-head">
+                      <span className="margin-note-key">{ann.featureKey}</span>
+                      <ValueBadge v={ann.value}/>
+                    </div>
+                    {ann.note && <div className="margin-note-note">{ann.note}</div>}
+                  </a>
+                ))}
+              </div>
+            ))}
+          </aside>
+        )}
+      </div>
     </div>
   );
 }
