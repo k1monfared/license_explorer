@@ -1,3 +1,46 @@
 :root { --container-max-width: 1200px; }
 main.container { padding-top: 1.5rem; padding-bottom: 2rem; }
 #theme-toggle { background: none; border: 1px solid var(--border, #333); color: var(--text, #eee); padding: 0.25rem 0.6rem; border-radius: 4px; cursor: pointer; }
+
+/* Browse */
+.browse { display: grid; grid-template-columns: 220px 1fr; gap: 1.2rem; align-items: start; }
+.filter-panel { background: var(--code-bg, #0f172a); padding: 0.75rem; border-radius: 6px; font-size: 0.9rem; position: sticky; top: 1rem; }
+.filter-group { margin-bottom: 0.85rem; }
+.filter-h { color: var(--muted, #9ca3af); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.3rem; font-weight: 500; }
+.filter-item { display: flex; justify-content: space-between; align-items: center; padding: 0.2rem 0; cursor: pointer; }
+.count { color: var(--muted, #6b7280); font-size: 0.8rem; }
+.search { width: 100%; background: var(--code-bg, #0f172a); border: 1px solid var(--border, #374151); color: var(--text, #eee); padding: 0.45rem 0.7rem; border-radius: 4px; margin-bottom: 0.85rem; font-size: 0.95rem; }
+.brz { width: 100%; border-collapse: collapse; }
+.brz th, .brz td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border, #1f2937); }
+.brz th { color: var(--muted, #9ca3af); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; }
+.cmp-tray { position: sticky; bottom: 0; background: var(--surface, #1a1a1a); border-top: 1px solid var(--border, #374151); padding: 0.6rem 1rem; display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; border-radius: 0 0 4px 4px; }
+.cmp-go { background: var(--link, #7dd3fc); color: #0a0a0a; padding: 0.3rem 0.9rem; border-radius: 4px; text-decoration: none; font-weight: 600; }
+
+/* Detail */
+.feat-table { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
+.feat-table td { padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--border, #1f2937); font-size: 0.92rem; vertical-align: top; }
+.feat-label { color: var(--muted, #cbd5e1); min-width: 180px; }
+.val { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 4px; font-size: 0.8rem; font-weight: 500; }
+.meta { color: var(--muted, #9ca3af); font-size: 0.95rem; }
+.analysis-entry h4 { margin-top: 1rem; color: var(--link, #7dd3fc); }
+.analysis-entry blockquote { margin: 0.3rem 0; padding-left: 0.6rem; border-left: 2px solid var(--muted, #6b7280); color: var(--muted, #cbd5e1); font-style: italic; font-size: 0.88rem; }
+
+/* Text viewer */
+.license-text { font-family: Georgia, serif; line-height: 1.7; font-size: 1.02rem; white-space: pre-wrap; }
+.license-text .sentence { padding: 0 1px; border-radius: 2px; }
+.license-text .sentence:target,
+.license-text .sentence.pulse { background: #facc1555; outline: 1px solid #facc15; animation: pulse 1.5s ease-out; }
+@keyframes pulse { 0% { background: #facc15bb; } 100% { background: #facc1533; } }
+
+/* Compare */
+.cmp-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.cmp-table th, .cmp-table td { padding: 0.45rem 0.7rem; border: 1px solid var(--border, #1f2937); vertical-align: top; }
+.cmp-table .group-h { background: var(--surface, #111); color: var(--muted, #9ca3af); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; font-weight: 500; }
+.cmp-table .feat-label { color: var(--muted, #aaa); }
+.cite-btn { background: none; border: none; color: var(--link, #7dd3fc); cursor: pointer; margin-left: 0.4rem; font-size: 0.9rem; opacity: 0.7; }
+.cite-btn:hover { opacity: 1; }
+.cite-expanded { background: var(--code-bg, #0d1520); border-left: 2px solid var(--link, #7dd3fc); padding: 0.7rem 0.9rem; }
+.cite-entry { display: grid; grid-template-columns: 130px 1fr; gap: 0.9rem; padding: 0.5rem 0; border-top: 1px solid var(--border, #1e293b); }
+.cite-entry:first-child { border-top: none; }
+.cite-entry blockquote { margin: 0.35rem 0; padding-left: 0.6rem; border-left: 2px solid var(--warning, #facc15); color: var(--muted, #cbd5e1); font-style: italic; font-size: 0.88rem; }
+.commentary { color: var(--muted, #9ca3af); font-size: 0.88rem; margin-top: 0.4rem; }
