@@ -86,3 +86,14 @@ test('mobile viewport: browse stacks sidebar and table scrolls', async ({ page }
   const browse = page.locator('.browse');
   await expect(browse).toBeVisible();
 });
+
+test('glossary table wraps long text — cells are not force-nowrap', async ({ page }) => {
+  // Regression: site_kit base.css sets white-space: nowrap on all th/td. If we
+  // don't override it, glossary meaning cells end up one long line overflowing
+  // off-screen. Verify the computed style is `normal`.
+  await page.setViewportSize({ width: 1920, height: 1080 });
+  await page.goto(BASE + '/#/glossary');
+  await page.waitForSelector('table.glossary td.gloss-meaning');
+  const whiteSpace = await page.locator('table.glossary td.gloss-meaning').first().evaluate(el => getComputedStyle(el).whiteSpace);
+  if (whiteSpace !== 'normal') throw new Error(`Expected glossary td white-space: normal, got ${whiteSpace}`);
+});

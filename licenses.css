@@ -4,6 +4,12 @@ main.container { padding-top: 1.5rem; padding-bottom: 2rem; }
    pages re-cap their own width via .prose (see below). */
 body > header .container { max-width: var(--container-max-width); }
 
+/* site_kit's base.css sets `white-space: nowrap` on all table th/td — fine
+   for short-label tables but wrong for the data-heavy tables on this site
+   where we want paragraph wrapping. Override once, then opt-in to nowrap
+   where it's actually wanted (identifier cells, approval badges, etc). */
+main table th, main table td { white-space: normal; }
+
 /* Header + nav */
 .site-header { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0; flex-wrap: wrap; gap: 0.75rem; }
 .site-header h1 { font-size: 1.4rem; margin: 0; }
