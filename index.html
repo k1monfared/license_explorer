@@ -48,7 +48,10 @@
                  (_, n) => `const { ${n.trim()} } = React;`)
         .replace(/^\s*import\s+\S.*$/mg, "")
         .replace(/^\s*export\s+default\s+/m, "window.__App = ");
-      const { code } = Babel.transform(patched, { presets: ["react"] });
+      // Force the classic JSX runtime: the automatic runtime (now Babel's
+      // default) injects `import { jsx } from "react/jsx-runtime"`, which throws
+      // "import outside module" when this transpiled code runs as a plain script.
+      const { code } = Babel.transform(patched, { presets: [["react", { runtime: "classic" }]] });
       const s = document.createElement("script");
       s.textContent = code;
       document.head.appendChild(s);
